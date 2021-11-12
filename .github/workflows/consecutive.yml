@@ -232,11 +232,11 @@ jobs:
         ref: gh-pages
         path: gh-pages
 
-    - run: ls -la allure-report
+    - run: ls -la ./
 
-    - run: cat allure-report/categories.json
+    - run: cat allure-results/categories.json
 
-    - run: cat environment.properties
+    - run: cat allure-results/environment.properties
 
     # - name: Allure Report with history
     #   # uses: simple-elf/allure-report-action@v1.5
