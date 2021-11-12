@@ -1,0 +1,72 @@
+{
+  "uid" : "cb881fd616362b85",
+  "name" : "returns the total amount of tokens",
+  "fullName" : "Contract: ERC20 erc20 behaviour total supply.returns the total amount of tokens",
+  "historyId" : "2f958d4c8087259cd545495c9af9a6f",
+  "time" : {
+    "start" : 1636722878082,
+    "stop" : 1636722892329,
+    "duration" : 14247
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Wrapper.test.js:176:24)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 erc20 behaviour total supply"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 erc20 behaviour total supply"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns the total amount of tokens"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 erc20 behaviour total supply"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "54d7807f5f435e08",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/54d7807f5f435e08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636683542226,
+          "stop" : 1636683556831,
+          "duration" : 14605
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cb881fd616362b85.json",
+  "parameterValues" : [ ]
+}

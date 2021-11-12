@@ -1,0 +1,73 @@
+{
+  "uid" : "dc732fb16656c2bc",
+  "name" : "reverts on division by zero",
+  "fullName" : "Contract: SignedSafeMath div.reverts on division by zero",
+  "historyId" : "5106ea031ec57fdb85b5f83a52b16ebf",
+  "time" : {
+    "start" : 1636729812263,
+    "stop" : 1636729816646,
+    "duration" : 4383
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at Context.<anonymous> (test/utils/math/SignedSafeMath.test.js:142:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SignedSafeMath div"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SignedSafeMath div"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on division by zero"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SignedSafeMath div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "dd0f71ff0dc2b1c7",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/dd0f71ff0dc2b1c7",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'",
+        "time" : {
+          "start" : 1636692074894,
+          "stop" : 1636692079041,
+          "duration" : 4147
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dc732fb16656c2bc.json",
+  "parameterValues" : [ ]
+}

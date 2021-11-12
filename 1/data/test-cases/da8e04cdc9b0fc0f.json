@@ -1,0 +1,74 @@
+{
+  "uid" : "da8e04cdc9b0fc0f",
+  "name" : "does not allow beneficiary withdrawal",
+  "fullName" : "Contract: RefundEscrow once deployed active state.does not allow beneficiary withdrawal",
+  "historyId" : "bbeba39ff6e46652f47ff3285cd3686e",
+  "time" : {
+    "start" : 1636728869861,
+    "stop" : 1636728875016,
+    "duration" : 5155
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '5d880c5e6264e1b9ac80b928a39894d796293f48', '7203d825f953ec24cb09a99af60d1287245e6d27', 'f340fa01000000000000000000000000cd160e5850b3c229164bbac09797223bced09fe7', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '5d880c5e6264e1b9ac80b928a39894d796293f48', '7203d825f953ec24cb09a99af60d1287245e6d27', 'f340fa01000000000000000000000000cd160e5850b3c229164bbac09797223bced09fe7', '0x2ed6689e54f180000']' returned non-zero exit status 1.\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:45:27)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testMethod",
+    "value" : "does not allow beneficiary withdrawal"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d2268ecfb24c8808",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/d2268ecfb24c8808",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '094cb6d5883b243d20111d28594c151d5e6a950a', '480063c4138946af88f48514ef3792fa1048306a', 'f340fa0100000000000000000000000066d518d453b67b72c91392278381ea95f38400fe', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1636691045341,
+          "stop" : 1636691050391,
+          "duration" : 5050
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da8e04cdc9b0fc0f.json",
+  "parameterValues" : [ ]
+}

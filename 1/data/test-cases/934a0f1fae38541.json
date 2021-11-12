@@ -1,0 +1,52 @@
+{
+  "uid" : "934a0f1fae38541",
+  "name" : "adjusts owners balances",
+  "fullName" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when called by the operator.adjusts owners balances",
+  "historyId" : "255caa8ade2012f3a82fcef8a9a48e0a",
+  "time" : {
+    "start" : 1636724898079,
+    "stop" : 1636724914444,
+    "duration" : 16365
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1\n                    at Context.safeTransferFromWithoutData (test/token/ERC721/ERC721.behavior.js:231:81)\n                    at Context.<anonymous> (test/token/ERC721/ERC721.behavior.js:133:48)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when called by the operator"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when called by the operator"
+  }, {
+    "name" : "testMethod",
+    "value" : "adjusts owners balances"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when called by the operator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "934a0f1fae38541.json",
+  "parameterValues" : [ ]
+}

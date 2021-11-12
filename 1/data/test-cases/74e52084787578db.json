@@ -1,0 +1,73 @@
+{
+  "uid" : "74e52084787578db",
+  "name" : "reverts when minimum integer is multiplied by -1",
+  "fullName" : "Contract: SignedSafeMath mul.reverts when minimum integer is multiplied by -1",
+  "historyId" : "7862e42f7731e7033ca5e06bd1d31924",
+  "time" : {
+    "start" : 1636729795279,
+    "stop" : 1636729799455,
+    "duration" : 4176
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at testFailsCommutative (test/utils/math/SignedSafeMath.test.js:19:5)\n                    at Context.<anonymous> (test/utils/math/SignedSafeMath.test.js:111:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when minimum integer is multiplied by -1"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "71a27948b3f335df",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/71a27948b3f335df",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'",
+        "time" : {
+          "start" : 1636692057719,
+          "stop" : 1636692061885,
+          "duration" : 4166
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "74e52084787578db.json",
+  "parameterValues" : [ ]
+}

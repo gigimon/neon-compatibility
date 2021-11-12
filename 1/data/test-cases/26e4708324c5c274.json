@@ -1,0 +1,114 @@
+{
+  "uid" : "26e4708324c5c274",
+  "name" : "has a name",
+  "fullName" : "Contract: ERC20.has a name",
+  "historyId" : "f4e78e698e5f1dfc2bc750d41bf9059e",
+  "time" : {
+    "start" : 1636722740323,
+    "stop" : 1636722750346,
+    "duration" : 10023
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "testMethod",
+    "value" : "has a name"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5e2562fc01c5b254",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636721553152,
+        "stop" : 1636721557717,
+        "duration" : 4565
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "5ecaa3176a4ad430",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/5ecaa3176a4ad430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636683356637,
+          "stop" : 1636683366785,
+          "duration" : 10148
+        }
+      }, {
+        "uid" : "5ea6b5e175a852bc",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/64//#testresult/5ea6b5e175a852bc",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'balanceOf')",
+        "time" : {
+          "start" : 1636666576266,
+          "stop" : 1636666577245,
+          "duration" : 979
+        }
+      }, {
+        "uid" : "b722aa4ef0ab5373",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/63//#testresult/b722aa4ef0ab5373",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'balanceOf')",
+        "time" : {
+          "start" : 1636666217881,
+          "stop" : 1636666218971,
+          "duration" : 1090
+        }
+      }, {
+        "uid" : "49362da6f5eb816",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/62//#testresult/49362da6f5eb816",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'balanceOf')",
+        "time" : {
+          "start" : 1636665170075,
+          "stop" : 1636665172669,
+          "duration" : 2594
+        }
+      }, {
+        "uid" : "b734be1096149602",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/61//#testresult/b734be1096149602",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'balanceOf')",
+        "time" : {
+          "start" : 1636642373037,
+          "stop" : 1636642375387,
+          "duration" : 2350
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "26e4708324c5c274.json",
+  "parameterValues" : [ ]
+}
