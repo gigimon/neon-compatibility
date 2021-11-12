@@ -82,7 +82,8 @@ jobs:
       if: always()
       run: |
         cd openzeppelin-contracts
-        npx hardhat test
+        npx hardhat test test/access/*.test.js
+        ls -la allure-results
 #     - uses: ./.github/actions/run-hardhat-tests
 #       if: always()
 #       timeout-minutes: 300
@@ -237,7 +238,7 @@ jobs:
     #   if: always()
 
     - name: Allure Report action from marketplace
-      uses: simple-elf/allure-report-action@master
+      uses: gigimon/allure-report-action@master
       if: always()
       with:
         allure_results: allure-results
