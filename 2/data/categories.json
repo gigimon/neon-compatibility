@@ -1,0 +1,253 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Request failed with status code 500",
+      "children" : [ {
+        "name" : "shouldCreateAcccountWithEthersJs",
+        "uid" : "b667f33e1b86a2ee",
+        "parentUid" : "fc59132079d939df6f53fa9448b2eaca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636726795885,
+          "stop" : 1636726796731,
+          "duration" : 846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc59132079d939df6f53fa9448b2eaca"
+    }, {
+      "name" : "Timeout of 2000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/neon-compatibility/neon-compatibility/dist/src/test/ethers-js/EthersJs.test.js)",
+      "children" : [ {
+        "name" : "testQueryingBlockchain",
+        "uid" : "276307f7cf9b02f5",
+        "parentUid" : "0d6b97d7ba58bad7eeafc37438632abb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636726799503,
+          "stop" : 1636726801506,
+          "duration" : 2003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d6b97d7ba58bad7eeafc37438632abb"
+    }, {
+      "name" : "resolver or addr is not configured for ENS name (argument=\"name\", value=\"dai.tokens.ethers.eth\", code=INVALID_ARGUMENT, version=contracts/5.4.1)",
+      "children" : [ {
+        "name" : "testReadOnlyMethods",
+        "uid" : "5aef0e5d3da28b92",
+        "parentUid" : "f691d142a21ba4d36298b566fe753fd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636726803002,
+          "stop" : 1636726804079,
+          "duration" : 1077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f691d142a21ba4d36298b566fe753fd0"
+    }, {
+      "name" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "68e617f18e5619b9",
+        "parentUid" : "426a702f588cd18af2cb78ab4240139d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636726805164,
+          "stop" : 1636726805181,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "426a702f588cd18af2cb78ab4240139d"
+    }, {
+      "name" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+      "children" : [ {
+        "name" : "admin can revoke role",
+        "uid" : "1e3991392b7cf630",
+        "parentUid" : "a2cc357bf624d3b80f386d4b84a60e96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636727048133,
+          "stop" : 1636727056543,
+          "duration" : 8410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "a role can be revoked multiple times",
+        "uid" : "f4db30d2219609ad",
+        "parentUid" : "a2cc357bf624d3b80f386d4b84a60e96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636727063512,
+          "stop" : 1636727070861,
+          "duration" : 7349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "the new admin can revoke roles",
+        "uid" : "96c0c43aedfac863",
+        "parentUid" : "a2cc357bf624d3b80f386d4b84a60e96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636727120657,
+          "stop" : 1636727132408,
+          "duration" : 11751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2cc357bf624d3b80f386d4b84a60e96"
+    }, {
+      "name" : "Returned error: Transaction simulation failed: Error processing Instruction 0: invalid program argument",
+      "children" : [ {
+        "name" : "has to be implemented",
+        "uid" : "ec828def17fac91c",
+        "parentUid" : "4711c272477a6a10185692860a3c456e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636727185819,
+          "stop" : 1636727188106,
+          "duration" : 2287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4711c272477a6a10185692860a3c456e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Not supported",
+    "children" : [ {
+      "name" : "processing response error (body=\"{\\\"jsonrpc\\\": \\\"2.0\\\", \\\"id\\\": 45, \\\"error\\\": {\\\"code\\\": -32000, \\\"message\\\": \\\"'EthereumModel' object has no attribute 'eth_accounts'\\\"}}\", error={\"code\":-32000}, requestBody=\"{\\\"method\\\":\\\"eth_accounts\\\",\\\"params\\\":[],\\\"id\\\":45,\\\"jsonrpc\\\":\\\"2.0\\\"}\", requestMethod=\"POST\", url=\"https://proxy.teststand.neontest.xyz/solana\", code=SERVER_ERROR, version=web/5.4.0)",
+      "children" : [ {
+        "name" : "testWritingToTheBlockchain",
+        "uid" : "f438d4f68f37909c",
+        "parentUid" : "d2966f81742a88d30931ba98afd1b11b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636726801507,
+          "stop" : 1636726802992,
+          "duration" : 1485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2966f81742a88d30931ba98afd1b11b"
+    }, {
+      "name" : "processing response error (body=\"{\\\"jsonrpc\\\": \\\"2.0\\\", \\\"id\\\": 42, \\\"error\\\": {\\\"code\\\": -32000, \\\"message\\\": \\\"'EthereumModel' object has no attribute 'eth_accounts'\\\"}}\", error={\"code\":-32000}, requestBody=\"{\\\"method\\\":\\\"eth_accounts\\\",\\\"params\\\":[],\\\"id\\\":42,\\\"jsonrpc\\\":\\\"2.0\\\"}\", requestMethod=\"POST\", url=\"https://proxy.teststand.neontest.xyz/solana\", code=SERVER_ERROR, version=web/5.4.0)",
+      "children" : [ {
+        "name" : "testQueryHistoricEvents",
+        "uid" : "2990e6bad85991e6",
+        "parentUid" : "82cf1aafc15dda217f2555c041af7191",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636726804086,
+          "stop" : 1636726804668,
+          "duration" : 582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSigningMessages",
+        "uid" : "2af4c17d327cdab",
+        "parentUid" : "82cf1aafc15dda217f2555c041af7191",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636726804670,
+          "stop" : 1636726805150,
+          "duration" : 480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82cf1aafc15dda217f2555c041af7191"
+    }, {
+      "name" : "'EthereumModel' object has no attribute 'eth_accounts'",
+      "children" : [ {
+        "name" : "Should return the new greeting once it's changed",
+        "uid" : "10f000ade628c11a",
+        "parentUid" : "616b35d0f72e0c77835a18b2e151ce18",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636726810931,
+          "stop" : 1636726812003,
+          "duration" : 1072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "616b35d0f72e0c77835a18b2e151ce18"
+    } ],
+    "uid" : "74a85a700e270c086f9590bc39e50507"
+  } ],
+  "name" : "categories"
+}
