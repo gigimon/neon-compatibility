@@ -82,8 +82,7 @@ jobs:
       if: always()
       run: |
         cd openzeppelin-contracts
-        npx hardhat test test/access/*.test.js
-        ls -la allure-results
+        npx hardhat test test/access/AccessControl.test.js
 #     - uses: ./.github/actions/run-hardhat-tests
 #       if: always()
 #       timeout-minutes: 300
@@ -99,6 +98,7 @@ jobs:
 #       with:
 #         folder-name: security
     # - uses: ./.github/actions/allure-environment-data
+    - run: ls -la openzeppelin-contracts/allure-results
     - uses: ./.github/actions/allure-upload
       if: always()
       with:
@@ -231,6 +231,12 @@ jobs:
       with:
         ref: gh-pages
         path: gh-pages
+
+    - run: ls -la allure-report
+
+    - run: cat allure-report/categories.json
+
+    - run: cat environment.properties
 
     # - name: Allure Report with history
     #   # uses: simple-elf/allure-report-action@v1.5
