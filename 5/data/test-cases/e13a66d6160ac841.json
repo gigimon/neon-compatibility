@@ -1,0 +1,75 @@
+{
+  "uid" : "e13a66d6160ac841",
+  "name" : "reverts when downcasting 2^224 + 1 (26959946667150639794667015087019630673637144422540572481103610249217)",
+  "fullName" : "Contract: SafeCast toUint224.reverts when downcasting 2^224 + 1 (26959946667150639794667015087019630673637144422540572481103610249217)",
+  "historyId" : "4133a91f4954f452b16b174d48d2a45c",
+  "time" : {
+    "start" : 1636772441341,
+    "stop" : 1636772447718,
+    "duration" : 6377
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toUint224"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toUint224"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^224 + 1 (26959946667150639794667015087019630673637144422540572481103610249217)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toUint224"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "46fdcb5c24c816fe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/46fdcb5c24c816fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636729377436,
+          "stop" : 1636729382097,
+          "duration" : 4661
+        }
+      }, {
+        "uid" : "535693acbe587e37",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/535693acbe587e37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636691544323,
+          "stop" : 1636691548921,
+          "duration" : 4598
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e13a66d6160ac841.json",
+  "parameterValues" : [ ]
+}

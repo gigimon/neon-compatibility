@@ -1,0 +1,77 @@
+{
+  "uid" : "1643d0da69843593",
+  "name" : "reverts on division by zero",
+  "fullName" : "Contract: SafeMath with default revert message div.reverts on division by zero",
+  "historyId" : "c05737cf809d30680d12cf55b0b3b300",
+  "time" : {
+    "start" : 1636772952507,
+    "stop" : 1636772958779,
+    "duration" : 6272
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeMath with default revert message div"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeMath with default revert message div"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on division by zero"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeMath with default revert message div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b492488e9b685a9e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/b492488e9b685a9e",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'",
+        "time" : {
+          "start" : 1636729650413,
+          "stop" : 1636729654560,
+          "duration" : 4147
+        }
+      }, {
+        "uid" : "6a9057d2cd5ab9a2",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/6a9057d2cd5ab9a2",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'",
+        "time" : {
+          "start" : 1636691908812,
+          "stop" : 1636691913423,
+          "duration" : 4611
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1643d0da69843593.json",
+  "parameterValues" : [ ]
+}

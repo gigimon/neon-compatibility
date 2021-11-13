@@ -1,0 +1,83 @@
+{
+  "uid" : "b6ba420c8f0996f",
+  "name" : "has expected balance",
+  "fullName" : "Contract: ERC1967Proxy initialization without parameters payable when sending some balance.has expected balance",
+  "historyId" : "b491b000bdfd4e40dcb065ee387834f0",
+  "time" : {
+    "start" : 1636766169285,
+    "stop" : 1636766172770,
+    "duration" : 3485
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: invalid account data for instruction",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: invalid account data for instruction\n                    at createProxy (test/proxy/ERC1967/ERC1967Proxy.test.js:9:28)\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:132:19)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy initialization without parameters payable when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy initialization without parameters payable when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy initialization without parameters payable when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "509a981afb69dfce",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/509a981afb69dfce",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '1000000'",
+        "time" : {
+          "start" : 1636719269501,
+          "stop" : 1636719273294,
+          "duration" : 3793
+        }
+      }, {
+        "uid" : "62f3402adc9f4b63",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/62f3402adc9f4b63",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '1000000'",
+        "time" : {
+          "start" : 1636679791354,
+          "stop" : 1636679794981,
+          "duration" : 3627
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b6ba420c8f0996f.json",
+  "parameterValues" : [ ]
+}

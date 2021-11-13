@@ -1,0 +1,84 @@
+{
+  "uid" : "6101200b07884238",
+  "name" : "rejects deposits",
+  "fullName" : "Contract: RefundEscrow once deployed refund state.rejects deposits",
+  "historyId" : "fda3b306f296a7da39687b15761fe68c",
+  "time" : {
+    "start" : 1636771735675,
+    "stop" : 1636771743262,
+    "duration" : 7587
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '0a74f25dd0d7ff61dbfd8b06ef05372f083c3472', 'a6c1656df0f5945760194829c49fe3e2fce6ab58', 'f340fa010000000000000000000000002ac82c01da9ede16e5b63e98e0e4bc967b2a0a27', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '0a74f25dd0d7ff61dbfd8b06ef05372f083c3472', 'a6c1656df0f5945760194829c49fe3e2fce6ab58', 'f340fa010000000000000000000000002ac82c01da9ede16e5b63e98e0e4bc967b2a0a27', '0x2ed6689e54f180000']' returned non-zero exit status 1.\n                    at /Users/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/utils/escrow/RefundEscrow.test.js:110:65\n                    at Array.map (<anonymous>)\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:110:37)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed refund state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed refund state"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects deposits"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed refund state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "463d2a1c4d9e531a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/463d2a1c4d9e531a",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '5d880c5e6264e1b9ac80b928a39894d796293f48', '90857fc9a6b216f083b20e9402d646e0d17c1e7c', 'f340fa01000000000000000000000000cd160e5850b3c229164bbac09797223bced09fe7', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1636728880313,
+          "stop" : 1636728885502,
+          "duration" : 5189
+        }
+      }, {
+        "uid" : "702ee797aa6833a2",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/702ee797aa6833a2",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '094cb6d5883b243d20111d28594c151d5e6a950a', 'ef6ae732188043125fd7b50c587617e53513170a', 'f340fa0100000000000000000000000066d518d453b67b72c91392278381ea95f38400fe', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1636691055412,
+          "stop" : 1636691060437,
+          "duration" : 5025
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6101200b07884238.json",
+  "parameterValues" : [ ]
+}

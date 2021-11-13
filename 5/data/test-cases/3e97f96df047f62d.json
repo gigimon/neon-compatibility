@@ -1,0 +1,75 @@
+{
+  "uid" : "3e97f96df047f62d",
+  "name" : "reverts when downcasting 2^32 + 1 (4294967297)",
+  "fullName" : "Contract: SafeCast toUint32.reverts when downcasting 2^32 + 1 (4294967297)",
+  "historyId" : "d5326ccb0f455190df0cb0eb6dbca46f",
+  "time" : {
+    "start" : 1636772315515,
+    "stop" : 1636772321726,
+    "duration" : 6211
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^32 + 1 (4294967297)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "74e240c0bb689584",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/74e240c0bb689584",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636729287672,
+          "stop" : 1636729292195,
+          "duration" : 4523
+        }
+      }, {
+        "uid" : "3b848b4c84a592d2",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/3b848b4c84a592d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636691453961,
+          "stop" : 1636691458595,
+          "duration" : 4634
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3e97f96df047f62d.json",
+  "parameterValues" : [ ]
+}

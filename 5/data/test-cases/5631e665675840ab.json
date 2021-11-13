@@ -1,0 +1,77 @@
+{
+  "uid" : "5631e665675840ab",
+  "name" : "reverts when minimum integer is multiplied by -1",
+  "fullName" : "Contract: SignedSafeMath mul.reverts when minimum integer is multiplied by -1",
+  "historyId" : "7862e42f7731e7033ca5e06bd1d31924",
+  "time" : {
+    "start" : 1636773168324,
+    "stop" : 1636773175811,
+    "duration" : 7487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when minimum integer is multiplied by -1"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "74e52084787578db",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/74e52084787578db",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'",
+        "time" : {
+          "start" : 1636729795279,
+          "stop" : 1636729799455,
+          "duration" : 4176
+        }
+      }, {
+        "uid" : "71a27948b3f335df",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/71a27948b3f335df",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: invalid literal for int() with base 16: \\'\\'' to equal 'revert'",
+        "time" : {
+          "start" : 1636692057719,
+          "stop" : 1636692061885,
+          "duration" : 4166
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5631e665675840ab.json",
+  "parameterValues" : [ ]
+}

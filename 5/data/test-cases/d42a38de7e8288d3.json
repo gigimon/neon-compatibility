@@ -1,0 +1,66 @@
+{
+  "uid" : "d42a38de7e8288d3",
+  "name" : "reverts when downcasting 2^63 + 1 (9223372036854775809)",
+  "fullName" : "Contract: SafeCast toInt64.reverts when downcasting 2^63 + 1 (9223372036854775809)",
+  "historyId" : "dff635d9e4e2c4f8ef96e28f26a4211",
+  "time" : {
+    "start" : 1636772699210,
+    "stop" : 1636772705420,
+    "duration" : 6210
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^63 + 1 (9223372036854775809)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f044883431bd362d",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/f044883431bd362d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636691729454,
+          "stop" : 1636691733844,
+          "duration" : 4390
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d42a38de7e8288d3.json",
+  "parameterValues" : [ ]
+}

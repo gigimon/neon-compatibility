@@ -1,0 +1,77 @@
+{
+  "uid" : "b76354923525c6db",
+  "name" : "doesn't revert when decreasing the allowance to a positive value",
+  "fullName" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance.doesn't revert when decreasing the allowance to a positive value",
+  "historyId" : "6638eb09a8fb3ac4d672dfaeb7244bb",
+  "time" : {
+    "start" : 1636769259756,
+    "stop" : 1636769275865,
+    "duration" : 16109
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "doesn't revert when decreasing the allowance to a positive value"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "30754274e48e0199",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/30754274e48e0199",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636723257870,
+          "stop" : 1636723268987,
+          "duration" : 11117
+        }
+      }, {
+        "uid" : "d4d7e93c7a1f0d32",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/d4d7e93c7a1f0d32",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636683938388,
+          "stop" : 1636683950121,
+          "duration" : 11733
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b76354923525c6db.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "9bbcb89a37c5fdd5",
+  "name" : "reverts when downcasting 2^127 + 1 (170141183460469231731687303715884105729)",
+  "fullName" : "Contract: SafeCast toInt128.reverts when downcasting 2^127 + 1 (170141183460469231731687303715884105729)",
+  "historyId" : "17fc6aac5a3e00c3fb695ebe83564697",
+  "time" : {
+    "start" : 1636772755363,
+    "stop" : 1636772761606,
+    "duration" : 6243
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt128"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt128"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^127 + 1 (170141183460469231731687303715884105729)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt128"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "542f96aef111dcea",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/542f96aef111dcea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636691770212,
+          "stop" : 1636691774394,
+          "duration" : 4182
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9bbcb89a37c5fdd5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "e04a366cc6ca6d5d",
+  "name" : "call",
+  "fullName" : "Contract: ERC20Votes change delegation.call",
+  "historyId" : "3d74f2d04a3c5f1a5fd1b69930a6a012",
+  "time" : {
+    "start" : 1636768204877,
+    "stop" : 1636768223431,
+    "duration" : 18554
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: insufficient account keys for instruction",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: insufficient account keys for instruction\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Votes.test.js:259:44)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Votes change delegation"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Votes change delegation"
+  }, {
+    "name" : "testMethod",
+    "value" : "call"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Votes change delegation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8ca56a77955cdec2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/8ca56a77955cdec2",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636722521712,
+          "stop" : 1636722531723,
+          "duration" : 10011
+        }
+      }, {
+        "uid" : "90cb93b0453bd725",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/90cb93b0453bd725",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636683050362,
+          "stop" : 1636683057392,
+          "duration" : 7030
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e04a366cc6ca6d5d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "ceb03774b75feeb8",
+  "name" : "generally returns the voting balance at the appropriate checkpoint",
+  "fullName" : "Contract: ERC20Votes Compound test suite getPastVotes.generally returns the voting balance at the appropriate checkpoint",
+  "historyId" : "c98c3fa022909a27bd8278a7208dab6f",
+  "time" : {
+    "start" : 1636768378111,
+    "stop" : 1636768396622,
+    "duration" : 18511
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Votes.test.js:454:37)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Votes Compound test suite getPastVotes"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Votes Compound test suite getPastVotes"
+  }, {
+    "name" : "testMethod",
+    "value" : "generally returns the voting balance at the appropriate checkpoint"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Votes Compound test suite getPastVotes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ceb03774b75feeb8.json",
+  "parameterValues" : [ ]
+}

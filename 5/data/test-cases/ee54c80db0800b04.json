@@ -1,0 +1,76 @@
+{
+  "uid" : "ee54c80db0800b04",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved.reverts",
+  "historyId" : "fd50e22aa0d7e8b03d1f38a4fcd175ce",
+  "time" : {
+    "start" : 1636770137426,
+    "stop" : 1636770155596,
+    "duration" : 18170
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4bab86ed7d33d6d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/4bab86ed7d33d6d6",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: insufficient account keys for instruction",
+        "time" : {
+          "start" : 1636726926552,
+          "stop" : 1636726930393,
+          "duration" : 3841
+        }
+      }, {
+        "uid" : "4a6524ee14b27d0",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/4a6524ee14b27d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636689078594,
+          "stop" : 1636689091494,
+          "duration" : 12900
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ee54c80db0800b04.json",
+  "parameterValues" : [ ]
+}

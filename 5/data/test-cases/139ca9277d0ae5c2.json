@@ -1,0 +1,67 @@
+{
+  "uid" : "139ca9277d0ae5c2",
+  "name" : "rejects bad delegatee",
+  "fullName" : "Contract: ERC20VotesComp set delegation with signature.rejects bad delegatee",
+  "historyId" : "ddcd608059956c49be062ecd63fbd1a8",
+  "time" : {
+    "start" : 1636768497233,
+    "stop" : 1636768511356,
+    "duration" : 14123
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20VotesComp set delegation with signature"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20VotesComp set delegation with signature"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects bad delegatee"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20VotesComp set delegation with signature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a25b1cc34dee2569",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/a25b1cc34dee2569",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636722658094,
+          "stop" : 1636722664871,
+          "duration" : 6777
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "139ca9277d0ae5c2.json",
+  "parameterValues" : [ ]
+}

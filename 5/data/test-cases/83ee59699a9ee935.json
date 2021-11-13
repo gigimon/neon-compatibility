@@ -1,0 +1,76 @@
+{
+  "uid" : "83ee59699a9ee935",
+  "name" : "adds and removes multiple keys",
+  "fullName" : "Contract: EnumerableMap remove.adds and removes multiple keys",
+  "historyId" : "6d84602beb11c6d0717ec14b17f0f0f6",
+  "time" : {
+    "start" : 1636773721872,
+    "stop" : 1636773772219,
+    "duration" : 50347
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableMap remove"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableMap remove"
+  }, {
+    "name" : "testMethod",
+    "value" : "adds and removes multiple keys"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableMap remove"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a2c8893378b20561",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/a2c8893378b20561",
+        "status" : "broken",
+        "statusDetails" : "Failed to check for transaction receipt:\n                {\n                  \"data\": {\n                    \"stack\": \"ProviderError: terminating connection due to administrator command\\nserver closed the connection unexpectedly\\n\\tThis probably means the server terminated abnormally\\n\\tbefore or while processing the request.\\n\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\n                    \"name\": \"ProviderError\"\n                  }\n                }",
+        "time" : {
+          "start" : 1636730162177,
+          "stop" : 1636730167029,
+          "duration" : 4852
+        }
+      }, {
+        "uid" : "cf5db6cc9e6b9f9f",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/cf5db6cc9e6b9f9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636692425114,
+          "stop" : 1636692456776,
+          "duration" : 31662
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "83ee59699a9ee935.json",
+  "parameterValues" : [ ]
+}

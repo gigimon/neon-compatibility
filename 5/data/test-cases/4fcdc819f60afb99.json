@@ -1,0 +1,75 @@
+{
+  "uid" : "4fcdc819f60afb99",
+  "name" : "reverts when downcasting -2^31 - 1 (-2147483649)",
+  "fullName" : "Contract: SafeCast toInt32.reverts when downcasting -2^31 - 1 (-2147483649)",
+  "historyId" : "812ac1509f7e46077d02f88ee14da983",
+  "time" : {
+    "start" : 1636772623531,
+    "stop" : 1636772629769,
+    "duration" : 6238
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting -2^31 - 1 (-2147483649)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a32ed7fa3a4cd920",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/a32ed7fa3a4cd920",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636729509487,
+          "stop" : 1636729514266,
+          "duration" : 4779
+        }
+      }, {
+        "uid" : "59243b603b96f2a6",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/59243b603b96f2a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636691674528,
+          "stop" : 1636691678866,
+          "duration" : 4338
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4fcdc819f60afb99.json",
+  "parameterValues" : [ ]
+}

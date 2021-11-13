@@ -1,0 +1,82 @@
+{
+  "uid" : "ea00f5896737bf69",
+  "name" : "emits a TransferBatch event",
+  "fullName" : "Contract: ERC1155 internal functions _burnBatch with minted-then-burnt tokens.emits a TransferBatch event",
+  "historyId" : "fcd3e49c761f444af52a9d6aceadec68",
+  "time" : {
+    "start" : 1636767282363,
+    "stop" : 1636767295647,
+    "duration" : 13284
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1\n                    at Context.<anonymous> (test/token/ERC1155/ERC1155.test.js:202:51)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 internal functions _burnBatch with minted-then-burnt tokens"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 internal functions _burnBatch with minted-then-burnt tokens"
+  }, {
+    "name" : "testMethod",
+    "value" : "emits a TransferBatch event"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 internal functions _burnBatch with minted-then-burnt tokens"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8922cd0d96da1166",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/8922cd0d96da1166",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636721031488,
+          "stop" : 1636721041786,
+          "duration" : 10298
+        }
+      }, {
+        "uid" : "7488462e64fa5033",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/7488462e64fa5033",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636681557546,
+          "stop" : 1636681567361,
+          "duration" : 9815
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea00f5896737bf69.json",
+  "parameterValues" : [ ]
+}
