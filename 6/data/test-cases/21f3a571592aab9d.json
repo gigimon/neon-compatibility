@@ -1,0 +1,76 @@
+{
+  "uid" : "21f3a571592aab9d",
+  "name" : "receives ERC1155 tokens from a multiple IDs",
+  "fullName" : "Contract: ERC1155Holder.receives ERC1155 tokens from a multiple IDs",
+  "historyId" : "aeaad210d8477c2dcc9401afd8cad00b",
+  "time" : {
+    "start" : 1636859061682,
+    "stop" : 1636859093136,
+    "duration" : 31454
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Holder"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Holder"
+  }, {
+    "name" : "testMethod",
+    "value" : "receives ERC1155 tokens from a multiple IDs"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Holder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4b4dff1d99eba7f3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/4b4dff1d99eba7f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636721524374,
+          "stop" : 1636721543309,
+          "duration" : 18935
+        }
+      }, {
+        "uid" : "136487ec4c06736b",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/136487ec4c06736b",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636682041061,
+          "stop" : 1636682050928,
+          "duration" : 9867
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "21f3a571592aab9d.json",
+  "parameterValues" : [ ]
+}

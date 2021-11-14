@@ -1,0 +1,85 @@
+{
+  "uid" : "a614444188b83bab",
+  "name" : "fails to upgrade",
+  "fullName" : "Contract: ProxyAdmin #upgradeAndCall with unauthorized account.fails to upgrade",
+  "historyId" : "98150930e8923d9aa83f5c5de0716fd0",
+  "time" : {
+    "start" : 1636856135101,
+    "stop" : 1636856145245,
+    "duration" : 10144
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ProxyAdmin #upgradeAndCall with unauthorized account"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ProxyAdmin #upgradeAndCall with unauthorized account"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails to upgrade"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ProxyAdmin #upgradeAndCall with unauthorized account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "449f2e639ad7ab8e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/449f2e639ad7ab8e",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: invalid program argument",
+        "time" : {
+          "start" : 1636766331936,
+          "stop" : 1636766335561,
+          "duration" : 3625
+        }
+      }, {
+        "uid" : "b2dd1572cdaf274e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/b2dd1572cdaf274e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636719387513,
+          "stop" : 1636719396402,
+          "duration" : 8889
+        }
+      }, {
+        "uid" : "173f32358dff4f04",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/173f32358dff4f04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636679909154,
+          "stop" : 1636679917567,
+          "duration" : 8413
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a614444188b83bab.json",
+  "parameterValues" : [ ]
+}

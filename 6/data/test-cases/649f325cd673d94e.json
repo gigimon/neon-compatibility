@@ -1,0 +1,85 @@
+{
+  "uid" : "649f325cd673d94e",
+  "name" : "nothing to recover",
+  "fullName" : "Contract: ERC20 recover.nothing to recover",
+  "historyId" : "4608ce5df64ca09d05ec4ad604b40e00",
+  "time" : {
+    "start" : 1636861528303,
+    "stop" : 1636861551447,
+    "duration" : 23144
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 recover"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 recover"
+  }, {
+    "name" : "testMethod",
+    "value" : "nothing to recover"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 recover"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "59361a4248543aee",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/59361a4248543aee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636768763784,
+          "stop" : 1636768788655,
+          "duration" : 24871
+        }
+      }, {
+        "uid" : "148f552bd6a828cf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/148f552bd6a828cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636722846323,
+          "stop" : 1636722863260,
+          "duration" : 16937
+        }
+      }, {
+        "uid" : "890df804364d67bc",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/890df804364d67bc",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636683512407,
+          "stop" : 1636683528332,
+          "duration" : 15925
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "649f325cd673d94e.json",
+  "parameterValues" : [ ]
+}

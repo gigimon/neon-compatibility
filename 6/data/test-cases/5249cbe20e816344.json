@@ -1,0 +1,77 @@
+{
+  "uid" : "5249cbe20e816344",
+  "name" : "Token",
+  "fullName" : "Contract: PaymentSplitter once deployed distributes funds to payees.Token",
+  "historyId" : "e10c7f9ef2bd835976249fdca58cd29c",
+  "time" : {
+    "start" : 1636851668419,
+    "stop" : 1636851715332,
+    "duration" : 46913
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter once deployed distributes funds to payees"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter once deployed distributes funds to payees"
+  }, {
+    "name" : "testMethod",
+    "value" : "Token"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter once deployed distributes funds to payees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e67912955a13de9f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/e67912955a13de9f",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636717726904,
+          "stop" : 1636717741955,
+          "duration" : 15051
+        }
+      }, {
+        "uid" : "313741bd8258df40",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/313741bd8258df40",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636678037603,
+          "stop" : 1636678056816,
+          "duration" : 19213
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5249cbe20e816344.json",
+  "parameterValues" : [ ]
+}

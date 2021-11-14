@@ -1,0 +1,75 @@
+{
+  "uid" : "1931751441460d1e",
+  "name" : "reverts when more than the full allowance is removed",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount.reverts when more than the full allowance is removed",
+  "historyId" : "339704df5027d697afba2eff628a4c83",
+  "time" : {
+    "start" : 1636859520270,
+    "stop" : 1636859528864,
+    "duration" : 8594
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when more than the full allowance is removed"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2a6ccb7c8e6b456b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/2a6ccb7c8e6b456b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636721797761,
+          "stop" : 1636721804740,
+          "duration" : 6979
+        }
+      }, {
+        "uid" : "ee325359a895cad4",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/ee325359a895cad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636682305067,
+          "stop" : 1636682311971,
+          "duration" : 6904
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1931751441460d1e.json",
+  "parameterValues" : [ ]
+}

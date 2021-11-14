@@ -1,0 +1,67 @@
+{
+  "uid" : "486a11b9cc6949cf",
+  "name" : "clears the approval for the token ID",
+  "fullName" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a user account when sent to the owner.clears the approval for the token ID",
+  "historyId" : "9b2eace028e5dd64b2a22c7eaf55e4c0",
+  "time" : {
+    "start" : 1636865205235,
+    "stop" : 1636865221293,
+    "duration" : 16058
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a user account when sent to the owner"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a user account when sent to the owner"
+  }, {
+    "name" : "testMethod",
+    "value" : "clears the approval for the token ID"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a user account when sent to the owner"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a1ceb51028fab673",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/a1ceb51028fab673",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636724692552,
+          "stop" : 1636724705692,
+          "duration" : 13140
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "486a11b9cc6949cf.json",
+  "parameterValues" : [ ]
+}

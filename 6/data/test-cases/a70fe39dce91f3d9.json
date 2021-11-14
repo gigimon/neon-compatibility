@@ -1,0 +1,52 @@
+{
+  "uid" : "a70fe39dce91f3d9",
+  "name" : "run",
+  "fullName" : "Contract: Governor Cancel After deadline.run",
+  "historyId" : "f1634516e1391168fd2b5f2c780e56cf",
+  "time" : {
+    "start" : 1636853690713,
+    "stop" : 1636853745114,
+    "duration" : 54401
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(59043) is lower than current block #(59062)",
+  "statusTrace" : "Error: Target block #(59043) is lower than current block #(59062)\n                    at Object.advanceBlockTo (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor Cancel After deadline"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor Cancel After deadline"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor Cancel After deadline"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a70fe39dce91f3d9.json",
+  "parameterValues" : [ ]
+}

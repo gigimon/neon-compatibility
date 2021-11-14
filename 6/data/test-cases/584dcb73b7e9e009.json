@@ -1,0 +1,85 @@
+{
+  "uid" : "584dcb73b7e9e009",
+  "name" : "rejects other signature",
+  "fullName" : "Contract: ERC20Permit permit.rejects other signature",
+  "historyId" : "4786862b5fa643a84ac2e9c30e378e72",
+  "time" : {
+    "start" : 1636859841636,
+    "stop" : 1636859850312,
+    "duration" : 8676
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Permit permit"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Permit permit"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects other signature"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Permit permit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "cb65ccd1990af158",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/cb65ccd1990af158",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: invalid program argument",
+        "time" : {
+          "start" : 1636767676465,
+          "stop" : 1636767680272,
+          "duration" : 3807
+        }
+      }, {
+        "uid" : "ded0a9a627582da3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/ded0a9a627582da3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636722047004,
+          "stop" : 1636722053147,
+          "duration" : 6143
+        }
+      }, {
+        "uid" : "37aaf7d3b436ad6c",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/37aaf7d3b436ad6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636682552990,
+          "stop" : 1636682559037,
+          "duration" : 6047
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "584dcb73b7e9e009.json",
+  "parameterValues" : [ ]
+}

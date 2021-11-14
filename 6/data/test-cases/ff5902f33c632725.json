@@ -1,0 +1,75 @@
+{
+  "uid" : "ff5902f33c632725",
+  "name" : "reverts",
+  "fullName" : "Contract: TransparentUpgradeableProxy upgradeToAndCall without migrations when the call does fail.reverts",
+  "historyId" : "56a52cf32e5c11be2dd7a0447a28a4d6",
+  "time" : {
+    "start" : 1636856485036,
+    "stop" : 1636856494785,
+    "duration" : 9749
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy upgradeToAndCall without migrations when the call does fail"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy upgradeToAndCall without migrations when the call does fail"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy upgradeToAndCall without migrations when the call does fail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b6e6620ff1d717ec",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/b6e6620ff1d717ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636719654006,
+          "stop" : 1636719662370,
+          "duration" : 8364
+        }
+      }, {
+        "uid" : "75357e474829ce62",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/75357e474829ce62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636680176285,
+          "stop" : 1636680184598,
+          "duration" : 8313
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ff5902f33c632725.json",
+  "parameterValues" : [ ]
+}

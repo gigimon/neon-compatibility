@@ -1,0 +1,75 @@
+{
+  "uid" : "9ead625631479d6",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20Burnable burnFrom when the given amount is greater than the balance of the sender.reverts",
+  "historyId" : "b50c98aed3bbea017d7ca91a08b318d6",
+  "time" : {
+    "start" : 1636859953259,
+    "stop" : 1636859961825,
+    "duration" : 8566
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Burnable burnFrom when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Burnable burnFrom when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Burnable burnFrom when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "674d4da49cef5055",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/674d4da49cef5055",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636722136227,
+          "stop" : 1636722143306,
+          "duration" : 7079
+        }
+      }, {
+        "uid" : "6a3690abf0f7c352",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/6a3690abf0f7c352",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636682641216,
+          "stop" : 1636682648154,
+          "duration" : 6938
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9ead625631479d6.json",
+  "parameterValues" : [ ]
+}

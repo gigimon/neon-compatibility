@@ -1,0 +1,83 @@
+{
+  "uid" : "2e0a580b9a18792a",
+  "name" : "generally returns the voting balance at the appropriate checkpoint",
+  "fullName" : "Contract: ERC20Votes getPastTotalSupply.generally returns the voting balance at the appropriate checkpoint",
+  "historyId" : "56741135ede3f929d57619cdc99f1483",
+  "time" : {
+    "start" : 1636860852881,
+    "stop" : 1636860883410,
+    "duration" : 30529
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '10000000000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '10000000000000000000000000' to equal '0'\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Votes.test.js:527:95)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Votes getPastTotalSupply"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Votes getPastTotalSupply"
+  }, {
+    "name" : "testMethod",
+    "value" : "generally returns the voting balance at the appropriate checkpoint"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Votes getPastTotalSupply"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "830b8065d205ba97",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/830b8065d205ba97",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636722583817,
+          "stop" : 1636722595806,
+          "duration" : 11989
+        }
+      }, {
+        "uid" : "e01b1395f89b5df",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/e01b1395f89b5df",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636683140212,
+          "stop" : 1636683152414,
+          "duration" : 12202
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2e0a580b9a18792a.json",
+  "parameterValues" : [ ]
+}

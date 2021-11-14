@@ -1,0 +1,85 @@
+{
+  "uid" : "db440ddec0afcab8",
+  "name" : "doesn't revert when approving a non-zero allowance",
+  "fullName" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance.doesn't revert when approving a non-zero allowance",
+  "historyId" : "fcb2b17156f9325697b12c77d674b58d",
+  "time" : {
+    "start" : 1636862343259,
+    "stop" : 1636862356696,
+    "duration" : 13437
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "doesn't revert when approving a non-zero allowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "346f2af892f39779",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/346f2af892f39779",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636768988806,
+          "stop" : 1636769004509,
+          "duration" : 15703
+        }
+      }, {
+        "uid" : "c6da05f4a84ff4f1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/c6da05f4a84ff4f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636723066651,
+          "stop" : 1636723078143,
+          "duration" : 11492
+        }
+      }, {
+        "uid" : "662ad39fe192cad7",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/662ad39fe192cad7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636683745589,
+          "stop" : 1636683756768,
+          "duration" : 11179
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "db440ddec0afcab8.json",
+  "parameterValues" : [ ]
+}

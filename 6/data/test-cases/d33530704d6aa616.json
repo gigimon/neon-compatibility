@@ -1,0 +1,84 @@
+{
+  "uid" : "d33530704d6aa616",
+  "name" : "reverts when approving a non-zero allowance",
+  "fullName" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance.reverts when approving a non-zero allowance",
+  "historyId" : "32519d9e6f04fc11e4ee63ae62d2ae44",
+  "time" : {
+    "start" : 1636862519294,
+    "stop" : 1636862529327,
+    "duration" : 10033
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when approving a non-zero allowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "43c1247585996ad7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/43c1247585996ad7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636769214376,
+          "stop" : 1636769229033,
+          "duration" : 14657
+        }
+      }, {
+        "uid" : "dc4ab8794bbe97d9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/dc4ab8794bbe97d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636723226088,
+          "stop" : 1636723236255,
+          "duration" : 10167
+        }
+      }, {
+        "uid" : "664480eb325c4160",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/664480eb325c4160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636683906357,
+          "stop" : 1636683916463,
+          "duration" : 10106
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d33530704d6aa616.json",
+  "parameterValues" : [ ]
+}

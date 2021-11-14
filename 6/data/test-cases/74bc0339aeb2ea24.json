@@ -1,0 +1,84 @@
+{
+  "uid" : "74bc0339aeb2ea24",
+  "name" : "reverts on transferFrom",
+  "fullName" : "Contract: SafeERC20 with token that returns false on all calls.reverts on transferFrom",
+  "historyId" : "ce06f43de6eba42535b7b427d49b964c",
+  "time" : {
+    "start" : 1636862288525,
+    "stop" : 1636862296908,
+    "duration" : 8383
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on transferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f1e43081d20afc11",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/f1e43081d20afc11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636768915474,
+          "stop" : 1636768927311,
+          "duration" : 11837
+        }
+      }, {
+        "uid" : "b435372d4a9f9ae3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/b435372d4a9f9ae3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636723013990,
+          "stop" : 1636723022398,
+          "duration" : 8408
+        }
+      }, {
+        "uid" : "2f8f16f75cac63f0",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/2f8f16f75cac63f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636683692743,
+          "stop" : 1636683701210,
+          "duration" : 8467
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "74bc0339aeb2ea24.json",
+  "parameterValues" : [ ]
+}

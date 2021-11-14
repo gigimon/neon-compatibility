@@ -1,0 +1,84 @@
+{
+  "uid" : "16a763e9678401a",
+  "name" : "reverts when burning more than available tokens",
+  "fullName" : "Contract: ERC1155 internal functions _burn.reverts when burning more than available tokens",
+  "historyId" : "7abfb93218bda43d299ad38bae1f1591",
+  "time" : {
+    "start" : 1636858307219,
+    "stop" : 1636858316991,
+    "duration" : 9772
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 internal functions _burn"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 internal functions _burn"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when burning more than available tokens"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 internal functions _burn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "380b27fcba54783d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/380b27fcba54783d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636767220400,
+          "stop" : 1636767231802,
+          "duration" : 11402
+        }
+      }, {
+        "uid" : "6b3c58c988f88e99",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/6b3c58c988f88e99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636720989351,
+          "stop" : 1636720997258,
+          "duration" : 7907
+        }
+      }, {
+        "uid" : "8dd698d35500dc09",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/8dd698d35500dc09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636681514105,
+          "stop" : 1636681521701,
+          "duration" : 7596
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "16a763e9678401a.json",
+  "parameterValues" : [ ]
+}

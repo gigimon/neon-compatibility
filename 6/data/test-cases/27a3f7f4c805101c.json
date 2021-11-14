@@ -1,0 +1,84 @@
+{
+  "uid" : "27a3f7f4c805101c",
+  "name" : "reverts when trying to mint when paused",
+  "fullName" : "Contract: ERC20Pausable pausable token mint.reverts when trying to mint when paused",
+  "historyId" : "8ccf036abd3524344dca8f6ec3e73845",
+  "time" : {
+    "start" : 1636860182648,
+    "stop" : 1636860191607,
+    "duration" : 8959
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Pausable pausable token mint"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Pausable pausable token mint"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to mint when paused"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Pausable pausable token mint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "342b25ae74acda62",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/342b25ae74acda62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636767997342,
+          "stop" : 1636768007692,
+          "duration" : 10350
+        }
+      }, {
+        "uid" : "ca6ac6b3cb85ef82",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/ca6ac6b3cb85ef82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636722319359,
+          "stop" : 1636722326454,
+          "duration" : 7095
+        }
+      }, {
+        "uid" : "66b34137679773c4",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/66b34137679773c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636682826548,
+          "stop" : 1636682833517,
+          "duration" : 6969
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "27a3f7f4c805101c.json",
+  "parameterValues" : [ ]
+}
