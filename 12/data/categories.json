@@ -1,0 +1,141 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Request failed with status code 500",
+      "children" : [ {
+        "name" : "shouldCreateAcccountWithEthersJs",
+        "uid" : "dcfcbb36870f278b",
+        "parentUid" : "fc59132079d939df6f53fa9448b2eaca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636980922028,
+          "stop" : 1636980922889,
+          "duration" : 861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc59132079d939df6f53fa9448b2eaca"
+    }, {
+      "name" : "Timeout of 2000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/neon-compatibility/neon-compatibility/dist/src/test/ethers-js/EthersJs.test.js)",
+      "children" : [ {
+        "name" : "testQueryingBlockchain",
+        "uid" : "3768bad3e1c398e4",
+        "parentUid" : "0d6b97d7ba58bad7eeafc37438632abb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636980925581,
+          "stop" : 1636980927584,
+          "duration" : 2003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d6b97d7ba58bad7eeafc37438632abb"
+    }, {
+      "name" : "processing response error (body=\"{\\\"jsonrpc\\\": \\\"2.0\\\", \\\"id\\\": 45, \\\"error\\\": {\\\"code\\\": -32000, \\\"message\\\": \\\"'EthereumModel' object has no attribute 'eth_accounts'\\\"}}\", error={\"code\":-32000}, requestBody=\"{\\\"method\\\":\\\"eth_accounts\\\",\\\"params\\\":[],\\\"id\\\":45,\\\"jsonrpc\\\":\\\"2.0\\\"}\", requestMethod=\"POST\", url=\"https://proxy.teststand.neontest.xyz/solana\", code=SERVER_ERROR, version=web/5.4.0)",
+      "children" : [ {
+        "name" : "testWritingToTheBlockchain",
+        "uid" : "e5060d2e96803ac5",
+        "parentUid" : "24cd5625e0b80650e312fb8f4dfe82bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636980927587,
+          "stop" : 1636980929150,
+          "duration" : 1563
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24cd5625e0b80650e312fb8f4dfe82bc"
+    }, {
+      "name" : "resolver or addr is not configured for ENS name (argument=\"name\", value=\"dai.tokens.ethers.eth\", code=INVALID_ARGUMENT, version=contracts/5.4.1)",
+      "children" : [ {
+        "name" : "testReadOnlyMethods",
+        "uid" : "636d80a37fd1fd8d",
+        "parentUid" : "f691d142a21ba4d36298b566fe753fd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636980929166,
+          "stop" : 1636980930211,
+          "duration" : 1045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f691d142a21ba4d36298b566fe753fd0"
+    }, {
+      "name" : "processing response error (body=\"{\\\"jsonrpc\\\": \\\"2.0\\\", \\\"id\\\": 42, \\\"error\\\": {\\\"code\\\": -32000, \\\"message\\\": \\\"'EthereumModel' object has no attribute 'eth_accounts'\\\"}}\", error={\"code\":-32000}, requestBody=\"{\\\"method\\\":\\\"eth_accounts\\\",\\\"params\\\":[],\\\"id\\\":42,\\\"jsonrpc\\\":\\\"2.0\\\"}\", requestMethod=\"POST\", url=\"https://proxy.teststand.neontest.xyz/solana\", code=SERVER_ERROR, version=web/5.4.0)",
+      "children" : [ {
+        "name" : "testQueryHistoricEvents",
+        "uid" : "65b9f20d0c1aad41",
+        "parentUid" : "89eeefe7b76d90547d8f5b242d33bdcf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636980930220,
+          "stop" : 1636980930701,
+          "duration" : 481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSigningMessages",
+        "uid" : "1a223564fe328618",
+        "parentUid" : "89eeefe7b76d90547d8f5b242d33bdcf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636980930705,
+          "stop" : 1636980931189,
+          "duration" : 484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89eeefe7b76d90547d8f5b242d33bdcf"
+    }, {
+      "name" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "c844ba300881e863",
+        "parentUid" : "426a702f588cd18af2cb78ab4240139d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636980931209,
+          "stop" : 1636980931230,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "426a702f588cd18af2cb78ab4240139d"
+    }, {
+      "name" : "'EthereumModel' object has no attribute 'eth_accounts'",
+      "children" : [ {
+        "name" : "Should return the new greeting once it's changed",
+        "uid" : "418ef9728f79b217",
+        "parentUid" : "e991f17fad413e6355747c09e6da3ec9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636980937207,
+          "stop" : 1636980938288,
+          "duration" : 1081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e991f17fad413e6355747c09e6da3ec9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

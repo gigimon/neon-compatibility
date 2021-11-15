@@ -1,0 +1,179 @@
+{
+  "uid" : "7df8c5d4f8b87cb7",
+  "name" : "test_issue_364_self_destruct_contract",
+  "fullName" : "tests.truffle.test_truffle#test_issue_364_self_destruct_contract",
+  "historyId" : "9b9a0ac6c1438da1dd6a59ac61d1506c",
+  "time" : {
+    "start" : 1636981051146,
+    "stop" : 1636981051150,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepare_truffle_config",
+    "time" : {
+      "start" : 1636981051135,
+      "stop" : 1636981051146,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Preset variables",
+      "time" : {
+        "start" : 1636981051136,
+        "stop" : 1636981051146,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clean up folder \"'/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts'\"",
+      "time" : {
+        "start" : 1636981051146,
+        "stop" : 1636981051146,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Run command: \"'cd issues/364; ../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3'\"",
+      "time" : {
+        "start" : 1636981051146,
+        "stop" : 1636981051150,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "command",
+        "value" : "'cd issues/364; ../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "77c5693b2edb1deb",
+      "name" : "stdout",
+      "source" : "77c5693b2edb1deb.txt",
+      "type" : "text/plain",
+      "size" : 221
+    }, {
+      "uid" : "61d6d5dbf9170170",
+      "name" : "stderr",
+      "source" : "61d6d5dbf9170170.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "prepare_truffle_config::0",
+    "time" : {
+      "start" : 1636981051150,
+      "stop" : 1636981051151,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Truffle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.truffle"
+  }, {
+    "name" : "suite",
+    "value" : "test_truffle"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-755"
+  }, {
+    "name" : "thread",
+    "value" : "4825-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.truffle.test_truffle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c9ebe23fa9ae21d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/11//#testresult/c9ebe23fa9ae21d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636980456966,
+          "stop" : 1636980456970,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7df8c5d4f8b87cb7.json",
+  "parameterValues" : [ ]
+}
