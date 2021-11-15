@@ -1,0 +1,85 @@
+{
+  "uid" : "56c95e3578cb3a6c",
+  "name" : "clears the approval for the token ID",
+  "fullName" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom with data to a valid receiver contract when called by the operator.clears the approval for the token ID",
+  "historyId" : "4b57a2ecbf8d14e8aa2b4693db3048c4",
+  "time" : {
+    "start" : 1636955140947,
+    "stop" : 1636955173094,
+    "duration" : 32147
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom with data to a valid receiver contract when called by the operator"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom with data to a valid receiver contract when called by the operator"
+  }, {
+    "name" : "testMethod",
+    "value" : "clears the approval for the token ID"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom with data to a valid receiver contract when called by the operator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "46201cce9a64877a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/46201cce9a64877a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636864353601,
+          "stop" : 1636864376313,
+          "duration" : 22712
+        }
+      }, {
+        "uid" : "58aa05d40519a415",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/58aa05d40519a415",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636724415574,
+          "stop" : 1636724432720,
+          "duration" : 17146
+        }
+      }, {
+        "uid" : "b9e62c26bcfb6a70",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/b9e62c26bcfb6a70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636685222423,
+          "stop" : 1636685240809,
+          "duration" : 18386
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "56c95e3578cb3a6c.json",
+  "parameterValues" : [ ]
+}

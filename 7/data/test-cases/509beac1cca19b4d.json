@@ -1,0 +1,94 @@
+{
+  "uid" : "509beac1cca19b4d",
+  "name" : "should store the admin proxy in specified location",
+  "fullName" : "Contract: TransparentUpgradeableProxy storage.should store the admin proxy in specified location",
+  "historyId" : "39f77ae40f7ad6b32b94015f96d04282",
+  "time" : {
+    "start" : 1636944741129,
+    "stop" : 1636944749578,
+    "duration" : 8449
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+  "statusTrace" : "Error: Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'\n                    at Object.ErrorResponse (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/node_modules/web3-core-helpers/lib/errors.js:28:19)\n                    at /Users/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/lib/index.js:302:36\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should store the admin proxy in specified location"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Not supported",
+      "messageRegex" : ".*'EthereumModel' object has no attribute .*",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "99bb3eea885d1618",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/99bb3eea885d1618",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1636856662122,
+          "stop" : 1636856667197,
+          "duration" : 5075
+        }
+      }, {
+        "uid" : "a1f9f91b88545677",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/a1f9f91b88545677",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1636719799985,
+          "stop" : 1636719803798,
+          "duration" : 3813
+        }
+      }, {
+        "uid" : "b38491b3ed90b5f7",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/b38491b3ed90b5f7",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1636680323173,
+          "stop" : 1636680327095,
+          "duration" : 3922
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "509beac1cca19b4d.json",
+  "parameterValues" : [ ]
+}

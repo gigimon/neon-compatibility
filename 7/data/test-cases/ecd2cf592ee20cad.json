@@ -1,0 +1,95 @@
+{
+  "uid" : "ecd2cf592ee20cad",
+  "name" : "exist",
+  "fullName" : "Contract: ERC1155Supply after mint batch.exist",
+  "historyId" : "ea43ae18f9b2de7f2bd1861d8a8c08c1",
+  "time" : {
+    "start" : 1636947537482,
+    "stop" : 1636947553171,
+    "duration" : 15689
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Supply after mint batch"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Supply after mint batch"
+  }, {
+    "name" : "testMethod",
+    "value" : "exist"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Supply after mint batch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "3d961f8c8f3bfe8f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/3d961f8c8f3bfe8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636858686210,
+          "stop" : 1636858698366,
+          "duration" : 12156
+        }
+      }, {
+        "uid" : "120d13d9f16e8355",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/120d13d9f16e8355",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636767496065,
+          "stop" : 1636767504886,
+          "duration" : 8821
+        }
+      }, {
+        "uid" : "2b423079c320c416",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/2b423079c320c416",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636721298119,
+          "stop" : 1636721304608,
+          "duration" : 6489
+        }
+      }, {
+        "uid" : "f6aaadb32f81ac1d",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/f6aaadb32f81ac1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636681812963,
+          "stop" : 1636681822100,
+          "duration" : 9137
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ecd2cf592ee20cad.json",
+  "parameterValues" : [ ]
+}

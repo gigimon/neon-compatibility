@@ -1,0 +1,73 @@
+{
+  "uid" : "ff3269f43d8c7a52",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario vote with signature.run",
+  "historyId" : "6e97d02812125052bc62d78157a8d5f0",
+  "time" : {
+    "start" : 1636939814490,
+    "stop" : 1636939884191,
+    "duration" : 69701
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected false to equal true",
+  "statusTrace" : "AssertionError: expected false to equal true\n                    at Context.<anonymous> (test/governance/Governor.test.js:205:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario vote with signature"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario vote with signature"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario vote with signature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "40ab65d70841e402",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/40ab65d70841e402",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1636852796229,
+          "stop" : 1636852847357,
+          "duration" : 51128
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ff3269f43d8c7a52.json",
+  "parameterValues" : [ ]
+}

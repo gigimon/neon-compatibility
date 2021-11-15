@@ -1,0 +1,73 @@
+{
+  "uid" : "e71e68c238116d80",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario quorum not reached.run",
+  "historyId" : "197240cccc896980e386686358c2697f",
+  "time" : {
+    "start" : 1636940331196,
+    "stop" : 1636940398154,
+    "duration" : 66958
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(265604) is lower than current block #(265627)",
+  "statusTrace" : "Error: Target block #(265604) is lower than current block #(265627)\n                    at Object.advanceBlockTo (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario quorum not reached"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario quorum not reached"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario quorum not reached"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "122d435d90a09d37",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/122d435d90a09d37",
+        "status" : "broken",
+        "statusDetails" : "Target block #(57844) is lower than current block #(57863)",
+        "time" : {
+          "start" : 1636853180503,
+          "stop" : 1636853232445,
+          "duration" : 51942
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e71e68c238116d80.json",
+  "parameterValues" : [ ]
+}

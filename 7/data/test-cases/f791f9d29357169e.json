@@ -1,0 +1,84 @@
+{
+  "uid" : "f791f9d29357169e",
+  "name" : "rejects burning more than balance",
+  "fullName" : "Contract: ERC20 _burn for a non zero account.rejects burning more than balance",
+  "historyId" : "e93b96456f0783c41935bfb64fba7867",
+  "time" : {
+    "start" : 1636948773943,
+    "stop" : 1636948783112,
+    "duration" : 9169
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 _burn for a non zero account"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 _burn for a non zero account"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects burning more than balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 _burn for a non zero account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "cf605a25f8f3dde6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/cf605a25f8f3dde6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636859629218,
+          "stop" : 1636859636340,
+          "duration" : 7122
+        }
+      }, {
+        "uid" : "d127c6f42a139d57",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/d127c6f42a139d57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636721884309,
+          "stop" : 1636721889788,
+          "duration" : 5479
+        }
+      }, {
+        "uid" : "51b4489157ec4f58",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/51b4489157ec4f58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636682390567,
+          "stop" : 1636682395968,
+          "duration" : 5401
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f791f9d29357169e.json",
+  "parameterValues" : [ ]
+}

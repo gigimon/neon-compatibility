@@ -1,0 +1,94 @@
+{
+  "uid" : "1b636d56143a4c8f",
+  "name" : "missing balance",
+  "fullName" : "Contract: ERC20 withdraw.missing balance",
+  "historyId" : "81805e36c90246aa36f9d124ee740d51",
+  "time" : {
+    "start" : 1636951247458,
+    "stop" : 1636951274933,
+    "duration" : 27475
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 withdraw"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 withdraw"
+  }, {
+    "name" : "testMethod",
+    "value" : "missing balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 withdraw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "1fe319ccfab28abe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/1fe319ccfab28abe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636861432690,
+          "stop" : 1636861454408,
+          "duration" : 21718
+        }
+      }, {
+        "uid" : "409e68f5df373ed6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/409e68f5df373ed6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636768722294,
+          "stop" : 1636768744436,
+          "duration" : 22142
+        }
+      }, {
+        "uid" : "99cb8d92d33ad23e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/99cb8d92d33ad23e",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636722832997,
+          "stop" : 1636722846319,
+          "duration" : 13322
+        }
+      }, {
+        "uid" : "367d4a7bce2c437",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/367d4a7bce2c437",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636683449022,
+          "stop" : 1636683464634,
+          "duration" : 15612
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b636d56143a4c8f.json",
+  "parameterValues" : [ ]
+}

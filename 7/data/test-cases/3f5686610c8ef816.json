@@ -1,0 +1,93 @@
+{
+  "uid" : "3f5686610c8ef816",
+  "name" : "partial execution",
+  "fullName" : "Contract: TimelockController methods batch execute.partial execution",
+  "historyId" : "afd431cff5922ce8050c2813e496d144",
+  "time" : {
+    "start" : 1636942224442,
+    "stop" : 1636942259644,
+    "duration" : 35202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted: TimelockController: operation is not ready' to equal 'TimelockController: underlying transaction reverted'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted: TimelockController: operation is not ready' to equal 'TimelockController: underlying transaction reverted'\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/governance/TimelockController.test.js:619:11)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TimelockController methods batch execute"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TimelockController methods batch execute"
+  }, {
+    "name" : "testMethod",
+    "value" : "partial execution"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TimelockController methods batch execute"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c8ed5519d3ee6d29",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/c8ed5519d3ee6d29",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted: TimelockController: operation is not ready' to equal 'TimelockController: underlying transaction reverted'",
+        "time" : {
+          "start" : 1636854636957,
+          "stop" : 1636854664396,
+          "duration" : 27439
+        }
+      }, {
+        "uid" : "5e946ebfec37babf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/5e946ebfec37babf",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted: TimelockController: operation is not ready' to equal 'TimelockController: underlying transaction reverted'",
+        "time" : {
+          "start" : 1636718299238,
+          "stop" : 1636718318025,
+          "duration" : 18787
+        }
+      }, {
+        "uid" : "f542327d67bfe23f",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/f542327d67bfe23f",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted: TimelockController: operation is not ready' to equal 'TimelockController: underlying transaction reverted'",
+        "time" : {
+          "start" : 1636678819217,
+          "stop" : 1636678837839,
+          "duration" : 18622
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3f5686610c8ef816.json",
+  "parameterValues" : [ ]
+}

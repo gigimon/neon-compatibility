@@ -1,0 +1,94 @@
+{
+  "uid" : "bb82a6918fc3054a",
+  "name" : "can set decimals during construction",
+  "fullName" : "Contract: ERC20 set decimals.can set decimals during construction",
+  "historyId" : "6f699f8740acbca98c8ec818c7be2653",
+  "time" : {
+    "start" : 1636948212314,
+    "stop" : 1636948226124,
+    "duration" : 13810
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 set decimals"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 set decimals"
+  }, {
+    "name" : "testMethod",
+    "value" : "can set decimals during construction"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 set decimals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "df68a6a65b6a7482",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/df68a6a65b6a7482",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636859217362,
+          "stop" : 1636859228597,
+          "duration" : 11235
+        }
+      }, {
+        "uid" : "49405a49706f0232",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/49405a49706f0232",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: insufficient account keys for instruction",
+        "time" : {
+          "start" : 1636767629139,
+          "stop" : 1636767633762,
+          "duration" : 4623
+        }
+      }, {
+        "uid" : "b61a6dd797288543",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/b61a6dd797288543",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636721566935,
+          "stop" : 1636721574827,
+          "duration" : 7892
+        }
+      }, {
+        "uid" : "704b61e41b9cfa1b",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/704b61e41b9cfa1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636682064712,
+          "stop" : 1636682073423,
+          "duration" : 8711
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bb82a6918fc3054a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,104 @@
+{
+  "uid" : "ab12416a2bb47b98",
+  "name" : "check vesting schedule",
+  "fullName" : "Contract: VestingWallet vesting schedule Eth vesting.check vesting schedule",
+  "historyId" : "5b025e0205793b3ec5e5a306f9985175",
+  "time" : {
+    "start" : 1636938347638,
+    "stop" : 1636938354864,
+    "duration" : 7226
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '1ae1e39141adc67c147fdb396218b5041b237602', '8fd228001bc9c51e30caa49fafe04f259450bb87', 'none', '0x56bc75e2d63100000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '1ae1e39141adc67c147fdb396218b5041b237602', '8fd228001bc9c51e30caa49fafe04f259450bb87', 'none', '0x56bc75e2d63100000']' returned non-zero exit status 1.\n                    at Object.ErrorResponse (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/node_modules/web3-core-helpers/lib/errors.js:28:19)\n                    at /Users/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/lib/index.js:302:36\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: VestingWallet vesting schedule Eth vesting"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: VestingWallet vesting schedule Eth vesting"
+  }, {
+    "name" : "testMethod",
+    "value" : "check vesting schedule"
+  }, {
+    "name" : "package",
+    "value" : "Contract: VestingWallet vesting schedule Eth vesting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "b3eeb6f82eccca42",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/b3eeb6f82eccca42",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '41d103807ee7e4cd1be5214287c87adf94c8f01d', 'bba7d30fca889a2b985fab73ec9bf21399d70a81', 'none', '0x56bc75e2d63100000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1636851728074,
+          "stop" : 1636851733436,
+          "duration" : 5362
+        }
+      }, {
+        "uid" : "53422a8327462c32",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/53422a8327462c32",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '0a74f25dd0d7ff61dbfd8b06ef05372f083c3472', '27e79ecd4a4694f540637c34fa0f2c79da34f628', 'none', '0x56bc75e2d63100000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1636765014251,
+          "stop" : 1636765020983,
+          "duration" : 6732
+        }
+      }, {
+        "uid" : "e2e5061a813c99dd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/e2e5061a813c99dd",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '5d880c5e6264e1b9ac80b928a39894d796293f48', '6ccb6c546ba029bb9de720abad9c111f419d563f', 'none', '0x56bc75e2d63100000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1636717753690,
+          "stop" : 1636717758738,
+          "duration" : 5048
+        }
+      }, {
+        "uid" : "af1d48b913753111",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/af1d48b913753111",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '094cb6d5883b243d20111d28594c151d5e6a950a', 'ceef1e16e1b8d5060138985701e3f23f6937ea99', 'none', '0x56bc75e2d63100000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1636678068614,
+          "stop" : 1636678073524,
+          "duration" : 4910
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ab12416a2bb47b98.json",
+  "parameterValues" : [ ]
+}

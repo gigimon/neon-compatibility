@@ -1,0 +1,73 @@
+{
+  "uid" : "e10f29497d25a911",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario Invalid vote type.run",
+  "historyId" : "ed0b99835b357529fb6601d7bc0b1444",
+  "time" : {
+    "start" : 1636940212763,
+    "stop" : 1636940269654,
+    "duration" : 56891
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(265298) is lower than current block #(265321)",
+  "statusTrace" : "Error: Target block #(265298) is lower than current block #(265321)\n                    at Object.advanceBlockTo (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario Invalid vote type"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario Invalid vote type"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario Invalid vote type"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f16d59809797fbd1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/f16d59809797fbd1",
+        "status" : "broken",
+        "statusDetails" : "Target block #(57607) is lower than current block #(57626)",
+        "time" : {
+          "start" : 1636853090043,
+          "stop" : 1636853133087,
+          "duration" : 43044
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e10f29497d25a911.json",
+  "parameterValues" : [ ]
+}

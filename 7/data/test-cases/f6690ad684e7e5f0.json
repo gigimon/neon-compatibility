@@ -1,0 +1,84 @@
+{
+  "uid" : "f6690ad684e7e5f0",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20 _approve when the spender is the zero address.reverts",
+  "historyId" : "a4d6517c1fac9abbd6e400f61798d467",
+  "time" : {
+    "start" : 1636948988021,
+    "stop" : 1636948997408,
+    "duration" : 9387
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 _approve when the spender is the zero address"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 _approve when the spender is the zero address"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 _approve when the spender is the zero address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e7246af1030b94a7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/e7246af1030b94a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636859784826,
+          "stop" : 1636859791635,
+          "duration" : 6809
+        }
+      }, {
+        "uid" : "212b6f987bb15494",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/212b6f987bb15494",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636722007287,
+          "stop" : 1636722012519,
+          "duration" : 5232
+        }
+      }, {
+        "uid" : "4213f0739f26e188",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/4213f0739f26e188",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636682514116,
+          "stop" : 1636682519357,
+          "duration" : 5241
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f6690ad684e7e5f0.json",
+  "parameterValues" : [ ]
+}

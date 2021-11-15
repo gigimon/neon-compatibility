@@ -1,0 +1,103 @@
+{
+  "uid" : "7fa34e951c89bbca",
+  "name" : "has expected balance",
+  "fullName" : "Contract: Clones cloneDeterministic initialization with parameters payable when sending some balance.has expected balance",
+  "historyId" : "abfe052aad3f80f9f903df75339c5cff",
+  "time" : {
+    "start" : 1636943779651,
+    "stop" : 1636943790441,
+    "duration" : 10790
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '0' to equal '1000000'",
+  "statusTrace" : "AssertionError: expected '0' to equal '1000000'\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:19:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Clones cloneDeterministic initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones cloneDeterministic initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones cloneDeterministic initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "f3913f8857a3f149",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/f3913f8857a3f149",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '1000000'",
+        "time" : {
+          "start" : 1636855931592,
+          "stop" : 1636855939702,
+          "duration" : 8110
+        }
+      }, {
+        "uid" : "5d1064e8b220fade",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/5d1064e8b220fade",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '1000000'",
+        "time" : {
+          "start" : 1636766093646,
+          "stop" : 1636766103836,
+          "duration" : 10190
+        }
+      }, {
+        "uid" : "30c5875b16f818de",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/30c5875b16f818de",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '1000000'",
+        "time" : {
+          "start" : 1636719216245,
+          "stop" : 1636719223260,
+          "duration" : 7015
+        }
+      }, {
+        "uid" : "f9a576a6e07c61f8",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/f9a576a6e07c61f8",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '1000000'",
+        "time" : {
+          "start" : 1636679738418,
+          "stop" : 1636679745290,
+          "duration" : 6872
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7fa34e951c89bbca.json",
+  "parameterValues" : [ ]
+}

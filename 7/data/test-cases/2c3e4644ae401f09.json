@@ -1,0 +1,84 @@
+{
+  "uid" : "2c3e4644ae401f09",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20 transfer when the recipient is not the zero address when the sender does not have enough balance.reverts",
+  "historyId" : "398bfbe1a80fad216ee88c9224b4392a",
+  "time" : {
+    "start" : 1636948250106,
+    "stop" : 1636948259195,
+    "duration" : 9089
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 transfer when the recipient is not the zero address when the sender does not have enough balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 transfer when the recipient is not the zero address when the sender does not have enough balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 transfer when the recipient is not the zero address when the sender does not have enough balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1b33c76e588466a6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/1b33c76e588466a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636859247503,
+          "stop" : 1636859254422,
+          "duration" : 6919
+        }
+      }, {
+        "uid" : "91aa9a4cbc07ea23",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/91aa9a4cbc07ea23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636721588801,
+          "stop" : 1636721594054,
+          "duration" : 5253
+        }
+      }, {
+        "uid" : "75be5c893046b41f",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/75be5c893046b41f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636682087264,
+          "stop" : 1636682092488,
+          "duration" : 5224
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2c3e4644ae401f09.json",
+  "parameterValues" : [ ]
+}
