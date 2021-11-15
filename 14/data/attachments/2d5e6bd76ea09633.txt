@@ -1,0 +1,12 @@
+/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts
+============ running command... ============
+cd Metacoin; pwd; ../node_modules/.bin/truffle --network neonlabs test ./test/metacoin.js ; cd "/home/runner/work/neon-compatibility/neon-compatibility"; pwd;
+/home/runner/work/neon-compatibility/neon-compatibility/Metacoin
+/home/runner/work/neon-compatibility/neon-compatibility
+Error: There was a timeout while attempting to connect to the network at undefined.
+       Check to see that your provider is valid.
+       If you have a slow internet connection, try configuring a longer timeout in your Truffle config. Use the networks[networkName].networkCheckTimeout property to do this.
+    at Timeout._onTimeout (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/provider/index.js:57:1)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+
