@@ -1,0 +1,161 @@
+{
+  "uid" : "9c3185626af8a17f",
+  "name" : "a role can be revoked multiple times",
+  "fullName" : "Contract: AccessControl revoking with granted role.a role can be revoked multiple times",
+  "historyId" : "556e3b350031fc5593fec8f3bf4ad503",
+  "time" : {
+    "start" : 1636967039714,
+    "stop" : 1636967050761,
+    "duration" : 11047
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "testMethod",
+    "value" : "a role can be revoked multiple times"
+  }, {
+    "name" : "package",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "292d04b61e07667c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636966839622,
+        "stop" : 1636966848919,
+        "duration" : 9297
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "552dbd83a62441a5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/8//#testresult/552dbd83a62441a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962491413,
+          "stop" : 1636962502031,
+          "duration" : 10618
+        }
+      }, {
+        "uid" : "ac3ba4d816b693e9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/7//#testresult/ac3ba4d816b693e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636937784545,
+          "stop" : 1636937799888,
+          "duration" : 15343
+        }
+      }, {
+        "uid" : "9410a83e25de5f12",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/9410a83e25de5f12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636851312060,
+          "stop" : 1636851323025,
+          "duration" : 10965
+        }
+      }, {
+        "uid" : "1a2d77a437bf70ee",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/1a2d77a437bf70ee",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 1: Computational budget exceeded",
+        "time" : {
+          "start" : 1636764684783,
+          "stop" : 1636764694842,
+          "duration" : 10059
+        }
+      }, {
+        "uid" : "35eebcdf30ef1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/35eebcdf30ef1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636731026921,
+          "stop" : 1636731035426,
+          "duration" : 8505
+        }
+      }, {
+        "uid" : "d7ea4a556d90eff4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/d7ea4a556d90eff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636717432771,
+          "stop" : 1636717442526,
+          "duration" : 9755
+        }
+      }, {
+        "uid" : "59d0d762faecae18",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/59d0d762faecae18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636729460402,
+          "stop" : 1636729469775,
+          "duration" : 9373
+        }
+      }, {
+        "uid" : "8d0748165d44e535",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/3//#testresult/8d0748165d44e535",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636728432250,
+          "stop" : 1636728445608,
+          "duration" : 13358
+        }
+      }, {
+        "uid" : "f4db30d2219609ad",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/2//#testresult/f4db30d2219609ad",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1",
+        "time" : {
+          "start" : 1636727063512,
+          "stop" : 1636727070861,
+          "duration" : 7349
+        }
+      }, {
+        "uid" : "4c07d334c766c6b1",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/4c07d334c766c6b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636677734107,
+          "stop" : 1636677743451,
+          "duration" : 9344
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9c3185626af8a17f.json",
+  "parameterValues" : [ ]
+}
