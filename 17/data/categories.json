@@ -1,0 +1,192 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Request failed with status code 500",
+      "children" : [ {
+        "name" : "shouldCreateAcccountWithEthersJs",
+        "uid" : "db8681e585ea2036",
+        "parentUid" : "fc59132079d939df6f53fa9448b2eaca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637067868843,
+          "stop" : 1637067869745,
+          "duration" : 902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc59132079d939df6f53fa9448b2eaca"
+    }, {
+      "name" : "Timeout of 2000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/neon-compatibility/neon-compatibility/dist/src/test/ethers-js/EthersJs.test.js)",
+      "children" : [ {
+        "name" : "testQueryingBlockchain",
+        "uid" : "a0c181304a955544",
+        "parentUid" : "0d6b97d7ba58bad7eeafc37438632abb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637067872545,
+          "stop" : 1637067874547,
+          "duration" : 2002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d6b97d7ba58bad7eeafc37438632abb"
+    }, {
+      "name" : "processing response error (body=\"{\\\"jsonrpc\\\": \\\"2.0\\\", \\\"id\\\": 45, \\\"error\\\": {\\\"code\\\": -32000, \\\"message\\\": \\\"'EthereumModel' object has no attribute 'eth_accounts'\\\"}}\", error={\"code\":-32000}, requestBody=\"{\\\"method\\\":\\\"eth_accounts\\\",\\\"params\\\":[],\\\"id\\\":45,\\\"jsonrpc\\\":\\\"2.0\\\"}\", requestMethod=\"POST\", url=\"https://proxy.teststand.neontest.xyz/solana\", code=SERVER_ERROR, version=web/5.4.0)",
+      "children" : [ {
+        "name" : "testWritingToTheBlockchain",
+        "uid" : "86a8191f7ec45ede",
+        "parentUid" : "24cd5625e0b80650e312fb8f4dfe82bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637067874548,
+          "stop" : 1637067876108,
+          "duration" : 1560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24cd5625e0b80650e312fb8f4dfe82bc"
+    }, {
+      "name" : "resolver or addr is not configured for ENS name (argument=\"name\", value=\"dai.tokens.ethers.eth\", code=INVALID_ARGUMENT, version=contracts/5.4.1)",
+      "children" : [ {
+        "name" : "testReadOnlyMethods",
+        "uid" : "fdf4d870a7381ddd",
+        "parentUid" : "f691d142a21ba4d36298b566fe753fd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637067876119,
+          "stop" : 1637067877203,
+          "duration" : 1084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f691d142a21ba4d36298b566fe753fd0"
+    }, {
+      "name" : "processing response error (body=\"{\\\"jsonrpc\\\": \\\"2.0\\\", \\\"id\\\": 42, \\\"error\\\": {\\\"code\\\": -32000, \\\"message\\\": \\\"'EthereumModel' object has no attribute 'eth_accounts'\\\"}}\", error={\"code\":-32000}, requestBody=\"{\\\"method\\\":\\\"eth_accounts\\\",\\\"params\\\":[],\\\"id\\\":42,\\\"jsonrpc\\\":\\\"2.0\\\"}\", requestMethod=\"POST\", url=\"https://proxy.teststand.neontest.xyz/solana\", code=SERVER_ERROR, version=web/5.4.0)",
+      "children" : [ {
+        "name" : "testQueryHistoricEvents",
+        "uid" : "4f14aadb0209cd42",
+        "parentUid" : "89eeefe7b76d90547d8f5b242d33bdcf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637067877212,
+          "stop" : 1637067877697,
+          "duration" : 485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSigningMessages",
+        "uid" : "dc9031a607102ffa",
+        "parentUid" : "89eeefe7b76d90547d8f5b242d33bdcf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637067877700,
+          "stop" : 1637067878182,
+          "duration" : 482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89eeefe7b76d90547d8f5b242d33bdcf"
+    }, {
+      "name" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "994f2be0e6cf8eb5",
+        "parentUid" : "426a702f588cd18af2cb78ab4240139d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637067878193,
+          "stop" : 1637067878209,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "426a702f588cd18af2cb78ab4240139d"
+    }, {
+      "name" : "'EthereumModel' object has no attribute 'eth_accounts'",
+      "children" : [ {
+        "name" : "Should return the new greeting once it's changed",
+        "uid" : "4d3fbd799128f031",
+        "parentUid" : "e991f17fad413e6355747c09e6da3ec9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637067883535,
+          "stop" : 1637067884608,
+          "duration" : 1073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e991f17fad413e6355747c09e6da3ec9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'Error: ETIMEDOUT' not in '/home/runne...s.js:95:5)\\n'\n  'Error: ETIMEDOUT' is contained here:\n    st block:\n    Error: ETIMEDOUT\n        at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848:19)\n        at listOnTimeout (internal/timers.js:557:17)\n        at processTimers (internal/timers.js:500:7)\n        at PollingBlockTracker._performSync (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/eth-block-tracker/src/polling.js:51:24)\n        at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+      "children" : [ {
+        "name" : "test_truffle_contract",
+        "uid" : "6511e1e11da661ee",
+        "parentUid" : "05b5fab58384d9c182e49ab82a79b689",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637068096770,
+          "stop" : 1637068159449,
+          "duration" : 62679
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_truffle_test",
+        "uid" : "d69e24b59ac60ccd",
+        "parentUid" : "05b5fab58384d9c182e49ab82a79b689",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637068159581,
+          "stop" : 1637068193805,
+          "duration" : 34224
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05b5fab58384d9c182e49ab82a79b689"
+    }, {
+      "name" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n     > transaction hash:    0x8717efdd12b8a7d34b2f1a4bb884aa6c0a62ca6e2bbbd7d5af0697fb2f48387a\n     > Blocks: 10           Seconds: 4\n     > contract address:    0x6f71e85338dD16856748a985AAedbA685B9511c9\n     > block number:        133340\n     > block timestamp:     1637068212\n     > account:             0xF0828282dA849eC2D6fe1d0Ab6b88f5c46d4E39E\n     > balance:             99.999871115\n     > gas used:            128885 (0x1f775)\n     > gas price:           1 gwei\n     > value sent:          0 ETH\n     > total cost:          0.000128885 ETH\n  \n  Sending ether to contract\n  99999871115000000000 --- 99999871115000000000 --- 0\n  Hello0\n  \n  Error: Transaction simulation failed: Error processing Instruction 1: instruction changed the balance of a read-only account\n      at module.exports (/home/runner/work/neon-compatibility/neon-compatibility/issues/364/migrations/3_selfDestructTest.js:24:24)\n      at runMicrotasks (<anonymous>)\n      at processTicksAndRejections (internal/process/task_queues.js:95:5)\n      at Migration._deploy (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:75:1)\n      at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:56:1)\n      at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n      at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n      at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n      at runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:253:1)\n      at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:223:1)\n      at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n  Truffle v5.4.14 (core: 5.4.14)\n  Node v14.18.1\n  - Blocks: 0            Seconds: 0\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...lib/command.js:183:1)\\nTruffle v5.4.14 (core: 5.4.14)\\nNode v14.18.1\\n', stderr=b'- Blocks: 0            Seconds: 0\\n').returncode",
+      "children" : [ {
+        "name" : "test_issue_364_self_destruct_contract",
+        "uid" : "bee4a67d88af6c6f",
+        "parentUid" : "e78802ed2a5e6b422998505459f51420",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637068193822,
+          "stop" : 1637068231994,
+          "duration" : 38172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e78802ed2a5e6b422998505459f51420"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
