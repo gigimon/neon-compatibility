@@ -1,0 +1,753 @@
+{
+  "uid" : "be2bafa3ceba0179",
+  "name" : "test_contracts[input_data0]",
+  "fullName" : "tests.openzeppelin.test_openzeppelin#test_contracts",
+  "historyId" : "645bc649ec39068f8479f87dfb6007e3",
+  "time" : {
+    "start" : 1637045543901,
+    "stop" : 1637045555792,
+    "duration" : 11891
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'Error: Coul... any sources' not in '/home/runne...ttempt #1.\\n'\n  'Error: Could not f...ns from any sources' is contained here:\n           ^\n    \n    Error: Could not find artifacts for Migrations from any sources\n        at Resolver.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/resolver/dist/lib/resolver.js:61:1)\n        at Object.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:172:1)\n        at ResolverIntercept.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/ResolverIntercept.js:22:1)\n        at /home/runner/work/neon-compatibility/neon-compatibility/OpenZeppelin/migrations/1_initial_migration.js:1:30\n        at Script.runInContext (vm.js:144:12)\n        at Script.runInNewContext (vm.js:149:17)\n        at Object.file (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/require/require.js:94:1)\n        at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:44:1)\n        at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n        at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n        at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n        at Object.runAll (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:114:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:79:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:109:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/test/index.js:177:1)\n        at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n    Truffle v5.4.14 (core: 5.4.14)\n    Node v14.18.1\n    /home/runner/work/neon-compatibility/neon-compatibility\n    - Fetching solc version list from solc-bin. Attempt #1\n    ✔ Downloading compiler. Attempt #1.",
+  "statusTrace" : "input_data = InputData(test_file='access/Ownable.test.js', test_files=['access/Ownable.test.js'], contracts=['access/Ownable.sol', ...s.sol', 'utils/introspection/ERC165.sol', 'utils/introspection/IERC165.sol'], migration_script='2_deploy_contracts.js')\n\n    @pytest.mark.parametrize(\"input_data\", INPUT_DATA)\n    @allure.feature(FEATURE)\n    def test_contracts(input_data: InputData):\n        copy_files(input_data)\n    \n        # truffle --network neonlabs test ./test/access/[test file name]\n        command = f\"--network neonlabs test ./test/{input_data.test_file}\"\n        cmd_res = run_command_line(\n            f\"{Subfolder.CD_OPENZEPPELIN} {RunCommand.TRUFFLE} {command} {CD_BACK}\"\n        )\n        # assert OpenZeppelinSuccess.SUCCESS_PASSING in actual_result\n        # assert OpenZeppelinSuccess.SUCCESS_CONTRACT in actual_result\n        # assert OpenZeppelinSuccess.SUCCESS_1_ETHER in actual_result\n        # assert TruffleBasedError.ERROR_NO_ATTRIBUTE_ETH_ACCOUNTS \\\n        #     not in actual_result\n        actual_result = cmd_res.stdout.decode() + cmd_res.stderr.decode()\n        assert cmd_res.returncode == 0, actual_result\n>       assert OpenZeppelinError.ERROR_NO_ARTIFACTS not in actual_result\nE       AssertionError: assert 'Error: Coul... any sources' not in '/home/runne...ttempt #1.\\n'\nE         'Error: Could not f...ns from any sources' is contained here:\nE                  ^\nE           \nE           Error: Could not find artifacts for Migrations from any sources\nE               at Resolver.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/resolver/dist/lib/resolver.js:61:1)\nE               at Object.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:172:1)\nE               at ResolverIntercept.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/ResolverIntercept.js:22:1)\nE               at /home/runner/work/neon-compatibility/neon-compatibility/OpenZeppelin/migrations/1_initial_migration.js:1:30\nE               at Script.runInContext (vm.js:144:12)\nE               at Script.runInNewContext (vm.js:149:17)\nE               at Object.file (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/require/require.js:94:1)\nE               at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:44:1)\nE               at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\nE               at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\nE               at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\nE               at Object.runAll (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:114:1)\nE               at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:79:1)\nE               at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:109:1)\nE               at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/test/index.js:177:1)\nE               at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\nE           Truffle v5.4.14 (core: 5.4.14)\nE           Node v14.18.1\nE           /home/runner/work/neon-compatibility/neon-compatibility\nE           - Fetching solc version list from solc-bin. Attempt #1\nE           ✔ Downloading compiler. Attempt #1.\n\ntests/openzeppelin/test_openzeppelin.py:154: AssertionError",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "prepare_truffle_config",
+    "time" : {
+      "start" : 1637045543889,
+      "stop" : 1637045543900,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Preset variables",
+      "time" : {
+        "start" : 1637045543889,
+        "stop" : 1637045543898,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clean up folder \"'metatx'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'metatx'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'utils'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'utils'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'security'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'security'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'governance'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'governance'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'interfaces'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'interfaces'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'proxy'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'proxy'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'token'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'token'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'access'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'access'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'finance'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'finance'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'.gitkeep'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'.gitkeep'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'mocks'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'mocks'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'.gitkeep'\"",
+      "time" : {
+        "start" : 1637045543899,
+        "stop" : 1637045543899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'.gitkeep'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'metatx'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'metatx'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'utils'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'utils'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'security'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'security'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'governance'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'governance'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'interfaces'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'interfaces'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'proxy'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'proxy'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'token'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'token'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'access'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'access'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'finance'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'finance'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'.gitkeep'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'.gitkeep'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clean up folder \"'mocks'\"",
+      "time" : {
+        "start" : 1637045543900,
+        "stop" : 1637045543900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'mocks'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'Error: Coul... any sources' not in '/home/runne...ttempt #1.\\n'\n  'Error: Could not f...ns from any sources' is contained here:\n           ^\n    \n    Error: Could not find artifacts for Migrations from any sources\n        at Resolver.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/resolver/dist/lib/resolver.js:61:1)\n        at Object.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:172:1)\n        at ResolverIntercept.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/ResolverIntercept.js:22:1)\n        at /home/runner/work/neon-compatibility/neon-compatibility/OpenZeppelin/migrations/1_initial_migration.js:1:30\n        at Script.runInContext (vm.js:144:12)\n        at Script.runInNewContext (vm.js:149:17)\n        at Object.file (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/require/require.js:94:1)\n        at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:44:1)\n        at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n        at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n        at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n        at Object.runAll (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:114:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:79:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:109:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/test/index.js:177:1)\n        at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n    Truffle v5.4.14 (core: 5.4.14)\n    Node v14.18.1\n    /home/runner/work/neon-compatibility/neon-compatibility\n    - Fetching solc version list from solc-bin. Attempt #1\n    ✔ Downloading compiler. Attempt #1.",
+    "statusTrace" : "input_data = InputData(test_file='access/Ownable.test.js', test_files=['access/Ownable.test.js'], contracts=['access/Ownable.sol', ...s.sol', 'utils/introspection/ERC165.sol', 'utils/introspection/IERC165.sol'], migration_script='2_deploy_contracts.js')\n\n    @pytest.mark.parametrize(\"input_data\", INPUT_DATA)\n    @allure.feature(FEATURE)\n    def test_contracts(input_data: InputData):\n        copy_files(input_data)\n    \n        # truffle --network neonlabs test ./test/access/[test file name]\n        command = f\"--network neonlabs test ./test/{input_data.test_file}\"\n        cmd_res = run_command_line(\n            f\"{Subfolder.CD_OPENZEPPELIN} {RunCommand.TRUFFLE} {command} {CD_BACK}\"\n        )\n        # assert OpenZeppelinSuccess.SUCCESS_PASSING in actual_result\n        # assert OpenZeppelinSuccess.SUCCESS_CONTRACT in actual_result\n        # assert OpenZeppelinSuccess.SUCCESS_1_ETHER in actual_result\n        # assert TruffleBasedError.ERROR_NO_ATTRIBUTE_ETH_ACCOUNTS \\\n        #     not in actual_result\n        actual_result = cmd_res.stdout.decode() + cmd_res.stderr.decode()\n        assert cmd_res.returncode == 0, actual_result\n>       assert OpenZeppelinError.ERROR_NO_ARTIFACTS not in actual_result\nE       AssertionError: assert 'Error: Coul... any sources' not in '/home/runne...ttempt #1.\\n'\nE         'Error: Could not f...ns from any sources' is contained here:\nE                  ^\nE           \nE           Error: Could not find artifacts for Migrations from any sources\nE               at Resolver.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/resolver/dist/lib/resolver.js:61:1)\nE               at Object.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:172:1)\nE               at ResolverIntercept.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/ResolverIntercept.js:22:1)\nE               at /home/runner/work/neon-compatibility/neon-compatibility/OpenZeppelin/migrations/1_initial_migration.js:1:30\nE               at Script.runInContext (vm.js:144:12)\nE               at Script.runInNewContext (vm.js:149:17)\nE               at Object.file (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/require/require.js:94:1)\nE               at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:44:1)\nE               at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\nE               at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\nE               at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\nE               at Object.runAll (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:114:1)\nE               at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:79:1)\nE               at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:109:1)\nE               at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/test/index.js:177:1)\nE               at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\nE           Truffle v5.4.14 (core: 5.4.14)\nE           Node v14.18.1\nE           /home/runner/work/neon-compatibility/neon-compatibility\nE           - Fetching solc version list from solc-bin. Attempt #1\nE           ✔ Downloading compiler. Attempt #1.\n\ntests/openzeppelin/test_openzeppelin.py:154: AssertionError",
+    "steps" : [ {
+      "name" : "Run command: \"'cd OpenZeppelin; pwd; ../node_modules/.bin/truffle --network neonlabs test ./test/access/Ownable.test.js ; cd \"/home/runner/work/neon-compatibility/neon-compatibility\"; pwd;'\"",
+      "time" : {
+        "start" : 1637045543903,
+        "stop" : 1637045555790,
+        "duration" : 11887
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "command",
+        "value" : "'cd OpenZeppelin; pwd; ../node_modules/.bin/truffle --network neonlabs test ./test/access/Ownable.test.js ; cd \"/home/runner/work/neon-compatibility/neon-compatibility\"; pwd;'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a9e1f9e5cffc523",
+      "name" : "stdout",
+      "source" : "a9e1f9e5cffc523.txt",
+      "type" : "text/plain",
+      "size" : 219
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "prepare_truffle_config::0",
+    "time" : {
+      "start" : 1637045555903,
+      "stop" : 1637045555903,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "OpenZeppelin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.openzeppelin"
+  }, {
+    "name" : "suite",
+    "value" : "test_openzeppelin"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-16"
+  }, {
+    "name" : "thread",
+    "value" : "4600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.openzeppelin.test_openzeppelin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "input_data",
+    "value" : "InputData(test_file='access/Ownable.test.js', test_files=['access/Ownable.test.js'], contracts=['access/Ownable.sol', 'mocks/OwnableMock.sol', 'mocks/AccessControlMock.sol', 'mocks/AccessControlEnumerableMock.sol', 'access/AccessControlEnumerable.sol', 'access/IAccessControlEnumerable.sol', 'utils/structs/EnumerableSet.sol', 'access/AccessControl.sol', 'utils/Context.sol', 'access/IAccessControl.sol', 'utils/Strings.sol', 'utils/introspection/ERC165.sol', 'utils/introspection/IERC165.sol'], migration_script='2_deploy_contracts.js')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 20,
+        "unknown" : 0,
+        "total" : 23
+      },
+      "items" : [ {
+        "uid" : "2fd022d322d23a0f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/15//#testresult/2fd022d322d23a0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637024602888,
+          "stop" : 1637024602897,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "ec110e129f1a0563",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/14//#testresult/ec110e129f1a0563",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Error: Coul... any sources' not in '/home/runne...ttempt #1.\\n'\n  'Error: Could not f...ns from any sources' is contained here:\n           ^\n    \n    Error: Could not find artifacts for Migrations from any sources\n        at Resolver.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/resolver/dist/lib/resolver.js:61:1)\n        at Object.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:172:1)\n        at ResolverIntercept.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/ResolverIntercept.js:22:1)\n        at /home/runner/work/neon-compatibility/neon-compatibility/OpenZeppelin/migrations/1_initial_migration.js:1:30\n        at Script.runInContext (vm.js:144:12)\n        at Script.runInNewContext (vm.js:149:17)\n        at Object.file (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/require/require.js:94:1)\n        at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:44:1)\n        at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n        at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n        at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n        at Object.runAll (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:114:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:79:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:109:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/test/index.js:177:1)\n        at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n    Truffle v5.4.14 (core: 5.4.14)\n    Node v14.18.1\n    /home/runner/work/neon-compatibility/neon-compatibility\n    - Fetching solc version list from solc-bin. Attempt #1\n    ✔ Downloading compiler. Attempt #1.",
+        "time" : {
+          "start" : 1636984584828,
+          "stop" : 1636984598185,
+          "duration" : 13357
+        }
+      }, {
+        "uid" : "5010bed542dce1f0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/13//#testresult/5010bed542dce1f0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Error: Coul... any sources' not in '/home/runne...ttempt #1.\\n'\n  'Error: Could not f...ns from any sources' is contained here:\n           ^\n    \n    Error: Could not find artifacts for Migrations from any sources\n        at Resolver.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/resolver/dist/lib/resolver.js:61:1)\n        at Object.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:172:1)\n        at ResolverIntercept.require (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/ResolverIntercept.js:22:1)\n        at /home/runner/work/neon-compatibility/neon-compatibility/OpenZeppelin/migrations/1_initial_migration.js:1:30\n        at Script.runInContext (vm.js:144:12)\n        at Script.runInNewContext (vm.js:149:17)\n        at Object.file (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/require/require.js:94:1)\n        at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:44:1)\n        at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n        at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n        at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n        at Object.runAll (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:114:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:79:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/testing/Test.js:109:1)\n        at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/test/index.js:177:1)\n        at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n    Truffle v5.4.14 (core: 5.4.14)\n    Node v14.18.1\n    /home/runner/work/neon-compatibility/neon-compatibility\n    - Fetching solc version list from solc-bin. Attempt #1\n    ✔ Downloading compiler. Attempt #1.",
+        "time" : {
+          "start" : 1636983408221,
+          "stop" : 1636983420557,
+          "duration" : 12336
+        }
+      }, {
+        "uid" : "a47a4da93353a157",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/12//#testresult/a47a4da93353a157",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636981050997,
+          "stop" : 1636981051006,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "136a024ba4a9febe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/11//#testresult/136a024ba4a9febe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636980456797,
+          "stop" : 1636980456806,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "9944ee7e156a85d1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/9//#testresult/9944ee7e156a85d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636966865675,
+          "stop" : 1636966865682,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "430f23f72bc99a4a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/8//#testresult/430f23f72bc99a4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962262563,
+          "stop" : 1636962262570,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "aef7cc45d2372776",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/7//#testresult/aef7cc45d2372776",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636937475006,
+          "stop" : 1636937475013,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "2c8e1385ee5fd203",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/2c8e1385ee5fd203",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636851119241,
+          "stop" : 1636851119249,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "8dd400905c83a5a8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/8dd400905c83a5a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636764634493,
+          "stop" : 1636764634503,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "7eadd84b014921d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/7eadd84b014921d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636730991143,
+          "stop" : 1636730991151,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "75bf4828e86d190a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/75bf4828e86d190a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636730291555,
+          "stop" : 1636730291563,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "2349fabf093744a5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/2349fabf093744a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636717248298,
+          "stop" : 1636717248307,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "9aba25d684c6254d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/9aba25d684c6254d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636729274533,
+          "stop" : 1636729274541,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "a6f27a3256875e8d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/3//#testresult/a6f27a3256875e8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636728396187,
+          "stop" : 1636728396195,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "bddacfe12f306df7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/2//#testresult/bddacfe12f306df7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636727003325,
+          "stop" : 1636727003333,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "e775f0c8f423af13",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/65//#testresult/e775f0c8f423af13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636677558039,
+          "stop" : 1636677558048,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "2584f5baea3784bb",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/64//#testresult/2584f5baea3784bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636666568017,
+          "stop" : 1636666568025,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "3337938cdbd021e",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/63//#testresult/3337938cdbd021e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636666056387,
+          "stop" : 1636666056397,
+          "duration" : 10
+        }
+      }, {
+        "uid" : "79cf642501a7ed1",
+        "reportUrl" : "https://neonlabsorg.github.io/neon-compatibility/62//#testresult/79cf642501a7ed1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636665171278,
+          "stop" : 1636665171286,
+          "duration" : 8
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be2bafa3ceba0179.json",
+  "parameterValues" : [ "InputData(test_file='access/Ownable.test.js', test_files=['access/Ownable.test.js'], contracts=['access/Ownable.sol', 'mocks/OwnableMock.sol', 'mocks/AccessControlMock.sol', 'mocks/AccessControlEnumerableMock.sol', 'access/AccessControlEnumerable.sol', 'access/IAccessControlEnumerable.sol', 'utils/structs/EnumerableSet.sol', 'access/AccessControl.sol', 'utils/Context.sol', 'access/IAccessControl.sol', 'utils/Strings.sol', 'utils/introspection/ERC165.sol', 'utils/introspection/IERC165.sol'], migration_script='2_deploy_contracts.js')" ]
+}
