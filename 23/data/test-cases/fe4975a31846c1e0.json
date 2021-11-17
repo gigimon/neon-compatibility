@@ -1,0 +1,276 @@
+{
+  "uid" : "fe4975a31846c1e0",
+  "name" : "test01",
+  "fullName" : "test01",
+  "historyId" : "ffe91469f6f547bf3dbab7da64f8b8a6",
+  "time" : {
+    "start" : 1637136580283,
+    "stop" : 1637136580301,
+    "duration" : 18
+  },
+  "status" : "broken",
+  "statusMessage" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+  "statusTrace" : "TypeError: ethjs_provider_http_1.HttpProvider is not a constructor\n    at EthJsTests.test01 (src/test/ethjs/EthJs.test.ts:24:22)\n    at EthJsTests.descriptor.value (node_modules/allure-decorators/src/core/descriptor.ts:18:23)\n    at EthJsTests.descriptor.value (node_modules/allure-decorators/src/core/descriptor.ts:18:23)\n    at Context.<anonymous> (node_modules/@testdeck/core/index.ts:180:27)\n    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ethjs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 30,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 30
+      },
+      "items" : [ {
+        "uid" : "896fd9c19e98bca4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/22//#testresult/896fd9c19e98bca4",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637131134796,
+          "stop" : 1637131134802,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "c477f6a9ffbdcf4c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/21//#testresult/c477f6a9ffbdcf4c",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637110784222,
+          "stop" : 1637110784238,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "ef5890e09ce0bce0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/20//#testresult/ef5890e09ce0bce0",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637073723690,
+          "stop" : 1637073723696,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "af229c180c4e4c05",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/19//#testresult/af229c180c4e4c05",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637073044615,
+          "stop" : 1637073044621,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "29ab18e6c1ae1b5d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/18//#testresult/29ab18e6c1ae1b5d",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637071589527,
+          "stop" : 1637071589544,
+          "duration" : 17
+        }
+      }, {
+        "uid" : "994f2be0e6cf8eb5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/17//#testresult/994f2be0e6cf8eb5",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637067878193,
+          "stop" : 1637067878209,
+          "duration" : 16
+        }
+      }, {
+        "uid" : "b5a4b175041f94db",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/16//#testresult/b5a4b175041f94db",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637045406819,
+          "stop" : 1637045406838,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "caf80fe249df976e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/15//#testresult/caf80fe249df976e",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637024461053,
+          "stop" : 1637024461059,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "a8fec0341e58b8fe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/14//#testresult/a8fec0341e58b8fe",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636984478175,
+          "stop" : 1636984478182,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "4e2a8363b6491f36",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/13//#testresult/4e2a8363b6491f36",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636983222578,
+          "stop" : 1636983222585,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "c844ba300881e863",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/12//#testresult/c844ba300881e863",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636980931209,
+          "stop" : 1636980931230,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "6d715fd6371445a8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/11//#testresult/6d715fd6371445a8",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636980224308,
+          "stop" : 1636980224313,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "519a07f469ee06b9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/9//#testresult/519a07f469ee06b9",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636966704215,
+          "stop" : 1636966704221,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "e67f122064d72abc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/8//#testresult/e67f122064d72abc",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636962109574,
+          "stop" : 1636962109579,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "6814575df57f65c0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/7//#testresult/6814575df57f65c0",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636937286118,
+          "stop" : 1636937286125,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "af007ac1af666c44",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/af007ac1af666c44",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636851004936,
+          "stop" : 1636851004942,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "87125b34e0bd6818",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/87125b34e0bd6818",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636764392174,
+          "stop" : 1636764392180,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "a73d8521af60001a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/a73d8521af60001a",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636730822798,
+          "stop" : 1636730822804,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "1c34db218a3d9139",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/1c34db218a3d9139",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636730132962,
+          "stop" : 1636730132968,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "7153774c5b7a8704",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/7153774c5b7a8704",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1636717083566,
+          "stop" : 1636717083572,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fe4975a31846c1e0.json",
+  "parameterValues" : [ ]
+}
