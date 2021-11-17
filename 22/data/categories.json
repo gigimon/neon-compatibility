@@ -1,0 +1,240 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Request failed with status code 500",
+      "children" : [ {
+        "name" : "shouldCreateAcccountWithEthersJs",
+        "uid" : "56866df5508a134b",
+        "parentUid" : "fc59132079d939df6f53fa9448b2eaca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637131126843,
+          "stop" : 1637131127609,
+          "duration" : 766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc59132079d939df6f53fa9448b2eaca"
+    }, {
+      "name" : "ENS name not configured (operation=\"resolveName(\\\"ethers.eth\\\")\", code=UNSUPPORTED_OPERATION, version=providers/5.4.5)",
+      "children" : [ {
+        "name" : "testQueryingBlockchain",
+        "uid" : "3d2acbe08011e9c0",
+        "parentUid" : "e7b99caf229df3f4350c94d3cb9e2152",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637131129905,
+          "stop" : 1637131131691,
+          "duration" : 1786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e7b99caf229df3f4350c94d3cb9e2152"
+    }, {
+      "name" : "processing response error (body=\"{\\\"jsonrpc\\\": \\\"2.0\\\", \\\"id\\\": 45, \\\"error\\\": {\\\"code\\\": -32000, \\\"message\\\": \\\"'EthereumModel' object has no attribute 'eth_accounts'\\\"}}\", error={\"code\":-32000}, requestBody=\"{\\\"method\\\":\\\"eth_accounts\\\",\\\"params\\\":[],\\\"id\\\":45,\\\"jsonrpc\\\":\\\"2.0\\\"}\", requestMethod=\"POST\", url=\"https://proxy.teststand.neontest.xyz/solana\", code=SERVER_ERROR, version=web/5.4.0)",
+      "children" : [ {
+        "name" : "testWritingToTheBlockchain",
+        "uid" : "283a6d02663052df",
+        "parentUid" : "24cd5625e0b80650e312fb8f4dfe82bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637131131691,
+          "stop" : 1637131133031,
+          "duration" : 1340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24cd5625e0b80650e312fb8f4dfe82bc"
+    }, {
+      "name" : "resolver or addr is not configured for ENS name (argument=\"name\", value=\"dai.tokens.ethers.eth\", code=INVALID_ARGUMENT, version=contracts/5.4.1)",
+      "children" : [ {
+        "name" : "testReadOnlyMethods",
+        "uid" : "87ac985631369c81",
+        "parentUid" : "f691d142a21ba4d36298b566fe753fd0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637131133039,
+          "stop" : 1637131133917,
+          "duration" : 878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f691d142a21ba4d36298b566fe753fd0"
+    }, {
+      "name" : "processing response error (body=\"{\\\"jsonrpc\\\": \\\"2.0\\\", \\\"id\\\": 42, \\\"error\\\": {\\\"code\\\": -32000, \\\"message\\\": \\\"'EthereumModel' object has no attribute 'eth_accounts'\\\"}}\", error={\"code\":-32000}, requestBody=\"{\\\"method\\\":\\\"eth_accounts\\\",\\\"params\\\":[],\\\"id\\\":42,\\\"jsonrpc\\\":\\\"2.0\\\"}\", requestMethod=\"POST\", url=\"https://proxy.teststand.neontest.xyz/solana\", code=SERVER_ERROR, version=web/5.4.0)",
+      "children" : [ {
+        "name" : "testQueryHistoricEvents",
+        "uid" : "d074688a2e7d871",
+        "parentUid" : "89eeefe7b76d90547d8f5b242d33bdcf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637131133927,
+          "stop" : 1637131134353,
+          "duration" : 426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSigningMessages",
+        "uid" : "5f25dda09965c854",
+        "parentUid" : "89eeefe7b76d90547d8f5b242d33bdcf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637131134353,
+          "stop" : 1637131134787,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89eeefe7b76d90547d8f5b242d33bdcf"
+    }, {
+      "name" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "896fd9c19e98bca4",
+        "parentUid" : "426a702f588cd18af2cb78ab4240139d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637131134796,
+          "stop" : 1637131134802,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "426a702f588cd18af2cb78ab4240139d"
+    }, {
+      "name" : "'EthereumModel' object has no attribute 'eth_accounts'",
+      "children" : [ {
+        "name" : "Should return the new greeting once it's changed",
+        "uid" : "c3f9454201aa9699",
+        "parentUid" : "e991f17fad413e6355747c09e6da3ec9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637131139732,
+          "stop" : 1637131140687,
+          "duration" : 955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e991f17fad413e6355747c09e6da3ec9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: /home/runner/work/neon-compatibility/neon-compatibility/Metacoin\n  {\n    DEPLOYMENT_BASEPATH: '/opt/runner',\n    DOTNET_NOLOGO: '1',\n    USER: 'runner',\n    NETWORK_NAME: 'teststand',\n    PRIVATE_KEY: '0xc36f1d6c12611b339344bc4681f3dce016a2c561227bbbac702afe8fa83c4725',\n    CI: 'true',\n    GITHUB_ENV: '/home/runner/work/_temp/_runner_file_commands/set_env_54de7718-05a5-4152-aa10-79d910c5c6ec',\n    PIPX_HOME: '/opt/pipx',\n    JAVA_HOME_8_X64: '/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64',\n    SHLVL: '1',\n    HOME: '/home/runner',\n    SOLANA_URL: 'https://proxy.teststand.neontest.xyz/node-solana',\n    OLDPWD: '/home/runner/work/neon-compatibility/neon-compatibility',\n    RUNNER_TEMP: '/home/runner/work/_temp',\n    GITHUB_EVENT_PATH: '/home/runner/work/_temp/_github_workflow/event.json',\n    JAVA_HOME_11_X64: '/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64',\n    PIPX_BIN_DIR: '/opt/pipx_bin',\n    GRAALVM_11_ROOT: '/usr/local/graalvm/graalvm-ce-java11-21.3.0',\n    GITHUB_REPOSITORY_OWNER: 'gigimon',\n    PROXY_URL: 'https://proxy.teststand.neontest.xyz/solana',\n    GRADLE_HOME: '/usr/share/gradle-7.2',\n    HOMEBREW_PREFIX: '/home/linuxbrew/.linuxbrew',\n    ANDROID_NDK_LATEST_HOME: '/usr/local/lib/android/sdk/ndk/23.1.7779620',\n    GITHUB_RETENTION_DAYS: '90',\n    POWERSHELL_DISTRIBUTION_CHANNEL: 'GitHub-Actions-ubuntu20',\n    AZURE_EXTENSION_DIR: '/opt/az/azcliextensions',\n    GITHUB_HEAD_REF: '',\n    NETWORK_ID: '111',\n    HOMEBREW_SHELLENV_PREFIX: '/home/linuxbrew/.linuxbrew',\n    ADDRESS_FROM: '0xb7247CfcDeaDb7F2535B539242a0d884dc2d983C',\n    GITHUB_GRAPHQL_URL: 'https://api.github.com/graphql',\n    NVM_DIR: '/home/runner/.nvm',\n    DOTNET_SKIP_FIRST_TIME_EXPERIENCE: '1',\n    ImageVersion: '20211108.1',\n    DISABLE_CONFIRMATION: 'false',\n    pythonLocation: '/opt/hostedtoolcache/Python/3.8.12/x64',\n    RUNNER_OS: 'Linux',\n    GITHUB_API_URL: 'https://api.github.com',\n    SWIFT_PATH: '/usr/share/swift/usr/bin',\n    PYTHONDONTWRITEBYTECODE: '1',\n    RUNNER_USER: 'runner',\n    CHROMEWEBDRIVER: '/usr/local/share/chrome_driver',\n    JOURNAL_STREAM: '8:22719',\n    GITHUB_WORKFLOW: 'Consecutive: Python 3.8, Node.js 16, allure',\n    _: '/opt/hostedtoolcache/Python/3.8.12/x64/bin/pipenv',\n    PIP_DISABLE_PIP_VERSION_CHECK: '1',\n    GOROOT_1_15_X64: '/opt/hostedtoolcache/go/1.15.15/x64',\n    GITHUB_RUN_ID: '1470338757',\n    GOROOT_1_16_X64: '/opt/hostedtoolcache/go/1.16.10/x64',\n    PYTEST_CURRENT_TEST: 'tests/truffle/test_truffle.py::test_truffle_contract (call)',\n    GOROOT_1_17_X64: '/opt/hostedtoolcache/go/1.17.3/x64',\n    GITHUB_REF_TYPE: 'branch',\n    BOOTSTRAP_HASKELL_NONINTERACTIVE: '1',\n    GITHUB_BASE_REF: '',\n    ImageOS: 'ubuntu20',\n    PERFLOG_LOCATION_SETTING: 'RUNNER_PERFLOG',\n    GITHUB_ACTION_REPOSITORY: '',\n    PATH: '/home/runner/.local/share/virtualenvs/neon-compatibility-g882AfFF/bin:/opt/hostedtoolcache/Python/3.8.12/x64/bin:/opt/hostedtoolcache/Python/3.8.12/x64:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/runner/.local/bin:/opt/pipx_bin:/usr/share/rust/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin',\n    ANT_HOME: '/usr/share/ant',\n    DOTNET_MULTILEVEL_LOOKUP: '0',\n    RUNNER_TRACKING_ID: 'github_5222e157-491a-4d0f-809e-6109182b1160',\n    INVOCATION_ID: '027e09e5bb67430ab300032b695e2204',\n    HOMEBREW_CELLAR: '/home/linuxbrew/.linuxbrew/Cellar',\n    RUNNER_TOOL_CACHE: '/opt/hostedtoolcache',\n    GITHUB_ACTION: '__run_3',\n    GITHUB_RUN_NUMBER: '22',\n    RUNNER_ARCH: 'X64',\n    AGENT_TOOLSDIRECTORY: '/opt/hostedtoolcache',\n    ADDRESS_TO: '0x061296d1DAFCd0C6053fcB43735F5F4B870E914D',\n    PIPENV_ACTIVE: '1',\n    LANG: 'C.UTF-8',\n    VCPKG_INSTALLATION_ROOT: '/usr/local/share/vcpkg',\n    CONDA: '/usr/share/miniconda',\n    RUNNER_NAME: 'GitHub Actions 2',\n    XDG_CONFIG_HOME: '/home/runner/.config',\n    GITHUB_REF_NAME: 'feature/106-add-issue-contract',\n    GITHUB_REPOSITORY: 'gigimon/neon-compatibility',\n    ANDROID_NDK_ROOT: '/usr/local/lib/android/sdk/ndk-bundle',\n    GITHUB_ACTION_REF: '',\n    DEBIAN_FRONTEND: 'noninteractive',\n    FAUCET_QUOTIENT: '10',\n    FAUCET_URL: 'https://proxy.teststand.neontest.xyz/request_erc20_tokens',\n    GITHUB_ACTIONS: 'true',\n    GITHUB_REF_PROTECTED: 'false',\n    GITHUB_WORKSPACE: '/home/runner/work/neon-compatibility/neon-compatibility',\n    ACCEPT_EULA: 'Y',\n    GITHUB_JOB: 'python',\n    RUNNER_PERFLOG: '/home/runner/perflog',\n    PIP_PYTHON_PATH: '/opt/hostedtoolcache/Python/3.8.12/x64/bin/python',\n    GITHUB_SHA: 'd16c29c59b95751ede75078b152747c474722062',\n    GITHUB_RUN_ATTEMPT: '1',\n    GITHUB_REF: 'refs/heads/feature/106-add-issue-contract',\n    GITHUB_ACTOR: 'gigimon',\n    ANDROID_SDK_ROOT: '/usr/local/lib/android/sdk',\n    LEIN_HOME: '/usr/local/lib/lein',\n    VIRTUAL_ENV: '/home/runner/.local/share/virtualenvs/neon-compatibility-g882AfFF',\n    GITHUB_PATH: '/home/runner/work/_temp/_runner_file_commands/add_path_54de7718-05a5-4152-aa10-79d910c5c6ec',\n    JAVA_HOME: '/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64',\n    PWD: '/home/runner/work/neon-compatibility/neon-compatibility/Metacoin',\n    RUNNER_WORKSPACE: '/home/runner/work/neon-compatibility',\n    HOMEBREW_CLEANUP_PERIODIC_FULL_DAYS: '3650',\n    GITHUB_EVENT_NAME: 'workflow_dispatch',\n    HOMEBREW_NO_AUTO_UPDATE: '1',\n    ANDROID_HOME: '/usr/local/lib/android/sdk',\n    GITHUB_SERVER_URL: 'https://github.com',\n    GECKOWEBDRIVER: '/usr/local/share/gecko_driver',\n    LEIN_JAR: '/usr/local/lib/lein/self-installs/leiningen-2.9.7-standalone.jar',\n    HOMEBREW_REPOSITORY: '/home/linuxbrew/.linuxbrew/Homebrew',\n    SGX_AESM_ADDR: '1',\n    CHROME_BIN: '/usr/bin/google-chrome',\n    SELENIUM_JAR_PATH: '/usr/share/java/selenium-server-standalone.jar',\n    SOLANA_EXPLORER: 'https://explorer.solana.com/?cluster=custom&customUrl=https%3A%2F%2Fproxy.teststand.neontest.xyz%2Fnode-solana',\n    ANDROID_NDK_HOME: '/usr/local/lib/android/sdk/ndk-bundle'\n  }\n  Using network 'neonlabs'.\n  \n  \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ConvertLib.sol\n  > Compiling ./contracts/MetaCoin.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./test/TestMetaCoin.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/test/TestMetaCoin.sol\n  \n  ,Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n    --> project:/contracts/MetaCoin.sol:16:2:\n     |\n  16 | \tconstructor() public {\n     | \t^ (Relevant source part starts here and spans across multiple lines).\n  \n  ,Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n    --> project:/contracts/Migrations.sol:12:3:\n     |\n  12 |   constructor() public {\n     |   ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /tmp/test--4723-Dtc19V3q2ZX8\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  /home/runner/work/neon-compatibility/neon-compatibility\n  \n  /home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848\n            var e = new Error('ETIMEDOUT')\n                    ^\n  Error: PollingBlockTracker - encountered an error while attempting to update latest block:\n  Error: ETIMEDOUT\n      at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848:19)\n      at listOnTimeout (internal/timers.js:557:17)\n      at processTimers (internal/timers.js:500:7)\n      at PollingBlockTracker._performSync (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/eth-block-tracker/src/polling.js:51:24)\n      at processTicksAndRejections (internal/process/task_queues.js:95:5)\n  \nassert 'Error: ETIMEDOUT' not in '/home/runne...s.js:95:5)\\n'\n  'Error: ETIMEDOUT' is contained here:\n    st block:\n    Error: ETIMEDOUT\n        at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848:19)\n        at listOnTimeout (internal/timers.js:557:17)\n        at processTimers (internal/timers.js:500:7)\n        at PollingBlockTracker._performSync (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/eth-block-tracker/src/polling.js:51:24)\n        at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+      "children" : [ {
+        "name" : "test_truffle_contract",
+        "uid" : "e976033f45171e31",
+        "parentUid" : "41965643b83731ddfeb2c12fc741a27f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637131366154,
+          "stop" : 1637131424491,
+          "duration" : 58337
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41965643b83731ddfeb2c12fc741a27f"
+    }, {
+      "name" : "AssertionError: /home/runner/work/neon-compatibility/neon-compatibility/Metacoin\n  {\n    DEPLOYMENT_BASEPATH: '/opt/runner',\n    DOTNET_NOLOGO: '1',\n    USER: 'runner',\n    NETWORK_NAME: 'teststand',\n    PRIVATE_KEY: '0x14fe448a897001a41f0656697590d7632466b1bb29d8854886668605cdd945f7',\n    CI: 'true',\n    GITHUB_ENV: '/home/runner/work/_temp/_runner_file_commands/set_env_54de7718-05a5-4152-aa10-79d910c5c6ec',\n    PIPX_HOME: '/opt/pipx',\n    JAVA_HOME_8_X64: '/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64',\n    SHLVL: '1',\n    HOME: '/home/runner',\n    SOLANA_URL: 'https://proxy.teststand.neontest.xyz/node-solana',\n    OLDPWD: '/home/runner/work/neon-compatibility/neon-compatibility',\n    RUNNER_TEMP: '/home/runner/work/_temp',\n    GITHUB_EVENT_PATH: '/home/runner/work/_temp/_github_workflow/event.json',\n    JAVA_HOME_11_X64: '/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64',\n    PIPX_BIN_DIR: '/opt/pipx_bin',\n    GRAALVM_11_ROOT: '/usr/local/graalvm/graalvm-ce-java11-21.3.0',\n    GITHUB_REPOSITORY_OWNER: 'gigimon',\n    PROXY_URL: 'https://proxy.teststand.neontest.xyz/solana',\n    GRADLE_HOME: '/usr/share/gradle-7.2',\n    HOMEBREW_PREFIX: '/home/linuxbrew/.linuxbrew',\n    ANDROID_NDK_LATEST_HOME: '/usr/local/lib/android/sdk/ndk/23.1.7779620',\n    GITHUB_RETENTION_DAYS: '90',\n    POWERSHELL_DISTRIBUTION_CHANNEL: 'GitHub-Actions-ubuntu20',\n    AZURE_EXTENSION_DIR: '/opt/az/azcliextensions',\n    GITHUB_HEAD_REF: '',\n    NETWORK_ID: '111',\n    HOMEBREW_SHELLENV_PREFIX: '/home/linuxbrew/.linuxbrew',\n    ADDRESS_FROM: '0x7bF308b46F8bd1D27d727f912484B2D6c17936d4',\n    GITHUB_GRAPHQL_URL: 'https://api.github.com/graphql',\n    NVM_DIR: '/home/runner/.nvm',\n    DOTNET_SKIP_FIRST_TIME_EXPERIENCE: '1',\n    ImageVersion: '20211108.1',\n    DISABLE_CONFIRMATION: 'false',\n    pythonLocation: '/opt/hostedtoolcache/Python/3.8.12/x64',\n    RUNNER_OS: 'Linux',\n    GITHUB_API_URL: 'https://api.github.com',\n    SWIFT_PATH: '/usr/share/swift/usr/bin',\n    PYTHONDONTWRITEBYTECODE: '1',\n    RUNNER_USER: 'runner',\n    CHROMEWEBDRIVER: '/usr/local/share/chrome_driver',\n    JOURNAL_STREAM: '8:22719',\n    GITHUB_WORKFLOW: 'Consecutive: Python 3.8, Node.js 16, allure',\n    _: '/opt/hostedtoolcache/Python/3.8.12/x64/bin/pipenv',\n    PIP_DISABLE_PIP_VERSION_CHECK: '1',\n    GOROOT_1_15_X64: '/opt/hostedtoolcache/go/1.15.15/x64',\n    GITHUB_RUN_ID: '1470338757',\n    GOROOT_1_16_X64: '/opt/hostedtoolcache/go/1.16.10/x64',\n    PYTEST_CURRENT_TEST: 'tests/truffle/test_truffle.py::test_truffle_test (call)',\n    GOROOT_1_17_X64: '/opt/hostedtoolcache/go/1.17.3/x64',\n    GITHUB_REF_TYPE: 'branch',\n    BOOTSTRAP_HASKELL_NONINTERACTIVE: '1',\n    GITHUB_BASE_REF: '',\n    ImageOS: 'ubuntu20',\n    PERFLOG_LOCATION_SETTING: 'RUNNER_PERFLOG',\n    GITHUB_ACTION_REPOSITORY: '',\n    PATH: '/home/runner/.local/share/virtualenvs/neon-compatibility-g882AfFF/bin:/opt/hostedtoolcache/Python/3.8.12/x64/bin:/opt/hostedtoolcache/Python/3.8.12/x64:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/runner/.local/bin:/opt/pipx_bin:/usr/share/rust/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin',\n    ANT_HOME: '/usr/share/ant',\n    DOTNET_MULTILEVEL_LOOKUP: '0',\n    RUNNER_TRACKING_ID: 'github_5222e157-491a-4d0f-809e-6109182b1160',\n    INVOCATION_ID: '027e09e5bb67430ab300032b695e2204',\n    HOMEBREW_CELLAR: '/home/linuxbrew/.linuxbrew/Cellar',\n    RUNNER_TOOL_CACHE: '/opt/hostedtoolcache',\n    GITHUB_ACTION: '__run_3',\n    GITHUB_RUN_NUMBER: '22',\n    RUNNER_ARCH: 'X64',\n    AGENT_TOOLSDIRECTORY: '/opt/hostedtoolcache',\n    ADDRESS_TO: '0xf7c43bC76507E39fEe2bD156Bb2ba18121D1daF9',\n    PIPENV_ACTIVE: '1',\n    LANG: 'C.UTF-8',\n    VCPKG_INSTALLATION_ROOT: '/usr/local/share/vcpkg',\n    CONDA: '/usr/share/miniconda',\n    RUNNER_NAME: 'GitHub Actions 2',\n    XDG_CONFIG_HOME: '/home/runner/.config',\n    GITHUB_REF_NAME: 'feature/106-add-issue-contract',\n    GITHUB_REPOSITORY: 'gigimon/neon-compatibility',\n    ANDROID_NDK_ROOT: '/usr/local/lib/android/sdk/ndk-bundle',\n    GITHUB_ACTION_REF: '',\n    DEBIAN_FRONTEND: 'noninteractive',\n    FAUCET_QUOTIENT: '10',\n    FAUCET_URL: 'https://proxy.teststand.neontest.xyz/request_erc20_tokens',\n    GITHUB_ACTIONS: 'true',\n    GITHUB_REF_PROTECTED: 'false',\n    GITHUB_WORKSPACE: '/home/runner/work/neon-compatibility/neon-compatibility',\n    ACCEPT_EULA: 'Y',\n    GITHUB_JOB: 'python',\n    RUNNER_PERFLOG: '/home/runner/perflog',\n    PIP_PYTHON_PATH: '/opt/hostedtoolcache/Python/3.8.12/x64/bin/python',\n    GITHUB_SHA: 'd16c29c59b95751ede75078b152747c474722062',\n    GITHUB_RUN_ATTEMPT: '1',\n    GITHUB_REF: 'refs/heads/feature/106-add-issue-contract',\n    GITHUB_ACTOR: 'gigimon',\n    ANDROID_SDK_ROOT: '/usr/local/lib/android/sdk',\n    LEIN_HOME: '/usr/local/lib/lein',\n    VIRTUAL_ENV: '/home/runner/.local/share/virtualenvs/neon-compatibility-g882AfFF',\n    GITHUB_PATH: '/home/runner/work/_temp/_runner_file_commands/add_path_54de7718-05a5-4152-aa10-79d910c5c6ec',\n    JAVA_HOME: '/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64',\n    PWD: '/home/runner/work/neon-compatibility/neon-compatibility/Metacoin',\n    RUNNER_WORKSPACE: '/home/runner/work/neon-compatibility',\n    HOMEBREW_CLEANUP_PERIODIC_FULL_DAYS: '3650',\n    GITHUB_EVENT_NAME: 'workflow_dispatch',\n    HOMEBREW_NO_AUTO_UPDATE: '1',\n    ANDROID_HOME: '/usr/local/lib/android/sdk',\n    GITHUB_SERVER_URL: 'https://github.com',\n    GECKOWEBDRIVER: '/usr/local/share/gecko_driver',\n    LEIN_JAR: '/usr/local/lib/lein/self-installs/leiningen-2.9.7-standalone.jar',\n    HOMEBREW_REPOSITORY: '/home/linuxbrew/.linuxbrew/Homebrew',\n    SGX_AESM_ADDR: '1',\n    CHROME_BIN: '/usr/bin/google-chrome',\n    SELENIUM_JAR_PATH: '/usr/share/java/selenium-server-standalone.jar',\n    SOLANA_EXPLORER: 'https://explorer.solana.com/?cluster=custom&customUrl=https%3A%2F%2Fproxy.teststand.neontest.xyz%2Fnode-solana',\n    ANDROID_NDK_HOME: '/usr/local/lib/android/sdk/ndk-bundle'\n  }\n  Using network 'neonlabs'.\n  \n  \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ConvertLib.sol\n  > Compiling ./contracts/MetaCoin.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compilation warnings encountered:\n  \n      Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n    --> project:/contracts/MetaCoin.sol:16:2:\n     |\n  16 | \tconstructor() public {\n     | \t^ (Relevant source part starts here and spans across multiple lines).\n  \n  ,Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n    --> project:/contracts/Migrations.sol:12:3:\n     |\n  12 |   constructor() public {\n     |   ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /tmp/test--4762-ly3pht7ikyDr\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  /home/runner/work/neon-compatibility/neon-compatibility\n  \n  /home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848\n            var e = new Error('ETIMEDOUT')\n                    ^\n  Error: PollingBlockTracker - encountered an error while attempting to update latest block:\n  Error: ETIMEDOUT\n      at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848:19)\n      at listOnTimeout (internal/timers.js:557:17)\n      at processTimers (internal/timers.js:500:7)\n      at PollingBlockTracker._performSync (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/eth-block-tracker/src/polling.js:51:24)\n      at processTicksAndRejections (internal/process/task_queues.js:95:5)\n  \nassert 'Error: ETIMEDOUT' not in '/home/runne...s.js:95:5)\\n'\n  'Error: ETIMEDOUT' is contained here:\n    st block:\n    Error: ETIMEDOUT\n        at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848:19)\n        at listOnTimeout (internal/timers.js:557:17)\n        at processTimers (internal/timers.js:500:7)\n        at PollingBlockTracker._performSync (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/eth-block-tracker/src/polling.js:51:24)\n        at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+      "children" : [ {
+        "name" : "test_truffle_test",
+        "uid" : "19512fb4b6dd71bb",
+        "parentUid" : "1ef047fd5ebbaf74cc093f5da39e4954",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637131424613,
+          "stop" : 1637131460382,
+          "duration" : 35769
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ef047fd5ebbaf74cc093f5da39e4954"
+    }, {
+      "name" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n     > transaction hash:    0xe4ed55bffcacb32469e8e88fef3118effad2fa879b6ed27d7dace6ddbb619a3c\n     > Blocks: 0            Seconds: 0\n     > contract address:    0x121D881C57548b3E92c0d5fCf6264d9fB7c6aA0d\n     > block number:        284396\n     > block timestamp:     1637131477\n     > account:             0xc60C4b27a40b21be263eac1244819F82d39BbE89\n     > balance:             99.999871115\n     > gas used:            128885 (0x1f775)\n     > gas price:           1 gwei\n     > value sent:          0 ETH\n     > total cost:          0.000128885 ETH\n  \n  Sending ether to contract\n  99999871115000000000 --- 99999871115000000000 --- 0\n  Hello0\n  - Blocks: 0            Seconds: 0\n  \n  /home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848\n            var e = new Error('ETIMEDOUT')\n                    ^\n  Error: PollingBlockTracker - encountered an error while attempting to update latest block:\n  Error: ETIMEDOUT\n      at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848:19)\n      at listOnTimeout (internal/timers.js:557:17)\n      at processTimers (internal/timers.js:500:7)\n      at PollingBlockTracker._performSync (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/eth-block-tracker/src/polling.js:51:24)\n      at processTicksAndRejections (internal/process/task_queues.js:95:5)\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...es/eth-block-tracker/src/polling.js:51:24)\\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\\n\").returncode",
+      "children" : [ {
+        "name" : "test_issue_364_self_destruct_contract",
+        "uid" : "d058c7e5740573ca",
+        "parentUid" : "6d66f1be46ad9fcb0019eddb2da82f54",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637131460401,
+          "stop" : 1637131521221,
+          "duration" : 60820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d66f1be46ad9fcb0019eddb2da82f54"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
