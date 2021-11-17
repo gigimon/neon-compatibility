@@ -1,0 +1,149 @@
+/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts
+============ running command... ============
+cd Metacoin; pwd; ../node_modules/.bin/truffle migrate --network neonlabs ; cd "/home/runner/work/neon-compatibility/neon-compatibility"; pwd;
+/home/runner/work/neon-compatibility/neon-compatibility/Metacoin
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/ConvertLib.sol
+> Compiling ./contracts/MetaCoin.sol
+> Compiling ./contracts/Migrations.sol
+> Compilation warnings encountered:
+
+    Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+  --> project:/contracts/MetaCoin.sol:16:2:
+   |
+16 | 	constructor() public {
+   | 	^ (Relevant source part starts here and spans across multiple lines).
+
+,Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it "abstract" is sufficient.
+  --> project:/contracts/Migrations.sol:12:3:
+   |
+12 |   constructor() public {
+   |   ^ (Relevant source part starts here and spans across multiple lines).
+
+
+> Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts
+> Compiled successfully using:
+   - solc: 0.8.4+commit.c7e474f2.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'neonlabs'
+> Network id:      111
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x80ad33f6d1460af86f198f3cd3840fd01a59bb8631f1d0d3ebe2d376822ff1fd
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x9a7b693e341F2989217C0879885C40f4C1131ba0
+   > block number:        323983
+   > block timestamp:     1637148060
+   > account:             0x3b3603d0A6C96B6f9C2516F41009212667329746
+   > balance:             99.999915713
+   > gas used:            84287 (0x1493f)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000084287 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000084287 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'ConvertLib'
+   ----------------------
+   > transaction hash:    0xcce905aa837898e410e87ba0e5b93a80c10a1a229e728d1d4286fe36c2a48a32
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x61aD981bFeb74aACd68692C5A4eC00f04Ee62ac0
+   > block number:        324002
+   > block timestamp:     1637148068
+   > account:             0x3b3603d0A6C96B6f9C2516F41009212667329746
+   > balance:             99.999812516
+   > gas used:            60681 (0xed09)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000060681 ETH
+
+
+   Linking
+   -------
+   * Contract: MetaCoin <--> Library: ConvertLib (at address: 0x61aD981bFeb74aACd68692C5A4eC00f04Ee62ac0)
+
+   Deploying 'MetaCoin'
+   --------------------
+   > transaction hash:    0x04c04d10f485397925e3c7029c0a0c1b4fa9c897e7487d56029f30b6b125f4b1
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x9ebdbE7DF151e2B66e45917d7c6Dc14084afe4b0
+   > block number:        324014
+   > block timestamp:     1637148073
+   > account:             0x3b3603d0A6C96B6f9C2516F41009212667329746
+   > balance:             99.999714072
+   > gas used:            98444 (0x1808c)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000098444 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000159125 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.000243412 ETH
+
+
+UnhandledRejections detected
+Promise {
+  <rejected> {
+    code: -32000,
+    message: "Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'neon-elf-params', './evm_loader.dump']' returned non-zero exit status 101."
+  }
+} {
+  code: -32000,
+  message: "Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'neon-elf-params', './evm_loader.dump']' returned non-zero exit status 101."
+}
+Promise {
+  <rejected> {
+    code: -32000,
+    message: "Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'neon-elf-params', './evm_loader.dump']' returned non-zero exit status 101."
+  }
+} {
+  code: -32000,
+  message: "Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'neon-elf-params', './evm_loader.dump']' returned non-zero exit status 101."
+}
+Promise {
+  <rejected> {
+    code: -32000,
+    message: "Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'neon-elf-params', './evm_loader.dump']' returned non-zero exit status 101."
+  }
+} {
+  code: -32000,
+  message: "Command '['neon-cli', '--commitment=recent', '--url', 'http://bug-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'neon-elf-params', './evm_loader.dump']' returned non-zero exit status 101."
+}
+/home/runner/work/neon-compatibility/neon-compatibility
+
+- Fetching solc version list from solc-bin. Attempt #1
+✔ Downloading compiler. Attempt #1.
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+- Blocks: 0            Seconds: 0
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+
