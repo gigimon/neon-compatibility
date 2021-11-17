@@ -1,0 +1,350 @@
+{
+  "uid" : "a249064772bd2208",
+  "name" : "test_truffle_migration",
+  "fullName" : "tests.truffle.test_truffle#test_truffle_migration",
+  "historyId" : "e63c5a1b531c2472845045a6f65cedaf",
+  "time" : {
+    "start" : 1637110945933,
+    "stop" : 1637110945938,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepare_truffle_config",
+    "time" : {
+      "start" : 1637110945920,
+      "stop" : 1637110945932,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Preset variables",
+      "time" : {
+        "start" : 1637110945920,
+        "stop" : 1637110945932,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clean up folder \"'/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts'\"",
+      "time" : {
+        "start" : 1637110945932,
+        "stop" : 1637110945932,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Run command: \"'cd MetaCoin; pwd; ../node_modules/.bin/truffle migrate --network neonlabs ; cd \"/home/runner/work/neon-compatibility/neon-compatibility\"; pwd;'\"",
+      "time" : {
+        "start" : 1637110945933,
+        "stop" : 1637110945938,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "command",
+        "value" : "'cd MetaCoin; pwd; ../node_modules/.bin/truffle migrate --network neonlabs ; cd \"/home/runner/work/neon-compatibility/neon-compatibility\"; pwd;'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6b86981938eabc2a",
+      "name" : "stdout",
+      "source" : "6b86981938eabc2a.txt",
+      "type" : "text/plain",
+      "size" : 393
+    }, {
+      "uid" : "92c09c88bfb7900a",
+      "name" : "stderr",
+      "source" : "92c09c88bfb7900a.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "prepare_truffle_config::0",
+    "time" : {
+      "start" : 1637110945939,
+      "stop" : 1637110945939,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Truffle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.truffle"
+  }, {
+    "name" : "suite",
+    "value" : "test_truffle"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-849"
+  }, {
+    "name" : "thread",
+    "value" : "4667-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.truffle.test_truffle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 28,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "a88955a36981f715",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/20//#testresult/a88955a36981f715",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637073924427,
+          "stop" : 1637073965256,
+          "duration" : 40829
+        }
+      }, {
+        "uid" : "bda648ff91b4f19c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/19//#testresult/bda648ff91b4f19c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637073212068,
+          "stop" : 1637073255128,
+          "duration" : 43060
+        }
+      }, {
+        "uid" : "1da82b771c00dc9d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/18//#testresult/1da82b771c00dc9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637071730389,
+          "stop" : 1637071775144,
+          "duration" : 44755
+        }
+      }, {
+        "uid" : "436dab6c9d48e15d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/17//#testresult/436dab6c9d48e15d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637068051943,
+          "stop" : 1637068096756,
+          "duration" : 44813
+        }
+      }, {
+        "uid" : "560f4a073726f5a5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/16//#testresult/560f4a073726f5a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637045587061,
+          "stop" : 1637045619113,
+          "duration" : 32052
+        }
+      }, {
+        "uid" : "75d332a1ad2fbb57",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/15//#testresult/75d332a1ad2fbb57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637024602999,
+          "stop" : 1637024603004,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "949ba458d0040ff4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/14//#testresult/949ba458d0040ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636984633054,
+          "stop" : 1636984673269,
+          "duration" : 40215
+        }
+      }, {
+        "uid" : "7723c95046256088",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/13//#testresult/7723c95046256088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636983454201,
+          "stop" : 1636983454207,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "c14b1e8f936ea74f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/12//#testresult/c14b1e8f936ea74f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636981051096,
+          "stop" : 1636981051099,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "7358411b6c036e0c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/11//#testresult/7358411b6c036e0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636980456908,
+          "stop" : 1636980456913,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "68ed1c2a9e33ec99",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/9//#testresult/68ed1c2a9e33ec99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636966865787,
+          "stop" : 1636966865792,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "5a3a99ccb65ee05e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/8//#testresult/5a3a99ccb65ee05e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636962262710,
+          "stop" : 1636962262714,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "2c71c3a11f4bca8a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/7//#testresult/2c71c3a11f4bca8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636937475088,
+          "stop" : 1636937475092,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "2c2f8e35b5adfca4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/6//#testresult/2c2f8e35b5adfca4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636851119325,
+          "stop" : 1636851119329,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "e1e4c8ce5d953eb7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/5//#testresult/e1e4c8ce5d953eb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636764634609,
+          "stop" : 1636764634617,
+          "duration" : 8
+        }
+      }, {
+        "uid" : "3572dd1f74eb56c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/3572dd1f74eb56c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636730991232,
+          "stop" : 1636730991235,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "4bcc8768506031cb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/4bcc8768506031cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636730291651,
+          "stop" : 1636730291657,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "a32483706b96e8e4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/1//#testresult/a32483706b96e8e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636717248411,
+          "stop" : 1636717248417,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "e50988a9087a25a4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/4//#testresult/e50988a9087a25a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636729274639,
+          "stop" : 1636729274644,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "592ea490cb6ccbd1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/3//#testresult/592ea490cb6ccbd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636728396282,
+          "stop" : 1636728396287,
+          "duration" : 5
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a249064772bd2208.json",
+  "parameterValues" : [ ]
+}
