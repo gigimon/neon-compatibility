@@ -1,0 +1,59 @@
+{
+  "uid" : "9ed677559e05f13c",
+  "name" : "test_approve",
+  "fullName" : "tests.brownie.token.tests.test_approve#test_approve",
+  "historyId" : "c8cbe460458a289bf8144e497a31facd",
+  "time" : {
+    "start" : 1637755465150,
+    "stop" : 1637755465150,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('Token', <SubRequest 'token' for <Function test_approve>>)",
+  "statusTrace" : "file /home/runner/work/neon-compatibility/neon-compatibility/tests/brownie/token/tests/test_approve.py, line 11\n  def test_approve(token, accounts):\nfile /home/runner/work/neon-compatibility/neon-compatibility/tests/brownie/token/tests/conftest.py, line 13\n  @pytest.fixture(scope=\"module\")\n  def token(Token, accounts):\nE       fixture 'Token' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, deployer, doctest_namespace, isolate, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, token, worker_id\n>       use 'pytest --fixtures [testpath]' for help on them.\n\n/home/runner/work/neon-compatibility/neon-compatibility/tests/brownie/token/tests/conftest.py:13",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.brownie.token.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_approve"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-382"
+  }, {
+    "name" : "thread",
+    "value" : "4635-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.token.tests.test_approve"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9ed677559e05f13c.json",
+  "parameterValues" : [ ]
+}
