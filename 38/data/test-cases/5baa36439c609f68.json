@@ -1,0 +1,119 @@
+{
+  "uid" : "5baa36439c609f68",
+  "name" : "test_brownie_deploy",
+  "fullName" : "tests.brownie.test_brownie#test_brownie_deploy",
+  "historyId" : "6e83a925951bfd8b9c39b6ea82974dc9",
+  "time" : {
+    "start" : 1637756131939,
+    "stop" : 1637756131973,
+    "duration" : 34
+  },
+  "status" : "broken",
+  "statusMessage" : "brownie.exceptions.ProjectNotFound: Could not find Brownie project",
+  "statusTrace" : "@allure.feature(FEATURE)\n    @allure.story(\"Deploy contract\")\n    def test_brownie_deploy():\n        accounts.add()\n>       pr = project.load(str((pathlib.Path() / 'token')))\n\ntests/brownie/test_brownie.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nproject_path = None, name = None\n\n    def load(project_path: Union[Path, str, None] = None, name: Optional[str] = None) -> \"Project\":\n        \"\"\"Loads a project and instantiates various related objects.\n    \n        Args:\n            project_path: Path of the project to load. If None, will attempt to\n                          locate a project using check_for_project()\n            name: Name to assign to the project. If None, the name is generated\n                  from the name of the project folder\n    \n        Returns a Project object.\n        \"\"\"\n        # checks\n        if project_path is None:\n            project_path = check_for_project(\".\")\n            if project_path is not None and project_path != Path(\".\").absolute():\n                warnings.warn(\n                    f\"Loaded project has a root folder of '{project_path}' \"\n                    \"which is different from the current working directory\",\n                    BrownieEnvironmentWarning,\n                )\n        else:\n            project_path = Path(project_path)\n            if project_path.resolve() != check_for_project(project_path):\n                packages_path = _get_data_folder().joinpath(\"packages\")\n                if not project_path.is_absolute() and packages_path.joinpath(project_path).exists():\n                    project_path = packages_path.joinpath(project_path)\n                else:\n                    project_path = None\n    \n        if project_path is None:\n>           raise ProjectNotFound(\"Could not find Brownie project\")\nE           brownie.exceptions.ProjectNotFound: Could not find Brownie project\n\n../../../.local/share/virtualenvs/neon-compatibility-g882AfFF/lib/python3.8/site-packages/brownie/project/main.py:732: ProjectNotFound",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1637756130901,
+      "stop" : 1637756130901,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "brownie.exceptions.ProjectNotFound: Could not find Brownie project",
+    "statusTrace" : "@allure.feature(FEATURE)\n    @allure.story(\"Deploy contract\")\n    def test_brownie_deploy():\n        accounts.add()\n>       pr = project.load(str((pathlib.Path() / 'token')))\n\ntests/brownie/test_brownie.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nproject_path = None, name = None\n\n    def load(project_path: Union[Path, str, None] = None, name: Optional[str] = None) -> \"Project\":\n        \"\"\"Loads a project and instantiates various related objects.\n    \n        Args:\n            project_path: Path of the project to load. If None, will attempt to\n                          locate a project using check_for_project()\n            name: Name to assign to the project. If None, the name is generated\n                  from the name of the project folder\n    \n        Returns a Project object.\n        \"\"\"\n        # checks\n        if project_path is None:\n            project_path = check_for_project(\".\")\n            if project_path is not None and project_path != Path(\".\").absolute():\n                warnings.warn(\n                    f\"Loaded project has a root folder of '{project_path}' \"\n                    \"which is different from the current working directory\",\n                    BrownieEnvironmentWarning,\n                )\n        else:\n            project_path = Path(project_path)\n            if project_path.resolve() != check_for_project(project_path):\n                packages_path = _get_data_folder().joinpath(\"packages\")\n                if not project_path.is_absolute() and packages_path.joinpath(project_path).exists():\n                    project_path = packages_path.joinpath(project_path)\n                else:\n                    project_path = None\n    \n        if project_path is None:\n>           raise ProjectNotFound(\"Could not find Brownie project\")\nE           brownie.exceptions.ProjectNotFound: Could not find Brownie project\n\n../../../.local/share/virtualenvs/neon-compatibility-g882AfFF/lib/python3.8/site-packages/brownie/project/main.py:732: ProjectNotFound",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c20a7ed6e62693b",
+      "name" : "stdout",
+      "source" : "3c20a7ed6e62693b.txt",
+      "type" : "text/plain",
+      "size" : 106
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "brownie"
+  }, {
+    "name" : "story",
+    "value" : "Deploy contract"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie"
+  }, {
+    "name" : "suite",
+    "value" : "test_brownie"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-225"
+  }, {
+    "name" : "thread",
+    "value" : "4629-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.test_brownie"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "efe9e08beaa8aeeb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/37//#testresult/efe9e08beaa8aeeb",
+        "status" : "broken",
+        "statusDetails" : "brownie.exceptions.ProjectNotFound: Could not find Brownie project",
+        "time" : {
+          "start" : 1637755464972,
+          "stop" : 1637755465011,
+          "duration" : 39
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5baa36439c609f68.json",
+  "parameterValues" : [ ]
+}
