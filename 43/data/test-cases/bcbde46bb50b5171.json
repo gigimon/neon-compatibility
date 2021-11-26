@@ -1,0 +1,80 @@
+{
+  "uid" : "bcbde46bb50b5171",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario send ethers.run",
+  "historyId" : "9603b3ecab9b3d9574ed148ad2fe211b",
+  "time" : {
+    "start" : 1637925328908,
+    "stop" : 1637925368838,
+    "duration" : 39930
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'propose')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'propose')\n                    at Context.<anonymous> (test/governance/Governor.test.js:262:25)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario send ethers"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario send ethers"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario send ethers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c20397b98b4e4947",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/c20397b98b4e4947",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'propose')",
+        "time" : {
+          "start" : 1637914024994,
+          "stop" : 1637914074863,
+          "duration" : 49869
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bcbde46bb50b5171.json",
+  "parameterValues" : [ ]
+}

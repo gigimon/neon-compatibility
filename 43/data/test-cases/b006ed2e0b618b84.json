@@ -1,0 +1,80 @@
+{
+  "uid" : "b006ed2e0b618b84",
+  "name" : "run",
+  "fullName" : "Contract: GovernorComp voting with comp token.run",
+  "historyId" : "fd5068a035482327dd8c995aa23ca723",
+  "time" : {
+    "start" : 1637924412435,
+    "stop" : 1637924489386,
+    "duration" : 76951
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected false to equal true",
+  "statusTrace" : "AssertionError: expected false to equal true\n                    at Context.<anonymous> (test/governance/extensions/GovernorComp.test.js:61:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "dcd9208307b47bef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/dcd9208307b47bef",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1637913219242,
+          "stop" : 1637913281248,
+          "duration" : 62006
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b006ed2e0b618b84.json",
+  "parameterValues" : [ ]
+}

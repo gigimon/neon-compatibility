@@ -1,0 +1,80 @@
+{
+  "uid" : "36790c28328e849",
+  "name" : "run",
+  "fullName" : "Contract: Governor Settings update setProposalThreshold.run",
+  "historyId" : "904f5f4cdebc24f375d779c0a373d404",
+  "time" : {
+    "start" : 1637926719834,
+    "stop" : 1637926778481,
+    "duration" : 58647
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected '0' to equal '1000000000000000000'",
+  "statusTrace" : "AssertionError: expected '0' to equal '1000000000000000000'\n                    at Context.<anonymous> (test/governance/Governor.test.js:921:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Governor Settings update setProposalThreshold"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor Settings update setProposalThreshold"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor Settings update setProposalThreshold"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e2247ab3de5bbaa8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/e2247ab3de5bbaa8",
+        "status" : "broken",
+        "statusDetails" : "expected '0' to equal '1000000000000000000'",
+        "time" : {
+          "start" : 1637915120285,
+          "stop" : 1637915167423,
+          "duration" : 47138
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "36790c28328e849.json",
+  "parameterValues" : [ ]
+}
