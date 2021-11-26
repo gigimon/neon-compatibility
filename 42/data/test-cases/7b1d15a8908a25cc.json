@@ -1,0 +1,59 @@
+{
+  "uid" : "7b1d15a8908a25cc",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC721 Contract interface ERC721 ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "1c106c3506b6a35ce66a791488d93e1b",
+  "time" : {
+    "start" : 1637916536894,
+    "stop" : 1637916542817,
+    "duration" : 5923
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 121937 to be at most 30000",
+  "statusTrace" : "AssertionError: expected 121937 to be at most 30000\n                    at Context.<anonymous> (test/utils/introspection/SupportsInterface.behavior.js:100:99)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721 Contract interface ERC721 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 Contract interface ERC721 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 Contract interface ERC721 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7b1d15a8908a25cc.json",
+  "parameterValues" : [ ]
+}

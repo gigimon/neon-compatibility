@@ -1,0 +1,136 @@
+{
+  "uid" : "e257a2e526e2e706",
+  "name" : "test01",
+  "fullName" : "test01",
+  "historyId" : "ffe91469f6f547bf3dbab7da64f8b8a6",
+  "time" : {
+    "start" : 1637912630331,
+    "stop" : 1637912630337,
+    "duration" : 6
+  },
+  "status" : "broken",
+  "statusMessage" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+  "statusTrace" : "TypeError: ethjs_provider_http_1.HttpProvider is not a constructor\n    at EthJsTests.test01 (src/test/ethjs/EthJs.test.ts:24:22)\n    at EthJsTests.descriptor.value (node_modules/allure-decorators/src/core/descriptor.ts:18:23)\n    at EthJsTests.descriptor.value (node_modules/allure-decorators/src/core/descriptor.ts:18:23)\n    at Context.<anonymous> (node_modules/@testdeck/core/index.ts:180:27)\n    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ethjs"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "5e12147d0ffba86c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/41//#testresult/5e12147d0ffba86c",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637766517958,
+          "stop" : 1637766517967,
+          "duration" : 9
+        }
+      }, {
+        "uid" : "4e38191f2eb3e3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/40//#testresult/4e38191f2eb3e3",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637759468783,
+          "stop" : 1637759468790,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "42c22717405a568",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/39//#testresult/42c22717405a568",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637756550576,
+          "stop" : 1637756550581,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "6328b7ab5d8276b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/38//#testresult/6328b7ab5d8276b",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637755976792,
+          "stop" : 1637755976798,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "bfaa2d03ec10af30",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/37//#testresult/bfaa2d03ec10af30",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637755272318,
+          "stop" : 1637755272324,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "8ad189f233b6fa53",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/35//#testresult/8ad189f233b6fa53",
+        "status" : "broken",
+        "statusDetails" : "ethjs_provider_http_1.HttpProvider is not a constructor",
+        "time" : {
+          "start" : 1637154468932,
+          "stop" : 1637154468949,
+          "duration" : 17
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e257a2e526e2e706.json",
+  "parameterValues" : [ ]
+}

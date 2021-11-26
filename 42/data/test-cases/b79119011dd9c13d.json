@@ -1,0 +1,59 @@
+{
+  "uid" : "b79119011dd9c13d",
+  "name" : "run",
+  "fullName" : "Contract: Governor Cancel After vote.run",
+  "historyId" : "b8353d11444bda9f3e13c2eae2d16aec",
+  "time" : {
+    "start" : 1637914818537,
+    "stop" : 1637914873039,
+    "duration" : 54502
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(603082) is lower than current block #(603101)",
+  "statusTrace" : "Error: Target block #(603082) is lower than current block #(603101)\n                    at Object.advanceBlockTo (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Governor Cancel After vote"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor Cancel After vote"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor Cancel After vote"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b79119011dd9c13d.json",
+  "parameterValues" : [ ]
+}

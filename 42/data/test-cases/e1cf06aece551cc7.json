@@ -1,0 +1,60 @@
+{
+  "uid" : "e1cf06aece551cc7",
+  "name" : "does not refund refundees",
+  "fullName" : "Contract: RefundEscrow once deployed active state.does not refund refundees",
+  "historyId" : "e07d68b69e283f688e1351f603aca21d",
+  "time" : {
+    "start" : 1637921387936,
+    "stop" : 1637921393396,
+    "duration" : 5460
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'bcd4c4b5cf83d41ea84d274753359ca72893a087', 'e0383986c112615178e8bd22c327b474e28b8e3e', 'f340fa01000000000000000000000000adbdb4830a7953f90399f8ae5846aec91489eb63', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'bcd4c4b5cf83d41ea84d274753359ca72893a087', 'e0383986c112615178e8bd22c327b474e28b8e3e', 'f340fa01000000000000000000000000adbdb4830a7953f90399f8ae5846aec91489eb63', '0x2ed6689e54f180000']' returned non-zero exit status 1.\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:38:27)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testMethod",
+    "value" : "does not refund refundees"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e1cf06aece551cc7.json",
+  "parameterValues" : [ ]
+}

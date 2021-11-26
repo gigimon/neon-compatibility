@@ -1,0 +1,152 @@
+{
+  "uid" : "d0b1bdf611f33198",
+  "name" : "test_transfer_event_fires",
+  "fullName" : "tests.brownie.token.tests.test_transfer#test_transfer_event_fires",
+  "historyId" : "280e4c404d1b3ae75ac2f34ede6f3f3f",
+  "time" : {
+    "start" : 1637912908390,
+    "stop" : 1637912908390,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('fn_isolation', <SubRequest 'isolate' for <Function test_transfer_event_fires>>)",
+  "statusTrace" : "file /home/runner/work/neon-compatibility/neon-compatibility/tests/brownie/token/tests/test_transfer.py, line 75\n  def test_transfer_event_fires(accounts, token):\nfile /home/runner/work/neon-compatibility/neon-compatibility/tests/brownie/token/tests/conftest.py, line 8\n  @pytest.fixture(scope=\"function\", autouse=True)\n  def isolate(fn_isolation):\nE       fixture 'fn_isolation' not found\n>       available fixtures: brownie_project, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, configure_neon_network, deployer, doctest_namespace, isolate, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, token, worker_id\n>       use 'pytest --fixtures [testpath]' for help on them.\n\n/home/runner/work/neon-compatibility/neon-compatibility/tests/brownie/token/tests/conftest.py:8",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1637912879437,
+      "stop" : 1637912879437,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "brownie_project",
+    "time" : {
+      "start" : 1637912880508,
+      "stop" : 1637912895496,
+      "duration" : 14988
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1637912904108,
+      "stop" : 1637912908365,
+      "duration" : 4257
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Brownie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie.token.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_transfer"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-621"
+  }, {
+    "name" : "thread",
+    "value" : "4642-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.token.tests.test_transfer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2afe9006d92c03d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/41//#testresult/2afe9006d92c03d",
+        "status" : "broken",
+        "statusDetails" : "ValueError: Transaction simulation failed: Error processing Instruction 1: custom program error: 0x1",
+        "time" : {
+          "start" : 1637766693492,
+          "stop" : 1637766693492,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a5536cea9e907f34",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/40//#testresult/a5536cea9e907f34",
+        "status" : "broken",
+        "statusDetails" : "ValueError: Transaction simulation failed: Error processing Instruction 1: custom program error: 0x1",
+        "time" : {
+          "start" : 1637759660918,
+          "stop" : 1637759660918,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "39f3a01a27aeabee",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/37//#testresult/39f3a01a27aeabee",
+        "status" : "broken",
+        "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('Token', <SubRequest 'token' for <Function test_transfer_event_fires>>)",
+        "time" : {
+          "start" : 1637755465182,
+          "stop" : 1637755465182,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d0b1bdf611f33198.json",
+  "parameterValues" : [ ]
+}

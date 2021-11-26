@@ -1,0 +1,60 @@
+{
+  "uid" : "4b109881f0dacd3b",
+  "name" : "check vesting schedule",
+  "fullName" : "Contract: VestingWallet vesting schedule Eth vesting.check vesting schedule",
+  "historyId" : "5b025e0205793b3ec5e5a306f9985175",
+  "time" : {
+    "start" : 1637912996186,
+    "stop" : 1637913001575,
+    "duration" : 5389
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '28b08a88b7f9f5aee2ae2105f62c8bbe634cce53', 'ae075d4c7577374031eaf75ffa11576f49dd5517', 'none', '0x56bc75e2d63100000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '28b08a88b7f9f5aee2ae2105f62c8bbe634cce53', 'ae075d4c7577374031eaf75ffa11576f49dd5517', 'none', '0x56bc75e2d63100000']' returned non-zero exit status 1.\n                    at Object.ErrorResponse (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/node_modules/web3-core-helpers/lib/errors.js:28:19)\n                    at /Users/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/lib/index.js:302:36\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: VestingWallet vesting schedule Eth vesting"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: VestingWallet vesting schedule Eth vesting"
+  }, {
+    "name" : "testMethod",
+    "value" : "check vesting schedule"
+  }, {
+    "name" : "package",
+    "value" : "Contract: VestingWallet vesting schedule Eth vesting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b109881f0dacd3b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "dd6931a7208267c8",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario double cast.run",
+  "historyId" : "2751309bcbb99211b14ca4fb33b61fed",
+  "time" : {
+    "start" : 1637914343584,
+    "stop" : 1637914392624,
+    "duration" : 49040
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(601961) is lower than current block #(601980)",
+  "statusTrace" : "Error: Target block #(601961) is lower than current block #(601980)\n                    at Object.advanceBlockTo (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario double cast"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario double cast"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario double cast"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dd6931a7208267c8.json",
+  "parameterValues" : [ ]
+}
