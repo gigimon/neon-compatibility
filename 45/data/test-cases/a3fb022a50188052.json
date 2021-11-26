@@ -1,0 +1,226 @@
+{
+  "uid" : "a3fb022a50188052",
+  "name" : "test_only_affects_target",
+  "fullName" : "tests.brownie.token.tests.test_approve#test_only_affects_target",
+  "historyId" : "35e636b401a70496879a6cd10541a94f",
+  "time" : {
+    "start" : 1637936916068,
+    "stop" : 1637936918088,
+    "duration" : 2020
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1637936880260,
+      "stop" : 1637936880260,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "brownie_project",
+    "time" : {
+      "start" : 1637936881755,
+      "stop" : 1637936893491,
+      "duration" : 11736
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "accounts",
+    "time" : {
+      "start" : 1637936898320,
+      "stop" : 1637936898588,
+      "duration" : 268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_env",
+    "time" : {
+      "start" : 1637936898320,
+      "stop" : 1637936898320,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1637936898588,
+      "stop" : 1637936902904,
+      "duration" : 4316
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe03c2a37d38a818",
+      "name" : "stdout",
+      "source" : "fe03c2a37d38a818.txt",
+      "type" : "text/plain",
+      "size" : 308
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "accounts::0",
+    "time" : {
+      "start" : 1637937180376,
+      "stop" : 1637937180376,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Brownie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie.token.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_approve"
+  }, {
+    "name" : "host",
+    "value" : "fv-az124-434"
+  }, {
+    "name" : "thread",
+    "value" : "4580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.token.tests.test_approve"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "cbcc4f89579bd0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/cbcc4f89579bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637923960572,
+          "stop" : 1637923962717,
+          "duration" : 2145
+        }
+      }, {
+        "uid" : "7ea9df4dc06c9775",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/7ea9df4dc06c9775",
+        "status" : "broken",
+        "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('fn_isolation', <SubRequest 'isolate' for <Function test_only_affects_target>>)",
+        "time" : {
+          "start" : 1637912904098,
+          "stop" : 1637912904098,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ffaaa0c02d66ab2e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/41//#testresult/ffaaa0c02d66ab2e",
+        "status" : "broken",
+        "statusDetails" : "ValueError: Transaction simulation failed: Error processing Instruction 3: custom program error: 0x1",
+        "time" : {
+          "start" : 1637766691098,
+          "stop" : 1637766691098,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "33dfd0e2a65a4ce0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/40//#testresult/33dfd0e2a65a4ce0",
+        "status" : "broken",
+        "statusDetails" : "ValueError: Transaction simulation failed: Error processing Instruction 3: custom program error: 0x1",
+        "time" : {
+          "start" : 1637759658487,
+          "stop" : 1637759658487,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6d421ccfbadf779d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/37//#testresult/6d421ccfbadf779d",
+        "status" : "broken",
+        "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('Token', <SubRequest 'token' for <Function test_only_affects_target>>)",
+        "time" : {
+          "start" : 1637755465159,
+          "stop" : 1637755465159,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a3fb022a50188052.json",
+  "parameterValues" : [ ]
+}
