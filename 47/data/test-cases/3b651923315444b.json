@@ -1,0 +1,228 @@
+{
+  "uid" : "3b651923315444b",
+  "name" : "test_issue_364_self_destruct_contract",
+  "fullName" : "tests.truffle.test_truffle#test_issue_364_self_destruct_contract",
+  "historyId" : "9b9a0ac6c1438da1dd6a59ac61d1506c",
+  "time" : {
+    "start" : 1638865176390,
+    "stop" : 1638865215126,
+    "duration" : 38736
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "prepare_truffle_config",
+    "time" : {
+      "start" : 1638865176379,
+      "stop" : 1638865176390,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Preset variables",
+      "time" : {
+        "start" : 1638865176379,
+        "stop" : 1638865176389,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clean up folder \"'/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts'\"",
+      "time" : {
+        "start" : 1638865176389,
+        "stop" : 1638865176389,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Run command: \"'cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3'\"",
+      "time" : {
+        "start" : 1638865176390,
+        "stop" : 1638865215126,
+        "duration" : 38736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "command",
+        "value" : "'cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1f43f03672b2e83a",
+      "name" : "stdout",
+      "source" : "1f43f03672b2e83a.txt",
+      "type" : "text/plain",
+      "size" : 3198
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "prepare_truffle_config::0",
+    "time" : {
+      "start" : 1638865215127,
+      "stop" : 1638865215127,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Truffle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.truffle"
+  }, {
+    "name" : "suite",
+    "value" : "test_truffle"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-470"
+  }, {
+    "name" : "thread",
+    "value" : "4564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.truffle.test_truffle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "c18e085f3509a73b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/c18e085f3509a73b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: /bin/sh: 1: ../../node_modules/.bin/truffle: not found\n  \nassert 127 == 0\n +  where 127 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returncode=127, stdout=b'', stderr=b'/bin/sh: 1: ../../node_modules/.bin/truffle: not found\\n').returncode",
+        "time" : {
+          "start" : 1638863941774,
+          "stop" : 1638863941780,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "ddde93a0fb39a70f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/45//#testresult/ddde93a0fb39a70f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  Error: There was a timeout while attempting to connect to the network at undefined.\n         Check to see that your provider is valid.\n         If you have a slow internet connection, try configuring a longer timeout in your Truffle config. Use the networks[networkName].networkCheckTimeout property to do this.\n      at Timeout._onTimeout (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/provider/index.js:57:1)\n      at listOnTimeout (internal/timers.js:557:17)\n      at processTimers (internal/timers.js:500:7)\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...r/index.js:57:1)\\n    at listOnTimeout (internal/timers.js:557:17)\\n    at processTimers (internal/timers.js:500:7)\\n').returncode",
+        "time" : {
+          "start" : 1637937166537,
+          "stop" : 1637937180370,
+          "duration" : 13833
+        }
+      }, {
+        "uid" : "c306fcd21c1627d7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/c306fcd21c1627d7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n     > transaction hash:    0x160f4a74d2fa770a67a8f1d9a1ddf3fca6dec6b3c3d2b6f4d29bf0ea3fa64296\n     > Blocks: 11           Seconds: 4\n     > contract address:    0x2e7C192f80bF54162446ca7da5eB23C1BB8402D1\n     > block number:        625584\n     > block timestamp:     1637924308\n     > account:             0xC25A481960aaC5a638C770BFcb4c9852959060b3\n     > balance:             99.999871115\n     > gas used:            128885 (0x1f775)\n     > gas price:           1 gwei\n     > value sent:          0 ETH\n     > total cost:          0.000128885 ETH\n  \n  Sending ether to contract\n  99999871115000000000 --- 99999871115000000000 --- 0\n  Hello0\n  \n  Error: Transaction simulation failed: Error processing Instruction 1: instruction changed the balance of a read-only account\n      at module.exports (/home/runner/work/neon-compatibility/neon-compatibility/issues/364/migrations/3_selfDestructTest.js:24:24)\n      at runMicrotasks (<anonymous>)\n      at processTicksAndRejections (internal/process/task_queues.js:95:5)\n      at Migration._deploy (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:75:1)\n      at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:56:1)\n      at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n      at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n      at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n      at runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:253:1)\n      at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:223:1)\n      at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n  Truffle v5.4.14 (core: 5.4.14)\n  Node v14.18.1\n  - Blocks: 0            Seconds: 0\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...lib/command.js:183:1)\\nTruffle v5.4.14 (core: 5.4.14)\\nNode v14.18.1\\n', stderr=b'- Blocks: 0            Seconds: 0\\n').returncode",
+        "time" : {
+          "start" : 1637924288407,
+          "stop" : 1637924329083,
+          "duration" : 40676
+        }
+      }, {
+        "uid" : "423fe3e20cf9f756",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/423fe3e20cf9f756",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n     > transaction hash:    0x014d0ade6c53f1f562f3bde9f6686ec86703ba7b5b567b554f6cf9662b52da57\n     > Blocks: 0            Seconds: 0\n     > contract address:    0xF18A39fF247eb01889439530b30d210e249bf5B1\n     > block number:        598966\n     > block timestamp:     1637913126\n     > account:             0x87c4B93CC2F265f504f3206e48C2699985DAC5B4\n     > balance:             99.999871115\n     > gas used:            128885 (0x1f775)\n     > gas price:           1 gwei\n     > value sent:          0 ETH\n     > total cost:          0.000128885 ETH\n  \n  Sending ether to contract\n  99999871115000000000 --- 99999871115000000000 --- 0\n  Hello0\n  \n  Error: Transaction simulation failed: Error processing Instruction 1: instruction changed the balance of a read-only account\n      at module.exports (/home/runner/work/neon-compatibility/neon-compatibility/issues/364/migrations/3_selfDestructTest.js:24:24)\n      at runMicrotasks (<anonymous>)\n      at processTicksAndRejections (internal/process/task_queues.js:95:5)\n      at Migration._deploy (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:75:1)\n      at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:56:1)\n      at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n      at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n      at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n      at runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:253:1)\n      at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:223:1)\n      at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n  Truffle v5.4.14 (core: 5.4.14)\n  Node v14.18.1\n  - Blocks: 0            Seconds: 0\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...lib/command.js:183:1)\\nTruffle v5.4.14 (core: 5.4.14)\\nNode v14.18.1\\n', stderr=b'- Blocks: 0            Seconds: 0\\n').returncode",
+        "time" : {
+          "start" : 1637913108013,
+          "stop" : 1637913148972,
+          "duration" : 40959
+        }
+      }, {
+        "uid" : "3bc0419be1240229",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/41//#testresult/3bc0419be1240229",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n  \n  Error:  *** Deployment Failed ***\n  \n  \"SelfDestructTest\" could not deploy due to insufficient funds\n     * Account:  0x6F34a6bbCd5a3e0A0f2E8d7FD4dD44E9A5AABB83\n     * Balance:  100000000000000000000 wei\n     * Message:  Transaction simulation failed: Error processing Instruction 1: custom program error: 0x1\n  {\n    \"accounts\": null,\n    \"err\": {\n      \"InstructionError\": [\n        1,\n        {\n          \"Custom\": 1\n        }\n      ]\n    },\n    \"logs\": [\n      \"Program 53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io invoke [1]\",\n      \"Program 11111111111111111111111111111111 invoke [2]\",\n      \"Program 11111111111111111111111111111111 success\",\n      \"Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]\",\n      \"Program log: Transfer 2039280 lamports to the associated token account\",\n      \"Program 11111111111111111111111111111111 invoke [3]\",\n      \"Program 11111111111111111111111111111111 success\",\n      \"Program log: Allocate space for the associated token account\",\n      \"Program 11111111111111111111111111111111 invoke [3]\",\n      \"Program 11111111111111111111111111111111 success\",\n      \"Program log: Assign the associated token account to the SPL Token program\",\n      \"Program 11111111111111111111111111111111 invoke [3]\",\n      \"Program 11111111111111111111111111111111 success\",\n      \"Program log: Initialize the associated token account\",\n      \"Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]\",\n      \"Program log: Instruction: InitializeAccount\",\n      \"Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3920 of 466180 compute units\",\n      \"Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success\",\n      \"Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 25134 of 486713 compute units\",\n      \"Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success\",\n      \"Program log: Total memory occupied: 1414\",\n      \"Program 53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io consumed 39834 of 500000 compute units\",\n      \"Program 53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io success\",\n      \"Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]\",\n      \"Program log: Instruction: TransferChecked\",\n      \"Program log: Error: insufficient funds\",\n      \"Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2957 of 200000 compute units\",\n      \"Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1\"\n    ]\n  }\n     * Try:\n        + Using an adequately funded account\n        + If you are using a local Geth node, verify that your node is synced.\n  \n      at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:365:1\n      at processTicksAndRejections (internal/process/task_queues.js:95:5)\n      at module.exports (/home/runner/work/neon-compatibility/neon-compatibility/issues/364/migrations/3_selfDestructTest.js:6:5)\n      at Migration._deploy (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:75:1)\n      at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:56:1)\n      at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n      at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n      at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n      at runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:253:1)\n      at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:223:1)\n      at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n  Truffle v5.4.14 (core: 5.4.14)\n  Node v14.18.1\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...uffle/build/webpack:/packages/core/lib/command.js:183:1)\\nTruffle v5.4.14 (core: 5.4.14)\\nNode v14.18.1\\n', stderr=b'').returncode",
+        "time" : {
+          "start" : 1637766804843,
+          "stop" : 1637766823395,
+          "duration" : 18552
+        }
+      }, {
+        "uid" : "7c69b24bf16c901",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/35//#testresult/7c69b24bf16c901",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n     > transaction hash:    0x69aae15615023ee1a8355b1f13be6314eda96d2e549bcf67a49dd13410d27c62\n     > Blocks: 10           Seconds: 4\n     > contract address:    0x0140F53DCd7834B917cB8b5b9474aA68497e079d\n     > block number:        340089\n     > block timestamp:     1637154808\n     > account:             0x89DB9Dc0a4D31B526F45a14Ba01635d4B7F39F90\n     > balance:             99.999871115\n     > gas used:            128885 (0x1f775)\n     > gas price:           1 gwei\n     > value sent:          0 ETH\n     > total cost:          0.000128885 ETH\n  \n  Sending ether to contract\n  99999871115000000000 --- 99999871115000000000 --- 0\n  Hello0\n  \n  Error: Transaction simulation failed: Error processing Instruction 1: instruction changed the balance of a read-only account\n      at module.exports (/home/runner/work/neon-compatibility/neon-compatibility/issues/364/migrations/3_selfDestructTest.js:24:24)\n      at runMicrotasks (<anonymous>)\n      at processTicksAndRejections (internal/process/task_queues.js:95:5)\n      at Migration._deploy (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:75:1)\n      at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:56:1)\n      at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n      at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n      at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n      at runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:253:1)\n      at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:223:1)\n      at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n  Truffle v5.4.14 (core: 5.4.14)\n  Node v14.18.1\n  - Blocks: 0            Seconds: 0\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...lib/command.js:183:1)\\nTruffle v5.4.14 (core: 5.4.14)\\nNode v14.18.1\\n', stderr=b'- Blocks: 0            Seconds: 0\\n').returncode",
+        "time" : {
+          "start" : 1637154787850,
+          "stop" : 1637154828322,
+          "duration" : 40472
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3b651923315444b.json",
+  "parameterValues" : [ ]
+}

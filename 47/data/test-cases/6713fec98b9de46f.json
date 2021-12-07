@@ -1,0 +1,90 @@
+{
+  "uid" : "6713fec98b9de46f",
+  "name" : "can accept a single deposit",
+  "fullName" : "Contract: ConditionalEscrow when withdrawal is allowed as an escrow deposits.can accept a single deposit",
+  "historyId" : "4750b370a995fbef6fd1d5e2210878df",
+  "time" : {
+    "start" : 1638874646785,
+    "stop" : 1638874654415,
+    "duration" : 7630
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 1: invalid program argument",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 1: invalid program argument\n                    at /Users/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/utils/escrow/ConditionalEscrow.test.js:15:64\n                    at Array.map (<anonymous>)\n                    at Context.<anonymous> (test/utils/escrow/ConditionalEscrow.test.js:15:39)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ConditionalEscrow when withdrawal is allowed as an escrow deposits"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ConditionalEscrow when withdrawal is allowed as an escrow deposits"
+  }, {
+    "name" : "testMethod",
+    "value" : "can accept a single deposit"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ConditionalEscrow when withdrawal is allowed as an escrow deposits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e29f70533b631df9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/e29f70533b631df9",
+        "status" : "broken",
+        "statusDetails" : "Transaction: 0x3308d70419f5f9c514753e80aaa3743f727c0645fc8ffe41f45a1f79ac804428 exited with an error (status 0). \n                     Please check that the transaction:\n                     - satisfies all conditions set by Solidity `require` statements.\n                     - does not trigger a Solidity `revert` statement.\n                ",
+        "time" : {
+          "start" : 1638869945974,
+          "stop" : 1638869954380,
+          "duration" : 8406
+        }
+      }, {
+        "uid" : "c830b56be76c8f42",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/c830b56be76c8f42",
+        "status" : "broken",
+        "statusDetails" : "Transaction: 0x9d22c676cb9776a45a601d7f4d5a15253f403dc81fb93f43a464f0ecd933cf50 exited with an error (status 0). \n                     Please check that the transaction:\n                     - satisfies all conditions set by Solidity `require` statements.\n                     - does not trigger a Solidity `revert` statement.\n                ",
+        "time" : {
+          "start" : 1637921365483,
+          "stop" : 1637921371828,
+          "duration" : 6345
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6713fec98b9de46f.json",
+  "parameterValues" : [ ]
+}

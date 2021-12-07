@@ -1,0 +1,82 @@
+{
+  "uid" : "91ec99fda3a75b43",
+  "name" : "reverts when re-pausing",
+  "fullName" : "Contract: Pausable when unpaused when paused.reverts when re-pausing",
+  "historyId" : "5d2e4f7cf090d69c18c7b365525f73",
+  "time" : {
+    "start" : 1638867378835,
+    "stop" : 1638867391322,
+    "duration" : 12487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Pausable when unpaused when paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Pausable when unpaused when paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when re-pausing"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Pausable when unpaused when paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9796f082f87a3392",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/9796f082f87a3392",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637927956647,
+          "stop" : 1637927968643,
+          "duration" : 11996
+        }
+      }, {
+        "uid" : "ac8bfe281a826028",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/ac8bfe281a826028",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916169979,
+          "stop" : 1637916178109,
+          "duration" : 8130
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "91ec99fda3a75b43.json",
+  "parameterValues" : [ ]
+}

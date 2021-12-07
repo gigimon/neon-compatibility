@@ -1,0 +1,82 @@
+{
+  "uid" : "53d679b910b352e1",
+  "name" : "keeps ownership of the token",
+  "fullName" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when sent to the owner.keeps ownership of the token",
+  "historyId" : "28118eff4b2c782b8b1adc598209ef5f",
+  "time" : {
+    "start" : 1638872896645,
+    "stop" : 1638872921199,
+    "duration" : 24554
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when sent to the owner"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when sent to the owner"
+  }, {
+    "name" : "testMethod",
+    "value" : "keeps ownership of the token"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when sent to the owner"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "967fe4e14593215d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/967fe4e14593215d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638868505604,
+          "stop" : 1638868523363,
+          "duration" : 17759
+        }
+      }, {
+        "uid" : "ce714d3927b7b692",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/ce714d3927b7b692",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637919817930,
+          "stop" : 1637919838870,
+          "duration" : 20940
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "53d679b910b352e1.json",
+  "parameterValues" : [ ]
+}

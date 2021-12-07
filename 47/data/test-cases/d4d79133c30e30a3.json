@@ -1,0 +1,73 @@
+{
+  "uid" : "d4d79133c30e30a3",
+  "name" : "reverts when trying to safeTransferFrom",
+  "fullName" : "Contract: ERC721Pausable when token is paused.reverts when trying to safeTransferFrom",
+  "historyId" : "a8d7830ba603584ddcd21e2ca49ee5ff",
+  "time" : {
+    "start" : 1638868780517,
+    "stop" : 1638868795591,
+    "duration" : 15074
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to safeTransferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "83bb1edc9a583318",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/83bb1edc9a583318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916420194,
+          "stop" : 1637916431048,
+          "duration" : 10854
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d4d79133c30e30a3.json",
+  "parameterValues" : [ ]
+}

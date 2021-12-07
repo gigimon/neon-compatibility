@@ -1,0 +1,90 @@
+{
+  "uid" : "acb4e0660337468",
+  "name" : "non-payable initialization",
+  "fullName" : "Contract: BeaconProxy initialization.non-payable initialization",
+  "historyId" : "b939243ada3bf723bc9881f4c83a03b5",
+  "time" : {
+    "start" : 1638867230335,
+    "stop" : 1638867243185,
+    "duration" : 12850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '100000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '100000000000000000000' to equal '0'\n                    at Context.assertInitialized (test/proxy/beacon/BeaconProxy.test.js:62:76)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/proxy/beacon/BeaconProxy.test.js:83:7)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testMethod",
+    "value" : "non-payable initialization"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "478aecd34819674f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/478aecd34819674f",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1637927088844,
+          "stop" : 1637927101957,
+          "duration" : 13113
+        }
+      }, {
+        "uid" : "814f399594d6c406",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/814f399594d6c406",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1637915392347,
+          "stop" : 1637915402938,
+          "duration" : 10591
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "acb4e0660337468.json",
+  "parameterValues" : [ ]
+}

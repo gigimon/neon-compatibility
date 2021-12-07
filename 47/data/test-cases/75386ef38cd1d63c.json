@@ -1,0 +1,82 @@
+{
+  "uid" : "75386ef38cd1d63c",
+  "name" : "approves the requested amount",
+  "fullName" : "Contract: ERC20 _approve when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before.approves the requested amount",
+  "historyId" : "34f825a170d10a697afad1f7d066a1dc",
+  "time" : {
+    "start" : 1638869458748,
+    "stop" : 1638869469702,
+    "duration" : 10954
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20 _approve when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 _approve when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "testMethod",
+    "value" : "approves the requested amount"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 _approve when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b3b9a318e5049c66",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/b3b9a318e5049c66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638866012541,
+          "stop" : 1638866019646,
+          "duration" : 7105
+        }
+      }, {
+        "uid" : "2f4c972566cabf2b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/2f4c972566cabf2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916970106,
+          "stop" : 1637916978538,
+          "duration" : 8432
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "75386ef38cd1d63c.json",
+  "parameterValues" : [ ]
+}

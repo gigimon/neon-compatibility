@@ -1,0 +1,90 @@
+{
+  "uid" : "1b68a09188e3f5ab",
+  "name" : "default operators list is empty",
+  "fullName" : "Contract: ERC777 with no default operators.default operators list is empty",
+  "historyId" : "970e4a400469c4a198944551dea15fc1",
+  "time" : {
+    "start" : 1638868734749,
+    "stop" : 1638868739898,
+    "duration" : 5149
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: execution reverted",
+  "statusTrace" : "Error: Returned error: execution reverted\n                    at Context.<anonymous> (test/token/ERC777/ERC777.test.js:570:36)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC777 with no default operators"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC777 with no default operators"
+  }, {
+    "name" : "testMethod",
+    "value" : "default operators list is empty"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC777 with no default operators"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e7b9a51b5be04eef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/e7b9a51b5be04eef",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1638865461041,
+          "stop" : 1638865464228,
+          "duration" : 3187
+        }
+      }, {
+        "uid" : "6d6fbb9d5f62fa7d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/6d6fbb9d5f62fa7d",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1637916381841,
+          "stop" : 1637916384735,
+          "duration" : 2894
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b68a09188e3f5ab.json",
+  "parameterValues" : [ ]
+}

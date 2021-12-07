@@ -1,0 +1,90 @@
+{
+  "uid" : "21618b5ca1e04b7d",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario duplicate executed proposal.run",
+  "historyId" : "e19cc7591aa18c15e4fefa94f5caaf0e",
+  "time" : {
+    "start" : 1638866298446,
+    "stop" : 1638866337569,
+    "duration" : 39123
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(1428850) is lower than current block #(1428856)",
+  "statusTrace" : "Error: Target block #(1428850) is lower than current block #(1428856)\n                    at Object.advanceBlockTo (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario duplicate executed proposal"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario duplicate executed proposal"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario duplicate executed proposal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "96a70ee0322dca0d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/96a70ee0322dca0d",
+        "status" : "broken",
+        "statusDetails" : "Target block #(628785) is lower than current block #(628808)",
+        "time" : {
+          "start" : 1637925595870,
+          "stop" : 1637925661665,
+          "duration" : 65795
+        }
+      }, {
+        "uid" : "89ae4880f296b642",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/89ae4880f296b642",
+        "status" : "broken",
+        "statusDetails" : "Target block #(601731) is lower than current block #(601751)",
+        "time" : {
+          "start" : 1637914247278,
+          "stop" : 1637914297830,
+          "duration" : 50552
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "21618b5ca1e04b7d.json",
+  "parameterValues" : [ ]
+}

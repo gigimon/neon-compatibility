@@ -1,0 +1,82 @@
+{
+  "uid" : "796f9aa258ff8ae3",
+  "name" : "reverts when trying to safeTransferFrom from operator",
+  "fullName" : "Contract: ERC1155Pausable when token is paused.reverts when trying to safeTransferFrom from operator",
+  "historyId" : "d3381c692bc4e3cef1c44b8b0acff638",
+  "time" : {
+    "start" : 1638868943269,
+    "stop" : 1638868962940,
+    "duration" : 19671
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to safeTransferFrom from operator"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9f8bc7eb38d3c5fd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/9f8bc7eb38d3c5fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638865628701,
+          "stop" : 1638865643972,
+          "duration" : 15271
+        }
+      }, {
+        "uid" : "e006308f76d86a7f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/e006308f76d86a7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916556609,
+          "stop" : 1637916572045,
+          "duration" : 15436
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "796f9aa258ff8ae3.json",
+  "parameterValues" : [ ]
+}

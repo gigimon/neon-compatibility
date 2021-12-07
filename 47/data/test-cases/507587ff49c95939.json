@@ -1,0 +1,89 @@
+{
+  "uid" : "507587ff49c95939",
+  "name" : "debits transferred balances from sender",
+  "fullName" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom when called by an operator on behalf of the multiTokenHolder when operator is approved by multiTokenHolder.debits transferred balances from sender",
+  "historyId" : "3e2793d9d694cac1a86e6fbae071457e",
+  "time" : {
+    "start" : 1638869662728,
+    "stop" : 1638869679213,
+    "duration" : 16485
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/token/ERC1155/ERC1155.behavior.js:582:32)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom when called by an operator on behalf of the multiTokenHolder when operator is approved by multiTokenHolder"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom when called by an operator on behalf of the multiTokenHolder when operator is approved by multiTokenHolder"
+  }, {
+    "name" : "testMethod",
+    "value" : "debits transferred balances from sender"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom when called by an operator on behalf of the multiTokenHolder when operator is approved by multiTokenHolder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b9438d73c15d3fbe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/b9438d73c15d3fbe",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1638866225199,
+          "stop" : 1638866238548,
+          "duration" : 13349
+        }
+      }, {
+        "uid" : "7888bdd24dac7700",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/7888bdd24dac7700",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637917369807,
+          "stop" : 1637917391258,
+          "duration" : 21451
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "507587ff49c95939.json",
+  "parameterValues" : [ ]
+}
