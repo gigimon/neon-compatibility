@@ -1,0 +1,73 @@
+{
+  "uid" : "17f4743cadddf68d",
+  "name" : "reverts when burning a non-existent token id",
+  "fullName" : "Contract: ERC721 _burn.reverts when burning a non-existent token id",
+  "historyId" : "df4363eb4d39e0d9646357dbf93ae78c",
+  "time" : {
+    "start" : 1638869280805,
+    "stop" : 1638869291097,
+    "duration" : 10292
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721 _burn"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 _burn"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when burning a non-existent token id"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 _burn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d52b875020e1d66c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/d52b875020e1d66c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637920568511,
+          "stop" : 1637920575010,
+          "duration" : 6499
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "17f4743cadddf68d.json",
+  "parameterValues" : [ ]
+}

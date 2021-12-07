@@ -1,0 +1,73 @@
+{
+  "uid" : "413b7b1091c1d402",
+  "name" : "reverts when casting INT256_MIN (-57896044618658097711785492504343953926634992332820282019728792003956564819968)",
+  "fullName" : "Contract: SafeCast toUint256.reverts when casting INT256_MIN (-57896044618658097711785492504343953926634992332820282019728792003956564819968)",
+  "historyId" : "54305cbd3ee5c14ed0f5702ee88d6ce",
+  "time" : {
+    "start" : 1638869983025,
+    "stop" : 1638869987707,
+    "duration" : 4682
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toUint256"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toUint256"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when casting INT256_MIN (-57896044618658097711785492504343953926634992332820282019728792003956564819968)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toUint256"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b459ff035642ade1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/b459ff035642ade1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921352283,
+          "stop" : 1637921357027,
+          "duration" : 4744
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "413b7b1091c1d402.json",
+  "parameterValues" : [ ]
+}

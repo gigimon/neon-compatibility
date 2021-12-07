@@ -1,0 +1,74 @@
+{
+  "uid" : "b040668e0417887c",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC1155Holder Contract interface ERC165 ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "f499b87c40df5bdec38bfb20f97ec67b",
+  "time" : {
+    "start" : 1638865618578,
+    "stop" : 1638865630016,
+    "duration" : 11438
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Holder Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Holder Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Holder Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8b3dda29c205d0a3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/8b3dda29c205d0a3",
+        "status" : "failed",
+        "statusDetails" : "expected 121946 to be at most 30000",
+        "time" : {
+          "start" : 1637916596577,
+          "stop" : 1637916612661,
+          "duration" : 16084
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b040668e0417887c.json",
+  "parameterValues" : [ ]
+}

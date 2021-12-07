@@ -1,0 +1,74 @@
+{
+  "uid" : "b92d659cd0fdda0",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC1155PresetMinterPauser Contract interface AccessControlEnumerable ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "f677bbdf2d844a810a00f539a35aa709",
+  "time" : {
+    "start" : 1638865873370,
+    "stop" : 1638865879090,
+    "duration" : 5720
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155PresetMinterPauser Contract interface AccessControlEnumerable ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155PresetMinterPauser Contract interface AccessControlEnumerable ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155PresetMinterPauser Contract interface AccessControlEnumerable ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "81fe45d7b9e95ceb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/81fe45d7b9e95ceb",
+        "status" : "failed",
+        "statusDetails" : "expected 122120 to be at most 30000",
+        "time" : {
+          "start" : 1637916884925,
+          "stop" : 1637916892931,
+          "duration" : 8006
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b92d659cd0fdda0.json",
+  "parameterValues" : [ ]
+}

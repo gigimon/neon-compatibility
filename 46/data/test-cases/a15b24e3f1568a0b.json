@@ -1,0 +1,74 @@
+{
+  "uid" : "a15b24e3f1568a0b",
+  "name" : "approved operators can burn the holder's tokens",
+  "fullName" : "Contract: ERC1155Burnable burn.approved operators can burn the holder's tokens",
+  "historyId" : "fdaf3f46a0c24a2c61720bf13ff9ac02",
+  "time" : {
+    "start" : 1638865739670,
+    "stop" : 1638865755669,
+    "duration" : 15999
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Burnable burn"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Burnable burn"
+  }, {
+    "name" : "testMethod",
+    "value" : "approved operators can burn the holder's tokens"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Burnable burn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c55eb9d309c9475c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/c55eb9d309c9475c",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 1: invalid instruction data",
+        "time" : {
+          "start" : 1637916718886,
+          "stop" : 1637916733368,
+          "duration" : 14482
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a15b24e3f1568a0b.json",
+  "parameterValues" : [ ]
+}

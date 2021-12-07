@@ -1,0 +1,73 @@
+{
+  "uid" : "cf5b93ddfdf55ab0",
+  "name" : "emits a Transfer event",
+  "fullName" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when called by the owner.emits a Transfer event",
+  "historyId" : "9cd642668bf0bdc915d8e5a431806ca4",
+  "time" : {
+    "start" : 1638868064700,
+    "stop" : 1638868083491,
+    "duration" : 18791
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when called by the owner"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when called by the owner"
+  }, {
+    "name" : "testMethod",
+    "value" : "emits a Transfer event"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when called by the owner"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f23405e5a296f2d2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/f23405e5a296f2d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637919281335,
+          "stop" : 1637919302978,
+          "duration" : 21643
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cf5b93ddfdf55ab0.json",
+  "parameterValues" : [ ]
+}

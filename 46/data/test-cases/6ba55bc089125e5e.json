@@ -1,0 +1,73 @@
+{
+  "uid" : "6ba55bc089125e5e",
+  "name" : "reverts when transferring to zero address",
+  "fullName" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom.reverts when transferring to zero address",
+  "historyId" : "f8cccce989d99e6952c8f79f93ea95e7",
+  "time" : {
+    "start" : 1638866191107,
+    "stop" : 1638866203728,
+    "duration" : 12621
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when transferring to zero address"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "309500b6434f58b4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/309500b6434f58b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637917281873,
+          "stop" : 1637917295472,
+          "duration" : 13599
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6ba55bc089125e5e.json",
+  "parameterValues" : [ ]
+}

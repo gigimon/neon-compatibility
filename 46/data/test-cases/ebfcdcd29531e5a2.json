@@ -1,0 +1,245 @@
+{
+  "uid" : "ebfcdcd29531e5a2",
+  "name" : "test_no_approval",
+  "fullName" : "tests.brownie.token.tests.test_transferFrom#test_no_approval",
+  "historyId" : "7358eb8feac902966a7253222a21510a",
+  "time" : {
+    "start" : 1638863918904,
+    "stop" : 1638863921181,
+    "duration" : 2277
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Transaction did not revert",
+  "statusTrace" : "accounts = <brownie.network.account.Accounts object at 0x7f38fb642070>\ntoken = <Token Contract '0x986a6EB0eE07753A6521a80bE9AF420124F8f54B'>\n\n    def test_no_approval(accounts, token):\n        balance = token.balanceOf(accounts[0])\n    \n        with brownie.reverts():\n>           token.transferFrom(accounts[0], accounts[2], balance, {'from': accounts[1]})\n\ntests/brownie/token/tests/test_transferFrom.py:126: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <brownie.test.managers.runner.RevertContextManager object at 0x7f38f9b80df0>\nexc_type = None, exc_value = None, traceback = None\n\n    def __exit__(self, exc_type, exc_value, traceback):\n        CONFIG.argv[\"always_transact\"] = self.always_transact\n    \n        if exc_type is None:\n>           raise AssertionError(\"Transaction did not revert\")\nE           AssertionError: Transaction did not revert\n\n../../../.local/share/virtualenvs/neon-compatibility-g882AfFF/lib/python3.8/site-packages/brownie/test/managers/runner.py:81: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1638863799824,
+      "stop" : 1638863799824,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "brownie_project",
+    "time" : {
+      "start" : 1638863801362,
+      "stop" : 1638863817594,
+      "duration" : 16232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "accounts",
+    "time" : {
+      "start" : 1638863821377,
+      "stop" : 1638863821650,
+      "duration" : 273
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_env",
+    "time" : {
+      "start" : 1638863821377,
+      "stop" : 1638863821377,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1638863868508,
+      "stop" : 1638863871571,
+      "duration" : 3063
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Transaction did not revert",
+    "statusTrace" : "accounts = <brownie.network.account.Accounts object at 0x7f38fb642070>\ntoken = <Token Contract '0x986a6EB0eE07753A6521a80bE9AF420124F8f54B'>\n\n    def test_no_approval(accounts, token):\n        balance = token.balanceOf(accounts[0])\n    \n        with brownie.reverts():\n>           token.transferFrom(accounts[0], accounts[2], balance, {'from': accounts[1]})\n\ntests/brownie/token/tests/test_transferFrom.py:126: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <brownie.test.managers.runner.RevertContextManager object at 0x7f38f9b80df0>\nexc_type = None, exc_value = None, traceback = None\n\n    def __exit__(self, exc_type, exc_value, traceback):\n        CONFIG.argv[\"always_transact\"] = self.always_transact\n    \n        if exc_type is None:\n>           raise AssertionError(\"Transaction did not revert\")\nE           AssertionError: Transaction did not revert\n\n../../../.local/share/virtualenvs/neon-compatibility-g882AfFF/lib/python3.8/site-packages/brownie/test/managers/runner.py:81: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "91b0a5ace5714ec0",
+      "name" : "stdout",
+      "source" : "91b0a5ace5714ec0.txt",
+      "type" : "text/plain",
+      "size" : 314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "accounts::0",
+    "time" : {
+      "start" : 1638863941787,
+      "stop" : 1638863941787,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Brownie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie.token.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_transferFrom"
+  }, {
+    "name" : "host",
+    "value" : "fv-az123-316"
+  }, {
+    "name" : "thread",
+    "value" : "3180-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.token.tests.test_transferFrom"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "e670a401d677bf06",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/45//#testresult/e670a401d677bf06",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1637936996959,
+          "stop" : 1637936999157,
+          "duration" : 2198
+        }
+      }, {
+        "uid" : "9e4ffdd7d8d4c04f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/9e4ffdd7d8d4c04f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1637924050285,
+          "stop" : 1637924052399,
+          "duration" : 2114
+        }
+      }, {
+        "uid" : "3b1a95b6a9d91ea",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/3b1a95b6a9d91ea",
+        "status" : "broken",
+        "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('fn_isolation', <SubRequest 'isolate' for <Function test_no_approval>>)",
+        "time" : {
+          "start" : 1637912912593,
+          "stop" : 1637912912593,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "836f93f3506b3494",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/41//#testresult/836f93f3506b3494",
+        "status" : "broken",
+        "statusDetails" : "ValueError: Transaction simulation failed: Error processing Instruction 3: custom program error: 0x1",
+        "time" : {
+          "start" : 1637766695936,
+          "stop" : 1637766695936,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "52aa9e42a3111c71",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/40//#testresult/52aa9e42a3111c71",
+        "status" : "broken",
+        "statusDetails" : "ValueError: Transaction simulation failed: Error processing Instruction 1: custom program error: 0x1",
+        "time" : {
+          "start" : 1637759663851,
+          "stop" : 1637759663851,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5a5b71f26ea29fd0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/37//#testresult/5a5b71f26ea29fd0",
+        "status" : "broken",
+        "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('Token', <SubRequest 'token' for <Function test_no_approval>>)",
+        "time" : {
+          "start" : 1637755465212,
+          "stop" : 1637755465212,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ebfcdcd29531e5a2.json",
+  "parameterValues" : [ ]
+}

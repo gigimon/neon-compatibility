@@ -1,0 +1,74 @@
+{
+  "uid" : "6a87f370390a53b3",
+  "name" : "holder can burn their tokens",
+  "fullName" : "Contract: ERC1155Burnable burn.holder can burn their tokens",
+  "historyId" : "2097cdb0d801455d08c92f087c4dc692",
+  "time" : {
+    "start" : 1638865723615,
+    "stop" : 1638865739668,
+    "duration" : 16053
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Burnable burn"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Burnable burn"
+  }, {
+    "name" : "testMethod",
+    "value" : "holder can burn their tokens"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Burnable burn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cfa6fb3b48959af5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/cfa6fb3b48959af5",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 1: invalid instruction data",
+        "time" : {
+          "start" : 1637916704262,
+          "stop" : 1637916718885,
+          "duration" : 14623
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6a87f370390a53b3.json",
+  "parameterValues" : [ ]
+}

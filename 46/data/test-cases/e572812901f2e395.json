@@ -1,0 +1,73 @@
+{
+  "uid" : "e572812901f2e395",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the sender is not authorized for the token id.reverts",
+  "historyId" : "824272fbd89bc12706a1327d2ba9d4ce",
+  "time" : {
+    "start" : 1638868615356,
+    "stop" : 1638868632412,
+    "duration" : 17056
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the sender is not authorized for the token id"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the sender is not authorized for the token id"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the sender is not authorized for the token id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "52bd659470c051dc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/52bd659470c051dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637919940638,
+          "stop" : 1637919958578,
+          "duration" : 17940
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e572812901f2e395.json",
+  "parameterValues" : [ ]
+}

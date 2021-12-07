@@ -1,0 +1,74 @@
+{
+  "uid" : "7919a3939416d457",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC1155 like an ERC1155 Contract interface ERC165 ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "aba9cf90da6c3ed8f633fd8c88d6f2b3",
+  "time" : {
+    "start" : 1638866470140,
+    "stop" : 1638866475588,
+    "duration" : 5448
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "179f963e36a27307",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/179f963e36a27307",
+        "status" : "failed",
+        "statusDetails" : "expected 122037 to be at most 30000",
+        "time" : {
+          "start" : 1637917827718,
+          "stop" : 1637917833235,
+          "duration" : 5517
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7919a3939416d457.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "c2dd0107505d07e3",
+  "name" : "reverts when decreasing the allowance to a negative value",
+  "fullName" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance.reverts when decreasing the allowance to a negative value",
+  "historyId" : "15f2705b562ff7bc9a2e4a7ac34957cd",
+  "time" : {
+    "start" : 1638865712679,
+    "stop" : 1638865726906,
+    "duration" : 14227
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when decreasing the allowance to a negative value"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f4e9f1834fda6a81",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/f4e9f1834fda6a81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916592535,
+          "stop" : 1637916604486,
+          "duration" : 11951
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c2dd0107505d07e3.json",
+  "parameterValues" : [ ]
+}

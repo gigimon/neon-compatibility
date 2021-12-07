@@ -1,0 +1,73 @@
+{
+  "uid" : "6fd9328f66a72bf",
+  "name" : "reverts when downcasting 2^32 (4294967296)",
+  "fullName" : "Contract: SafeCast toUint32.reverts when downcasting 2^32 (4294967296)",
+  "historyId" : "8dfc457dd62f2ff8cba32f85991873d1",
+  "time" : {
+    "start" : 1638869833561,
+    "stop" : 1638869840460,
+    "duration" : 6899
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^32 (4294967296)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "32cbb74bb8a51e1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/32cbb74bb8a51e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921230050,
+          "stop" : 1637921234665,
+          "duration" : 4615
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6fd9328f66a72bf.json",
+  "parameterValues" : [ ]
+}

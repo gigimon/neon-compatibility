@@ -1,0 +1,73 @@
+{
+  "uid" : "86ae8cae941285b5",
+  "name" : "reverts on transferFrom",
+  "fullName" : "Contract: SafeERC20 with token that returns false on all calls.reverts on transferFrom",
+  "historyId" : "ce06f43de6eba42535b7b427d49b964c",
+  "time" : {
+    "start" : 1638865408324,
+    "stop" : 1638865417403,
+    "duration" : 9079
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on transferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "948e412672ab01c0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/948e412672ab01c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916295159,
+          "stop" : 1637916304270,
+          "duration" : 9111
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86ae8cae941285b5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "a921aae6ea66821",
+  "name" : "doesn't revert when approving a zero allowance",
+  "fullName" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance.doesn't revert when approving a zero allowance",
+  "historyId" : "fe2235c066d6257fdccc471b45c231b",
+  "time" : {
+    "start" : 1638865479883,
+    "stop" : 1638865495222,
+    "duration" : 15339
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "doesn't revert when approving a zero allowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "67f0af6a915250cd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/67f0af6a915250cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916369066,
+          "stop" : 1637916381865,
+          "duration" : 12799
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a921aae6ea66821.json",
+  "parameterValues" : [ ]
+}
