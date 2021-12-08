@@ -1,0 +1,93 @@
+{
+  "uid" : "1884d8c55fac0099",
+  "name" : "payable initialization",
+  "fullName" : "Contract: BeaconProxy initialization.payable initialization",
+  "historyId" : "24ebe6e80a855369e1a1ec51b8bda755",
+  "time" : {
+    "start" : 1638928035734,
+    "stop" : 1638928043794,
+    "duration" : 8060
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '100000000000000000000' to equal '100'",
+  "statusTrace" : "AssertionError: expected '100000000000000000000' to equal '100'\n                    at Context.assertInitialized (test/proxy/beacon/BeaconProxy.test.js:62:76)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/proxy/beacon/BeaconProxy.test.js:93:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testMethod",
+    "value" : "payable initialization"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "881d4977af2d2644",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/881d4977af2d2644",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '100'",
+        "time" : {
+          "start" : 1638867243187,
+          "stop" : 1638867255120,
+          "duration" : 11933
+        }
+      }, {
+        "uid" : "69bb9bb72a421f43",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/69bb9bb72a421f43",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1637927101957,
+          "stop" : 1637927115438,
+          "duration" : 13481
+        }
+      }, {
+        "uid" : "24521e9ef971d363",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/24521e9ef971d363",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1637915402938,
+          "stop" : 1637915413438,
+          "duration" : 10500
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1884d8c55fac0099.json",
+  "parameterValues" : [ ]
+}

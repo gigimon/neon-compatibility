@@ -1,0 +1,75 @@
+{
+  "uid" : "c26212a179275c0d",
+  "name" : "reverts on division by zero",
+  "fullName" : "Contract: SafeMath with custom revert message div.reverts on division by zero",
+  "historyId" : "178a6364a066f6c58c7bc424a3807191",
+  "time" : {
+    "start" : 1638941423693,
+    "stop" : 1638941427860,
+    "duration" : 4167
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeMath with custom revert message div"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeMath with custom revert message div"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on division by zero"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeMath with custom revert message div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3433fd7ee8567cbb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/3433fd7ee8567cbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874641688,
+          "stop" : 1638874648491,
+          "duration" : 6803
+        }
+      }, {
+        "uid" : "9522acf655e05bd2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/9522acf655e05bd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921347259,
+          "stop" : 1637921351886,
+          "duration" : 4627
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c26212a179275c0d.json",
+  "parameterValues" : [ ]
+}

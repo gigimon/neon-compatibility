@@ -1,0 +1,84 @@
+{
+  "uid" : "880fbcdc529e9e59",
+  "name" : "fails to upgrade",
+  "fullName" : "Contract: ProxyAdmin #upgradeAndCall with authorized account with invalid callData.fails to upgrade",
+  "historyId" : "a0f8101fa6fab743dd85c4ea9ee36d0e",
+  "time" : {
+    "start" : 1638928444646,
+    "stop" : 1638928452548,
+    "duration" : 7902
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ProxyAdmin #upgradeAndCall with authorized account with invalid callData"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ProxyAdmin #upgradeAndCall with authorized account with invalid callData"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails to upgrade"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ProxyAdmin #upgradeAndCall with authorized account with invalid callData"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1b68e584ed561047",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/1b68e584ed561047",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638867278315,
+          "stop" : 1638867289502,
+          "duration" : 11187
+        }
+      }, {
+        "uid" : "2d23e74e0fb7b266",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/2d23e74e0fb7b266",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637927137473,
+          "stop" : 1637927151091,
+          "duration" : 13618
+        }
+      }, {
+        "uid" : "eed4bd8f1e90e434",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/eed4bd8f1e90e434",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637915428950,
+          "stop" : 1637915439114,
+          "duration" : 10164
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "880fbcdc529e9e59.json",
+  "parameterValues" : [ ]
+}

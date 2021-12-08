@@ -1,0 +1,75 @@
+{
+  "uid" : "4ae58fbe64ae3c9f",
+  "name" : "doesn't revert when approving a zero allowance",
+  "fullName" : "Contract: SafeERC20 with token that returns true on all calls approvals with non-zero allowance.doesn't revert when approving a zero allowance",
+  "historyId" : "ed7143db17a9fe3d7c1dddc3fce9a1bd",
+  "time" : {
+    "start" : 1638932431507,
+    "stop" : 1638932441660,
+    "duration" : 10153
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with non-zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with non-zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "doesn't revert when approving a zero allowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with non-zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c0944a119e6e333",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/c0944a119e6e333",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638865530620,
+          "stop" : 1638865543713,
+          "duration" : 13093
+        }
+      }, {
+        "uid" : "5db1a29f76461bb3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/5db1a29f76461bb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916418022,
+          "stop" : 1637916431453,
+          "duration" : 13431
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4ae58fbe64ae3c9f.json",
+  "parameterValues" : [ ]
+}

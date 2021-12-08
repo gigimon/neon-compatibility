@@ -1,0 +1,85 @@
+{
+  "uid" : "94854ab7bfa59d29",
+  "name" : "reverts when calling non-payable functions",
+  "fullName" : "Contract: Address functionCallWithValue with non-zero value.reverts when calling non-payable functions",
+  "historyId" : "af2c0a6edadf54176dc779c774208d48",
+  "time" : {
+    "start" : 1638940096555,
+    "stop" : 1638940105672,
+    "duration" : 9117
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Address functionCallWithValue with non-zero value"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Address functionCallWithValue with non-zero value"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when calling non-payable functions"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Address functionCallWithValue with non-zero value"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2be7f7e9d33bc4c7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/2be7f7e9d33bc4c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874812207,
+          "stop" : 1638874825719,
+          "duration" : 13512
+        }
+      }, {
+        "uid" : "b3991a3c2d6f4e73",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/b3991a3c2d6f4e73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638870117316,
+          "stop" : 1638870127366,
+          "duration" : 10050
+        }
+      }, {
+        "uid" : "6d32f5491991bf21",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/6d32f5491991bf21",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '70dcf7e8bdfec7619418a33d2ec91aecd7791670', '3fbb85adb6b0db1edddb728980835c55445fc6a1', 'none', '0x10a741a462780000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1637921368424,
+          "stop" : 1637921376888,
+          "duration" : 8464
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "94854ab7bfa59d29.json",
+  "parameterValues" : [ ]
+}

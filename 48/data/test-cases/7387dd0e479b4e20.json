@@ -1,0 +1,75 @@
+{
+  "uid" : "7387dd0e479b4e20",
+  "name" : "reverts on approve",
+  "fullName" : "Contract: SafeERC20 with address that has no contract code.reverts on approve",
+  "historyId" : "62205f2eedc76dcb3e4916c92fd6707b",
+  "time" : {
+    "start" : 1638932310640,
+    "stop" : 1638932315564,
+    "duration" : 4924
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with address that has no contract code"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with address that has no contract code"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on approve"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with address that has no contract code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "69a8ea365f43e61",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/69a8ea365f43e61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638865382442,
+          "stop" : 1638865387546,
+          "duration" : 5104
+        }
+      }, {
+        "uid" : "7e88fd52ece72eb2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/7e88fd52ece72eb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916269836,
+          "stop" : 1637916274929,
+          "duration" : 5093
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7387dd0e479b4e20.json",
+  "parameterValues" : [ ]
+}

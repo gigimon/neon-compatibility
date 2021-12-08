@@ -1,0 +1,85 @@
+{
+  "uid" : "471988e31ada8e98",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC721PresetMinterPauserAutoId Contract interface AccessControl ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "d0ba9bbe3ece23a8d8d6f7470bb0a03e",
+  "time" : {
+    "start" : 1638939770393,
+    "stop" : 1638939775098,
+    "duration" : 4705
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "b3aa85db097a93d1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/b3aa85db097a93d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638869027282,
+          "stop" : 1638869034900,
+          "duration" : 7618
+        }
+      }, {
+        "uid" : "97300d8d4c3baddb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/97300d8d4c3baddb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638865653847,
+          "stop" : 1638865663560,
+          "duration" : 9713
+        }
+      }, {
+        "uid" : "2df68d49dc98bc8c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/2df68d49dc98bc8c",
+        "status" : "failed",
+        "statusDetails" : "expected 122299 to be at most 30000",
+        "time" : {
+          "start" : 1637916699336,
+          "stop" : 1637916708378,
+          "duration" : 9042
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "471988e31ada8e98.json",
+  "parameterValues" : [ ]
+}

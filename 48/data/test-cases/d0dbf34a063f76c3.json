@@ -1,0 +1,73 @@
+{
+  "uid" : "d0dbf34a063f76c3",
+  "name" : "can add balances on multiple accounts",
+  "fullName" : "Contract: PullPayment payments.can add balances on multiple accounts",
+  "historyId" : "365394de99e700fd3cce3946a309b287",
+  "time" : {
+    "start" : 1638929260172,
+    "stop" : 1638929287734,
+    "duration" : 27562
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '0' to equal '200'",
+  "statusTrace" : "AssertionError: expected '0' to equal '200'\n                    at Context.<anonymous> (test/security/PullPayment.test.js:32:68)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add balances on multiple accounts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3a15ad960ef80bbd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/3a15ad960ef80bbd",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '200'",
+        "time" : {
+          "start" : 1638867349870,
+          "stop" : 1638867362472,
+          "duration" : 12602
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d0dbf34a063f76c3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "aa5e7436bd67b56f",
+  "name" : "should store the admin proxy in specified location",
+  "fullName" : "Contract: TransparentUpgradeableProxy storage.should store the admin proxy in specified location",
+  "historyId" : "39f77ae40f7ad6b32b94015f96d04282",
+  "time" : {
+    "start" : 1638928814167,
+    "stop" : 1638928817870,
+    "duration" : 3703
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should store the admin proxy in specified location"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ed8c5dc4cb28d6fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/ed8c5dc4cb28d6fa",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1637927654185,
+          "stop" : 1637927660916,
+          "duration" : 6731
+        }
+      }, {
+        "uid" : "d56f24b6ecfe947b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/d56f24b6ecfe947b",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1637915955009,
+          "stop" : 1637915960077,
+          "duration" : 5068
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aa5e7436bd67b56f.json",
+  "parameterValues" : [ ]
+}

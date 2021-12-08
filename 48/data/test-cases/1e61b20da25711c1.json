@@ -1,0 +1,94 @@
+{
+  "uid" : "1e61b20da25711c1",
+  "name" : "rejects deposits",
+  "fullName" : "Contract: RefundEscrow once deployed closed state.rejects deposits",
+  "historyId" : "2212b32b7c50364e276f03eda4203833",
+  "time" : {
+    "start" : 1638940571711,
+    "stop" : 1638940576340,
+    "duration" : 4629
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://release-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'dabe1163c8e818508360b47f54e4ab927dd77688', '86b9863b9698b0e810ecaa2e45301083d5176d80', 'f340fa010000000000000000000000007b8d075c84708da98bfd3c46916fb28f9d544d05', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://release-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'dabe1163c8e818508360b47f54e4ab927dd77688', '86b9863b9698b0e810ecaa2e45301083d5176d80', 'f340fa010000000000000000000000007b8d075c84708da98bfd3c46916fb28f9d544d05', '0x2ed6689e54f180000']' returned non-zero exit status 1.\n                    at /Users/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/utils/escrow/RefundEscrow.test.js:63:65\n                    at Array.map (<anonymous>)\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:63:37)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed closed state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed closed state"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects deposits"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed closed state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "cc0fc12c1332cb6b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/cc0fc12c1332cb6b",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'a05bd1b5b56780e35deb05a5bb3565af299c2b96', '89bbc1b870bf1debb578362f147e1d0cbb467e89', 'f340fa010000000000000000000000005c52fc2886892acb92a872db9e72c0a0285d0511', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1638874697086,
+          "stop" : 1638874703877,
+          "duration" : 6791
+        }
+      }, {
+        "uid" : "21158768f2cab70",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/21158768f2cab70",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'de928472cf4a342a6d12d5fb31e67371cdf25775', 'a25e9732665316a0a3c66b9be061033a16ae72f0', 'f340fa01000000000000000000000000bb74561b252fbd9d80528f795b9b29ab05fd666f', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1638869979122,
+          "stop" : 1638869984948,
+          "duration" : 5826
+        }
+      }, {
+        "uid" : "d22f483d890bf742",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/d22f483d890bf742",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'bcd4c4b5cf83d41ea84d274753359ca72893a087', 'aacd75589163bfa8065dc7a10ba3df97d080ec6a', 'f340fa01000000000000000000000000adbdb4830a7953f90399f8ae5846aec91489eb63', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1637921398990,
+          "stop" : 1637921404660,
+          "duration" : 5670
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1e61b20da25711c1.json",
+  "parameterValues" : [ ]
+}

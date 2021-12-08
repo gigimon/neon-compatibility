@@ -1,0 +1,84 @@
+{
+  "uid" : "9edef2b6652347dd",
+  "name" : "reverts when downcasting 2^31 + 1 (2147483649)",
+  "fullName" : "Contract: SafeCast toInt32.reverts when downcasting 2^31 + 1 (2147483649)",
+  "historyId" : "1f89fc4a35ff4877a92477c865c41b9c",
+  "time" : {
+    "start" : 1638941169584,
+    "stop" : 1638941173622,
+    "duration" : 4038
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^31 + 1 (2147483649)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "345841bc788d79d8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/345841bc788d79d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874807441,
+          "stop" : 1638874813029,
+          "duration" : 5588
+        }
+      }, {
+        "uid" : "1b30bb83c30435ed",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/1b30bb83c30435ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638870123468,
+          "stop" : 1638870127739,
+          "duration" : 4271
+        }
+      }, {
+        "uid" : "f3f86494567a1e91",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/f3f86494567a1e91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921479360,
+          "stop" : 1637921484559,
+          "duration" : 5199
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9edef2b6652347dd.json",
+  "parameterValues" : [ ]
+}

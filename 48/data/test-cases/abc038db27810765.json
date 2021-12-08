@@ -1,0 +1,75 @@
+{
+  "uid" : "abc038db27810765",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20Burnable burnFrom when the given amount is greater than the allowance.reverts",
+  "historyId" : "5ec322217ba39cdf91f32f63bad8fea9",
+  "time" : {
+    "start" : 1638931293034,
+    "stop" : 1638931299656,
+    "duration" : 6622
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Burnable burnFrom when the given amount is greater than the allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Burnable burnFrom when the given amount is greater than the allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Burnable burnFrom when the given amount is greater than the allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a8f6f36d385cfe0d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/a8f6f36d385cfe0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638865478018,
+          "stop" : 1638865486438,
+          "duration" : 8420
+        }
+      }, {
+        "uid" : "8f29489fe8f217c3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/8f29489fe8f217c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916371090,
+          "stop" : 1637916380082,
+          "duration" : 8992
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "abc038db27810765.json",
+  "parameterValues" : [ ]
+}

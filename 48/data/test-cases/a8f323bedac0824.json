@@ -1,0 +1,75 @@
+{
+  "uid" : "a8f323bedac0824",
+  "name" : "reverts on multiplication overflow",
+  "fullName" : "Contract: SafeMath with flag mul.reverts on multiplication overflow",
+  "historyId" : "e607fdf70b60c5bc3ff4c9609172190c",
+  "time" : {
+    "start" : 1638941291060,
+    "stop" : 1638941294058,
+    "duration" : 2998
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeMath with flag mul"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeMath with flag mul"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on multiplication overflow"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeMath with flag mul"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "781f0c3ef4a99bf3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/781f0c3ef4a99bf3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874443439,
+          "stop" : 1638874448173,
+          "duration" : 4734
+        }
+      }, {
+        "uid" : "6dbf779f1b567ded",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/6dbf779f1b567ded",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921198266,
+          "stop" : 1637921202438,
+          "duration" : 4172
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a8f323bedac0824.json",
+  "parameterValues" : [ ]
+}

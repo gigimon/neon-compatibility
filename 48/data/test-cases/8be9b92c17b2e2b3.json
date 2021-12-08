@@ -1,0 +1,91 @@
+{
+  "uid" : "8be9b92c17b2e2b3",
+  "name" : "accepts deposits",
+  "fullName" : "Contract: RefundEscrow once deployed active state.accepts deposits",
+  "historyId" : "7128e089fe91dfd1f9c3454990f33b5b",
+  "time" : {
+    "start" : 1638940557253,
+    "stop" : 1638940562248,
+    "duration" : 4995
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://release-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'dabe1163c8e818508360b47f54e4ab927dd77688', 'b27aff6ae39ca1a6dc6da5490eb40d6f08e1ff23', 'f340fa01000000000000000000000000b5ecc82738b1d1cbbca36738177c28cfbe4ad90d', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://release-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'dabe1163c8e818508360b47f54e4ab927dd77688', 'b27aff6ae39ca1a6dc6da5490eb40d6f08e1ff23', 'f340fa01000000000000000000000000b5ecc82738b1d1cbbca36738177c28cfbe4ad90d', '0x2ed6689e54f180000']' returned non-zero exit status 1.\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:32:27)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testMethod",
+    "value" : "accepts deposits"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "59b5ee56d2171752",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/59b5ee56d2171752",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874671233,
+          "stop" : 1638874682878,
+          "duration" : 11645
+        }
+      }, {
+        "uid" : "6475fd220ef44d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/6475fd220ef44d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638869957882,
+          "stop" : 1638869965149,
+          "duration" : 7267
+        }
+      }, {
+        "uid" : "e87b1b0428bff3b9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/e87b1b0428bff3b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921380715,
+          "stop" : 1637921387935,
+          "duration" : 7220
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8be9b92c17b2e2b3.json",
+  "parameterValues" : [ ]
+}

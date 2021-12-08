@@ -1,0 +1,93 @@
+{
+  "uid" : "e29c5044d271bec6",
+  "name" : "run",
+  "fullName" : "Contract: Governor Cancel After execution.run",
+  "historyId" : "927790e36cc133ad94cdba59061c3192",
+  "time" : {
+    "start" : 1638927668585,
+    "stop" : 1638927698248,
+    "duration" : 29663
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Expected an exception but none was received",
+  "statusTrace" : "AssertionError: Expected an exception but none was received\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:25:10)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/governance/Governor.test.js:767:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor Cancel After execution"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor Cancel After execution"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor Cancel After execution"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "5a0cf30d6d54ce24",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/5a0cf30d6d54ce24",
+        "status" : "broken",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1638866811655,
+          "stop" : 1638866847001,
+          "duration" : 35346
+        }
+      }, {
+        "uid" : "20801e94a58a6c66",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/20801e94a58a6c66",
+        "status" : "broken",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1637926475052,
+          "stop" : 1637926541157,
+          "duration" : 66105
+        }
+      }, {
+        "uid" : "ba1ed1fa9a55b44b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/ba1ed1fa9a55b44b",
+        "status" : "broken",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1637914928022,
+          "stop" : 1637914980966,
+          "duration" : 52944
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e29c5044d271bec6.json",
+  "parameterValues" : [ ]
+}

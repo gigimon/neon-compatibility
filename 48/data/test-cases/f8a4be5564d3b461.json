@@ -1,0 +1,85 @@
+{
+  "uid" : "f8a4be5564d3b461",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC1155PresetMinterPauser Contract interface AccessControl ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "53f7429543acabc8cc9ff1ce4f1a8f59",
+  "time" : {
+    "start" : 1638930517718,
+    "stop" : 1638930522286,
+    "duration" : 4568
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155PresetMinterPauser Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155PresetMinterPauser Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155PresetMinterPauser Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f350d1bd0101ed2a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/f350d1bd0101ed2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638869179913,
+          "stop" : 1638869188158,
+          "duration" : 8245
+        }
+      }, {
+        "uid" : "ef80265acaca904c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/ef80265acaca904c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638865834294,
+          "stop" : 1638865840602,
+          "duration" : 6308
+        }
+      }, {
+        "uid" : "26665d78ab5b3335",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/26665d78ab5b3335",
+        "status" : "failed",
+        "statusDetails" : "expected 122209 to be at most 30000",
+        "time" : {
+          "start" : 1637916833067,
+          "stop" : 1637916841135,
+          "duration" : 8068
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f8a4be5564d3b461.json",
+  "parameterValues" : [ ]
+}

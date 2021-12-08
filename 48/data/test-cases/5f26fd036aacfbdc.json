@@ -1,0 +1,76 @@
+{
+  "uid" : "5f26fd036aacfbdc",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC165Storage Contract interface ERC165 ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "4507474b7c7efceb16bc4279512fc470",
+  "time" : {
+    "start" : 1638940792177,
+    "stop" : 1638940796109,
+    "duration" : 3932
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC165Storage Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC165Storage Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC165Storage Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "79286fffae2ff98d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/79286fffae2ff98d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874394778,
+          "stop" : 1638874403083,
+          "duration" : 8305
+        }
+      }, {
+        "uid" : "36dd9e0136823c99",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/36dd9e0136823c99",
+        "status" : "failed",
+        "statusDetails" : "expected 121917 to be at most 30000",
+        "time" : {
+          "start" : 1637921177719,
+          "stop" : 1637921182059,
+          "duration" : 4340
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5f26fd036aacfbdc.json",
+  "parameterValues" : [ ]
+}

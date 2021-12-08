@@ -1,0 +1,91 @@
+{
+  "uid" : "6c32591e7856b930",
+  "name" : "has expected balance",
+  "fullName" : "Contract: ERC1967Proxy initialization with parameters non payable when not sending balance.has expected balance",
+  "historyId" : "fa83173b4afd7a7efebbe296a560e991",
+  "time" : {
+    "start" : 1638928335556,
+    "stop" : 1638928339186,
+    "duration" : 3630
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '100000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '100000000000000000000' to equal '0'\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:42:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy initialization with parameters non payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy initialization with parameters non payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy initialization with parameters non payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "b8c5837882f3821d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/b8c5837882f3821d",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1638867227430,
+          "stop" : 1638867233172,
+          "duration" : 5742
+        }
+      }, {
+        "uid" : "8393a3cd56c93fa0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/8393a3cd56c93fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637927090306,
+          "stop" : 1637927097678,
+          "duration" : 7372
+        }
+      }, {
+        "uid" : "8e80b499c1bea9ec",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/8e80b499c1bea9ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637915395304,
+          "stop" : 1637915400935,
+          "duration" : 5631
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6c32591e7856b930.json",
+  "parameterValues" : [ ]
+}

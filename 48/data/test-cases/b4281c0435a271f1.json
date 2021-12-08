@@ -1,0 +1,86 @@
+{
+  "uid" : "b4281c0435a271f1",
+  "name" : "debits transferred balances from sender",
+  "fullName" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom when called by the multiTokenHolder.debits transferred balances from sender",
+  "historyId" : "17276036d8705efd48725796ce0492e1",
+  "time" : {
+    "start" : 1638929726357,
+    "stop" : 1638929738259,
+    "duration" : 11902
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom when called by the multiTokenHolder"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom when called by the multiTokenHolder"
+  }, {
+    "name" : "testMethod",
+    "value" : "debits transferred balances from sender"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom when called by the multiTokenHolder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7da3c1289fe60581",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/7da3c1289fe60581",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1638869631098,
+          "stop" : 1638869646626,
+          "duration" : 15528
+        }
+      }, {
+        "uid" : "238f73682f0e559d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/238f73682f0e559d",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1638866203729,
+          "stop" : 1638866213364,
+          "duration" : 9635
+        }
+      }, {
+        "uid" : "99b73bd66b87dfb5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/99b73bd66b87dfb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637917295473,
+          "stop" : 1637917315045,
+          "duration" : 19572
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b4281c0435a271f1.json",
+  "parameterValues" : [ ]
+}

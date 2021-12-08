@@ -1,0 +1,84 @@
+{
+  "uid" : "815148af1518eaf4",
+  "name" : "reverts when downcasting 2^31 (2147483648)",
+  "fullName" : "Contract: SafeCast toInt32.reverts when downcasting 2^31 (2147483648)",
+  "historyId" : "295fb48c64356abf321fe2af3fc52bd",
+  "time" : {
+    "start" : 1638941165269,
+    "stop" : 1638941169583,
+    "duration" : 4314
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^31 (2147483648)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2d8fb58c0eb56165",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/2d8fb58c0eb56165",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874801953,
+          "stop" : 1638874807440,
+          "duration" : 5487
+        }
+      }, {
+        "uid" : "eea80bc5487d9cba",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/eea80bc5487d9cba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638870119229,
+          "stop" : 1638870123468,
+          "duration" : 4239
+        }
+      }, {
+        "uid" : "19206f549d2dd36a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/19206f549d2dd36a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921474716,
+          "stop" : 1637921479360,
+          "duration" : 4644
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "815148af1518eaf4.json",
+  "parameterValues" : [ ]
+}

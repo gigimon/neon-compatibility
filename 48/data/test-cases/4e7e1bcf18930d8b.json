@@ -1,0 +1,84 @@
+{
+  "uid" : "4e7e1bcf18930d8b",
+  "name" : "emits a transfer event",
+  "fullName" : "Contract: ERC20 _transfer when the recipient is not the zero address when the sender transfers all balance.emits a transfer event",
+  "historyId" : "6fed794a2d7b1fda8a382c9b0847518f",
+  "time" : {
+    "start" : 1638931098958,
+    "stop" : 1638931104302,
+    "duration" : 5344
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 _transfer when the recipient is not the zero address when the sender transfers all balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 _transfer when the recipient is not the zero address when the sender transfers all balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "emits a transfer event"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 _transfer when the recipient is not the zero address when the sender transfers all balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "cd62a6e9fa029544",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/cd62a6e9fa029544",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638869376025,
+          "stop" : 1638869383542,
+          "duration" : 7517
+        }
+      }, {
+        "uid" : "ab9a5448ede6bf38",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/ab9a5448ede6bf38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638865949737,
+          "stop" : 1638865956360,
+          "duration" : 6623
+        }
+      }, {
+        "uid" : "d9dd93705c1d411f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/d9dd93705c1d411f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916895678,
+          "stop" : 1637916904524,
+          "duration" : 8846
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4e7e1bcf18930d8b.json",
+  "parameterValues" : [ ]
+}

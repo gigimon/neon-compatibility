@@ -1,0 +1,93 @@
+{
+  "uid" : "3e9bf3191a986119",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario Invalid vote type.run",
+  "historyId" : "ed0b99835b357529fb6601d7bc0b1444",
+  "time" : {
+    "start" : 1638927269164,
+    "stop" : 1638927297784,
+    "duration" : 28620
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(88539) is lower than current block #(88541)",
+  "statusTrace" : "Error: Target block #(88539) is lower than current block #(88541)\n                    at Object.advanceBlockTo (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario Invalid vote type"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario Invalid vote type"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario Invalid vote type"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9e2c135965f5c996",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/9e2c135965f5c996",
+        "status" : "broken",
+        "statusDetails" : "Target block #(1428932) is lower than current block #(1428934)",
+        "time" : {
+          "start" : 1638866337574,
+          "stop" : 1638866369899,
+          "duration" : 32325
+        }
+      }, {
+        "uid" : "b26ce0fe0f8ff16c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/b26ce0fe0f8ff16c",
+        "status" : "broken",
+        "statusDetails" : "Target block #(628929) is lower than current block #(628952)",
+        "time" : {
+          "start" : 1637925661668,
+          "stop" : 1637925719446,
+          "duration" : 57778
+        }
+      }, {
+        "uid" : "21dc60a9aeb15943",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/21dc60a9aeb15943",
+        "status" : "broken",
+        "statusDetails" : "Target block #(601844) is lower than current block #(601863)",
+        "time" : {
+          "start" : 1637914297833,
+          "stop" : 1637914343581,
+          "duration" : 45748
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3e9bf3191a986119.json",
+  "parameterValues" : [ ]
+}

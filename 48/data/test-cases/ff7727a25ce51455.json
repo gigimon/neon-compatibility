@@ -1,0 +1,92 @@
+{
+  "uid" : "ff7727a25ce51455",
+  "name" : "can accept a single deposit",
+  "fullName" : "Contract: Escrow as an escrow deposits.can accept a single deposit",
+  "historyId" : "57b53ba2aef4f817049d4407b97760c5",
+  "time" : {
+    "start" : 1638940488103,
+    "stop" : 1638940493128,
+    "duration" : 5025
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '142000000000000000000' to equal '42000000000000000000'",
+  "statusTrace" : "AssertionError: expected '142000000000000000000' to equal '42000000000000000000'\n                    at Context.<anonymous> (test/utils/escrow/Escrow.behavior.js:13:76)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "testMethod",
+    "value" : "can accept a single deposit"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3132f58482e8c801",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/3132f58482e8c801",
+        "status" : "failed",
+        "statusDetails" : "expected '142000000000000000000' to equal '42000000000000000000'",
+        "time" : {
+          "start" : 1638874675248,
+          "stop" : 1638874685490,
+          "duration" : 10242
+        }
+      }, {
+        "uid" : "d21b96bb433c2bf0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/d21b96bb433c2bf0",
+        "status" : "failed",
+        "statusDetails" : "expected '142000000000000000000' to equal '42000000000000000000'",
+        "time" : {
+          "start" : 1638869973354,
+          "stop" : 1638869980602,
+          "duration" : 7248
+        }
+      }, {
+        "uid" : "f72683a10356953e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/f72683a10356953e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921379614,
+          "stop" : 1637921387001,
+          "duration" : 7387
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ff7727a25ce51455.json",
+  "parameterValues" : [ ]
+}

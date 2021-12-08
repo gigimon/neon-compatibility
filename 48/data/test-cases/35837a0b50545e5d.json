@@ -1,0 +1,84 @@
+{
+  "uid" : "35837a0b50545e5d",
+  "name" : "reverts when downcasting 2^63 (9223372036854775808)",
+  "fullName" : "Contract: SafeCast toInt64.reverts when downcasting 2^63 (9223372036854775808)",
+  "historyId" : "e7849f57371e86143f9f04f63baad29d",
+  "time" : {
+    "start" : 1638941202878,
+    "stop" : 1638941207043,
+    "duration" : 4165
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^63 (9223372036854775808)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "82b76eb23df0c0ba",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/82b76eb23df0c0ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874853399,
+          "stop" : 1638874858877,
+          "duration" : 5478
+        }
+      }, {
+        "uid" : "fd4f1aba5aac07af",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/fd4f1aba5aac07af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638870158035,
+          "stop" : 1638870163836,
+          "duration" : 5801
+        }
+      }, {
+        "uid" : "71510ff8088b0070",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/71510ff8088b0070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921516677,
+          "stop" : 1637921521814,
+          "duration" : 5137
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "35837a0b50545e5d.json",
+  "parameterValues" : [ ]
+}

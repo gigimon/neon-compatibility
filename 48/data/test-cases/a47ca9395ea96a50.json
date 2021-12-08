@@ -1,0 +1,93 @@
+{
+  "uid" : "a47ca9395ea96a50",
+  "name" : "run",
+  "fullName" : "Contract: GovernorComp voting with comp token.run",
+  "historyId" : "fd5068a035482327dd8c995aa23ca723",
+  "time" : {
+    "start" : 1638926451155,
+    "stop" : 1638926488864,
+    "duration" : 37709
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected false to equal true",
+  "statusTrace" : "AssertionError: expected false to equal true\n                    at Context.<anonymous> (test/governance/extensions/GovernorComp.test.js:61:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6c9a8486c8ed1dbc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/6c9a8486c8ed1dbc",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1638865416546,
+          "stop" : 1638865469690,
+          "duration" : 53144
+        }
+      }, {
+        "uid" : "b006ed2e0b618b84",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/b006ed2e0b618b84",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1637924412435,
+          "stop" : 1637924489386,
+          "duration" : 76951
+        }
+      }, {
+        "uid" : "dcd9208307b47bef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/dcd9208307b47bef",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1637913219242,
+          "stop" : 1637913281248,
+          "duration" : 62006
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a47ca9395ea96a50.json",
+  "parameterValues" : [ ]
+}

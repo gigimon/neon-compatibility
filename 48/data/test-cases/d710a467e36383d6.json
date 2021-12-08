@@ -1,0 +1,75 @@
+{
+  "uid" : "d710a467e36383d6",
+  "name" : "reverts",
+  "fullName" : "Contract: TransparentUpgradeableProxy changeAdmin when the new proposed admin is not the zero address when the sender is not the admin.reverts",
+  "historyId" : "87dbebe37f72bea0b1b2514a080e3ae",
+  "time" : {
+    "start" : 1638928801288,
+    "stop" : 1638928806114,
+    "duration" : 4826
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy changeAdmin when the new proposed admin is not the zero address when the sender is not the admin"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy changeAdmin when the new proposed admin is not the zero address when the sender is not the admin"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy changeAdmin when the new proposed admin is not the zero address when the sender is not the admin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b1e854142c41200a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/b1e854142c41200a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637927629386,
+          "stop" : 1637927638723,
+          "duration" : 9337
+        }
+      }, {
+        "uid" : "ee86055de0bae8c4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/ee86055de0bae8c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637915936918,
+          "stop" : 1637915943617,
+          "duration" : 6699
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d710a467e36383d6.json",
+  "parameterValues" : [ ]
+}

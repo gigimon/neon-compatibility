@@ -1,0 +1,84 @@
+{
+  "uid" : "5f5f9090c43d0355",
+  "name" : "sets the allowance to zero when all allowance is removed",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount.sets the allowance to zero when all allowance is removed",
+  "historyId" : "8718fc3ce88896bf3fc0ca76d26e2f2c",
+  "time" : {
+    "start" : 1638930957321,
+    "stop" : 1638930966477,
+    "duration" : 9156
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "sets the allowance to zero when all allowance is removed"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "73f7aed904156e88",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/73f7aed904156e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638869130811,
+          "stop" : 1638869145084,
+          "duration" : 14273
+        }
+      }, {
+        "uid" : "8bd1562319452975",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/8bd1562319452975",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638865765055,
+          "stop" : 1638865777324,
+          "duration" : 12269
+        }
+      }, {
+        "uid" : "2282769511801b26",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/2282769511801b26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637916694775,
+          "stop" : 1637916705623,
+          "duration" : 10848
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5f5f9090c43d0355.json",
+  "parameterValues" : [ ]
+}

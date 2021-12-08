@@ -1,0 +1,91 @@
+{
+  "uid" : "bab7d7d072fd78d1",
+  "name" : "emits a deposited event",
+  "fullName" : "Contract: Escrow as an escrow deposits.emits a deposited event",
+  "historyId" : "62737440495d33876d47426d147bff99",
+  "time" : {
+    "start" : 1638940503048,
+    "stop" : 1638940507678,
+    "duration" : 4630
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://release-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'dabe1163c8e818508360b47f54e4ab927dd77688', 'ec44bb9c93ec8779d41d82152e40d29414889f70', 'f340fa0100000000000000000000000058f62083141861258152a091541a57243d10c5c0', '0x246ddf97976680000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://release-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'dabe1163c8e818508360b47f54e4ab927dd77688', 'ec44bb9c93ec8779d41d82152e40d29414889f70', 'f340fa0100000000000000000000000058f62083141861258152a091541a57243d10c5c0', '0x246ddf97976680000']' returned non-zero exit status 1.\n                    at Context.<anonymous> (test/utils/escrow/Escrow.behavior.js:29:44)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "testMethod",
+    "value" : "emits a deposited event"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1e05da0812774288",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/47//#testresult/1e05da0812774288",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638874699676,
+          "stop" : 1638874706961,
+          "duration" : 7285
+        }
+      }, {
+        "uid" : "126a0b21f19ffc66",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/46//#testresult/126a0b21f19ffc66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638869992644,
+          "stop" : 1638869998594,
+          "duration" : 5950
+        }
+      }, {
+        "uid" : "e8d748662045c8c9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/e8d748662045c8c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637921397700,
+          "stop" : 1637921403023,
+          "duration" : 5323
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bab7d7d072fd78d1.json",
+  "parameterValues" : [ ]
+}

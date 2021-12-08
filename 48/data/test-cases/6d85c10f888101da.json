@@ -1,0 +1,77 @@
+{
+  "uid" : "6d85c10f888101da",
+  "name" : "should store the implementation address in specified location",
+  "fullName" : "Contract: TransparentUpgradeableProxy storage.should store the implementation address in specified location",
+  "historyId" : "1e29a4e24aa6652cc261d21f0aed4c65",
+  "time" : {
+    "start" : 1638928810733,
+    "stop" : 1638928814166,
+    "duration" : 3433
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should store the implementation address in specified location"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy storage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1c81891040e3b8ba",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/43//#testresult/1c81891040e3b8ba",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1637927647367,
+          "stop" : 1637927654184,
+          "duration" : 6817
+        }
+      }, {
+        "uid" : "a57e9b98f8f3e1fe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/42//#testresult/a57e9b98f8f3e1fe",
+        "status" : "broken",
+        "statusDetails" : "Returned error: 'EthereumModel' object has no attribute 'eth_getStorageAt'",
+        "time" : {
+          "start" : 1637915950061,
+          "stop" : 1637915955008,
+          "duration" : 4947
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6d85c10f888101da.json",
+  "parameterValues" : [ ]
+}
