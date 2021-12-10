@@ -1,0 +1,52 @@
+{
+  "uid" : "2d3b6ef35e46f55",
+  "name" : "payable initialization",
+  "fullName" : "Contract: BeaconProxy initialization.payable initialization",
+  "historyId" : "24ebe6e80a855369e1a1ec51b8bda755",
+  "time" : {
+    "start" : 1639102229229,
+    "stop" : 1639102241090,
+    "duration" : 11861
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '10000000000000000000000' to equal '100'",
+  "statusTrace" : "AssertionError: expected '10000000000000000000000' to equal '100'\n                    at Context.assertInitialized (test/proxy/beacon/BeaconProxy.test.js:62:76)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/proxy/beacon/BeaconProxy.test.js:93:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testMethod",
+    "value" : "payable initialization"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2d3b6ef35e46f55.json",
+  "parameterValues" : [ ]
+}

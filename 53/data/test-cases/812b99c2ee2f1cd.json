@@ -1,0 +1,52 @@
+{
+  "uid" : "812b99c2ee2f1cd",
+  "name" : "run",
+  "fullName" : "Contract: GovernorComp voting with comp token.run",
+  "historyId" : "fd5068a035482327dd8c995aa23ca723",
+  "time" : {
+    "start" : 1639099733996,
+    "stop" : 1639099789415,
+    "duration" : 55419
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected false to equal true",
+  "statusTrace" : "AssertionError: expected false to equal true\n                    at Context.<anonymous> (test/governance/extensions/GovernorComp.test.js:61:63)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "812b99c2ee2f1cd.json",
+  "parameterValues" : [ ]
+}

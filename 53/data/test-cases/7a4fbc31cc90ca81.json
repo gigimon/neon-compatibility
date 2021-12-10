@@ -1,0 +1,52 @@
+{
+  "uid" : "7a4fbc31cc90ca81",
+  "name" : "run",
+  "fullName" : "Contract: Governor Settings update setVotingPeriod.run",
+  "historyId" : "9e9eeb7520a57279baaf5a1acb98b9a0",
+  "time" : {
+    "start" : 1639101768035,
+    "stop" : 1639101811069,
+    "duration" : 43034
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected '16' to equal '32'",
+  "statusTrace" : "AssertionError: expected '16' to equal '32'\n                    at Context.<anonymous> (test/governance/Governor.test.js:870:64)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor Settings update setVotingPeriod"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor Settings update setVotingPeriod"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor Settings update setVotingPeriod"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7a4fbc31cc90ca81.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "358feeda9685eb6e",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario double cast.run",
+  "historyId" : "2751309bcbb99211b14ca4fb33b61fed",
+  "time" : {
+    "start" : 1639100993824,
+    "stop" : 1639101039746,
+    "duration" : 45922
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(39268) is lower than current block #(39274)",
+  "statusTrace" : "Error: Target block #(39268) is lower than current block #(39274)\n                    at Object.advanceBlockTo (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario double cast"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario double cast"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario double cast"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "358feeda9685eb6e.json",
+  "parameterValues" : [ ]
+}

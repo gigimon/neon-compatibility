@@ -1,0 +1,52 @@
+{
+  "uid" : "d4cf62f442cbcd80",
+  "name" : "has expected balance",
+  "fullName" : "Contract: ERC1967Proxy initialization without parameters payable when not sending balance.has expected balance",
+  "historyId" : "a78c40e18f4550afe2e5afdd5bacdbab",
+  "time" : {
+    "start" : 1639102645301,
+    "stop" : 1639102650139,
+    "duration" : 4838
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '10000000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '10000000000000000000000' to equal '0'\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:42:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy initialization without parameters payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy initialization without parameters payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy initialization without parameters payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d4cf62f442cbcd80.json",
+  "parameterValues" : [ ]
+}
