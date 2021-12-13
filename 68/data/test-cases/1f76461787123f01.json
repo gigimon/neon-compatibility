@@ -1,0 +1,118 @@
+{
+  "uid" : "1f76461787123f01",
+  "name" : "can withdraw payments",
+  "fullName" : "Contract: Escrow as an escrow withdrawals.can withdraw payments",
+  "historyId" : "1ded74bbf659c21bbc90385195f1843b",
+  "time" : {
+    "start" : 1639423402678,
+    "stop" : 1639423410367,
+    "duration" : 7689
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '647ace441c51f9b5c8191921290f369b83df6b6f', 'f7fb55674c7594eca4b7fc807670254e993cd786', 'f340fa010000000000000000000000009436854e4e6229ea123dfe22be0caf9dc7004974', '0x246ddf97976680000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '647ace441c51f9b5c8191921290f369b83df6b6f', 'f7fb55674c7594eca4b7fc807670254e993cd786', 'f340fa010000000000000000000000009436854e4e6229ea123dfe22be0caf9dc7004974', '0x246ddf97976680000']' returned non-zero exit status 1.\n                    at Context.<anonymous> (test/utils/escrow/Escrow.behavior.js:61:27)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "testMethod",
+    "value" : "can withdraw payments"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "9ab63cc44efea115",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/9ab63cc44efea115",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '3046b7ab03e83ba19a4f097fe3f8d7c3e0382e18', '4db04b7d29bcf7c5debec4fc7739630c424ab9c2', 'f340fa01000000000000000000000000992bdfe6adbbc52ce444227d63575647542369f2', '0x246ddf97976680000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639404329952,
+          "stop" : 1639404337123,
+          "duration" : 7171
+        }
+      }, {
+        "uid" : "5e8e268cf8465506",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/5e8e268cf8465506",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '3c7f4dbeffcbd85dae47d1a5dfe80851007e700d', '9b2e38811cc5e39e728e4af347caf0b5db290505', 'f340fa01000000000000000000000000fe8972e0d865135ba69f23ba62820aec7347d1ef', '0x246ddf97976680000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639396340700,
+          "stop" : 1639396349171,
+          "duration" : 8471
+        }
+      }, {
+        "uid" : "ee58da08baf5879f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/ee58da08baf5879f",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '5f7819890813145df79ad10aefa801973fdbae0b', '61c38c5fe2e9d2e1cc44d1142d051213c0697501', 'f340fa01000000000000000000000000eb1b02fa8bd5c01b525de95a74b946cf2ba4f740', '0x246ddf97976680000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639394653598,
+          "stop" : 1639394660188,
+          "duration" : 6590
+        }
+      }, {
+        "uid" : "c70e95d009ad95c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/c70e95d009ad95c",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639394167566,
+          "stop" : 1639394271883,
+          "duration" : 104317
+        }
+      }, {
+        "uid" : "3b0d6f2a29991502",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3b0d6f2a29991502",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'c1184042afb9301783cfb32cbe636bb982598130', '4af6e812798b59e83daebc9f45eb6c69109c5152', 'f340fa01000000000000000000000000c7abc33a4863c6cd333b5ca4877bfce3d19a17c5', '0x246ddf97976680000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639387195167,
+          "stop" : 1639387203861,
+          "duration" : 8694
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1f76461787123f01.json",
+  "parameterValues" : [ ]
+}

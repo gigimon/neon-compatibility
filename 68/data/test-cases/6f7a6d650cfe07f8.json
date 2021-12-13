@@ -1,0 +1,105 @@
+{
+  "uid" : "6f7a6d650cfe07f8",
+  "name" : "non-admin cannot revoke role",
+  "fullName" : "Contract: AccessControl revoking with granted role.non-admin cannot revoke role",
+  "historyId" : "549899aff399f300cb0da8e6dba85124",
+  "time" : {
+    "start" : 1639405023426,
+    "stop" : 1639405033382,
+    "duration" : 9956
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "testMethod",
+    "value" : "non-admin cannot revoke role"
+  }, {
+    "name" : "package",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e95c25d97562cd5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639404617811,
+        "stop" : 1639404627593,
+        "duration" : 9782
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "790bbbee145704ce",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/790bbbee145704ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639401254356,
+          "stop" : 1639401268317,
+          "duration" : 13961
+        }
+      }, {
+        "uid" : "97baa56e06ec8aeb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/97baa56e06ec8aeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393028782,
+          "stop" : 1639393038732,
+          "duration" : 9950
+        }
+      }, {
+        "uid" : "4ee2e83a0b9ca1f0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/4ee2e83a0b9ca1f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389136491,
+          "stop" : 1639389145745,
+          "duration" : 9254
+        }
+      }, {
+        "uid" : "204fa01e929a44f6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/204fa01e929a44f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639099068808,
+          "stop" : 1639099078744,
+          "duration" : 9936
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6f7a6d650cfe07f8.json",
+  "parameterValues" : [ ]
+}

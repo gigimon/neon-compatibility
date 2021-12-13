@@ -1,0 +1,115 @@
+{
+  "uid" : "53eb110e09864005",
+  "name" : "reverts on withdrawals",
+  "fullName" : "Contract: ConditionalEscrow when withdrawal is disallowed.reverts on withdrawals",
+  "historyId" : "d10994990edc681a85f3a5e95057c231",
+  "time" : {
+    "start" : 1639423439502,
+    "stop" : 1639423449192,
+    "duration" : 9690
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '647ace441c51f9b5c8191921290f369b83df6b6f', 'b198da7006c548511c39272062493bf795e35bae', 'f340fa010000000000000000000000009436854e4e6229ea123dfe22be0caf9dc7004974', '0x13f306a2409fc0000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '647ace441c51f9b5c8191921290f369b83df6b6f', 'b198da7006c548511c39272062493bf795e35bae', 'f340fa010000000000000000000000009436854e4e6229ea123dfe22be0caf9dc7004974', '0x13f306a2409fc0000']' returned non-zero exit status 1.\n                    at Context.<anonymous> (test/utils/escrow/ConditionalEscrow.test.js:29:25)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ConditionalEscrow when withdrawal is disallowed"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ConditionalEscrow when withdrawal is disallowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on withdrawals"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ConditionalEscrow when withdrawal is disallowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "b8431fd39c4923cf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/b8431fd39c4923cf",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '3046b7ab03e83ba19a4f097fe3f8d7c3e0382e18', '3230791f9f76df0c9f7caf9482b682bd9c54aa69', 'f340fa01000000000000000000000000992bdfe6adbbc52ce444227d63575647542369f2', '0x13f306a2409fc0000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639404363285,
+          "stop" : 1639404372354,
+          "duration" : 9069
+        }
+      }, {
+        "uid" : "9c61e9740fc0133d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/9c61e9740fc0133d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639396118009,
+          "stop" : 1639396263824,
+          "duration" : 145815
+        }
+      }, {
+        "uid" : "332718caea5349e0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/332718caea5349e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394587630,
+          "stop" : 1639394633361,
+          "duration" : 45731
+        }
+      }, {
+        "uid" : "ba30df6581e8d85d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/ba30df6581e8d85d",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391701746,
+          "stop" : 1639392083311,
+          "duration" : 381565
+        }
+      }, {
+        "uid" : "eab06779451b9a76",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/eab06779451b9a76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386969986,
+          "stop" : 1639386982917,
+          "duration" : 12931
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "53eb110e09864005.json",
+  "parameterValues" : [ ]
+}

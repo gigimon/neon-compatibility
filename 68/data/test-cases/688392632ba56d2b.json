@@ -1,0 +1,79 @@
+{
+  "uid" : "688392632ba56d2b",
+  "name" : "reverts when adding a token id that already exists",
+  "fullName" : "Contract: ERC721 _mint(address, uint256) with minted token.reverts when adding a token id that already exists",
+  "historyId" : "a00d8f54a38232b90aacfa533ba4b486",
+  "time" : {
+    "start" : 1639419816188,
+    "stop" : 1639419826203,
+    "duration" : 10015
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721 _mint(address, uint256) with minted token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 _mint(address, uint256) with minted token"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when adding a token id that already exists"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 _mint(address, uint256) with minted token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b5b11f4360b8a28d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/b5b11f4360b8a28d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639390673993,
+          "stop" : 1639390683137,
+          "duration" : 9144
+        }
+      }, {
+        "uid" : "875976b2a00dfe4e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/875976b2a00dfe4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639113926023,
+          "stop" : 1639113936264,
+          "duration" : 10241
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "688392632ba56d2b.json",
+  "parameterValues" : [ ]
+}

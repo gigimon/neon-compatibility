@@ -1,0 +1,70 @@
+{
+  "uid" : "d2ff37fdfadeb9a7",
+  "name" : "reverts when transferring amount more than any of balances",
+  "fullName" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom.reverts when transferring amount more than any of balances",
+  "historyId" : "e69c760286dfcaf5280f040edd3196f1",
+  "time" : {
+    "start" : 1639407912463,
+    "stop" : 1639407925408,
+    "duration" : 12945
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when transferring amount more than any of balances"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 safeBatchTransferFrom"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "904c94259a2f2948",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/904c94259a2f2948",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104591435,
+          "stop" : 1639104605798,
+          "duration" : 14363
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d2ff37fdfadeb9a7.json",
+  "parameterValues" : [ ]
+}

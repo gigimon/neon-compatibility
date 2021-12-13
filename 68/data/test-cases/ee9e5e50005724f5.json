@@ -1,0 +1,80 @@
+{
+  "uid" : "ee9e5e50005724f5",
+  "name" : "missing balance",
+  "fullName" : "Contract: ERC20 withdraw.missing balance",
+  "historyId" : "81805e36c90246aa36f9d124ee740d51",
+  "time" : {
+    "start" : 1639406221531,
+    "stop" : 1639406242682,
+    "duration" : 21151
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 withdraw"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 withdraw"
+  }, {
+    "name" : "testMethod",
+    "value" : "missing balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 withdraw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "783605cb7fba3e1e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/783605cb7fba3e1e",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20: burn amount exceeds balance'",
+        "time" : {
+          "start" : 1639405337986,
+          "stop" : 1639405551193,
+          "duration" : 213207
+        }
+      }, {
+        "uid" : "7887ecc1eac5d3a9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7887ecc1eac5d3a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107673489,
+          "stop" : 1639107695167,
+          "duration" : 21678
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ee9e5e50005724f5.json",
+  "parameterValues" : [ ]
+}

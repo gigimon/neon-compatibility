@@ -1,0 +1,77 @@
+{
+  "uid" : "622912847e2c8567",
+  "name" : "reverts on a non-static function",
+  "fullName" : "Contract: Address functionStaticCall.reverts on a non-static function",
+  "historyId" : "7c12d3f5f08134e55f82001cf15f8454",
+  "time" : {
+    "start" : 1639421342086,
+    "stop" : 1639421353934,
+    "duration" : 11848
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected an exception but none was received",
+  "statusTrace" : "AssertionError: Expected an exception but none was received\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:25:10)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/utils/Address.test.js:304:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Address functionStaticCall"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Address functionStaticCall"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on a non-static function"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Address functionStaticCall"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "37ce9a524e15046a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/37ce9a524e15046a",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639402442624,
+          "stop" : 1639402453938,
+          "duration" : 11314
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "622912847e2c8567.json",
+  "parameterValues" : [ ]
+}

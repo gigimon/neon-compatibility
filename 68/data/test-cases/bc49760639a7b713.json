@@ -1,0 +1,117 @@
+{
+  "uid" : "bc49760639a7b713",
+  "name" : "has expected balance",
+  "fullName" : "Contract: ERC1967Proxy without initialization when sending some balance.has expected balance",
+  "historyId" : "b2f555ef3472df06ace9893c4ed6e6e0",
+  "time" : {
+    "start" : 1639408342889,
+    "stop" : 1639408348159,
+    "duration" : 5270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '100000000000000000000' to equal '1000000'",
+  "statusTrace" : "AssertionError: expected '100000000000000000000' to equal '1000000'\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:42:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy without initialization when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy without initialization when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy without initialization when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "4b792c25fec81650",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/4b792c25fec81650",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639401791091,
+          "stop" : 1639401795728,
+          "duration" : 4637
+        }
+      }, {
+        "uid" : "9b489135ab1f5817",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9b489135ab1f5817",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639391738281,
+          "stop" : 1639391760282,
+          "duration" : 22001
+        }
+      }, {
+        "uid" : "c41ba367e001c45f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/c41ba367e001c45f",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391826426,
+          "stop" : 1639391951494,
+          "duration" : 125068
+        }
+      }, {
+        "uid" : "6f1dea962b74814e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6f1dea962b74814e",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639384989988,
+          "stop" : 1639385107898,
+          "duration" : 117910
+        }
+      }, {
+        "uid" : "b7478170c7c0cb72",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/b7478170c7c0cb72",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639102618358,
+          "stop" : 1639102623274,
+          "duration" : 4916
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bc49760639a7b713.json",
+  "parameterValues" : [ ]
+}

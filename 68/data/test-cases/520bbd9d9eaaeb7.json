@@ -1,0 +1,80 @@
+{
+  "uid" : "520bbd9d9eaaeb7",
+  "name" : "valid",
+  "fullName" : "Contract: ERC20 deposit.valid",
+  "historyId" : "7fa2d546d929991247e4ead03139fe2b",
+  "time" : {
+    "start" : 1639406151154,
+    "stop" : 1639406170325,
+    "duration" : 19171
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 deposit"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 deposit"
+  }, {
+    "name" : "testMethod",
+    "value" : "valid"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 deposit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f55e1386cf890107",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/f55e1386cf890107",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639405130380,
+          "stop" : 1639405291062,
+          "duration" : 160682
+        }
+      }, {
+        "uid" : "d3f1e46b42be5ab6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d3f1e46b42be5ab6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107599898,
+          "stop" : 1639107619626,
+          "duration" : 19728
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "520bbd9d9eaaeb7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,79 @@
+{
+  "uid" : "e58d5c3dd8206fe4",
+  "name" : "reverts when trying to safeBatchTransferFrom from operator",
+  "fullName" : "Contract: ERC1155Pausable when token is paused.reverts when trying to safeBatchTransferFrom from operator",
+  "historyId" : "121549ec11d5b7af258b5a230644fa4b",
+  "time" : {
+    "start" : 1639409046678,
+    "stop" : 1639409063651,
+    "duration" : 16973
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to safeBatchTransferFrom from operator"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c73fdedd5c577412",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/c73fdedd5c577412",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408806360,
+          "stop" : 1639408886270,
+          "duration" : 79910
+        }
+      }, {
+        "uid" : "d89848ae39a40750",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d89848ae39a40750",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639105489624,
+          "stop" : 1639105506259,
+          "duration" : 16635
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e58d5c3dd8206fe4.json",
+  "parameterValues" : [ ]
+}

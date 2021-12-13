@@ -1,0 +1,89 @@
+{
+  "uid" : "ae0c060c8fc179d6",
+  "name" : "emits a transfer event",
+  "fullName" : "Contract: ERC20Burnable burn when the given amount is not greater than balance of the sender for a non-zero amount.emits a transfer event",
+  "historyId" : "1cea4a1cd447385e0668a0a29840cdb6",
+  "time" : {
+    "start" : 1639405953471,
+    "stop" : 1639405960749,
+    "duration" : 7278
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Burnable burn when the given amount is not greater than balance of the sender for a non-zero amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Burnable burn when the given amount is not greater than balance of the sender for a non-zero amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "emits a transfer event"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Burnable burn when the given amount is not greater than balance of the sender for a non-zero amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a063bd11a8f5f1c7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/a063bd11a8f5f1c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404248209,
+          "stop" : 1639404254945,
+          "duration" : 6736
+        }
+      }, {
+        "uid" : "634f604bf3b68b84",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/634f604bf3b68b84",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639389924363,
+          "stop" : 1639390024370,
+          "duration" : 100007
+        }
+      }, {
+        "uid" : "83f19bf6ece70445",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/83f19bf6ece70445",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106895621,
+          "stop" : 1639106903507,
+          "duration" : 7886
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ae0c060c8fc179d6.json",
+  "parameterValues" : [ ]
+}

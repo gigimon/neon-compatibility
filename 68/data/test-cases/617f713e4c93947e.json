@@ -1,0 +1,87 @@
+{
+  "uid" : "617f713e4c93947e",
+  "name" : "fast forward",
+  "fullName" : "Contract: TimersTimestamp.fast forward",
+  "historyId" : "3474d9fd51cfe86b902603e3210cd120",
+  "time" : {
+    "start" : 1639420030401,
+    "stop" : 1639420043886,
+    "duration" : 13485
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to equal false",
+  "statusTrace" : "AssertionError: expected true to equal false\n                    at Context.<anonymous> (test/utils/TimersTimestamp.test.js:52:51)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "testMethod",
+    "value" : "fast forward"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3f73d1fdb19e106a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/3f73d1fdb19e106a",
+        "status" : "failed",
+        "statusDetails" : "expected true to equal false",
+        "time" : {
+          "start" : 1639400982033,
+          "stop" : 1639400994450,
+          "duration" : 12417
+        }
+      }, {
+        "uid" : "3850cb149142e9f7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3850cb149142e9f7",
+        "status" : "failed",
+        "statusDetails" : "expected true to equal false",
+        "time" : {
+          "start" : 1639388006347,
+          "stop" : 1639388065435,
+          "duration" : 59088
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "617f713e4c93947e.json",
+  "parameterValues" : [ ]
+}

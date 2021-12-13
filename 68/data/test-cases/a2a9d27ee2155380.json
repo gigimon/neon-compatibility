@@ -1,0 +1,88 @@
+{
+  "uid" : "a2a9d27ee2155380",
+  "name" : "reverts when downcasting 2^31 + 1 (2147483649)",
+  "fullName" : "Contract: SafeCast toInt32.reverts when downcasting 2^31 + 1 (2147483649)",
+  "historyId" : "1f89fc4a35ff4877a92477c865c41b9c",
+  "time" : {
+    "start" : 1639422130724,
+    "stop" : 1639422140742,
+    "duration" : 10018
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^31 + 1 (2147483649)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt32"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1acc3584a672e551",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/1acc3584a672e551",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639403168005,
+          "stop" : 1639403173489,
+          "duration" : 5484
+        }
+      }, {
+        "uid" : "d652b02e05231163",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/d652b02e05231163",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395030460,
+          "stop" : 1639395034729,
+          "duration" : 4269
+        }
+      }, {
+        "uid" : "172f58ad32cdcb66",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/172f58ad32cdcb66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639388308544,
+          "stop" : 1639388314457,
+          "duration" : 5913
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a2a9d27ee2155380.json",
+  "parameterValues" : [ ]
+}

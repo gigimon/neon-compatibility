@@ -1,0 +1,80 @@
+{
+  "uid" : "d408d432e9fefdc0",
+  "name" : "reverts on decreaseAllowance",
+  "fullName" : "Contract: SafeERC20 with token that returns false on all calls.reverts on decreaseAllowance",
+  "historyId" : "dba10447117249b3d915dd6eb9f92491",
+  "time" : {
+    "start" : 1639405409864,
+    "stop" : 1639405420708,
+    "duration" : 10844
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on decreaseAllowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7a8c1a7b419e69fb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/7a8c1a7b419e69fb",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'revert'",
+        "time" : {
+          "start" : 1639402865451,
+          "stop" : 1639403006422,
+          "duration" : 140971
+        }
+      }, {
+        "uid" : "276397003e52d752",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/276397003e52d752",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108611859,
+          "stop" : 1639108623808,
+          "duration" : 11949
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d408d432e9fefdc0.json",
+  "parameterValues" : [ ]
+}

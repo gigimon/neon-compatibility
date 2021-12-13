@@ -1,0 +1,80 @@
+{
+  "uid" : "11a8067702b940b2",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before.reverts",
+  "historyId" : "29eb49283728cdb583a574028afae0e6",
+  "time" : {
+    "start" : 1639404853345,
+    "stop" : 1639404860687,
+    "duration" : 7342
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fdb2845a48b810b1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/fdb2845a48b810b1",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639402191322,
+          "stop" : 1639402324439,
+          "duration" : 133117
+        }
+      }, {
+        "uid" : "d9db228bee9abcc9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d9db228bee9abcc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106445219,
+          "stop" : 1639106452565,
+          "duration" : 7346
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "11a8067702b940b2.json",
+  "parameterValues" : [ ]
+}

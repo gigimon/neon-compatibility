@@ -1,0 +1,70 @@
+{
+  "uid" : "c363e1550fe40516",
+  "name" : "doesn't revert when approving a zero allowance",
+  "fullName" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance.doesn't revert when approving a zero allowance",
+  "historyId" : "723cd8a082ff47acfc0bcc841838ef3c",
+  "time" : {
+    "start" : 1639405673631,
+    "stop" : 1639405687746,
+    "duration" : 14115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "doesn't revert when approving a zero allowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with non-zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "939c5552a7b478d5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/939c5552a7b478d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108877963,
+          "stop" : 1639108892747,
+          "duration" : 14784
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c363e1550fe40516.json",
+  "parameterValues" : [ ]
+}

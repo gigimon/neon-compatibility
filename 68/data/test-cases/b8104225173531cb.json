@@ -1,0 +1,87 @@
+{
+  "uid" : "b8104225173531cb",
+  "name" : "run",
+  "fullName" : "Contract: Governor state Succeeded.run",
+  "historyId" : "e3657d773cda181f51ce7cf775653c7e",
+  "time" : {
+    "start" : 1639407113131,
+    "stop" : 1639407155097,
+    "duration" : 41966
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected '1' to equal '4'",
+  "statusTrace" : "AssertionError: expected '1' to equal '4'\n                    at Context.<anonymous> (test/governance/Governor.test.js:610:64)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor state Succeeded"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor state Succeeded"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor state Succeeded"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "93caa0e97913937d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/93caa0e97913937d",
+        "status" : "broken",
+        "statusDetails" : "expected '1' to equal '4'",
+        "time" : {
+          "start" : 1639391211474,
+          "stop" : 1639391251317,
+          "duration" : 39843
+        }
+      }, {
+        "uid" : "9b2f524177313203",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/9b2f524177313203",
+        "status" : "broken",
+        "statusDetails" : "expected '3' to equal '4'",
+        "time" : {
+          "start" : 1639101339794,
+          "stop" : 1639101418622,
+          "duration" : 78828
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b8104225173531cb.json",
+  "parameterValues" : [ ]
+}

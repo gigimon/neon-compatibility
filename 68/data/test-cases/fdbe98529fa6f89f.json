@@ -1,0 +1,70 @@
+{
+  "uid" : "fdbe98529fa6f89f",
+  "name" : "reverts if attempting to approve self as an operator",
+  "fullName" : "Contract: ERC1155 like an ERC1155 setApprovalForAll.reverts if attempting to approve self as an operator",
+  "historyId" : "cd98856e1092856479e8edb45bb5412a",
+  "time" : {
+    "start" : 1639407512621,
+    "stop" : 1639407522599,
+    "duration" : 9978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 setApprovalForAll"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 setApprovalForAll"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts if attempting to approve self as an operator"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 setApprovalForAll"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "32ba12abe3852306",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/32ba12abe3852306",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104175396,
+          "stop" : 1639104185902,
+          "duration" : 10506
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fdbe98529fa6f89f.json",
+  "parameterValues" : [ ]
+}

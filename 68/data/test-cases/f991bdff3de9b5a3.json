@@ -1,0 +1,90 @@
+{
+  "uid" : "f991bdff3de9b5a3",
+  "name" : "calls the requested function",
+  "fullName" : "Contract: Address functionCall with valid contract receiver.calls the requested function",
+  "historyId" : "a3f0642cb721850cce7a48b7e1b87ab0",
+  "time" : {
+    "start" : 1639421177588,
+    "stop" : 1639421189789,
+    "duration" : 12201
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Address functionCall with valid contract receiver"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Address functionCall with valid contract receiver"
+  }, {
+    "name" : "testMethod",
+    "value" : "calls the requested function"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Address functionCall with valid contract receiver"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9f7072643055d263",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/9f7072643055d263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402287493,
+          "stop" : 1639402299044,
+          "duration" : 11551
+        }
+      }, {
+        "uid" : "f17f5b9ba0b92603",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/f17f5b9ba0b92603",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393712604,
+          "stop" : 1639393812608,
+          "duration" : 100004
+        }
+      }, {
+        "uid" : "4a50a7c16ba4c3de",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/4a50a7c16ba4c3de",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391213627,
+          "stop" : 1639391495348,
+          "duration" : 281721
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f991bdff3de9b5a3.json",
+  "parameterValues" : [ ]
+}

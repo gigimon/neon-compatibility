@@ -1,0 +1,89 @@
+{
+  "uid" : "b17b5253527f6aa8",
+  "name" : "call to invalid proxy",
+  "fullName" : "Contract: ProxyAdmin #getProxyAdmin.call to invalid proxy",
+  "historyId" : "c715afae5fafa41153a278506cd77bdb",
+  "time" : {
+    "start" : 1639408614925,
+    "stop" : 1639408625021,
+    "duration" : 10096
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ProxyAdmin #getProxyAdmin"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ProxyAdmin #getProxyAdmin"
+  }, {
+    "name" : "testMethod",
+    "value" : "call to invalid proxy"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ProxyAdmin #getProxyAdmin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "21d63e833c603635",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/21d63e833c603635",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402588875,
+          "stop" : 1639402598399,
+          "duration" : 9524
+        }
+      }, {
+        "uid" : "fe0ef7a38a9e18ed",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/fe0ef7a38a9e18ed",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391762154,
+          "stop" : 1639391890121,
+          "duration" : 127967
+        }
+      }, {
+        "uid" : "9314cc576ba849a7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/9314cc576ba849a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102731541,
+          "stop" : 1639102742188,
+          "duration" : 10647
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b17b5253527f6aa8.json",
+  "parameterValues" : [ ]
+}

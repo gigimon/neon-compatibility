@@ -1,0 +1,70 @@
+{
+  "uid" : "27816c9495d91330",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC721Enumerable with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the sender is not authorized for the token id.reverts",
+  "historyId" : "7ad7129604d5824780545fe92ab330c2",
+  "time" : {
+    "start" : 1639413345983,
+    "stop" : 1639413369013,
+    "duration" : 23030
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Enumerable with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the sender is not authorized for the token id"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Enumerable with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the sender is not authorized for the token id"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Enumerable with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the sender is not authorized for the token id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "18969ff23e3684b8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/18969ff23e3684b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639118262742,
+          "stop" : 1639118286589,
+          "duration" : 23847
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "27816c9495d91330.json",
+  "parameterValues" : [ ]
+}

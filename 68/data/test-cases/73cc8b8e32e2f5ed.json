@@ -1,0 +1,99 @@
+{
+  "uid" : "73cc8b8e32e2f5ed",
+  "name" : "reverts with a not-yet-created snapshot id",
+  "fullName" : "Contract: ERC20Snapshot totalSupplyAt.reverts with a not-yet-created snapshot id",
+  "historyId" : "2e027999383da41f15dd83559a0b0f8e",
+  "time" : {
+    "start" : 1639406954061,
+    "stop" : 1639406960498,
+    "duration" : 6437
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts with a not-yet-created snapshot id"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "cc363ec01bee5d85",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/cc363ec01bee5d85",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20Snapshot: nonexistent id'",
+        "time" : {
+          "start" : 1639406089131,
+          "stop" : 1639406244308,
+          "duration" : 155177
+        }
+      }, {
+        "uid" : "9cbd7811acfb5e88",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9cbd7811acfb5e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393229638,
+          "stop" : 1639393234251,
+          "duration" : 4613
+        }
+      }, {
+        "uid" : "71f47e373c704d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/71f47e373c704d6",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386200529,
+          "stop" : 1639386300538,
+          "duration" : 100009
+        }
+      }, {
+        "uid" : "8fc3b9e0ca6c08fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/8fc3b9e0ca6c08fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107321361,
+          "stop" : 1639107327705,
+          "duration" : 6344
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "73cc8b8e32e2f5ed.json",
+  "parameterValues" : [ ]
+}

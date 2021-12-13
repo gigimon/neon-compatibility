@@ -1,0 +1,70 @@
+{
+  "uid" : "6ce2c493fea17b03",
+  "name" : "reverts when decreasing the allowance",
+  "fullName" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance.reverts when decreasing the allowance",
+  "historyId" : "cc01f51718253d9d4e908a8ff3b69612",
+  "time" : {
+    "start" : 1639405486403,
+    "stop" : 1639405500212,
+    "duration" : 13809
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when decreasing the allowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns true on all calls approvals with zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8c17f63038165302",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/8c17f63038165302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108692729,
+          "stop" : 1639108707548,
+          "duration" : 14819
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6ce2c493fea17b03.json",
+  "parameterValues" : [ ]
+}

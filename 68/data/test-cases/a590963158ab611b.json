@@ -1,0 +1,78 @@
+{
+  "uid" : "a590963158ab611b",
+  "name" : "reverts when burning a non-existent token id",
+  "fullName" : "Contract: ERC721Enumerable _burn.reverts when burning a non-existent token id",
+  "historyId" : "d969a7d0addc2d964a37f6e9d4326e3d",
+  "time" : {
+    "start" : 1639414493880,
+    "stop" : 1639414501270,
+    "duration" : 7390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Enumerable _burn"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Enumerable _burn"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when burning a non-existent token id"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Enumerable _burn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4998567eb3216cac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639414123064,
+        "stop" : 1639414130290,
+        "duration" : 7226
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4a26ea66627c9a12",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/4a26ea66627c9a12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639119061835,
+          "stop" : 1639119069554,
+          "duration" : 7719
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a590963158ab611b.json",
+  "parameterValues" : [ ]
+}

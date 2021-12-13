@@ -1,0 +1,106 @@
+{
+  "uid" : "8fc6ceec01afd3ff",
+  "name" : "a role can be revoked multiple times",
+  "fullName" : "Contract: AccessControl revoking with granted role.a role can be revoked multiple times",
+  "historyId" : "556e3b350031fc5593fec8f3bf4ad503",
+  "time" : {
+    "start" : 1639405033382,
+    "stop" : 1639405049989,
+    "duration" : 16607
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "testMethod",
+    "value" : "a role can be revoked multiple times"
+  }, {
+    "name" : "package",
+    "value" : "Contract: AccessControl revoking with granted role"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3be7f6c7279bb30c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639404627593,
+        "stop" : 1639404640941,
+        "duration" : 13348
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "aae2cdb108bc6a3c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/aae2cdb108bc6a3c",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639401268318,
+          "stop" : 1639401403885,
+          "duration" : 135567
+        }
+      }, {
+        "uid" : "f2fd9e11d3986047",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/f2fd9e11d3986047",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393038732,
+          "stop" : 1639393052275,
+          "duration" : 13543
+        }
+      }, {
+        "uid" : "b7ff9ae4d5c17bd5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/b7ff9ae4d5c17bd5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389145746,
+          "stop" : 1639389302590,
+          "duration" : 156844
+        }
+      }, {
+        "uid" : "e41649bb22164927",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/e41649bb22164927",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639099078745,
+          "stop" : 1639099092249,
+          "duration" : 13504
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8fc6ceec01afd3ff.json",
+  "parameterValues" : [ ]
+}

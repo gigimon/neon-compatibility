@@ -1,0 +1,98 @@
+{
+  "uid" : "77bd70656e7d3668",
+  "name" : "reset to 0",
+  "fullName" : "Contract: Counters reset non null counter.reset to 0",
+  "historyId" : "74a5dddd2e661fc17f633276775ebed1",
+  "time" : {
+    "start" : 1639423346745,
+    "stop" : 1639423359661,
+    "duration" : 12916
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Counters reset non null counter"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Counters reset non null counter"
+  }, {
+    "name" : "testMethod",
+    "value" : "reset to 0"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Counters reset non null counter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "b781c40f5db5c0c5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/b781c40f5db5c0c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404278719,
+          "stop" : 1639404290379,
+          "duration" : 11660
+        }
+      }, {
+        "uid" : "1fffbfd3555eee15",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/1fffbfd3555eee15",
+        "status" : "broken",
+        "statusDetails" : "HH110: Invalid JSON-RPC response received: <html>\n                <head><title>502 Bad Gateway</title></head>\n                <body>\n                <center><h1>502 Bad Gateway</h1></center>\n                <hr><center>nginx/1.18.0 (Ubuntu)</center>\n                </body>\n                </html>\n                ",
+        "time" : {
+          "start" : 1639396377205,
+          "stop" : 1639396377686,
+          "duration" : 481
+        }
+      }, {
+        "uid" : "49f8d8ada937add3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/49f8d8ada937add3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394776641,
+          "stop" : 1639394857296,
+          "duration" : 80655
+        }
+      }, {
+        "uid" : "9956271eaa473701",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9956271eaa473701",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639388138323,
+          "stop" : 1639388151332,
+          "duration" : 13009
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77bd70656e7d3668.json",
+  "parameterValues" : [ ]
+}

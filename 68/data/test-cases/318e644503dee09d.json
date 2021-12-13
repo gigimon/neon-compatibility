@@ -1,0 +1,89 @@
+{
+  "uid" : "318e644503dee09d",
+  "name" : "deployer has the default admin role",
+  "fullName" : "Contract: ERC721PresetMinterPauserAutoId.deployer has the default admin role",
+  "historyId" : "c73ea1e72f0d2c29dfad5e3987512210",
+  "time" : {
+    "start" : 1639414563418,
+    "stop" : 1639414571183,
+    "duration" : 7765
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId"
+  }, {
+    "name" : "testMethod",
+    "value" : "deployer has the default admin role"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3fdd85feec6b0000",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/3fdd85feec6b0000",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639410441227,
+          "stop" : 1639410448527,
+          "duration" : 7300
+        }
+      }, {
+        "uid" : "7d97769612dd1b0c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/7d97769612dd1b0c",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393491188,
+          "stop" : 1639393708319,
+          "duration" : 217131
+        }
+      }, {
+        "uid" : "4f7c2794e75378a0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/4f7c2794e75378a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386601484,
+          "stop" : 1639386612966,
+          "duration" : 11482
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "318e644503dee09d.json",
+  "parameterValues" : [ ]
+}

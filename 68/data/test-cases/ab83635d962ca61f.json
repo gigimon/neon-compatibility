@@ -1,0 +1,70 @@
+{
+  "uid" : "ab83635d962ca61f",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the address to transfer the token to is the zero address.reverts",
+  "historyId" : "d4d04ea4449d3c5a5bb615f9c508714",
+  "time" : {
+    "start" : 1639419089659,
+    "stop" : 1639419112740,
+    "duration" : 23081
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the address to transfer the token to is the zero address"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the address to transfer the token to is the zero address"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 with minted tokens transfers via safeTransferFrom without data to a valid receiver contract when the address to transfer the token to is the zero address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6b3886de45389aa2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/6b3886de45389aa2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639113186564,
+          "stop" : 1639113210006,
+          "duration" : 23442
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ab83635d962ca61f.json",
+  "parameterValues" : [ ]
+}

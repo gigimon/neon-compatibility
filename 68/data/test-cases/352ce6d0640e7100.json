@@ -1,0 +1,89 @@
+{
+  "uid" : "352ce6d0640e7100",
+  "name" : "downcasts 1",
+  "fullName" : "Contract: SafeCast toUint32.downcasts 1",
+  "historyId" : "318e1b57cbd3cec1f9d3483b7d3f3818",
+  "time" : {
+    "start" : 1639421806609,
+    "stop" : 1639421812470,
+    "duration" : 5861
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "testMethod",
+    "value" : "downcasts 1"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toUint32"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c5c519654ae0b502",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/c5c519654ae0b502",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402867444,
+          "stop" : 1639402872909,
+          "duration" : 5465
+        }
+      }, {
+        "uid" : "c0c99c37aebb596",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/c0c99c37aebb596",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394538115,
+          "stop" : 1639394584905,
+          "duration" : 46790
+        }
+      }, {
+        "uid" : "896e1704cb4ac72c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/896e1704cb4ac72c",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639387615762,
+          "stop" : 1639387745503,
+          "duration" : 129741
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "352ce6d0640e7100.json",
+  "parameterValues" : [ ]
+}

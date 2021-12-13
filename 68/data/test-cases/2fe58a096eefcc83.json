@@ -1,0 +1,89 @@
+{
+  "uid" : "2fe58a096eefcc83",
+  "name" : "reverts when downcasting 2^64 (18446744073709551616)",
+  "fullName" : "Contract: SafeCast toUint64.reverts when downcasting 2^64 (18446744073709551616)",
+  "historyId" : "36265dc89b56875561f1f4fa2a0bfe71",
+  "time" : {
+    "start" : 1639421847615,
+    "stop" : 1639421853383,
+    "duration" : 5768
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toUint64"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toUint64"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^64 (18446744073709551616)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toUint64"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c5624c59f7c5ad22",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/c5624c59f7c5ad22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402906027,
+          "stop" : 1639402911420,
+          "duration" : 5393
+        }
+      }, {
+        "uid" : "36f9fc465d706867",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/36f9fc465d706867",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'SafeCast: value doesn\\'t fit in 64 bits'",
+        "time" : {
+          "start" : 1639394662668,
+          "stop" : 1639394767719,
+          "duration" : 105051
+        }
+      }, {
+        "uid" : "a3df7ae49e5cec03",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/a3df7ae49e5cec03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387860004,
+          "stop" : 1639387869336,
+          "duration" : 9332
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2fe58a096eefcc83.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,118 @@
+{
+  "uid" : "9049f64e88298672",
+  "name" : "reverts when trying to transferFrom",
+  "fullName" : "Contract: ERC721Pausable when token is paused.reverts when trying to transferFrom",
+  "historyId" : "f7988b9086dea19e74d2f8b1239f2b1b",
+  "time" : {
+    "start" : 1639414958326,
+    "stop" : 1639414971164,
+    "duration" : 12838
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to transferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "fb9f8cf7de8cb169",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/fb9f8cf7de8cb169",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639410940376,
+          "stop" : 1639410965009,
+          "duration" : 24633
+        }
+      }, {
+        "uid" : "feaf27ff825624f0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/feaf27ff825624f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395190088,
+          "stop" : 1639395235178,
+          "duration" : 45090
+        }
+      }, {
+        "uid" : "4f7d83c975175c7b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/4f7d83c975175c7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393445038,
+          "stop" : 1639393488570,
+          "duration" : 43532
+        }
+      }, {
+        "uid" : "ce498618ff79a438",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/ce498618ff79a438",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639393331611,
+          "stop" : 1639393460679,
+          "duration" : 129068
+        }
+      }, {
+        "uid" : "1f5df481f25e225d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/1f5df481f25e225d",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639390236909,
+          "stop" : 1639390336986,
+          "duration" : 100077
+        }
+      }, {
+        "uid" : "6dee9bdbbe8b7f91",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6dee9bdbbe8b7f91",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386437154,
+          "stop" : 1639386638431,
+          "duration" : 201277
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9049f64e88298672.json",
+  "parameterValues" : [ ]
+}

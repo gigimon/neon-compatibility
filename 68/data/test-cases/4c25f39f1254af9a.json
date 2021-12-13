@@ -1,0 +1,79 @@
+{
+  "uid" : "4c25f39f1254af9a",
+  "name" : "reverts on transferFrom",
+  "fullName" : "Contract: SafeERC20 with token that returns false on all calls.reverts on transferFrom",
+  "historyId" : "ce06f43de6eba42535b7b427d49b964c",
+  "time" : {
+    "start" : 1639405377053,
+    "stop" : 1639405387897,
+    "duration" : 10844
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on transferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns false on all calls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "801d4695443fb5b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/801d4695443fb5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402733859,
+          "stop" : 1639402776655,
+          "duration" : 42796
+        }
+      }, {
+        "uid" : "d932e21a01d0a9ba",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d932e21a01d0a9ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108576904,
+          "stop" : 1639108588470,
+          "duration" : 11566
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4c25f39f1254af9a.json",
+  "parameterValues" : [ ]
+}

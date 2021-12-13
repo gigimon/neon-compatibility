@@ -1,0 +1,80 @@
+{
+  "uid" : "7bc92d69ad0448ea",
+  "name" : "doesn't revert when approving a zero allowance",
+  "fullName" : "Contract: SafeERC20 with token that returns no boolean values approvals with zero allowance.doesn't revert when approving a zero allowance",
+  "historyId" : "7b642f4edf1546bad2634fb66c199926",
+  "time" : {
+    "start" : 1639405615026,
+    "stop" : 1639405629324,
+    "duration" : 14298
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "doesn't revert when approving a zero allowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2f33fd48e39e44dc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/2f33fd48e39e44dc",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639403242398,
+          "stop" : 1639403381204,
+          "duration" : 138806
+        }
+      }, {
+        "uid" : "979e2ddfc560daaf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/979e2ddfc560daaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108819913,
+          "stop" : 1639108834222,
+          "duration" : 14309
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7bc92d69ad0448ea.json",
+  "parameterValues" : [ ]
+}

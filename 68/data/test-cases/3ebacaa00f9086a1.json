@@ -1,0 +1,70 @@
+{
+  "uid" : "3ebacaa00f9086a1",
+  "name" : "reverts when more than the full allowance is removed",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount.reverts when more than the full allowance is removed",
+  "historyId" : "339704df5027d697afba2eff628a4c83",
+  "time" : {
+    "start" : 1639404894584,
+    "stop" : 1639404905014,
+    "duration" : 10430
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when more than the full allowance is removed"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7d68dc468dc503ba",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7d68dc468dc503ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106488335,
+          "stop" : 1639106498891,
+          "duration" : 10556
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3ebacaa00f9086a1.json",
+  "parameterValues" : [ ]
+}
