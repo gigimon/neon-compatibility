@@ -1,0 +1,71 @@
+{
+  "uid" : "da421a69011a70a8",
+  "name" : "fails deploying a contract if the bytecode length is zero",
+  "fullName" : "Contract: Create2 deploy.fails deploying a contract if the bytecode length is zero",
+  "historyId" : "6af9966fe5055dbdc2ac334ebe482c2",
+  "time" : {
+    "start" : 1639396089467,
+    "stop" : 1639396096752,
+    "duration" : 7285
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails deploying a contract if the bytecode length is zero"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a6b89088f3fbf57a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/a6b89088f3fbf57a",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'Create2: bytecode length is zero'",
+        "time" : {
+          "start" : 1639387203319,
+          "stop" : 1639387334687,
+          "duration" : 131368
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da421a69011a70a8.json",
+  "parameterValues" : [ ]
+}

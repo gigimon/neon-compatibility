@@ -1,0 +1,86 @@
+{
+  "uid" : "faf6067f98425b0b",
+  "name" : "returns correct index for the basic case",
+  "fullName" : "Contract: Arrays findUpperBound Odd number of elements.returns correct index for the basic case",
+  "historyId" : "c077cb365c19051fa36679c05e068970",
+  "time" : {
+    "start" : 1639395661490,
+    "stop" : 1639395761495,
+    "duration" : 100005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/Arrays.test.js:41:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Arrays findUpperBound Odd number of elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Arrays findUpperBound Odd number of elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns correct index for the basic case"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Arrays findUpperBound Odd number of elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a0fda84b72296de2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/a0fda84b72296de2",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391205504,
+          "stop" : 1639391313576,
+          "duration" : 108072
+        }
+      }, {
+        "uid" : "47bd030aa8f2984b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/47bd030aa8f2984b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387198942,
+          "stop" : 1639387204845,
+          "duration" : 5903
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "faf6067f98425b0b.json",
+  "parameterValues" : [ ]
+}

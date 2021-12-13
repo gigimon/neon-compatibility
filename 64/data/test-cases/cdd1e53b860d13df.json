@@ -1,0 +1,88 @@
+{
+  "uid" : "cdd1e53b860d13df",
+  "name" : "non-admin cannot grant role to other accounts",
+  "fullName" : "Contract: AccessControl granting.non-admin cannot grant role to other accounts",
+  "historyId" : "4e56d574e362f39d57f281c77ce79235",
+  "time" : {
+    "start" : 1639392820992,
+    "stop" : 1639392830759,
+    "duration" : 9767
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: AccessControl granting"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: AccessControl granting"
+  }, {
+    "name" : "testMethod",
+    "value" : "non-admin cannot grant role to other accounts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: AccessControl granting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "49c4ee3929dcf9e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/49c4ee3929dcf9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389097290,
+          "stop" : 1639389106218,
+          "duration" : 8928
+        }
+      }, {
+        "uid" : "76bc910bfc3e3c6e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/76bc910bfc3e3c6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639385589265,
+          "stop" : 1639385598306,
+          "duration" : 9041
+        }
+      }, {
+        "uid" : "594757dd8ffc5672",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/594757dd8ffc5672",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639099023839,
+          "stop" : 1639099034143,
+          "duration" : 10304
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cdd1e53b860d13df.json",
+  "parameterValues" : [ ]
+}

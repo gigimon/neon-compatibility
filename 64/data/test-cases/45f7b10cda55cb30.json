@@ -1,0 +1,117 @@
+{
+  "uid" : "45f7b10cda55cb30",
+  "name" : "rejects zero-valued shares",
+  "fullName" : "Contract: PaymentSplitter.rejects zero-valued shares",
+  "historyId" : "7cf8b902045686da85b30aa4aa8bac13",
+  "time" : {
+    "start" : 1639393283036,
+    "stop" : 1639393285936,
+    "duration" : 2900
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: shares are 0'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: shares are 0'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/finance/PaymentSplitter.test.js:37:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects zero-valued shares"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6afb28e595778641",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6afb28e595778641",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: shares are 0'",
+        "time" : {
+          "start" : 1639390802511,
+          "stop" : 1639390805440,
+          "duration" : 2929
+        }
+      }, {
+        "uid" : "6e46123515707cba",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/6e46123515707cba",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: shares are 0'",
+        "time" : {
+          "start" : 1639389596417,
+          "stop" : 1639389599029,
+          "duration" : 2612
+        }
+      }, {
+        "uid" : "2684d8d87ab14caf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/2684d8d87ab14caf",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: shares are 0'",
+        "time" : {
+          "start" : 1639385828420,
+          "stop" : 1639385831002,
+          "duration" : 2582
+        }
+      }, {
+        "uid" : "ae1b43f57c6a7e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/ae1b43f57c6a7e",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: shares are 0'",
+        "time" : {
+          "start" : 1639384162925,
+          "stop" : 1639384165782,
+          "duration" : 2857
+        }
+      }, {
+        "uid" : "3c4e30455d9627ff",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/3c4e30455d9627ff",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: shares are 0'",
+        "time" : {
+          "start" : 1639099351627,
+          "stop" : 1639099354602,
+          "duration" : 2975
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "45f7b10cda55cb30.json",
+  "parameterValues" : [ ]
+}

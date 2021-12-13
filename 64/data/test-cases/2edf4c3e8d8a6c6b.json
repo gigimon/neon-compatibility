@@ -1,0 +1,87 @@
+{
+  "uid" : "2edf4c3e8d8a6c6b",
+  "name" : "rejects deposits",
+  "fullName" : "Contract: RefundEscrow once deployed refund state.rejects deposits",
+  "historyId" : "fda3b306f296a7da39687b15761fe68c",
+  "time" : {
+    "start" : 1639396375605,
+    "stop" : 1639396376093,
+    "duration" : 488
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH110: Invalid JSON-RPC response received: <html>\n                <head><title>502 Bad Gateway</title></head>\n                <body>\n                <center><h1>502 Bad Gateway</h1></center>\n                <hr><center>nginx/1.18.0 (Ubuntu)</center>\n                </body>\n                </html>\n                ",
+  "statusTrace" : "HardhatError: HH110: Invalid JSON-RPC response received: <html>\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:22:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed refund state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed refund state"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects deposits"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed refund state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f1a6f5c552a399c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/f1a6f5c552a399c",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '7b266dad63224cef0d6efb0cfda9bf8bc8ed8521', 'f6e8c05a66e82cc24c1d64a7508499c111b07481', 'f340fa01000000000000000000000000744d3e36b53019caf93aed42ac34a2071e4802ad', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639394865440,
+          "stop" : 1639394870541,
+          "duration" : 5101
+        }
+      }, {
+        "uid" : "60b2b09c22b237c8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/60b2b09c22b237c8",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'e5521462916c311eda53c172e44c10bd602561b9', '4b384929d45673d369e78a0402256ee11f803fe2', 'f340fa010000000000000000000000007db8a538792682af7af83ac45406313de83c5696', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639387201982,
+          "stop" : 1639387274622,
+          "duration" : 72640
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2edf4c3e8d8a6c6b.json",
+  "parameterValues" : [ ]
+}

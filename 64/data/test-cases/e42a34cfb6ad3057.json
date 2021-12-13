@@ -1,0 +1,117 @@
+{
+  "uid" : "e42a34cfb6ad3057",
+  "name" : "can add multiple balances on one account",
+  "fullName" : "Contract: PullPayment payments.can add multiple balances on one account",
+  "historyId" : "8af7d2c78fc5838e0208dc1cd9475948",
+  "time" : {
+    "start" : 1639394514666,
+    "stop" : 1639394526629,
+    "duration" : 11963
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '0' to equal '500'",
+  "statusTrace" : "AssertionError: expected '0' to equal '500'\n                    at Context.<anonymous> (test/security/PullPayment.test.js:25:68)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add multiple balances on one account"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "a24373aaadb47363",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/a24373aaadb47363",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '500'",
+        "time" : {
+          "start" : 1639392766690,
+          "stop" : 1639392778673,
+          "duration" : 11983
+        }
+      }, {
+        "uid" : "ed9f6b6590a43d4e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/ed9f6b6590a43d4e",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '500'",
+        "time" : {
+          "start" : 1639392680404,
+          "stop" : 1639392692438,
+          "duration" : 12034
+        }
+      }, {
+        "uid" : "23c68f44559858e8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/23c68f44559858e8",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639389272521,
+          "stop" : 1639389382279,
+          "duration" : 109758
+        }
+      }, {
+        "uid" : "3b83701e44c751fe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3b83701e44c751fe",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '500'",
+        "time" : {
+          "start" : 1639385524047,
+          "stop" : 1639385535789,
+          "duration" : 11742
+        }
+      }, {
+        "uid" : "dd3f7e3553f7c73",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/dd3f7e3553f7c73",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '500'",
+        "time" : {
+          "start" : 1639103975257,
+          "stop" : 1639103987059,
+          "duration" : 11802
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e42a34cfb6ad3057.json",
+  "parameterValues" : [ ]
+}

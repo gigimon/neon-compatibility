@@ -1,0 +1,80 @@
+{
+  "uid" : "ba26c225d2ef3e0c",
+  "name" : "can be called multiple times",
+  "fullName" : "Contract: Counters decrement after incremented to 3.can be called multiple times",
+  "historyId" : "517ea7d5644cb28dbcb33c5d952059b3",
+  "time" : {
+    "start" : 1639396341859,
+    "stop" : 1639396368304,
+    "duration" : 26445
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Counters decrement after incremented to 3"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Counters decrement after incremented to 3"
+  }, {
+    "name" : "testMethod",
+    "value" : "can be called multiple times"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Counters decrement after incremented to 3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b8e711619747ef26",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/b8e711619747ef26",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639394655250,
+          "stop" : 1639394768093,
+          "duration" : 112843
+        }
+      }, {
+        "uid" : "9ea9fae7b16dddd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9ea9fae7b16dddd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639388072690,
+          "stop" : 1639388129681,
+          "duration" : 56991
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ba26c225d2ef3e0c.json",
+  "parameterValues" : [ ]
+}

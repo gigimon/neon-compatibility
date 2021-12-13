@@ -1,0 +1,97 @@
+{
+  "uid" : "632fb30f9d225cc8",
+  "name" : "has expected balance",
+  "fullName" : "Contract: TransparentUpgradeableProxy initialization with parameters payable when not sending balance.has expected balance",
+  "historyId" : "c82134a9b16335031ea262fe4cf7eee9",
+  "time" : {
+    "start" : 1639393945893,
+    "stop" : 1639393955452,
+    "duration" : 9559
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '100000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '100000000000000000000' to equal '0'\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:42:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "84f619604ae058ed",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/84f619604ae058ed",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639392235670,
+          "stop" : 1639392245179,
+          "duration" : 9509
+        }
+      }, {
+        "uid" : "bb1e1eb95cb28108",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/bb1e1eb95cb28108",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639392189636,
+          "stop" : 1639392198359,
+          "duration" : 8723
+        }
+      }, {
+        "uid" : "9b01226e5d1eb3e1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/9b01226e5d1eb3e1",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639103072203,
+          "stop" : 1639103082252,
+          "duration" : 10049
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "632fb30f9d225cc8.json",
+  "parameterValues" : [ ]
+}

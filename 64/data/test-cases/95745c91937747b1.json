@@ -1,0 +1,76 @@
+{
+  "uid" : "95745c91937747b1",
+  "name" : "fails deploying a contract in an existent address",
+  "fullName" : "Contract: Create2 deploy.fails deploying a contract in an existent address",
+  "historyId" : "3d5ec56574dbecc7c5f703d1d0c79256",
+  "time" : {
+    "start" : 1639395962323,
+    "stop" : 1639396089467,
+    "duration" : 127144
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'Create2: Failed on deploy'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'Create2: Failed on deploy'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/utils/Create2.test.js:74:7)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails deploying a contract in an existent address"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1d1abd00880d4536",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1d1abd00880d4536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387190755,
+          "stop" : 1639387203319,
+          "duration" : 12564
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "95745c91937747b1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "973fd694ae040223",
+  "name" : "adds several values",
+  "fullName" : "Contract: EnumerableSet EnumerableAddressSet add.adds several values",
+  "historyId" : "ed31728ca62102dd0c6e061322553fa9",
+  "time" : {
+    "start" : 1639395796303,
+    "stop" : 1639395928226,
+    "duration" : 131923
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at expectMembersMatch (test/utils/structs/EnumerableSet.behavior.js:9:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/utils/structs/EnumerableSet.behavior.js:47:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet add"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet add"
+  }, {
+    "name" : "testMethod",
+    "value" : "adds several values"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "77b064cade6530e1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/77b064cade6530e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387706016,
+          "stop" : 1639387754895,
+          "duration" : 48879
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "973fd694ae040223.json",
+  "parameterValues" : [ ]
+}

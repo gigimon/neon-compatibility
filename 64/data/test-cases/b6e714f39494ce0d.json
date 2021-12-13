@@ -1,0 +1,85 @@
+{
+  "uid" : "b6e714f39494ce0d",
+  "name" : "reset",
+  "fullName" : "Contract: TimersBlockNumber.reset",
+  "historyId" : "67fabe053e25ccfe99bcca273ca5e40a",
+  "time" : {
+    "start" : 1639395928173,
+    "stop" : 1639396089425,
+    "duration" : 161252
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/TimersBlockNumberImpl.test.js:40:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TimersBlockNumber"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TimersBlockNumber"
+  }, {
+    "name" : "testMethod",
+    "value" : "reset"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TimersBlockNumber"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7e4cdc662c49978f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/7e4cdc662c49978f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394361240,
+          "stop" : 1639394451958,
+          "duration" : 90718
+        }
+      }, {
+        "uid" : "32aa23755942806c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/32aa23755942806c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387369188,
+          "stop" : 1639387449893,
+          "duration" : 80705
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b6e714f39494ce0d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "dfa6c6400fd4d2e",
+  "name" : "domain separator",
+  "fullName" : "Contract: ERC20Permit.domain separator",
+  "historyId" : "595b553f5103a9dc52159d23e41809e7",
+  "time" : {
+    "start" : 1639394960552,
+    "stop" : 1639394968640,
+    "duration" : 8088
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Permit"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Permit"
+  }, {
+    "name" : "testMethod",
+    "value" : "domain separator"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Permit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "36df93bef90c472f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/36df93bef90c472f",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393046785,
+          "stop" : 1639393155456,
+          "duration" : 108671
+        }
+      }, {
+        "uid" : "e423d58912653903",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/e423d58912653903",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389795109,
+          "stop" : 1639389802874,
+          "duration" : 7765
+        }
+      }, {
+        "uid" : "a08d499190118748",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/a08d499190118748",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106817317,
+          "stop" : 1639106825326,
+          "duration" : 8009
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dfa6c6400fd4d2e.json",
+  "parameterValues" : [ ]
+}

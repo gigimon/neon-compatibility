@@ -1,0 +1,94 @@
+{
+  "uid" : "86ae7211d73c8c74",
+  "name" : "only the owner can deposit",
+  "fullName" : "Contract: Escrow as an escrow deposits.only the owner can deposit",
+  "historyId" : "1fe38ea414e95a0612dd605b20e4188e",
+  "time" : {
+    "start" : 1639396122736,
+    "stop" : 1639396253042,
+    "duration" : 130306
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                Please check your internet connection and networks config\n                    at HttpProvider._fetchJsonRpcResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:184:15)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at HttpProvider.request (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:55:29)\n                    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "testMethod",
+    "value" : "only the owner can deposit"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f693ff899dc4137c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/f693ff899dc4137c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394538215,
+          "stop" : 1639394590630,
+          "duration" : 52415
+        }
+      }, {
+        "uid" : "3df1d309796689d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/3df1d309796689d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394139969,
+          "stop" : 1639394146802,
+          "duration" : 6833
+        }
+      }, {
+        "uid" : "1a6eb5ae5d975fec",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1a6eb5ae5d975fec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386978075,
+          "stop" : 1639386985111,
+          "duration" : 7036
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86ae7211d73c8c74.json",
+  "parameterValues" : [ ]
+}

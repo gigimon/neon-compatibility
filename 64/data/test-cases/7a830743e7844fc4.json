@@ -1,0 +1,79 @@
+{
+  "uid" : "7a830743e7844fc4",
+  "name" : "reverts on negative addition overflow",
+  "fullName" : "Contract: SignedSafeMath add.reverts on negative addition overflow",
+  "historyId" : "de9d9f3af20dcbc83b116d490f798ea9",
+  "time" : {
+    "start" : 1639395796375,
+    "stop" : 1639395803577,
+    "duration" : 7202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SignedSafeMath add"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SignedSafeMath add"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on negative addition overflow"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SignedSafeMath add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d437e7eb8e5bf207",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/d437e7eb8e5bf207",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394058184,
+          "stop" : 1639394067217,
+          "duration" : 9033
+        }
+      }, {
+        "uid" : "d4eed5ad3843c241",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/d4eed5ad3843c241",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387491240,
+          "stop" : 1639387498697,
+          "duration" : 7457
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7a830743e7844fc4.json",
+  "parameterValues" : [ ]
+}

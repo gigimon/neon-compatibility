@@ -1,0 +1,76 @@
+{
+  "uid" : "dbfc55f6c998d242",
+  "name" : "adds and removes multiple values",
+  "fullName" : "Contract: EnumerableSet EnumerableAddressSet remove.adds and removes multiple values",
+  "historyId" : "20664b4b155e8078117ab48de08b9559",
+  "time" : {
+    "start" : 1639396120108,
+    "stop" : 1639396225086,
+    "duration" : 104978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/structs/EnumerableSet.behavior.js:88:22)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet remove"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet remove"
+  }, {
+    "name" : "testMethod",
+    "value" : "adds and removes multiple values"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet remove"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "24a4a243d5536e89",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/24a4a243d5536e89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387868444,
+          "stop" : 1639388082221,
+          "duration" : 213777
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dbfc55f6c998d242.json",
+  "parameterValues" : [ ]
+}

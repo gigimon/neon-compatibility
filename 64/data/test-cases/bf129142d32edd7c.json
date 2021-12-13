@@ -1,0 +1,107 @@
+{
+  "uid" : "bf129142d32edd7c",
+  "name" : "requires a non-null beneficiary",
+  "fullName" : "Contract: RefundEscrow.requires a non-null beneficiary",
+  "historyId" : "439919e6556edccd55d384843e614e42",
+  "time" : {
+    "start" : 1639396124368,
+    "stop" : 1639396224883,
+    "duration" : 100515
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'RefundEscrow: beneficiary is the zero address'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'RefundEscrow: beneficiary is the zero address'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:15:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow"
+  }, {
+    "name" : "testMethod",
+    "value" : "requires a non-null beneficiary"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "10c5bb4286796395",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/10c5bb4286796395",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639394610636,
+          "stop" : 1639394641590,
+          "duration" : 30954
+        }
+      }, {
+        "uid" : "ccca2c458ceb2005",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/ccca2c458ceb2005",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639394050776,
+          "stop" : 1639394109047,
+          "duration" : 58271
+        }
+      }, {
+        "uid" : "1f551aeb55a136c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/1f551aeb55a136c",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639391675902,
+          "stop" : 1639391717684,
+          "duration" : 41782
+        }
+      }, {
+        "uid" : "32ab128b95902734",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/32ab128b95902734",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639386960903,
+          "stop" : 1639386964304,
+          "duration" : 3401
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bf129142d32edd7c.json",
+  "parameterValues" : [ ]
+}
