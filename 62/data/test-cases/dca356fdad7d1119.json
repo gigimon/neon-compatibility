@@ -1,0 +1,87 @@
+{
+  "uid" : "dca356fdad7d1119",
+  "name" : "has expected balance",
+  "fullName" : "Contract: Clones cloneDeterministic initialization without parameters non payable when not sending balance.has expected balance",
+  "historyId" : "106ae1b00aa27006042bd53851ec73bc",
+  "time" : {
+    "start" : 1639388720554,
+    "stop" : 1639388730925,
+    "duration" : 10371
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '100000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '100000000000000000000' to equal '0'\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:19:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Clones cloneDeterministic initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones cloneDeterministic initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones cloneDeterministic initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a01f1a949388ad5b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/a01f1a949388ad5b",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639385383362,
+          "stop" : 1639385391894,
+          "duration" : 8532
+        }
+      }, {
+        "uid" : "dfde2c26f1542c94",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/dfde2c26f1542c94",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639102474208,
+          "stop" : 1639102483015,
+          "duration" : 8807
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dca356fdad7d1119.json",
+  "parameterValues" : [ ]
+}

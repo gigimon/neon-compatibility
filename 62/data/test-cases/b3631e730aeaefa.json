@@ -1,0 +1,56 @@
+{
+  "uid" : "b3631e730aeaefa",
+  "name" : "sends 0 wei",
+  "fullName" : "Contract: Address sendValue when sender contract has no funds.sends 0 wei",
+  "historyId" : "d0bc7bc5fb1dff49fe29cfeb7d84483e",
+  "time" : {
+    "start" : 1639391195200,
+    "stop" : 1639391213624,
+    "duration" : 18424
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid JSON RPC response: \"\"",
+  "statusTrace" : "Error: Invalid JSON RPC response: \"\"\n                    at Object.InvalidResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/node_modules/web3-core-helpers/lib/errors.js:43:16)\n                    at XMLHttpRequest.request.onreadystatechange (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/lib/index.js:95:32)\n                    at XMLHttpRequestEventTarget.dispatchEvent (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request-event-target.ts:44:13)\n                    at XMLHttpRequest._setReadyState (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:219:8)\n                    at XMLHttpRequest._onHttpRequestError (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:379:8)\n                    at ClientRequest.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:266:37)\n                    at ClientRequest.emit (node:events:390:28)\n                    at TLSSocket.socketErrorListener (node:_http_client:447:9)\n                    at TLSSocket.emit (node:events:390:28)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Address sendValue when sender contract has no funds"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Address sendValue when sender contract has no funds"
+  }, {
+    "name" : "testMethod",
+    "value" : "sends 0 wei"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Address sendValue when sender contract has no funds"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b3631e730aeaefa.json",
+  "parameterValues" : [ ]
+}

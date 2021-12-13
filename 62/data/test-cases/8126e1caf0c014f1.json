@@ -1,0 +1,76 @@
+{
+  "uid" : "8126e1caf0c014f1",
+  "name" : "starts empty",
+  "fullName" : "Contract: EnumerableMap.starts empty",
+  "historyId" : "c6f05c2efec1aef65d190b59c0a2423c",
+  "time" : {
+    "start" : 1639391081192,
+    "stop" : 1639391198653,
+    "duration" : 117461
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/structs/EnumerableMap.test.js:16:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableMap"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableMap"
+  }, {
+    "name" : "testMethod",
+    "value" : "starts empty"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableMap"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9edd9c14785c2984",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9edd9c14785c2984",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386964863,
+          "stop" : 1639386973083,
+          "duration" : 8220
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8126e1caf0c014f1.json",
+  "parameterValues" : [ ]
+}

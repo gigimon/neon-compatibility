@@ -1,0 +1,86 @@
+{
+  "uid" : "50925ee37b5f5570",
+  "name" : "exist",
+  "fullName" : "Contract: ERC1155Supply before mint.exist",
+  "historyId" : "9e6863f226cc2c10e9fd48ca3d0f1d53",
+  "time" : {
+    "start" : 1639390132435,
+    "stop" : 1639390232506,
+    "duration" : 100071
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC1155/extensions/ERC1155Supply.test.js:19:45)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Supply before mint"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Supply before mint"
+  }, {
+    "name" : "testMethod",
+    "value" : "exist"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Supply before mint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f9f15408f26c3d11",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/f9f15408f26c3d11",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639386307122,
+          "stop" : 1639386433184,
+          "duration" : 126062
+        }
+      }, {
+        "uid" : "f6d48a3d04e989fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/f6d48a3d04e989fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639105621615,
+          "stop" : 1639105628081,
+          "duration" : 6466
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "50925ee37b5f5570.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "c4a70bb86a958bba",
+  "name" : "rejects reused signature",
+  "fullName" : "Contract: ERC20Permit permit.rejects reused signature",
+  "historyId" : "daa54d609951a3d80d3f9683d27a7324",
+  "time" : {
+    "start" : 1639389816035,
+    "stop" : 1639390129907,
+    "duration" : 313872
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+  "statusTrace" : "Error: Failed to check for transaction receipt:\n                    at Context.<anonymous> (test/token/ERC20/extensions/draft-ERC20Permit.test.js:33:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Permit permit"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Permit permit"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects reused signature"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Permit permit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3569d2649547ea2c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/3569d2649547ea2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106838116,
+          "stop" : 1639106850729,
+          "duration" : 12613
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c4a70bb86a958bba.json",
+  "parameterValues" : [ ]
+}

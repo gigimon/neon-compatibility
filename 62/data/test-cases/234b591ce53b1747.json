@@ -1,0 +1,76 @@
+{
+  "uid" : "234b591ce53b1747",
+  "name" : "always returns 0 for empty array",
+  "fullName" : "Contract: Arrays findUpperBound Empty array.always returns 0 for empty array",
+  "historyId" : "c8c2c29ba241ec131cf4dd106524934e",
+  "time" : {
+    "start" : 1639391467746,
+    "stop" : 1639391569174,
+    "duration" : 101428
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/Arrays.test.js:79:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Arrays findUpperBound Empty array"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Arrays findUpperBound Empty array"
+  }, {
+    "name" : "testMethod",
+    "value" : "always returns 0 for empty array"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Arrays findUpperBound Empty array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cfd7de4a24b769f3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/cfd7de4a24b769f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387317982,
+          "stop" : 1639387328052,
+          "duration" : 10070
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "234b591ce53b1747.json",
+  "parameterValues" : [ ]
+}

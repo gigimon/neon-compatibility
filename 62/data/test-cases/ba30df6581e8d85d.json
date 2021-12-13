@@ -1,0 +1,76 @@
+{
+  "uid" : "ba30df6581e8d85d",
+  "name" : "reverts on withdrawals",
+  "fullName" : "Contract: ConditionalEscrow when withdrawal is disallowed.reverts on withdrawals",
+  "historyId" : "d10994990edc681a85f3a5e95057c231",
+  "time" : {
+    "start" : 1639391701746,
+    "stop" : 1639392083311,
+    "duration" : 381565
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                Please check your internet connection and networks config\n                    at HttpProvider._fetchJsonRpcResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:184:15)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at HttpProvider.request (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:55:29)\n                    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ConditionalEscrow when withdrawal is disallowed"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ConditionalEscrow when withdrawal is disallowed"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on withdrawals"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ConditionalEscrow when withdrawal is disallowed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "eab06779451b9a76",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/eab06779451b9a76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386969986,
+          "stop" : 1639386982917,
+          "duration" : 12931
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ba30df6581e8d85d.json",
+  "parameterValues" : [ ]
+}

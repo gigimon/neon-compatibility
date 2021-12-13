@@ -1,0 +1,76 @@
+{
+  "uid" : "e8eae9f924d4df51",
+  "name" : "from other slot",
+  "fullName" : "Contract: StorageSlot boolean storage slot get.from other slot",
+  "historyId" : "eeada978f6255d990ce28237607af280",
+  "time" : {
+    "start" : 1639391186788,
+    "stop" : 1639391205478,
+    "duration" : 18690
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid JSON RPC response: \"\"",
+  "statusTrace" : "Error: Invalid JSON RPC response: \"\"\n                    at Object.InvalidResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/node_modules/web3-core-helpers/lib/errors.js:43:16)\n                    at XMLHttpRequest.request.onreadystatechange (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/lib/index.js:95:32)\n                    at XMLHttpRequestEventTarget.dispatchEvent (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request-event-target.ts:44:13)\n                    at XMLHttpRequest._setReadyState (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:219:8)\n                    at XMLHttpRequest._onHttpRequestError (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:379:8)\n                    at ClientRequest.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:266:37)\n                    at ClientRequest.emit (node:events:390:28)\n                    at TLSSocket.socketErrorListener (node:_http_client:447:9)\n                    at TLSSocket.emit (node:events:390:28)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: StorageSlot boolean storage slot get"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: StorageSlot boolean storage slot get"
+  }, {
+    "name" : "testMethod",
+    "value" : "from other slot"
+  }, {
+    "name" : "package",
+    "value" : "Contract: StorageSlot boolean storage slot get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "26dc3118277a7a2b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/26dc3118277a7a2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386978285,
+          "stop" : 1639386986939,
+          "duration" : 8654
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e8eae9f924d4df51.json",
+  "parameterValues" : [ ]
+}

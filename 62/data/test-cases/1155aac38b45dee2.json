@@ -1,0 +1,76 @@
+{
+  "uid" : "1155aac38b45dee2",
+  "name" : "starts empty",
+  "fullName" : "Contract: EnumerableSet EnumerableAddressSet.starts empty",
+  "historyId" : "8df44338e248dc6f53100b9d76e1000b",
+  "time" : {
+    "start" : 1639391305529,
+    "stop" : 1639391405535,
+    "duration" : 100006
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/structs/EnumerableSet.test.js:28:52)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet"
+  }, {
+    "name" : "testMethod",
+    "value" : "starts empty"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e84ec10cd6210eb4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e84ec10cd6210eb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387611207,
+          "stop" : 1639387657395,
+          "duration" : 46188
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1155aac38b45dee2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "c422b2694b5ed03e",
+  "name" : "domain separator",
+  "fullName" : "Contract: EIP712.domain separator",
+  "historyId" : "b632b3374fa40fd769f62a344b4f3203",
+  "time" : {
+    "start" : 1639391207913,
+    "stop" : 1639391307935,
+    "duration" : 100022
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/cryptography/draft-EIP712.test.js:15:35)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EIP712"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EIP712"
+  }, {
+    "name" : "testMethod",
+    "value" : "domain separator"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EIP712"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "984f0ca175bc441c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/984f0ca175bc441c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387843484,
+          "stop" : 1639387865247,
+          "duration" : 21763
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c422b2694b5ed03e.json",
+  "parameterValues" : [ ]
+}

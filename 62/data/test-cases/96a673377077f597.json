@@ -1,0 +1,76 @@
+{
+  "uid" : "96a673377077f597",
+  "name" : "emits a Transfer event",
+  "fullName" : "Contract: ERC721 _burn with minted tokens with burnt token.emits a Transfer event",
+  "historyId" : "9d55e59bcc12495171bb6970e8c5d13a",
+  "time" : {
+    "start" : 1639390690001,
+    "stop" : 1639390900658,
+    "duration" : 210657
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC721/ERC721.behavior.js:693:51)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721 _burn with minted tokens with burnt token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 _burn with minted tokens with burnt token"
+  }, {
+    "name" : "testMethod",
+    "value" : "emits a Transfer event"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 _burn with minted tokens with burnt token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "25f0d3f14c39f5d0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/25f0d3f14c39f5d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639113943671,
+          "stop" : 1639113957466,
+          "duration" : 13795
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "96a673377077f597.json",
+  "parameterValues" : [ ]
+}

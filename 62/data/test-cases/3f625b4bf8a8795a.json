@@ -1,0 +1,76 @@
+{
+  "uid" : "3f625b4bf8a8795a",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC165 Contract interface ERC165 ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "16911df528bc077b20f951cf81c0e2d2",
+  "time" : {
+    "start" : 1639391571520,
+    "stop" : 1639391671566,
+    "duration" : 100046
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/introspection/ERC165.test.js:7:37)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC165 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC165 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC165 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "52f8a2845fbe30ef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/52f8a2845fbe30ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387752196,
+          "stop" : 1639387769550,
+          "duration" : 17354
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3f625b4bf8a8795a.json",
+  "parameterValues" : [ ]
+}

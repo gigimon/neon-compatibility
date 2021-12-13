@@ -1,0 +1,85 @@
+{
+  "uid" : "ae76a2e26a6c1b43",
+  "name" : "address prediction",
+  "fullName" : "Contract: Clones cloneDeterministic.address prediction",
+  "historyId" : "4123174cd523b201d8b94a16605201f",
+  "time" : {
+    "start" : 1639388516078,
+    "stop" : 1639388623798,
+    "duration" : 107720
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/proxy/Clones.test.js:45:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Clones cloneDeterministic"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones cloneDeterministic"
+  }, {
+    "name" : "testMethod",
+    "value" : "address prediction"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones cloneDeterministic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f2f1658a558034ed",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/f2f1658a558034ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639385363800,
+          "stop" : 1639385373654,
+          "duration" : 9854
+        }
+      }, {
+        "uid" : "786110bb0cdda96e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/786110bb0cdda96e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102454543,
+          "stop" : 1639102464580,
+          "duration" : 10037
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ae76a2e26a6c1b43.json",
+  "parameterValues" : [ ]
+}

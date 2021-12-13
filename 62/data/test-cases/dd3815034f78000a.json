@@ -1,0 +1,56 @@
+{
+  "uid" : "dd3815034f78000a",
+  "name" : "\"before all\" hook: deploy implementation in \"clone\"",
+  "fullName" : "Contract: Clones clone.\"before all\" hook: deploy implementation in \"clone\"",
+  "historyId" : "d4da88e2fd1eef0a496793e28cefb1d1",
+  "time" : {
+    "start" : 1639388219439,
+    "stop" : 1639388219439,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid JSON RPC response: \"\"",
+  "statusTrace" : "Error: Invalid JSON RPC response: \"\"\n                    at Object.InvalidResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/node_modules/web3-core-helpers/lib/errors.js:43:16)\n                    at XMLHttpRequest.request.onreadystatechange (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/lib/index.js:95:32)\n                    at XMLHttpRequestEventTarget.dispatchEvent (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request-event-target.ts:44:13)\n                    at XMLHttpRequest._setReadyState (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:219:8)\n                    at XMLHttpRequest._onHttpRequestError (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:379:8)\n                    at ClientRequest.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:266:37)\n                    at ClientRequest.emit (node:events:390:28)\n                    at TLSSocket.socketErrorListener (node:_http_client:447:9)\n                    at TLSSocket.emit (node:events:390:28)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Clones clone"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones clone"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook: deploy implementation in \"clone\""
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones clone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dd3815034f78000a.json",
+  "parameterValues" : [ ]
+}

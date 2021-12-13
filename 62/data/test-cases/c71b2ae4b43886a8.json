@@ -1,0 +1,77 @@
+{
+  "uid" : "c71b2ae4b43886a8",
+  "name" : "returns an array with the result of each call",
+  "fullName" : "Contract: MulticallToken.returns an array with the result of each call",
+  "historyId" : "723f34860fa8f121ab3f076352152159",
+  "time" : {
+    "start" : 1639391213640,
+    "stop" : 1639391496566,
+    "duration" : 282926
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/Multicall.test.js:27:50)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns an array with the result of each call"
+  }, {
+    "name" : "package",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "28585179f4229e0a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/28585179f4229e0a",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639387193139,
+          "stop" : 1639387312667,
+          "duration" : 119528
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c71b2ae4b43886a8.json",
+  "parameterValues" : [ ]
+}

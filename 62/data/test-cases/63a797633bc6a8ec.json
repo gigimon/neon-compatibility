@@ -1,0 +1,87 @@
+{
+  "uid" : "63a797633bc6a8ec",
+  "name" : "non-contract implementation",
+  "fullName" : "Contract: BeaconProxy bad beacon is not accepted.non-contract implementation",
+  "historyId" : "3b8dd1a76e32ea6cb0b19b550d87e8d2",
+  "time" : {
+    "start" : 1639388723567,
+    "stop" : 1639388730777,
+    "duration" : 7210
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/proxy/beacon/BeaconProxy.test.js:41:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy bad beacon is not accepted"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy bad beacon is not accepted"
+  }, {
+    "name" : "testMethod",
+    "value" : "non-contract implementation"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy bad beacon is not accepted"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "be0df270f2e8dff7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/be0df270f2e8dff7",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639385182317,
+          "stop" : 1639385260071,
+          "duration" : 77754
+        }
+      }, {
+        "uid" : "f1cf8aabcb515c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/f1cf8aabcb515c",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639102199546,
+          "stop" : 1639102206442,
+          "duration" : 6896
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "63a797633bc6a8ec.json",
+  "parameterValues" : [ ]
+}

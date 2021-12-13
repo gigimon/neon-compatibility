@@ -1,0 +1,77 @@
+{
+  "uid" : "1f5df481f25e225d",
+  "name" : "reverts when trying to transferFrom",
+  "fullName" : "Contract: ERC721Pausable when token is paused.reverts when trying to transferFrom",
+  "historyId" : "f7988b9086dea19e74d2f8b1239f2b1b",
+  "time" : {
+    "start" : 1639390236909,
+    "stop" : 1639390336986,
+    "duration" : 100077
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC721/extensions/ERC721Pausable.test.js:15:46)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to transferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6dee9bdbbe8b7f91",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6dee9bdbbe8b7f91",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386437154,
+          "stop" : 1639386638431,
+          "duration" : 201277
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1f5df481f25e225d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "a043eaf639b7a2c1",
+  "name" : "no initialization",
+  "fullName" : "Contract: BeaconProxy initialization.no initialization",
+  "historyId" : "1765c2b6eabacf1589edb2e34a729408",
+  "time" : {
+    "start" : 1639388730785,
+    "stop" : 1639388842732,
+    "duration" : 111947
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                Please check your internet connection and networks config\n                    at HttpProvider._fetchJsonRpcResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:184:15)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at HttpProvider.request (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:55:29)\n                    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testMethod",
+    "value" : "no initialization"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d440e7b30e12f430",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/d440e7b30e12f430",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '10'",
+        "time" : {
+          "start" : 1639385260080,
+          "stop" : 1639385272141,
+          "duration" : 12061
+        }
+      }, {
+        "uid" : "3216914a9290ae96",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/3216914a9290ae96",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '10'",
+        "time" : {
+          "start" : 1639102206446,
+          "stop" : 1639102218242,
+          "duration" : 11796
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a043eaf639b7a2c1.json",
+  "parameterValues" : [ ]
+}

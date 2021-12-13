@@ -1,0 +1,85 @@
+{
+  "uid" : "cb1be871549561f",
+  "name" : "creates increasing snapshots ids, starting from 1",
+  "fullName" : "Contract: ERC20Snapshot snapshot.creates increasing snapshots ids, starting from 1",
+  "historyId" : "540b22b70336d432c14e8a2aa49e1ea8",
+  "time" : {
+    "start" : 1639389806239,
+    "stop" : 1639389924347,
+    "duration" : 118108
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Snapshot.test.js:26:43)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Snapshot snapshot"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Snapshot snapshot"
+  }, {
+    "name" : "testMethod",
+    "value" : "creates increasing snapshots ids, starting from 1"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Snapshot snapshot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "d698b59e6c75b00c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/d698b59e6c75b00c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386068100,
+          "stop" : 1639386091803,
+          "duration" : 23703
+        }
+      }, {
+        "uid" : "7c49d7390b479f16",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7c49d7390b479f16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107295583,
+          "stop" : 1639107315018,
+          "duration" : 19435
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cb1be871549561f.json",
+  "parameterValues" : [ ]
+}

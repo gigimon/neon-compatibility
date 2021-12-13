@@ -1,0 +1,76 @@
+{
+  "uid" : "d07c9afc22fea0b1",
+  "name" : "does not allow remote callback",
+  "fullName" : "Contract: ReentrancyGuard.does not allow remote callback",
+  "historyId" : "8bb1b228cbe930b3ed7aacd340b26ae2",
+  "time" : {
+    "start" : 1639389275491,
+    "stop" : 1639389385931,
+    "duration" : 110440
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/security/ReentrancyGuard.test.js:21:48)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ReentrancyGuard"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ReentrancyGuard"
+  }, {
+    "name" : "testMethod",
+    "value" : "does not allow remote callback"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ReentrancyGuard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ebd5b237adcc826d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/ebd5b237adcc826d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104037575,
+          "stop" : 1639104050611,
+          "duration" : 13036
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d07c9afc22fea0b1.json",
+  "parameterValues" : [ ]
+}

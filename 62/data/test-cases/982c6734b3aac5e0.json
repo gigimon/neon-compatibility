@@ -1,0 +1,86 @@
+{
+  "uid" : "982c6734b3aac5e0",
+  "name" : "burns the requested amount",
+  "fullName" : "Contract: ERC20Burnable burn when the given amount is not greater than balance of the sender for a non-zero amount.burns the requested amount",
+  "historyId" : "6f26f862354605294e50fc46ef55447b",
+  "time" : {
+    "start" : 1639389810983,
+    "stop" : 1639389924362,
+    "duration" : 113379
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Burnable.behavior.js:23:35)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Burnable burn when the given amount is not greater than balance of the sender for a non-zero amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Burnable burn when the given amount is not greater than balance of the sender for a non-zero amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "burns the requested amount"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Burnable burn when the given amount is not greater than balance of the sender for a non-zero amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b9805718524138ee",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/b9805718524138ee",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386093879,
+          "stop" : 1639386200438,
+          "duration" : 106559
+        }
+      }, {
+        "uid" : "c936665ef4d79b01",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/c936665ef4d79b01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106886412,
+          "stop" : 1639106895620,
+          "duration" : 9208
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "982c6734b3aac5e0.json",
+  "parameterValues" : [ ]
+}

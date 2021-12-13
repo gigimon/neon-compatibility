@@ -1,0 +1,76 @@
+{
+  "uid" : "4826a732168d1c11",
+  "name" : "base URI is added as a prefix to the token URI",
+  "fullName" : "Contract: ERC721 metadata token URI base URI.base URI is added as a prefix to the token URI",
+  "historyId" : "c7ca640b215a7bf1d8e2e74eb2c5ea95",
+  "time" : {
+    "start" : 1639390962699,
+    "stop" : 1639391063122,
+    "duration" : 100423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC721/ERC721.test.js:13:38)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721 metadata token URI base URI"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 metadata token URI base URI"
+  }, {
+    "name" : "testMethod",
+    "value" : "base URI is added as a prefix to the token URI"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 metadata token URI base URI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "da035424885a4613",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/da035424885a4613",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1639114070327,
+          "stop" : 1639114078040,
+          "duration" : 7713
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4826a732168d1c11.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "ea90826e43be97e2",
+  "name" : "has 18 decimals",
+  "fullName" : "Contract: ERC20.has 18 decimals",
+  "historyId" : "63a549c4b7674bbd38dd0ca0fd26ceaa",
+  "time" : {
+    "start" : 1639390094107,
+    "stop" : 1639390312503,
+    "duration" : 218396
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Wrapper.test.js:19:42)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "testMethod",
+    "value" : "has 18 decimals"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "750357f1ad746356",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/750357f1ad746356",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107571486,
+          "stop" : 1639107585940,
+          "duration" : 14454
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea90826e43be97e2.json",
+  "parameterValues" : [ ]
+}

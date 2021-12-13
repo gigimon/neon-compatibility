@@ -1,0 +1,77 @@
+{
+  "uid" : "56c68b35dae914f2",
+  "name" : "burns the given token ID and adjusts the balance of the owner",
+  "fullName" : "Contract: ERC721Burnable like a burnable ERC721 burn when successful.burns the given token ID and adjusts the balance of the owner",
+  "historyId" : "b3a447d72433667651fdb954dc773625",
+  "time" : {
+    "start" : 1639390262892,
+    "stop" : 1639390327747,
+    "duration" : 64855
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x0",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x0\n                    at Object.ErrorResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/node_modules/web3-core-helpers/lib/errors.js:28:19)\n                    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/lib/index.js:302:36\n                    at XMLHttpRequest.request.onreadystatechange (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/lib/index.js:98:13)\n                    at XMLHttpRequestEventTarget.dispatchEvent (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request-event-target.ts:44:13)\n                    at XMLHttpRequest._setReadyState (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:219:8)\n                    at XMLHttpRequest._onHttpResponseEnd (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:345:8)\n                    at IncomingMessage.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:311:39)\n                    at IncomingMessage.emit (node:events:402:35)\n                    at endReadableNT (node:internal/streams/readable:1343:12)\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when successful"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when successful"
+  }, {
+    "name" : "testMethod",
+    "value" : "burns the given token ID and adjusts the balance of the owner"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when successful"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "40531df40fec1b3b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/40531df40fec1b3b",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: This transaction has already been processed",
+        "time" : {
+          "start" : 1639386439239,
+          "stop" : 1639386453498,
+          "duration" : 14259
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "56c68b35dae914f2.json",
+  "parameterValues" : [ ]
+}

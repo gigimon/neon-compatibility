@@ -1,0 +1,76 @@
+{
+  "uid" : "4c747f601f0fa925",
+  "name" : "only the owner can enter closed state",
+  "fullName" : "Contract: RefundEscrow once deployed.only the owner can enter closed state",
+  "historyId" : "4e7f510ff32d7ec259449b864f86d67a",
+  "time" : {
+    "start" : 1639391717685,
+    "stop" : 1639391942551,
+    "duration" : 224866
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:57:42)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed"
+  }, {
+    "name" : "testMethod",
+    "value" : "only the owner can enter closed state"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2d64c0a7b044cfba",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/2d64c0a7b044cfba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386964313,
+          "stop" : 1639386974227,
+          "duration" : 9914
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4c747f601f0fa925.json",
+  "parameterValues" : [ ]
+}

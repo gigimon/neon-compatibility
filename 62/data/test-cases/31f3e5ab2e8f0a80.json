@@ -1,0 +1,77 @@
+{
+  "uid" : "31f3e5ab2e8f0a80",
+  "name" : "receives an ERC721 token",
+  "fullName" : "Contract: ERC721Holder.receives an ERC721 token",
+  "historyId" : "49ee7617a1c3899a3439cc864b80ab68",
+  "time" : {
+    "start" : 1639390208100,
+    "stop" : 1639390308206,
+    "duration" : 100106
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC721/utils/ERC721Holder.test.js:15:39)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Holder"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Holder"
+  }, {
+    "name" : "testMethod",
+    "value" : "receives an ERC721 token"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Holder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "11363a229cb7e383",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/11363a229cb7e383",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639386307881,
+          "stop" : 1639386435260,
+          "duration" : 127379
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "31f3e5ab2e8f0a80.json",
+  "parameterValues" : [ ]
+}
