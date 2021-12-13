@@ -1,0 +1,107 @@
+{
+  "uid" : "149c098ea299ebb0",
+  "name" : "has expected balance",
+  "fullName" : "Contract: ERC1967Proxy initialization with parameters payable when sending some balance.has expected balance",
+  "historyId" : "a7bfe443c58d0e68f361dcd00b9ed27a",
+  "time" : {
+    "start" : 1639402053762,
+    "stop" : 1639402058287,
+    "duration" : 4525
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '100000000000000000000' to equal '1000000'",
+  "statusTrace" : "AssertionError: expected '100000000000000000000' to equal '1000000'\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:42:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "1d9bcef9dda87318",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1d9bcef9dda87318",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639392066464,
+          "stop" : 1639392166468,
+          "duration" : 100004
+        }
+      }, {
+        "uid" : "e90482cba9b8ce1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/e90482cba9b8ce1",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639392123891,
+          "stop" : 1639392128459,
+          "duration" : 4568
+        }
+      }, {
+        "uid" : "b98a3a9d3cf6173e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/b98a3a9d3cf6173e",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639385362839,
+          "stop" : 1639385367676,
+          "duration" : 4837
+        }
+      }, {
+        "uid" : "ebbeb1cbca7a4375",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/ebbeb1cbca7a4375",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639102694159,
+          "stop" : 1639102699090,
+          "duration" : 4931
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "149c098ea299ebb0.json",
+  "parameterValues" : [ ]
+}

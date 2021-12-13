@@ -1,0 +1,127 @@
+{
+  "uid" : "bf11c815036f4f70",
+  "name" : "Ether",
+  "fullName" : "Contract: PaymentSplitter once deployed accepts payments.Ether",
+  "historyId" : "4302916236eba837fb92a4d9c16b8a71",
+  "time" : {
+    "start" : 1639401903747,
+    "stop" : 1639401980271,
+    "duration" : 76524
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '101000000000000000000' to equal '1000000000000000000'",
+  "statusTrace" : "AssertionError: expected '101000000000000000000' to equal '1000000000000000000'\n                    at Context.<anonymous> (test/finance/PaymentSplitter.test.js:72:78)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter once deployed accepts payments"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter once deployed accepts payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "Ether"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter once deployed accepts payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "de4ae51f3108bf2e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/de4ae51f3108bf2e",
+        "status" : "failed",
+        "statusDetails" : "expected '101000000000000000000' to equal '1000000000000000000'",
+        "time" : {
+          "start" : 1639393313749,
+          "stop" : 1639393326395,
+          "duration" : 12646
+        }
+      }, {
+        "uid" : "c73256d1b6869e05",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/c73256d1b6869e05",
+        "status" : "failed",
+        "statusDetails" : "expected '101000000000000000000' to equal '1000000000000000000'",
+        "time" : {
+          "start" : 1639390832027,
+          "stop" : 1639390844326,
+          "duration" : 12299
+        }
+      }, {
+        "uid" : "68065668690dd058",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/68065668690dd058",
+        "status" : "failed",
+        "statusDetails" : "expected '101000000000000000000' to equal '1000000000000000000'",
+        "time" : {
+          "start" : 1639389622614,
+          "stop" : 1639389634139,
+          "duration" : 11525
+        }
+      }, {
+        "uid" : "12f208f0915bee5c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/12f208f0915bee5c",
+        "status" : "failed",
+        "statusDetails" : "expected '101000000000000000000' to equal '1000000000000000000'",
+        "time" : {
+          "start" : 1639385855039,
+          "stop" : 1639385866194,
+          "duration" : 11155
+        }
+      }, {
+        "uid" : "2c874abf1f791704",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/2c874abf1f791704",
+        "status" : "failed",
+        "statusDetails" : "expected '101000000000000000000' to equal '1000000000000000000'",
+        "time" : {
+          "start" : 1639384192364,
+          "stop" : 1639384204524,
+          "duration" : 12160
+        }
+      }, {
+        "uid" : "cbca2e82dc67b437",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/cbca2e82dc67b437",
+        "status" : "failed",
+        "statusDetails" : "expected '10001000000000000000000' to equal '1000000000000000000'",
+        "time" : {
+          "start" : 1639099381811,
+          "stop" : 1639099394904,
+          "duration" : 13093
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bf11c815036f4f70.json",
+  "parameterValues" : [ ]
+}

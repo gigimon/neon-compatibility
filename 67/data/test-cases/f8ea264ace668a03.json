@@ -1,0 +1,77 @@
+{
+  "uid" : "f8ea264ace668a03",
+  "name" : "can be released after time limit",
+  "fullName" : "Contract: TokenTimelock with token once deployed.can be released after time limit",
+  "historyId" : "5c2feb60ba5356d2b6466345a141b440",
+  "time" : {
+    "start" : 1639403627578,
+    "stop" : 1639403782393,
+    "duration" : 154815
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: execution reverted: TokenTimelock: current time is before release time",
+  "statusTrace" : "Error: Returned error: execution reverted: TokenTimelock: current time is before release time\n                    at Context.<anonymous> (test/token/ERC20/utils/TokenTimelock.test.js:59:29)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TokenTimelock with token once deployed"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TokenTimelock with token once deployed"
+  }, {
+    "name" : "testMethod",
+    "value" : "can be released after time limit"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TokenTimelock with token once deployed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1681dc71d02ce874",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/1681dc71d02ce874",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted: TokenTimelock: current time is before release time",
+        "time" : {
+          "start" : 1639109011586,
+          "stop" : 1639109028393,
+          "duration" : 16807
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f8ea264ace668a03.json",
+  "parameterValues" : [ ]
+}

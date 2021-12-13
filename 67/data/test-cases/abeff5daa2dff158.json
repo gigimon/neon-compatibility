@@ -1,0 +1,76 @@
+{
+  "uid" : "abeff5daa2dff158",
+  "name" : "reverts when more than the full allowance is removed",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender has enough balance when the spender had an approved amount.reverts when more than the full allowance is removed",
+  "historyId" : "12732d88c1ce24541c5f229921012bb1",
+  "time" : {
+    "start" : 1639402054001,
+    "stop" : 1639402191319,
+    "duration" : 137318
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20: decreased allowance below zero'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20: decreased allowance below zero'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at listOnTimeout (node:internal/timers:526:9)\n                    at processTimers (node:internal/timers:500:7)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/token/ERC20/ERC20.test.js:91:13)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when more than the full allowance is removed"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d1e5fd527b42a2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d1e5fd527b42a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106434753,
+          "stop" : 1639106445215,
+          "duration" : 10462
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "abeff5daa2dff158.json",
+  "parameterValues" : [ ]
+}

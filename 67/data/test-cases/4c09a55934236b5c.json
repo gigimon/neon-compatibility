@@ -1,0 +1,76 @@
+{
+  "uid" : "4c09a55934236b5c",
+  "name" : "returns the balances before the changes",
+  "fullName" : "Contract: ERC20Snapshot balanceOfAt with initial snapshot with balance changes after the snapshot.returns the balances before the changes",
+  "historyId" : "9474a209b97e78242cd434f8a7967a4c",
+  "time" : {
+    "start" : 1639406429242,
+    "stop" : 1639406563799,
+    "duration" : 134557
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Snapshot.test.js:119:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Snapshot balanceOfAt with initial snapshot with balance changes after the snapshot"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Snapshot balanceOfAt with initial snapshot with balance changes after the snapshot"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns the balances before the changes"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Snapshot balanceOfAt with initial snapshot with balance changes after the snapshot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e62387826f095a0b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/e62387826f095a0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107429454,
+          "stop" : 1639107451298,
+          "duration" : 21844
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4c09a55934236b5c.json",
+  "parameterValues" : [ ]
+}

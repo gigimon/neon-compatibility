@@ -1,0 +1,76 @@
+{
+  "uid" : "90ac0dce4a4dbb86",
+  "name" : "deployer can mint tokens",
+  "fullName" : "Contract: ERC20PresetMinterPauser minting.deployer can mint tokens",
+  "historyId" : "ead7e823b441aa11b4dacf59d2299e08",
+  "time" : {
+    "start" : 1639402365108,
+    "stop" : 1639402502612,
+    "duration" : 137504
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC20/presets/ERC20PresetMinterPauser.test.js:49:31)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20PresetMinterPauser minting"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20PresetMinterPauser minting"
+  }, {
+    "name" : "testMethod",
+    "value" : "deployer can mint tokens"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20PresetMinterPauser minting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e6359600d1cf7801",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/e6359600d1cf7801",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108447069,
+          "stop" : 1639108456745,
+          "duration" : 9676
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "90ac0dce4a4dbb86.json",
+  "parameterValues" : [ ]
+}

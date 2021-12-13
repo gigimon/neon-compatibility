@@ -1,0 +1,76 @@
+{
+  "uid" : "c36de6794d715ee4",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20 transfer from when the token owner is not the zero address when the recipient is not the zero address when the spender has enough approved balance when the token owner does not have enough balance.reverts",
+  "historyId" : "3e577fea00c39d4681c65626395a42db",
+  "time" : {
+    "start" : 1639401264918,
+    "stop" : 1639401466805,
+    "duration" : 201887
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC20/ERC20.behavior.js:45:30)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 transfer from when the token owner is not the zero address when the recipient is not the zero address when the spender has enough approved balance when the token owner does not have enough balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 transfer from when the token owner is not the zero address when the recipient is not the zero address when the spender has enough approved balance when the token owner does not have enough balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 transfer from when the token owner is not the zero address when the recipient is not the zero address when the spender has enough approved balance when the token owner does not have enough balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "55b7ffbcf5fcf291",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/55b7ffbcf5fcf291",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106276263,
+          "stop" : 1639106286707,
+          "duration" : 10444
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c36de6794d715ee4.json",
+  "parameterValues" : [ ]
+}

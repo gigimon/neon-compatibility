@@ -1,0 +1,76 @@
+{
+  "uid" : "318a60b451d3e88b",
+  "name" : "something to recover",
+  "fullName" : "Contract: ERC20 recover.something to recover",
+  "historyId" : "dae70e5e41eb39b4c06e2c51e291426a",
+  "time" : {
+    "start" : 1639405889705,
+    "stop" : 1639406052902,
+    "duration" : 163197
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected '100' to equal '0'",
+  "statusTrace" : "AssertionError: expected '100' to equal '0'\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Wrapper.test.js:24:81)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 recover"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 recover"
+  }, {
+    "name" : "testMethod",
+    "value" : "something to recover"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 recover"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "678f4c0dff83a5c9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/678f4c0dff83a5c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107788252,
+          "stop" : 1639107807114,
+          "duration" : 18862
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "318a60b451d3e88b.json",
+  "parameterValues" : [ ]
+}

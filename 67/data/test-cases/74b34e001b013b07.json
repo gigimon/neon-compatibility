@@ -1,0 +1,79 @@
+{
+  "uid" : "74b34e001b013b07",
+  "name" : "reverts when downcasting 2^63 (9223372036854775808)",
+  "fullName" : "Contract: SafeCast toInt64.reverts when downcasting 2^63 (9223372036854775808)",
+  "historyId" : "e7849f57371e86143f9f04f63baad29d",
+  "time" : {
+    "start" : 1639403211474,
+    "stop" : 1639403216801,
+    "duration" : 5327
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^63 (9223372036854775808)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt64"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "57ab92aa78c7fa30",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/57ab92aa78c7fa30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395064804,
+          "stop" : 1639395069076,
+          "duration" : 4272
+        }
+      }, {
+        "uid" : "6039e8e094f35f04",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6039e8e094f35f04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639388355718,
+          "stop" : 1639388361605,
+          "duration" : 5887
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "74b34e001b013b07.json",
+  "parameterValues" : [ ]
+}

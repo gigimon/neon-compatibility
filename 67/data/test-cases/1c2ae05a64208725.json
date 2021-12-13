@@ -1,0 +1,109 @@
+{
+  "uid" : "1c2ae05a64208725",
+  "name" : "upgrade a proxy by upgrading its beacon",
+  "fullName" : "Contract: BeaconProxy.upgrade a proxy by upgrading its beacon",
+  "historyId" : "c26741719bb04687bfa5e21e129066ff",
+  "time" : {
+    "start" : 1639402237387,
+    "stop" : 1639402276431,
+    "duration" : 39044
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "testMethod",
+    "value" : "upgrade a proxy by upgrading its beacon"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "da6aa4737c1525c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/da6aa4737c1525c2",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391596795,
+          "stop" : 1639391713707,
+          "duration" : 116912
+        }
+      }, {
+        "uid" : "c2f71281891e436c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/c2f71281891e436c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391813651,
+          "stop" : 1639391839575,
+          "duration" : 25924
+        }
+      }, {
+        "uid" : "a1e0272a006ba964",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/a1e0272a006ba964",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639388137538,
+          "stop" : 1639388482042,
+          "duration" : 344504
+        }
+      }, {
+        "uid" : "6b90782129341375",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6b90782129341375",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639384881766,
+          "stop" : 1639385004111,
+          "duration" : 122345
+        }
+      }, {
+        "uid" : "fcdba2d7c6f9bf77",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/fcdba2d7c6f9bf77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102147870,
+          "stop" : 1639102164181,
+          "duration" : 16311
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1c2ae05a64208725.json",
+  "parameterValues" : [ ]
+}

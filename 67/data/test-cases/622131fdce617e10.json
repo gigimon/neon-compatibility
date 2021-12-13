@@ -1,0 +1,56 @@
+{
+  "uid" : "622131fdce617e10",
+  "name" : "has to be implemented",
+  "fullName" : "Contract: ERC721PresetMinterPauserAutoId Contract interface ERC721 safeTransferFrom(address,address,uint256,bytes).has to be implemented",
+  "historyId" : "3c8ddc6090f43ac93b113b9963dbf0c1",
+  "time" : {
+    "start" : 1639410643828,
+    "stop" : 1639410775116,
+    "duration" : 131288
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC721/presets/ERC721PresetMinterPauserAutoId.test.js:20:58)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId Contract interface ERC721 safeTransferFrom(address,address,uint256,bytes)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId Contract interface ERC721 safeTransferFrom(address,address,uint256,bytes)"
+  }, {
+    "name" : "testMethod",
+    "value" : "has to be implemented"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId Contract interface ERC721 safeTransferFrom(address,address,uint256,bytes)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "622131fdce617e10.json",
+  "parameterValues" : [ ]
+}

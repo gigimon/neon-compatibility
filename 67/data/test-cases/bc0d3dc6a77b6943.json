@@ -1,0 +1,112 @@
+{
+  "uid" : "bc0d3dc6a77b6943",
+  "name" : "can withdraw payment",
+  "fullName" : "Contract: PullPayment withdrawPayments.can withdraw payment",
+  "historyId" : "fa73d340fb6dfa10b5b9e8204f689816",
+  "time" : {
+    "start" : 1639403331174,
+    "stop" : 1639403478508,
+    "duration" : 147334
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Object.ErrorResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/node_modules/web3-core-helpers/lib/errors.js:28:19)\n                    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-core-requestmanager/lib/index.js:302:36\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PullPayment withdrawPayments"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PullPayment withdrawPayments"
+  }, {
+    "name" : "testMethod",
+    "value" : "can withdraw payment"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PullPayment withdrawPayments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "e7449e9375d9a6c3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/e7449e9375d9a6c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394538630,
+          "stop" : 1639394570672,
+          "duration" : 32042
+        }
+      }, {
+        "uid" : "9a70d35f45e5dda7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9a70d35f45e5dda7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639392790510,
+          "stop" : 1639392824811,
+          "duration" : 34301
+        }
+      }, {
+        "uid" : "22e24be878335a07",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/22e24be878335a07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639392702863,
+          "stop" : 1639392727228,
+          "duration" : 24365
+        }
+      }, {
+        "uid" : "f30e7ce3a7183720",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/f30e7ce3a7183720",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639385548152,
+          "stop" : 1639385579758,
+          "duration" : 31606
+        }
+      }, {
+        "uid" : "9c6300114220023",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/9c6300114220023",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639103999033,
+          "stop" : 1639104025767,
+          "duration" : 26734
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bc0d3dc6a77b6943.json",
+  "parameterValues" : [ ]
+}

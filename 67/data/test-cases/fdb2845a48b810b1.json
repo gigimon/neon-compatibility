@@ -1,0 +1,76 @@
+{
+  "uid" : "fdb2845a48b810b1",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before.reverts",
+  "historyId" : "29eb49283728cdb583a574028afae0e6",
+  "time" : {
+    "start" : 1639402191322,
+    "stop" : 1639402324439,
+    "duration" : 133117
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC20/ERC20.test.js:23:37)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d9db228bee9abcc9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d9db228bee9abcc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106445219,
+          "stop" : 1639106452565,
+          "duration" : 7346
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fdb2845a48b810b1.json",
+  "parameterValues" : [ ]
+}

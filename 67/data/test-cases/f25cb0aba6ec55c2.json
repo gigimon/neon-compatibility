@@ -1,0 +1,86 @@
+{
+  "uid" : "f25cb0aba6ec55c2",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender.reverts",
+  "historyId" : "cf59bace7ef0995aa8c01ef9a914d035",
+  "time" : {
+    "start" : 1639404254947,
+    "stop" : 1639404388822,
+    "duration" : 133875
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20: burn amount exceeds balance'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20: burn amount exceeds balance'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at runNextTicks (node:internal/process/task_queues:61:5)\n                    at listOnTimeout (node:internal/timers:526:9)\n                    at processTimers (node:internal/timers:500:7)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Burnable.behavior.js:40:9)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e05be2760b99d764",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e05be2760b99d764",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386200452,
+          "stop" : 1639386300458,
+          "duration" : 100006
+        }
+      }, {
+        "uid" : "7d28398bc6e97f44",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7d28398bc6e97f44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106903511,
+          "stop" : 1639106910927,
+          "duration" : 7416
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f25cb0aba6ec55c2.json",
+  "parameterValues" : [ ]
+}

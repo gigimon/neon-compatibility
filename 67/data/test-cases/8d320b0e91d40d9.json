@@ -1,0 +1,80 @@
+{
+  "uid" : "8d320b0e91d40d9",
+  "name" : "returns false when adding values already in the set",
+  "fullName" : "Contract: EnumerableSet EnumerableBytes32Set add.returns false when adding values already in the set",
+  "historyId" : "458567948664c36345c447663f6fced4",
+  "time" : {
+    "start" : 1639401660418,
+    "stop" : 1639401674620,
+    "duration" : 14202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns false when adding values already in the set"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "381e50d0bf91566",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/381e50d0bf91566",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639395624808,
+          "stop" : 1639395724815,
+          "duration" : 100007
+        }
+      }, {
+        "uid" : "a857f512436e7242",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/a857f512436e7242",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387201026,
+          "stop" : 1639387318091,
+          "duration" : 117065
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8d320b0e91d40d9.json",
+  "parameterValues" : [ ]
+}

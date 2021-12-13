@@ -1,0 +1,77 @@
+{
+  "uid" : "a2d51d2818dc1464",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved.reverts",
+  "historyId" : "fd50e22aa0d7e8b03d1f38a4fcd175ce",
+  "time" : {
+    "start" : 1639411632515,
+    "stop" : 1639411782101,
+    "duration" : 149586
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC721/extensions/ERC721Burnable.test.js:24:24)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2cb97a5b7db6d3b3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/2cb97a5b7db6d3b3",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639395243245,
+          "stop" : 1639395369123,
+          "duration" : 125878
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a2d51d2818dc1464.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "326296b4db616bf5",
+  "name" : "rejects a release time in the past",
+  "fullName" : "Contract: TokenTimelock with token.rejects a release time in the past",
+  "historyId" : "f97ca6cea1ad3d6c2c6f7dfaa695979",
+  "time" : {
+    "start" : 1639403381209,
+    "stop" : 1639403458945,
+    "duration" : 77736
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'TokenTimelock: release time is before current time'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'TokenTimelock: release time is before current time'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/token/ERC20/utils/TokenTimelock.test.js:23:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TokenTimelock with token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TokenTimelock with token"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects a release time in the past"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TokenTimelock with token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "84377238ad9b8136",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/84377238ad9b8136",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'TokenTimelock: release time is before current time'",
+        "time" : {
+          "start" : 1639108937401,
+          "stop" : 1639108945260,
+          "duration" : 7859
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "326296b4db616bf5.json",
+  "parameterValues" : [ ]
+}

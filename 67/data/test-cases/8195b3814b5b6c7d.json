@@ -1,0 +1,80 @@
+{
+  "uid" : "8195b3814b5b6c7d",
+  "name" : "expired",
+  "fullName" : "Contract: TimersTimestamp.expired",
+  "historyId" : "d65e20fce9e0133467c6a3611c27a850",
+  "time" : {
+    "start" : 1639400954202,
+    "stop" : 1639400967726,
+    "duration" : 13524
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "testMethod",
+    "value" : "expired"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e88453a49bfb6a03",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/e88453a49bfb6a03",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393712716,
+          "stop" : 1639393812722,
+          "duration" : 100006
+        }
+      }, {
+        "uid" : "bd5a8408f505fed3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/bd5a8408f505fed3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387975741,
+          "stop" : 1639387991051,
+          "duration" : 15310
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8195b3814b5b6c7d.json",
+  "parameterValues" : [ ]
+}

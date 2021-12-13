@@ -1,0 +1,79 @@
+{
+  "uid" : "d18a337876793bc2",
+  "name" : "reverts when casting -1",
+  "fullName" : "Contract: SafeCast toUint256.reverts when casting -1",
+  "historyId" : "dc5a371ba95865d3bfe6ce695ffea9aa",
+  "time" : {
+    "start" : 1639403015070,
+    "stop" : 1639403020530,
+    "duration" : 5460
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toUint256"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toUint256"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when casting -1"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toUint256"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e94a042faad0938b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e94a042faad0938b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394906495,
+          "stop" : 1639394910924,
+          "duration" : 4429
+        }
+      }, {
+        "uid" : "d96da0ba5ed76874",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/d96da0ba5ed76874",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639388142238,
+          "stop" : 1639388148031,
+          "duration" : 5793
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d18a337876793bc2.json",
+  "parameterValues" : [ ]
+}

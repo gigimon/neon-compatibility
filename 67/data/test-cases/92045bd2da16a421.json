@@ -1,0 +1,71 @@
+{
+  "uid" : "92045bd2da16a421",
+  "name" : "calls the requested function",
+  "fullName" : "Contract: Address functionCallWithValue with zero value.calls the requested function",
+  "historyId" : "5833a7dd42924b3ffa2827032dcd7d95",
+  "time" : {
+    "start" : 1639402361845,
+    "stop" : 1639402373340,
+    "duration" : 11495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Address functionCallWithValue with zero value"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Address functionCallWithValue with zero value"
+  }, {
+    "name" : "testMethod",
+    "value" : "calls the requested function"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Address functionCallWithValue with zero value"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cbbe514a45aeb80",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/cbbe514a45aeb80",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391495351,
+          "stop" : 1639391697410,
+          "duration" : 202059
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "92045bd2da16a421.json",
+  "parameterValues" : [ ]
+}

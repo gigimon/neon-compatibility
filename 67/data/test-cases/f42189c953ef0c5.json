@@ -1,0 +1,76 @@
+{
+  "uid" : "f42189c953ef0c5",
+  "name" : "fails to change proxy admin if its not the proxy owner",
+  "fullName" : "Contract: ProxyAdmin #changeProxyAdmin.fails to change proxy admin if its not the proxy owner",
+  "historyId" : "4465d70e0aa1d37c3f2a424cc3a1463e",
+  "time" : {
+    "start" : 1639402598400,
+    "stop" : 1639402738218,
+    "duration" : 139818
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/proxy/transparent/ProxyAdmin.test.js:21:55)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ProxyAdmin #changeProxyAdmin"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ProxyAdmin #changeProxyAdmin"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails to change proxy admin if its not the proxy owner"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ProxyAdmin #changeProxyAdmin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6dfd62267ade462a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/6dfd62267ade462a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102742191,
+          "stop" : 1639102753970,
+          "duration" : 11779
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f42189c953ef0c5.json",
+  "parameterValues" : [ ]
+}

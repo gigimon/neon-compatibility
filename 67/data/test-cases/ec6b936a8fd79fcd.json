@@ -1,0 +1,95 @@
+{
+  "uid" : "ec6b936a8fd79fcd",
+  "name" : "reverts when trying to safeTransferFrom",
+  "fullName" : "Contract: ERC721Pausable when token is paused.reverts when trying to safeTransferFrom",
+  "historyId" : "a8d7830ba603584ddcd21e2ca49ee5ff",
+  "time" : {
+    "start" : 1639410965009,
+    "stop" : 1639411112884,
+    "duration" : 147875
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC721Pausable: token transfer while paused'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC721Pausable: token transfer while paused'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/token/ERC721/extensions/ERC721Pausable.test.js:37:7)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to safeTransferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a6e25953f035a493",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/a6e25953f035a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395235179,
+          "stop" : 1639395248371,
+          "duration" : 13192
+        }
+      }, {
+        "uid" : "edce97b7f4ac50b2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/edce97b7f4ac50b2",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393488570,
+          "stop" : 1639393745003,
+          "duration" : 256433
+        }
+      }, {
+        "uid" : "81e6c4c155949093",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/81e6c4c155949093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386638433,
+          "stop" : 1639386652062,
+          "duration" : 13629
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ec6b936a8fd79fcd.json",
+  "parameterValues" : [ ]
+}

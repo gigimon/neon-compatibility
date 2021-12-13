@@ -1,0 +1,85 @@
+{
+  "uid" : "9a922167f3bfe15a",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC1155Holder Contract interface ERC165 ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "f499b87c40df5bdec38bfb20f97ec67b",
+  "time" : {
+    "start" : 1639408415794,
+    "stop" : 1639408566620,
+    "duration" : 150826
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC1155/utils/ERC1155Holder.test.js:20:27)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Holder Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Holder Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Holder Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b7b7b5fbc3893d8a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/b7b7b5fbc3893d8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386626106,
+          "stop" : 1639386640793,
+          "duration" : 14687
+        }
+      }, {
+        "uid" : "45f3b17a7eec461",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/45f3b17a7eec461",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106028397,
+          "stop" : 1639106042393,
+          "duration" : 13996
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9a922167f3bfe15a.json",
+  "parameterValues" : [ ]
+}

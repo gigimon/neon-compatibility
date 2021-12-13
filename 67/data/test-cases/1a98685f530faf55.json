@@ -1,0 +1,80 @@
+{
+  "uid" : "1a98685f530faf55",
+  "name" : "fails deploying a contract in an existent address",
+  "fullName" : "Contract: Create2 deploy.fails deploying a contract in an existent address",
+  "historyId" : "3d5ec56574dbecc7c5f703d1d0c79256",
+  "time" : {
+    "start" : 1639403720137,
+    "stop" : 1639403731154,
+    "duration" : 11017
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails deploying a contract in an existent address"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "95745c91937747b1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/95745c91937747b1",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'Create2: Failed on deploy'",
+        "time" : {
+          "start" : 1639395962323,
+          "stop" : 1639396089467,
+          "duration" : 127144
+        }
+      }, {
+        "uid" : "1d1abd00880d4536",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1d1abd00880d4536",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387190755,
+          "stop" : 1639387203319,
+          "duration" : 12564
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1a98685f530faf55.json",
+  "parameterValues" : [ ]
+}

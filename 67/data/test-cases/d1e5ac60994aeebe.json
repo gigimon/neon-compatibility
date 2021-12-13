@@ -1,0 +1,70 @@
+{
+  "uid" : "d1e5ac60994aeebe",
+  "name" : "approves the requested amount and replaces the previous one",
+  "fullName" : "Contract: ERC20 approve when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount.approves the requested amount and replaces the previous one",
+  "historyId" : "94a6ce62c1b45f16ba135582456db62e",
+  "time" : {
+    "start" : 1639401768372,
+    "stop" : 1639401778747,
+    "duration" : 10375
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20 approve when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 approve when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "approves the requested amount and replaces the previous one"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 approve when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7eb2428ac236faad",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7eb2428ac236faad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106371583,
+          "stop" : 1639106384002,
+          "duration" : 12419
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d1e5ac60994aeebe.json",
+  "parameterValues" : [ ]
+}

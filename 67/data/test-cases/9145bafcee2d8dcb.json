@@ -1,0 +1,80 @@
+{
+  "uid" : "9145bafcee2d8dcb",
+  "name" : "adds and removes multiple values",
+  "fullName" : "Contract: EnumerableSet EnumerableAddressSet remove.adds and removes multiple values",
+  "historyId" : "20664b4b155e8078117ab48de08b9559",
+  "time" : {
+    "start" : 1639401830377,
+    "stop" : 1639401873478,
+    "duration" : 43101
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet remove"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet remove"
+  }, {
+    "name" : "testMethod",
+    "value" : "adds and removes multiple values"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableSet EnumerableAddressSet remove"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "dbfc55f6c998d242",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/dbfc55f6c998d242",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639396120108,
+          "stop" : 1639396225086,
+          "duration" : 104978
+        }
+      }, {
+        "uid" : "24a4a243d5536e89",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/24a4a243d5536e89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387868444,
+          "stop" : 1639388082221,
+          "duration" : 213777
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9145bafcee2d8dcb.json",
+  "parameterValues" : [ ]
+}

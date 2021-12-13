@@ -1,0 +1,105 @@
+{
+  "uid" : "670d379b896633db",
+  "name" : "can be upgraded by the owner",
+  "fullName" : "Contract: UpgradeableBeacon once deployed.can be upgraded by the owner",
+  "historyId" : "405f9350a34c799755890d729b41550c",
+  "time" : {
+    "start" : 1639402072565,
+    "stop" : 1639402206060,
+    "duration" : 133495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/proxy/beacon/UpgradeableBeacon.test.js:21:48)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: UpgradeableBeacon once deployed"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: UpgradeableBeacon once deployed"
+  }, {
+    "name" : "testMethod",
+    "value" : "can be upgraded by the owner"
+  }, {
+    "name" : "package",
+    "value" : "Contract: UpgradeableBeacon once deployed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "fc8c84805bb703e5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/fc8c84805bb703e5",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391600494,
+          "stop" : 1639391814716,
+          "duration" : 214222
+        }
+      }, {
+        "uid" : "7aa707e1e0292c1d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/7aa707e1e0292c1d",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391815844,
+          "stop" : 1639391931804,
+          "duration" : 115960
+        }
+      }, {
+        "uid" : "f8e26f72194cb309",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/f8e26f72194cb309",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639384886847,
+          "stop" : 1639385101089,
+          "duration" : 214242
+        }
+      }, {
+        "uid" : "bb667ab00cff0c3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/bb667ab00cff0c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102261172,
+          "stop" : 1639102278485,
+          "duration" : 17313
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "670d379b896633db.json",
+  "parameterValues" : [ ]
+}

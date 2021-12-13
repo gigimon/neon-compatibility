@@ -1,0 +1,91 @@
+{
+  "uid" : "b3d12e4fc0cb100",
+  "name" : "sends 0 wei",
+  "fullName" : "Contract: Address sendValue when sender contract has no funds.sends 0 wei",
+  "historyId" : "d0bc7bc5fb1dff49fe29cfeb7d84483e",
+  "time" : {
+    "start" : 1639402163391,
+    "stop" : 1639402176555,
+    "duration" : 13164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Address sendValue when sender contract has no funds"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Address sendValue when sender contract has no funds"
+  }, {
+    "name" : "testMethod",
+    "value" : "sends 0 wei"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Address sendValue when sender contract has no funds"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "cd44cd489cf902da",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/cd44cd489cf902da",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639395510650,
+          "stop" : 1639395624375,
+          "duration" : 113725
+        }
+      }, {
+        "uid" : "f753a1356bb1906a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/f753a1356bb1906a",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393607810,
+          "stop" : 1639393712600,
+          "duration" : 104790
+        }
+      }, {
+        "uid" : "b3631e730aeaefa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/b3631e730aeaefa",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639391195200,
+          "stop" : 1639391213624,
+          "duration" : 18424
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b3d12e4fc0cb100.json",
+  "parameterValues" : [ ]
+}

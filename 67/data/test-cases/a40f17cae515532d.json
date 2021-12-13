@@ -1,0 +1,80 @@
+{
+  "uid" : "a40f17cae515532d",
+  "name" : "missing return value",
+  "fullName" : "Contract: ERC20FlashMint flashLoan.missing return value",
+  "historyId" : "507adb80292893278a150ed3e1f92804",
+  "time" : {
+    "start" : 1639403996677,
+    "stop" : 1639404007024,
+    "duration" : 10347
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20FlashMint flashLoan"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20FlashMint flashLoan"
+  }, {
+    "name" : "testMethod",
+    "value" : "missing return value"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20FlashMint flashLoan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a75f3fe6d856a62a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/a75f3fe6d856a62a",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639389813617,
+          "stop" : 1639390170378,
+          "duration" : 356761
+        }
+      }, {
+        "uid" : "1bd967c79e22127a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/1bd967c79e22127a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107085160,
+          "stop" : 1639107097188,
+          "duration" : 12028
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a40f17cae515532d.json",
+  "parameterValues" : [ ]
+}

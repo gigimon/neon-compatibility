@@ -1,0 +1,89 @@
+{
+  "uid" : "1ee251caaa16ee97",
+  "name" : "does not support mock interface via getSupportedInterfaces",
+  "fullName" : "Contract: ERC165Checker ERC165 missing return data.does not support mock interface via getSupportedInterfaces",
+  "historyId" : "d18e7f70781b3950d0e6d32ee3d746b1",
+  "time" : {
+    "start" : 1639403773873,
+    "stop" : 1639403782936,
+    "duration" : 9063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC165Checker ERC165 missing return data"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC165Checker ERC165 missing return data"
+  }, {
+    "name" : "testMethod",
+    "value" : "does not support mock interface via getSupportedInterfaces"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC165Checker ERC165 missing return data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "aa878709c78843fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/aa878709c78843fa",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639395979949,
+          "stop" : 1639396090039,
+          "duration" : 110090
+        }
+      }, {
+        "uid" : "21ce6174429650bb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/21ce6174429650bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394360936,
+          "stop" : 1639394380212,
+          "duration" : 19276
+        }
+      }, {
+        "uid" : "9712ca1c62896583",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9712ca1c62896583",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387616270,
+          "stop" : 1639387688187,
+          "duration" : 71917
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1ee251caaa16ee97.json",
+  "parameterValues" : [ ]
+}

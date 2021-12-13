@@ -1,0 +1,94 @@
+{
+  "uid" : "fa8fe5100dca5982",
+  "name" : "has to be implemented",
+  "fullName" : "Contract: ERC721 Contract interface ERC721 safeTransferFrom(address,address,uint256,bytes).has to be implemented",
+  "historyId" : "34df4bf008660fcb451d58c06a5c886f",
+  "time" : {
+    "start" : 1639412047612,
+    "stop" : 1639412181460,
+    "duration" : 133848
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC721/ERC721.test.js:13:38)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721 Contract interface ERC721 safeTransferFrom(address,address,uint256,bytes)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 Contract interface ERC721 safeTransferFrom(address,address,uint256,bytes)"
+  }, {
+    "name" : "testMethod",
+    "value" : "has to be implemented"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 Contract interface ERC721 safeTransferFrom(address,address,uint256,bytes)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7c631ac47e08e5b0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/7c631ac47e08e5b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393765046,
+          "stop" : 1639393768854,
+          "duration" : 3808
+        }
+      }, {
+        "uid" : "747972feae4b625f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/747972feae4b625f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639390388753,
+          "stop" : 1639390393271,
+          "duration" : 4518
+        }
+      }, {
+        "uid" : "f5da30777fa8eac7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/f5da30777fa8eac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639109115294,
+          "stop" : 1639109120470,
+          "duration" : 5176
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fa8fe5100dca5982.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "9060295e1608bea5",
+  "name" : "reverts when trying to mint when paused",
+  "fullName" : "Contract: ERC20Pausable pausable token mint.reverts when trying to mint when paused",
+  "historyId" : "8ccf036abd3524344dca8f6ec3e73845",
+  "time" : {
+    "start" : 1639407036034,
+    "stop" : 1639407258557,
+    "duration" : 222523
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20Pausable: token transfer while paused'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20Pausable: token transfer while paused'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Pausable.test.js:101:9)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Pausable pausable token mint"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Pausable pausable token mint"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to mint when paused"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Pausable pausable token mint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4c972675fe5b6e27",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/4c972675fe5b6e27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107241176,
+          "stop" : 1639107251609,
+          "duration" : 10433
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9060295e1608bea5.json",
+  "parameterValues" : [ ]
+}

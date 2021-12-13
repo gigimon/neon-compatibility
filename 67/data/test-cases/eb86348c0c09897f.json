@@ -1,0 +1,103 @@
+{
+  "uid" : "eb86348c0c09897f",
+  "name" : "initializes the proxy",
+  "fullName" : "Contract: TransparentUpgradeableProxy initialization without parameters non payable when not sending balance.initializes the proxy",
+  "historyId" : "59442d5a575d3a2ec211d7a069972c1",
+  "time" : {
+    "start" : 1639402844980,
+    "stop" : 1639402976108,
+    "duration" : 131128
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at createProxy (test/proxy/transparent/TransparentUpgradeableProxy.test.js:10:43)\n                    at Context.<anonymous> (test/proxy/transparent/TransparentUpgradeableProxy.behaviour.js:36:24)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializes the proxy"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2e42df26caef73d2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/2e42df26caef73d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393823911,
+          "stop" : 1639393834619,
+          "duration" : 10708
+        }
+      }, {
+        "uid" : "6c39a1d1862b0ddb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6c39a1d1862b0ddb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391887719,
+          "stop" : 1639391968265,
+          "duration" : 80546
+        }
+      }, {
+        "uid" : "b8c93e38aeff642f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/b8c93e38aeff642f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391999361,
+          "stop" : 1639392022367,
+          "duration" : 23006
+        }
+      }, {
+        "uid" : "d73bb0745bd767e1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d73bb0745bd767e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102914704,
+          "stop" : 1639102933697,
+          "duration" : 18993
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "eb86348c0c09897f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "2f33fd48e39e44dc",
+  "name" : "doesn't revert when approving a zero allowance",
+  "fullName" : "Contract: SafeERC20 with token that returns no boolean values approvals with zero allowance.doesn't revert when approving a zero allowance",
+  "historyId" : "7b642f4edf1546bad2634fb66c199926",
+  "time" : {
+    "start" : 1639403242398,
+    "stop" : 1639403381204,
+    "duration" : 138806
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n                    at Context.<anonymous> (test/token/ERC20/utils/SafeERC20.test.js:37:48)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with zero allowance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with zero allowance"
+  }, {
+    "name" : "testMethod",
+    "value" : "doesn't revert when approving a zero allowance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeERC20 with token that returns no boolean values approvals with zero allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "979e2ddfc560daaf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/979e2ddfc560daaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108819913,
+          "stop" : 1639108834222,
+          "duration" : 14309
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2f33fd48e39e44dc.json",
+  "parameterValues" : [ ]
+}
