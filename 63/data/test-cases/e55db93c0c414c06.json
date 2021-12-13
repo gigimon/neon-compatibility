@@ -1,0 +1,76 @@
+{
+  "uid" : "e55db93c0c414c06",
+  "name" : "reverts when input arrays don't match up",
+  "fullName" : "Contract: ERC1155 like an ERC1155 balanceOfBatch.reverts when input arrays don't match up",
+  "historyId" : "dfed8dbad6c8c32bc56e5b5b61bffd6d",
+  "time" : {
+    "start" : 1639393325684,
+    "stop" : 1639393473311,
+    "duration" : 147627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'ERC1155: accounts and ids length mismatch'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'ERC1155: accounts and ids length mismatch'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/token/ERC1155/ERC1155.behavior.js:94:9)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when input arrays don't match up"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "723559a6f2eba36f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/723559a6f2eba36f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104099194,
+          "stop" : 1639104107058,
+          "duration" : 7864
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e55db93c0c414c06.json",
+  "parameterValues" : [ ]
+}

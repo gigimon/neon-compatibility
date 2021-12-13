@@ -1,0 +1,86 @@
+{
+  "uid" : "ce747d1f3d5cd6ca",
+  "name" : "reverts when trying to transfer when paused",
+  "fullName" : "Contract: ERC20Pausable pausable token transfer.reverts when trying to transfer when paused",
+  "historyId" : "63c6a9195c9509bbaaaf11caf5d1cf2c",
+  "time" : {
+    "start" : 1639393049872,
+    "stop" : 1639393387734,
+    "duration" : 337862
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Pausable.test.js:39:26)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Pausable pausable token transfer"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Pausable pausable token transfer"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to transfer when paused"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Pausable pausable token transfer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3cc2b8cb766e2a63",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/3cc2b8cb766e2a63",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639390202981,
+          "stop" : 1639390302987,
+          "duration" : 100006
+        }
+      }, {
+        "uid" : "d84e5e8c5c757b89",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d84e5e8c5c757b89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107159302,
+          "stop" : 1639107169441,
+          "duration" : 10139
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ce747d1f3d5cd6ca.json",
+  "parameterValues" : [ ]
+}

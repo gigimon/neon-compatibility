@@ -1,0 +1,76 @@
+{
+  "uid" : "87d2e44949a2425e",
+  "name" : "pending",
+  "fullName" : "Contract: TimersTimestamp.pending",
+  "historyId" : "e57a9be85a2fc58e1ae65c77efeb9a2a",
+  "time" : {
+    "start" : 1639393600139,
+    "stop" : 1639393712715,
+    "duration" : 112576
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/TimersTimestamp.test.js:26:32)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "testMethod",
+    "value" : "pending"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "312404b91dd4698f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/312404b91dd4698f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387901051,
+          "stop" : 1639387975741,
+          "duration" : 74690
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "87d2e44949a2425e.json",
+  "parameterValues" : [ ]
+}

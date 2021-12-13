@@ -1,0 +1,87 @@
+{
+  "uid" : "ce498618ff79a438",
+  "name" : "reverts when trying to transferFrom",
+  "fullName" : "Contract: ERC721Pausable when token is paused.reverts when trying to transferFrom",
+  "historyId" : "f7988b9086dea19e74d2f8b1239f2b1b",
+  "time" : {
+    "start" : 1639393331611,
+    "stop" : 1639393460679,
+    "duration" : 129068
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid JSON RPC response: \"\"",
+  "statusTrace" : "Error: Invalid JSON RPC response: \"\"\n                    at Object.InvalidResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/node_modules/web3-core-helpers/lib/errors.js:43:16)\n                    at XMLHttpRequest.request.onreadystatechange (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/lib/index.js:95:32)\n                    at XMLHttpRequestEventTarget.dispatchEvent (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request-event-target.ts:44:13)\n                    at XMLHttpRequest._setReadyState (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:219:8)\n                    at XMLHttpRequest._onHttpRequestError (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:379:8)\n                    at ClientRequest.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:266:37)\n                    at ClientRequest.emit (node:events:390:28)\n                    at TLSSocket.socketErrorListener (node:_http_client:447:9)\n                    at TLSSocket.emit (node:events:390:28)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to transferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1f5df481f25e225d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/1f5df481f25e225d",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639390236909,
+          "stop" : 1639390336986,
+          "duration" : 100077
+        }
+      }, {
+        "uid" : "6dee9bdbbe8b7f91",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6dee9bdbbe8b7f91",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386437154,
+          "stop" : 1639386638431,
+          "duration" : 201277
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ce498618ff79a438.json",
+  "parameterValues" : [ ]
+}

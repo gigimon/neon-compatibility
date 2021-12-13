@@ -1,0 +1,80 @@
+{
+  "uid" : "8260a389822cdcd9",
+  "name" : "returns false for account address",
+  "fullName" : "Contract: Address isContract.returns false for account address",
+  "historyId" : "ad5b8fbccfaabf3e3c464041c8530ba1",
+  "time" : {
+    "start" : 1639393592406,
+    "stop" : 1639393598061,
+    "duration" : 5655
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Address isContract"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Address isContract"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns false for account address"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Address isContract"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9095f6a66d2e2c1d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/9095f6a66d2e2c1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391084018,
+          "stop" : 1639391128468,
+          "duration" : 44450
+        }
+      }, {
+        "uid" : "3a2f8077bd3a3839",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3a2f8077bd3a3839",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386987280,
+          "stop" : 1639387094421,
+          "duration" : 107141
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8260a389822cdcd9.json",
+  "parameterValues" : [ ]
+}

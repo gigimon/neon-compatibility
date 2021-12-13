@@ -1,0 +1,87 @@
+{
+  "uid" : "88f4f969b4ad792e",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: GovernorTimelockCompound Contract interface ERC165 ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "77a1293b0f209696cd66ff23922e3692",
+  "time" : {
+    "start" : 1639389808740,
+    "stop" : 1639389824579,
+    "duration" : 15839
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/governance/extensions/GovernorTimelockCompound.test.js:42:35)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: GovernorTimelockCompound Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: GovernorTimelockCompound Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: GovernorTimelockCompound Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3404bd9c24614191",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3404bd9c24614191",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1639384495669,
+          "stop" : 1639384512934,
+          "duration" : 17265
+        }
+      }, {
+        "uid" : "85a701f4c5946c8d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/85a701f4c5946c8d",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1639099789426,
+          "stop" : 1639099805270,
+          "duration" : 15844
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "88f4f969b4ad792e.json",
+  "parameterValues" : [ ]
+}

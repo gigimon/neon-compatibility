@@ -1,0 +1,80 @@
+{
+  "uid" : "f53af01318aab2df",
+  "name" : "batches function calls",
+  "fullName" : "Contract: MulticallToken.batches function calls",
+  "historyId" : "6c98da7981df0b1e9891e7c04076e848",
+  "time" : {
+    "start" : 1639393592489,
+    "stop" : 1639393605929,
+    "duration" : 13440
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "testMethod",
+    "value" : "batches function calls"
+  }, {
+    "name" : "package",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5f165b73d54e4058",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/5f165b73d54e4058",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639391084644,
+          "stop" : 1639391213630,
+          "duration" : 128986
+        }
+      }, {
+        "uid" : "90c877013c492ef5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/90c877013c492ef5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387139569,
+          "stop" : 1639387193139,
+          "duration" : 53570
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f53af01318aab2df.json",
+  "parameterValues" : [ ]
+}

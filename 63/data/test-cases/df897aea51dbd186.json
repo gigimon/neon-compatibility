@@ -1,0 +1,77 @@
+{
+  "uid" : "df897aea51dbd186",
+  "name" : "run",
+  "fullName" : "Contract: Governor Cancel After proposal.run",
+  "historyId" : "b706fd7839b39c58ab72446658fab85f",
+  "time" : {
+    "start" : 1639391320562,
+    "stop" : 1639391361256,
+    "duration" : 40694
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Target block #(1021500) is lower than current block #(1021504)",
+  "statusTrace" : "Error: Target block #(1021500) is lower than current block #(1021504)\n                    at Object.advanceBlockTo (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/time.js:22:38)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/governance/GovernorWorkflow.behavior.js:61:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor Cancel After proposal"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor Cancel After proposal"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor Cancel After proposal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ac6665e659009eb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/ac6665e659009eb",
+        "status" : "broken",
+        "statusDetails" : "Target block #(40517) is lower than current block #(40522)",
+        "time" : {
+          "start" : 1639101532123,
+          "stop" : 1639101579731,
+          "duration" : 47608
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "df897aea51dbd186.json",
+  "parameterValues" : [ ]
+}

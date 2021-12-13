@@ -1,0 +1,87 @@
+{
+  "uid" : "a3846352d965cc3b",
+  "name" : "returns an array with the result of each call",
+  "fullName" : "Contract: MulticallToken.returns an array with the result of each call",
+  "historyId" : "723f34860fa8f121ab3f076352152159",
+  "time" : {
+    "start" : 1639393605929,
+    "stop" : 1639393914739,
+    "duration" : 308810
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+  "statusTrace" : "Error: Failed to check for transaction receipt:\n                    at Context.<anonymous> (test/utils/Multicall.test.js:27:50)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns an array with the result of each call"
+  }, {
+    "name" : "package",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c71b2ae4b43886a8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/c71b2ae4b43886a8",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391213640,
+          "stop" : 1639391496566,
+          "duration" : 282926
+        }
+      }, {
+        "uid" : "28585179f4229e0a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/28585179f4229e0a",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639387193139,
+          "stop" : 1639387312667,
+          "duration" : 119528
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a3846352d965cc3b.json",
+  "parameterValues" : [ ]
+}

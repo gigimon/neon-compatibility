@@ -1,0 +1,71 @@
+{
+  "uid" : "a93805fbea676698",
+  "name" : "can do an empty withdrawal",
+  "fullName" : "Contract: Escrow as an escrow withdrawals.can do an empty withdrawal",
+  "historyId" : "2c16c6bf35cef4230da6a7ba05887cdd",
+  "time" : {
+    "start" : 1639394271883,
+    "stop" : 1639394345200,
+    "duration" : 73317
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "testMethod",
+    "value" : "can do an empty withdrawal"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "15ed41543668dfec",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/15ed41543668dfec",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639387203863,
+          "stop" : 1639387311225,
+          "duration" : 107362
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a93805fbea676698.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "23d120b445e0bf0",
+  "name" : "roles that are not had can be revoked",
+  "fullName" : "Contract: AccessControl revoking.roles that are not had can be revoked",
+  "historyId" : "b722fb0b7806fa283ed8d9ec36954783",
+  "time" : {
+    "start" : 1639389117787,
+    "stop" : 1639389125757,
+    "duration" : 7970
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: AccessControl revoking"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: AccessControl revoking"
+  }, {
+    "name" : "testMethod",
+    "value" : "roles that are not had can be revoked"
+  }, {
+    "name" : "package",
+    "value" : "Contract: AccessControl revoking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a9c4c287f2143bbb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/a9c4c287f2143bbb",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639385609892,
+          "stop" : 1639385810779,
+          "duration" : 200887
+        }
+      }, {
+        "uid" : "c1be7c4e8e3c1745",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/c1be7c4e8e3c1745",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639099047669,
+          "stop" : 1639099057016,
+          "duration" : 9347
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "23d120b445e0bf0.json",
+  "parameterValues" : [ ]
+}

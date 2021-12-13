@@ -1,0 +1,77 @@
+{
+  "uid" : "4f58986ac34309f5",
+  "name" : "returns the transaction sender when called from an EOA",
+  "fullName" : "Contract: Context msgSender.returns the transaction sender when called from an EOA",
+  "historyId" : "a21577e26a37035be90b52e61eb3e09",
+  "time" : {
+    "start" : 1639393946421,
+    "stop" : 1639394046472,
+    "duration" : 100051
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/Context.test.js:12:41)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Context msgSender"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Context msgSender"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns the transaction sender when called from an EOA"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Context msgSender"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ea61241d6d1071b5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/ea61241d6d1071b5",
+        "status" : "broken",
+        "statusDetails" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+        "time" : {
+          "start" : 1639391646922,
+          "stop" : 1639391947268,
+          "duration" : 300346
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4f58986ac34309f5.json",
+  "parameterValues" : [ ]
+}

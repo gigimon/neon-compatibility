@@ -1,0 +1,77 @@
+{
+  "uid" : "52940c04f53feda6",
+  "name" : "does not allow beneficiary withdrawal",
+  "fullName" : "Contract: RefundEscrow once deployed active state.does not allow beneficiary withdrawal",
+  "historyId" : "bbeba39ff6e46652f47ff3285cd3686e",
+  "time" : {
+    "start" : 1639394168525,
+    "stop" : 1639394179501,
+    "duration" : 10976
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid JSON RPC response: \"\"",
+  "statusTrace" : "Error: Invalid JSON RPC response: \"\"\n                    at Object.InvalidResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/node_modules/web3-core-helpers/lib/errors.js:43:16)\n                    at XMLHttpRequest.request.onreadystatechange (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/lib/index.js:95:32)\n                    at XMLHttpRequestEventTarget.dispatchEvent (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request-event-target.ts:44:13)\n                    at XMLHttpRequest._setReadyState (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:219:8)\n                    at XMLHttpRequest._onHttpRequestError (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:379:8)\n                    at ClientRequest.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:266:37)\n                    at ClientRequest.emit (node:events:390:28)\n                    at TLSSocket.socketErrorListener (node:_http_client:447:9)\n                    at TLSSocket.emit (node:events:390:28)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testMethod",
+    "value" : "does not allow beneficiary withdrawal"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3bf2e82ca596b5ee",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3bf2e82ca596b5ee",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'e5521462916c311eda53c172e44c10bd602561b9', 'fd11232182eadbc53bbef59f7f511bb3888354ef', 'f340fa0100000000000000000000000090f53916bbd784e4a06bf3a7190a4efc31c027e3', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639387187353,
+          "stop" : 1639387194696,
+          "duration" : 7343
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "52940c04f53feda6.json",
+  "parameterValues" : [ ]
+}

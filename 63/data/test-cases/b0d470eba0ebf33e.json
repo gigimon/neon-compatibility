@@ -1,0 +1,80 @@
+{
+  "uid" : "b0d470eba0ebf33e",
+  "name" : "fails to mint after cap is reached",
+  "fullName" : "Contract: ERC20Capped once deployed capped token.fails to mint after cap is reached",
+  "historyId" : "3c9be23ac8e02dd2819d1fe19a0a15cc",
+  "time" : {
+    "start" : 1639393036509,
+    "stop" : 1639393045548,
+    "duration" : 9039
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Capped once deployed capped token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Capped once deployed capped token"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails to mint after cap is reached"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Capped once deployed capped token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3abbc932ad5742f8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3abbc932ad5742f8",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386092665,
+          "stop" : 1639386300686,
+          "duration" : 208021
+        }
+      }, {
+        "uid" : "6e49a025bd117e94",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/6e49a025bd117e94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107030674,
+          "stop" : 1639107040818,
+          "duration" : 10144
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b0d470eba0ebf33e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,96 @@
+{
+  "uid" : "1e14c5aed390dc08",
+  "name" : "reverts when trying to safeTransferFrom from holder",
+  "fullName" : "Contract: ERC1155Pausable when token is paused.reverts when trying to safeTransferFrom from holder",
+  "historyId" : "b42e4c5dbac481f4f1526518c5a6f1f7",
+  "time" : {
+    "start" : 1639393048924,
+    "stop" : 1639393326332,
+    "duration" : 277408
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+  "statusTrace" : "Error: Failed to check for transaction receipt:\n                    at Context.<anonymous> (test/token/ERC1155/extensions/ERC1155Pausable.test.js:13:47)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to safeTransferFrom from holder"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "456cdd99540c13e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/456cdd99540c13e",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639390031382,
+          "stop" : 1639390131482,
+          "duration" : 100100
+        }
+      }, {
+        "uid" : "922ed33875d9b2b5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/922ed33875d9b2b5",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639386307567,
+          "stop" : 1639386433185,
+          "duration" : 125618
+        }
+      }, {
+        "uid" : "57574be2b5573ea",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/57574be2b5573ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639105440041,
+          "stop" : 1639105456576,
+          "duration" : 16535
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1e14c5aed390dc08.json",
+  "parameterValues" : [ ]
+}

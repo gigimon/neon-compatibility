@@ -1,0 +1,76 @@
+{
+  "uid" : "97bbfdb375861f76",
+  "name" : "reverts when one of the addresses is the zero address",
+  "fullName" : "Contract: ERC1155 like an ERC1155 balanceOfBatch.reverts when one of the addresses is the zero address",
+  "historyId" : "3e2c79a1be6c7490bba92c3b8643f70d",
+  "time" : {
+    "start" : 1639393473312,
+    "stop" : 1639393573315,
+    "duration" : 100003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC1155/ERC1155.test.js:15:39)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when one of the addresses is the zero address"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "591d4ae6b7d3f088",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/591d4ae6b7d3f088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104107059,
+          "stop" : 1639104113509,
+          "duration" : 6450
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "97bbfdb375861f76.json",
+  "parameterValues" : [ ]
+}

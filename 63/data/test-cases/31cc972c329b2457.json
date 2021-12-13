@@ -1,0 +1,80 @@
+{
+  "uid" : "31cc972c329b2457",
+  "name" : "does not allow local recursion",
+  "fullName" : "Contract: ReentrancyGuard.does not allow local recursion",
+  "historyId" : "a128aef5c01a1bdac4581a8443a745b7",
+  "time" : {
+    "start" : 1639392695097,
+    "stop" : 1639392702738,
+    "duration" : 7641
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ReentrancyGuard"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ReentrancyGuard"
+  }, {
+    "name" : "testMethod",
+    "value" : "does not allow local recursion"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ReentrancyGuard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "88402e6509e3be51",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/88402e6509e3be51",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639389385932,
+          "stop" : 1639389485939,
+          "duration" : 100007
+        }
+      }, {
+        "uid" : "5ab5846683e0e0c9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/5ab5846683e0e0c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104050612,
+          "stop" : 1639104059337,
+          "duration" : 8725
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "31cc972c329b2457.json",
+  "parameterValues" : [ ]
+}

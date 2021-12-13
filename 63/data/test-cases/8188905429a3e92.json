@@ -1,0 +1,96 @@
+{
+  "uid" : "8188905429a3e92",
+  "name" : "exist",
+  "fullName" : "Contract: ERC1155Supply before mint.exist",
+  "historyId" : "9e6863f226cc2c10e9fd48ca3d0f1d53",
+  "time" : {
+    "start" : 1639393051230,
+    "stop" : 1639393358284,
+    "duration" : 307054
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+  "statusTrace" : "Error: Failed to check for transaction receipt:\n                    at Context.<anonymous> (test/token/ERC1155/extensions/ERC1155Supply.test.js:19:45)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Supply before mint"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Supply before mint"
+  }, {
+    "name" : "testMethod",
+    "value" : "exist"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Supply before mint"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "50925ee37b5f5570",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/50925ee37b5f5570",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639390132435,
+          "stop" : 1639390232506,
+          "duration" : 100071
+        }
+      }, {
+        "uid" : "f9f15408f26c3d11",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/f9f15408f26c3d11",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639386307122,
+          "stop" : 1639386433184,
+          "duration" : 126062
+        }
+      }, {
+        "uid" : "f6d48a3d04e989fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/f6d48a3d04e989fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639105621615,
+          "stop" : 1639105628081,
+          "duration" : 6466
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8188905429a3e92.json",
+  "parameterValues" : [ ]
+}

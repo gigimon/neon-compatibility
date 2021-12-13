@@ -1,0 +1,80 @@
+{
+  "uid" : "945ff7abbfd8c5d5",
+  "name" : "has beneficiary and state",
+  "fullName" : "Contract: RefundEscrow once deployed active state.has beneficiary and state",
+  "historyId" : "1c5b924c444e93d103e2a14f6966ec4c",
+  "time" : {
+    "start" : 1639394144825,
+    "stop" : 1639394152079,
+    "duration" : 7254
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "testMethod",
+    "value" : "has beneficiary and state"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed active state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "673c43d2197468ff",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/673c43d2197468ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391967605,
+          "stop" : 1639391983337,
+          "duration" : 15732
+        }
+      }, {
+        "uid" : "bb0417245c7529c9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/bb0417245c7529c9",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386984126,
+          "stop" : 1639387102352,
+          "duration" : 118226
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "945ff7abbfd8c5d5.json",
+  "parameterValues" : [ ]
+}

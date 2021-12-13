@@ -1,0 +1,77 @@
+{
+  "uid" : "ebdc4e99d12986a0",
+  "name" : "run",
+  "fullName" : "Contract: Governor Settings update setVotingPeriod.run",
+  "historyId" : "9e9eeb7520a57279baaf5a1acb98b9a0",
+  "time" : {
+    "start" : 1639391528545,
+    "stop" : 1639391566944,
+    "duration" : 38399
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected '16' to equal '32'",
+  "statusTrace" : "AssertionError: expected '16' to equal '32'\n                    at Context.<anonymous> (test/governance/Governor.test.js:870:64)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Governor Settings update setVotingPeriod"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor Settings update setVotingPeriod"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor Settings update setVotingPeriod"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7a4fbc31cc90ca81",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7a4fbc31cc90ca81",
+        "status" : "broken",
+        "statusDetails" : "expected '16' to equal '32'",
+        "time" : {
+          "start" : 1639101768035,
+          "stop" : 1639101811069,
+          "duration" : 43034
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ebdc4e99d12986a0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "b3ce6e8d1bf341f2",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC1967Proxy initialization with parameters reverting initialization.reverts",
+  "historyId" : "25c6d5145d1ae0e6bffe17385722c805",
+  "time" : {
+    "start" : 1639392128462,
+    "stop" : 1639392130754,
+    "duration" : 2292
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:223:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy initialization with parameters reverting initialization"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy initialization with parameters reverting initialization"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy initialization with parameters reverting initialization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7f261efc39e4cd86",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/7f261efc39e4cd86",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+        "time" : {
+          "start" : 1639385367679,
+          "stop" : 1639385370263,
+          "duration" : 2584
+        }
+      }, {
+        "uid" : "3ab39132961d53f3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/3ab39132961d53f3",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+        "time" : {
+          "start" : 1639102699093,
+          "stop" : 1639102701716,
+          "duration" : 2623
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b3ce6e8d1bf341f2.json",
+  "parameterValues" : [ ]
+}

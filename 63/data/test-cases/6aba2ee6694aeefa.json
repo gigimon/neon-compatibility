@@ -1,0 +1,81 @@
+{
+  "uid" : "6aba2ee6694aeefa",
+  "name" : "adds a value",
+  "fullName" : "Contract: EnumerableSet EnumerableBytes32Set add.adds a value",
+  "historyId" : "95201a80566dabf93e2cbc09c3b2a4f7",
+  "time" : {
+    "start" : 1639393597913,
+    "stop" : 1639393609977,
+    "duration" : 12064
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "testMethod",
+    "value" : "adds a value"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "991fec48f8f12d97",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/991fec48f8f12d97",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639391141471,
+          "stop" : 1639391205504,
+          "duration" : 64033
+        }
+      }, {
+        "uid" : "b76ac532b83c702b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/b76ac532b83c702b",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386975893,
+          "stop" : 1639387102515,
+          "duration" : 126622
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6aba2ee6694aeefa.json",
+  "parameterValues" : [ ]
+}

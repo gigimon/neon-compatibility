@@ -1,0 +1,76 @@
+{
+  "uid" : "e88453a49bfb6a03",
+  "name" : "expired",
+  "fullName" : "Contract: TimersTimestamp.expired",
+  "historyId" : "d65e20fce9e0133467c6a3611c27a850",
+  "time" : {
+    "start" : 1639393712716,
+    "stop" : 1639393812722,
+    "duration" : 100006
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/TimersTimestamp.test.js:8:50)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "testMethod",
+    "value" : "expired"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TimersTimestamp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bd5a8408f505fed3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/bd5a8408f505fed3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387975741,
+          "stop" : 1639387991051,
+          "duration" : 15310
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e88453a49bfb6a03.json",
+  "parameterValues" : [ ]
+}

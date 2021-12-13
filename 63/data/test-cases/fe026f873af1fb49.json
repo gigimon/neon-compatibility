@@ -1,0 +1,86 @@
+{
+  "uid" : "fe026f873af1fb49",
+  "name" : "register interface",
+  "fullName" : "Contract: ERC165Storage.register interface",
+  "historyId" : "4ce3aa1e1ff6fdb0485850a43b5a02c3",
+  "time" : {
+    "start" : 1639393924988,
+    "stop" : 1639394052554,
+    "duration" : 127566
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Invalid JSON RPC response: \"\"",
+  "statusTrace" : "Error: Invalid JSON RPC response: \"\"\n                    at Object.InvalidResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/node_modules/web3-core-helpers/lib/errors.js:43:16)\n                    at XMLHttpRequest.request.onreadystatechange (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/web3-providers-http/lib/index.js:95:32)\n                    at XMLHttpRequestEventTarget.dispatchEvent (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request-event-target.ts:44:13)\n                    at XMLHttpRequest._setReadyState (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:219:8)\n                    at XMLHttpRequest._onHttpRequestError (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:379:8)\n                    at ClientRequest.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/xhr2-cookies/xml-http-request.ts:266:37)\n                    at ClientRequest.emit (node:events:390:28)\n                    at TLSSocket.socketErrorListener (node:_http_client:447:9)\n                    at TLSSocket.emit (node:events:390:28)\n                    at emitErrorNT (node:internal/streams/destroy:157:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:122:3)\n                    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC165Storage"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC165Storage"
+  }, {
+    "name" : "testMethod",
+    "value" : "register interface"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC165Storage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f79076a5775f1a46",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/f79076a5775f1a46",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391599016,
+          "stop" : 1639391699067,
+          "duration" : 100051
+        }
+      }, {
+        "uid" : "68957427882ec879",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/68957427882ec879",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387607476,
+          "stop" : 1639387717056,
+          "duration" : 109580
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fe026f873af1fb49.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "f17f5b9ba0b92603",
+  "name" : "calls the requested function",
+  "fullName" : "Contract: Address functionCall with valid contract receiver.calls the requested function",
+  "historyId" : "a3f0642cb721850cce7a48b7e1b87ab0",
+  "time" : {
+    "start" : 1639393712604,
+    "stop" : 1639393812608,
+    "duration" : 100004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/Address.test.js:12:38)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Address functionCall with valid contract receiver"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Address functionCall with valid contract receiver"
+  }, {
+    "name" : "testMethod",
+    "value" : "calls the requested function"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Address functionCall with valid contract receiver"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4a50a7c16ba4c3de",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/4a50a7c16ba4c3de",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391213627,
+          "stop" : 1639391495348,
+          "duration" : 281721
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f17f5b9ba0b92603.json",
+  "parameterValues" : [ ]
+}
