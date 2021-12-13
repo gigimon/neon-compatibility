@@ -1,0 +1,56 @@
+{
+  "uid" : "b76ac532b83c702b",
+  "name" : "adds a value",
+  "fullName" : "Contract: EnumerableSet EnumerableBytes32Set add.adds a value",
+  "historyId" : "95201a80566dabf93e2cbc09c3b2a4f7",
+  "time" : {
+    "start" : 1639386975893,
+    "stop" : 1639387102515,
+    "duration" : 126622
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at expectMembersMatch (test/utils/structs/EnumerableSet.behavior.js:21:38)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/utils/structs/EnumerableSet.behavior.js:40:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "testMethod",
+    "value" : "adds a value"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableSet EnumerableBytes32Set add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b76ac532b83c702b.json",
+  "parameterValues" : [ ]
+}

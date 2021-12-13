@@ -1,0 +1,77 @@
+{
+  "uid" : "8cb4881bb80b1f92",
+  "name" : "rejects more payees than shares",
+  "fullName" : "Contract: PaymentSplitter.rejects more payees than shares",
+  "historyId" : "336abdbcdce6793e4a0799e7453090c5",
+  "time" : {
+    "start" : 1639384154200,
+    "stop" : 1639384157127,
+    "duration" : 2927
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/finance/PaymentSplitter.test.js:19:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects more payees than shares"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7bdaeb738ce073d3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7bdaeb738ce073d3",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639099342673,
+          "stop" : 1639099345628,
+          "duration" : 2955
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8cb4881bb80b1f92.json",
+  "parameterValues" : [ ]
+}

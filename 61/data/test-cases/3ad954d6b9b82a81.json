@@ -1,0 +1,56 @@
+{
+  "uid" : "3ad954d6b9b82a81",
+  "name" : "adds and removes multiple keys",
+  "fullName" : "Contract: EnumerableMap remove.adds and removes multiple keys",
+  "historyId" : "6d84602beb11c6d0717ec14b17f0f0f6",
+  "time" : {
+    "start" : 1639387471937,
+    "stop" : 1639387605920,
+    "duration" : 133983
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/structs/EnumerableMap.test.js:122:22)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: EnumerableMap remove"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: EnumerableMap remove"
+  }, {
+    "name" : "testMethod",
+    "value" : "adds and removes multiple keys"
+  }, {
+    "name" : "package",
+    "value" : "Contract: EnumerableMap remove"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3ad954d6b9b82a81.json",
+  "parameterValues" : [ ]
+}

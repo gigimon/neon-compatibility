@@ -1,0 +1,77 @@
+{
+  "uid" : "453271a63db7e1e7",
+  "name" : "requires a non-zero cap",
+  "fullName" : "Contract: ERC20Capped.requires a non-zero cap",
+  "historyId" : "c564acaf81a3aaccfe32753b55fdf2e6",
+  "time" : {
+    "start" : 1639386058313,
+    "stop" : 1639386062054,
+    "duration" : 3741
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC20Capped: cap is 0'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC20Capped: cap is 0'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Capped.test.js:15:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Capped"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Capped"
+  }, {
+    "name" : "testMethod",
+    "value" : "requires a non-zero cap"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Capped"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5d77f3354cf402a3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/5d77f3354cf402a3",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC20Capped: cap is 0'",
+        "time" : {
+          "start" : 1639107002398,
+          "stop" : 1639107005319,
+          "duration" : 2921
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "453271a63db7e1e7.json",
+  "parameterValues" : [ ]
+}

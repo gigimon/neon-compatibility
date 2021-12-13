@@ -1,0 +1,76 @@
+{
+  "uid" : "e05be2760b99d764",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender.reverts",
+  "historyId" : "cf59bace7ef0995aa8c01ef9a914d035",
+  "time" : {
+    "start" : 1639386200452,
+    "stop" : 1639386300458,
+    "duration" : 100006
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Burnable.test.js:15:45)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7d28398bc6e97f44",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7d28398bc6e97f44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106903511,
+          "stop" : 1639106910927,
+          "duration" : 7416
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e05be2760b99d764.json",
+  "parameterValues" : [ ]
+}

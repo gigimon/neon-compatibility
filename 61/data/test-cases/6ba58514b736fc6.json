@@ -1,0 +1,76 @@
+{
+  "uid" : "6ba58514b736fc6",
+  "name" : "has an owner",
+  "fullName" : "Contract: ProxyAdmin.has an owner",
+  "historyId" : "fb765aaed848da2da6aa87b1de8fea61",
+  "time" : {
+    "start" : 1639384881815,
+    "stop" : 1639384991294,
+    "duration" : 109479
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/proxy/transparent/ProxyAdmin.test.js:21:55)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ProxyAdmin"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ProxyAdmin"
+  }, {
+    "name" : "testMethod",
+    "value" : "has an owner"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ProxyAdmin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2c032006b419685f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/2c032006b419685f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102710359,
+          "stop" : 1639102720968,
+          "duration" : 10609
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6ba58514b736fc6.json",
+  "parameterValues" : [ ]
+}

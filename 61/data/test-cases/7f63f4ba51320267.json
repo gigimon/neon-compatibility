@@ -1,0 +1,76 @@
+{
+  "uid" : "7f63f4ba51320267",
+  "name" : "initializes the proxy",
+  "fullName" : "Contract: ERC1967Proxy without initialization when sending some balance.initializes the proxy",
+  "historyId" : "412e1b1b50b56a5b0551b68259c6f3e0",
+  "time" : {
+    "start" : 1639384884081,
+    "stop" : 1639384989986,
+    "duration" : 105905
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:38:26)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy without initialization when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy without initialization when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializes the proxy"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy without initialization when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "797e5b6a86d78f2e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/797e5b6a86d78f2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102612314,
+          "stop" : 1639102618354,
+          "duration" : 6040
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7f63f4ba51320267.json",
+  "parameterValues" : [ ]
+}

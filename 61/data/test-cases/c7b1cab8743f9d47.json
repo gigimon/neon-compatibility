@@ -1,0 +1,56 @@
+{
+  "uid" : "c7b1cab8743f9d47",
+  "name" : "set",
+  "fullName" : "Contract: StorageSlot address storage slot.set",
+  "historyId" : "f9ee7c3e9982fcaab253c48963e5d56f",
+  "time" : {
+    "start" : 1639386986953,
+    "stop" : 1639387094369,
+    "duration" : 107416
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/StorageSlot.test.js:12:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: StorageSlot address storage slot"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: StorageSlot address storage slot"
+  }, {
+    "name" : "testMethod",
+    "value" : "set"
+  }, {
+    "name" : "package",
+    "value" : "Contract: StorageSlot address storage slot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c7b1cab8743f9d47.json",
+  "parameterValues" : [ ]
+}

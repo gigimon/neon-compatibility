@@ -1,0 +1,56 @@
+{
+  "uid" : "a3aa712ace854558",
+  "name" : "is correctly calculated with one even and one odd number",
+  "fullName" : "Contract: Math average.is correctly calculated with one even and one odd number",
+  "historyId" : "9045267319b0221b53495721ccae6f55",
+  "time" : {
+    "start" : 1639387616754,
+    "stop" : 1639387745732,
+    "duration" : 128978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/math/Math.test.js:55:30)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Math average"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Math average"
+  }, {
+    "name" : "testMethod",
+    "value" : "is correctly calculated with one even and one odd number"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Math average"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a3aa712ace854558.json",
+  "parameterValues" : [ ]
+}

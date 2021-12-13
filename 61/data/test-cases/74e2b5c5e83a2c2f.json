@@ -1,0 +1,57 @@
+{
+  "uid" : "74e2b5c5e83a2c2f",
+  "name" : "rejects deposits",
+  "fullName" : "Contract: RefundEscrow once deployed closed state.rejects deposits",
+  "historyId" : "2212b32b7c50364e276f03eda4203833",
+  "time" : {
+    "start" : 1639387194706,
+    "stop" : 1639387201978,
+    "duration" : 7272
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'e5521462916c311eda53c172e44c10bd602561b9', 'b31cc4493b71ff15664dd489ad3d8b53951dabcf', 'f340fa0100000000000000000000000090f53916bbd784e4a06bf3a7190a4efc31c027e3', '0x2ed6689e54f180000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'e5521462916c311eda53c172e44c10bd602561b9', 'b31cc4493b71ff15664dd489ad3d8b53951dabcf', 'f340fa0100000000000000000000000090f53916bbd784e4a06bf3a7190a4efc31c027e3', '0x2ed6689e54f180000']' returned non-zero exit status 1.\n                    at /home/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/utils/escrow/RefundEscrow.test.js:63:65\n                    at Array.map (<anonymous>)\n                    at Context.<anonymous> (test/utils/escrow/RefundEscrow.test.js:63:37)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow once deployed closed state"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow once deployed closed state"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects deposits"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow once deployed closed state"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "74e2b5c5e83a2c2f.json",
+  "parameterValues" : [ ]
+}

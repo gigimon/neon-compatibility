@@ -1,0 +1,76 @@
+{
+  "uid" : "37645e0a752d798c",
+  "name" : "upgrade to upgradeable implementation with call",
+  "fullName" : "Contract: UUPSUpgradeable.upgrade to upgradeable implementation with call",
+  "historyId" : "2c97f81fd5822fce225d4a3cdc40d2a3",
+  "time" : {
+    "start" : 1639385052208,
+    "stop" : 1639385168591,
+    "duration" : 116383
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                Please check your internet connection and networks config\n                    at HttpProvider._fetchJsonRpcResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:184:15)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at HttpProvider.request (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:55:29)\n                    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: UUPSUpgradeable"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: UUPSUpgradeable"
+  }, {
+    "name" : "testMethod",
+    "value" : "upgrade to upgradeable implementation with call"
+  }, {
+    "name" : "package",
+    "value" : "Contract: UUPSUpgradeable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4a44a34080dab05a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/4a44a34080dab05a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639103771243,
+          "stop" : 1639103783803,
+          "duration" : 12560
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "37645e0a752d798c.json",
+  "parameterValues" : [ ]
+}

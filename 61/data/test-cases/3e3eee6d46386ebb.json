@@ -1,0 +1,56 @@
+{
+  "uid" : "3e3eee6d46386ebb",
+  "name" : "can accept a single deposit",
+  "fullName" : "Contract: Escrow as an escrow deposits.can accept a single deposit",
+  "historyId" : "57b53ba2aef4f817049d4407b97760c5",
+  "time" : {
+    "start" : 1639386960824,
+    "stop" : 1639386970530,
+    "duration" : 9706
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '142000000000000000000' to equal '42000000000000000000'",
+  "statusTrace" : "AssertionError: expected '142000000000000000000' to equal '42000000000000000000'\n                    at Context.<anonymous> (test/utils/escrow/Escrow.behavior.js:13:76)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "testMethod",
+    "value" : "can accept a single deposit"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Escrow as an escrow deposits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3e3eee6d46386ebb.json",
+  "parameterValues" : [ ]
+}

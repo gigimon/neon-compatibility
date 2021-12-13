@@ -1,0 +1,56 @@
+{
+  "uid" : "15ed41543668dfec",
+  "name" : "can do an empty withdrawal",
+  "fullName" : "Contract: Escrow as an escrow withdrawals.can do an empty withdrawal",
+  "historyId" : "2c16c6bf35cef4230da6a7ba05887cdd",
+  "time" : {
+    "start" : 1639387203863,
+    "stop" : 1639387311225,
+    "duration" : 107362
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/escrow/Escrow.behavior.js:71:27)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "testMethod",
+    "value" : "can do an empty withdrawal"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "15ed41543668dfec.json",
+  "parameterValues" : [ ]
+}

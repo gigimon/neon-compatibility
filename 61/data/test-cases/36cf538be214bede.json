@@ -1,0 +1,56 @@
+{
+  "uid" : "36cf538be214bede",
+  "name" : "when the dividend is smaller than the divisor",
+  "fullName" : "Contract: SafeMath with flag mod modulos correctly.when the dividend is smaller than the divisor",
+  "historyId" : "b498e37bd5d83a4b01f7158521332d10",
+  "time" : {
+    "start" : 1639387500086,
+    "stop" : 1639387603658,
+    "duration" : 103572
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/math/SafeMath.test.js:20:43)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeMath with flag mod modulos correctly"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeMath with flag mod modulos correctly"
+  }, {
+    "name" : "testMethod",
+    "value" : "when the dividend is smaller than the divisor"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeMath with flag mod modulos correctly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "36cf538be214bede.json",
+  "parameterValues" : [ ]
+}

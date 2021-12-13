@@ -1,0 +1,76 @@
+{
+  "uid" : "6b90782129341375",
+  "name" : "upgrade a proxy by upgrading its beacon",
+  "fullName" : "Contract: BeaconProxy.upgrade a proxy by upgrading its beacon",
+  "historyId" : "c26741719bb04687bfa5e21e129066ff",
+  "time" : {
+    "start" : 1639384881766,
+    "stop" : 1639385004111,
+    "duration" : 122345
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/proxy/beacon/BeaconProxy.test.js:112:40)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "testMethod",
+    "value" : "upgrade a proxy by upgrading its beacon"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fcdba2d7c6f9bf77",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/fcdba2d7c6f9bf77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102147870,
+          "stop" : 1639102164181,
+          "duration" : 16311
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6b90782129341375.json",
+  "parameterValues" : [ ]
+}

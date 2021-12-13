@@ -1,0 +1,76 @@
+{
+  "uid" : "71f47e373c704d6",
+  "name" : "reverts with a not-yet-created snapshot id",
+  "fullName" : "Contract: ERC20Snapshot totalSupplyAt.reverts with a not-yet-created snapshot id",
+  "historyId" : "2e027999383da41f15dd83559a0b0f8e",
+  "time" : {
+    "start" : 1639386200529,
+    "stop" : 1639386300538,
+    "duration" : 100009
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Snapshot.test.js:15:45)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts with a not-yet-created snapshot id"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8fc3b9e0ca6c08fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/8fc3b9e0ca6c08fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107321361,
+          "stop" : 1639107327705,
+          "duration" : 6344
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "71f47e373c704d6.json",
+  "parameterValues" : [ ]
+}
