@@ -1,0 +1,86 @@
+{
+  "uid" : "a785f57e07e73051",
+  "name" : "set a key to true",
+  "fullName" : "Contract: BitMap setTo.set a key to true",
+  "historyId" : "f4503418161909d45c94cc213b1af461",
+  "time" : {
+    "start" : 1639393939759,
+    "stop" : 1639394065085,
+    "duration" : 125326
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/structs/BitMap.test.js:26:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "testMethod",
+    "value" : "set a key to true"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2ce6ba897cfe1e87",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/2ce6ba897cfe1e87",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639391176608,
+          "stop" : 1639391205518,
+          "duration" : 28910
+        }
+      }, {
+        "uid" : "de85cbcdf918f1aa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/de85cbcdf918f1aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386975531,
+          "stop" : 1639386994428,
+          "duration" : 18897
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a785f57e07e73051.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "74fec7d6795e5f67",
+  "name" : "reverts if non-payee want to claim",
+  "fullName" : "Contract: PaymentSplitter once deployed release Ether.reverts if non-payee want to claim",
+  "historyId" : "241c4e85fff3c680b8ce4f9c5ed59541",
+  "time" : {
+    "start" : 1639390975801,
+    "stop" : 1639391046004,
+    "duration" : 70203
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter once deployed release Ether"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter once deployed release Ether"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts if non-payee want to claim"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter once deployed release Ether"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "9601e2eaa4800966",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/9601e2eaa4800966",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389677849,
+          "stop" : 1639389690609,
+          "duration" : 12760
+        }
+      }, {
+        "uid" : "8e270f7e6146c00f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/8e270f7e6146c00f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386137723,
+          "stop" : 1639386152542,
+          "duration" : 14819
+        }
+      }, {
+        "uid" : "70480de8a820c721",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/70480de8a820c721",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639384378079,
+          "stop" : 1639384392345,
+          "duration" : 14266
+        }
+      }, {
+        "uid" : "642259233a08ab1e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/642259233a08ab1e",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://release-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '2422a915260f1386327ae249d76d8db7aef64050', 'd5e58ad6df55810a875dcc4a047d984ddcb9deb5', 'none', '0xde0b6b3a7640000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639099445196,
+          "stop" : 1639099457000,
+          "duration" : 11804
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "74fec7d6795e5f67.json",
+  "parameterValues" : [ ]
+}

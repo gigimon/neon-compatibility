@@ -1,0 +1,70 @@
+{
+  "uid" : "ed778efa789f1150",
+  "name" : "reverts when downcasting 2^15 (32768)",
+  "fullName" : "Contract: SafeCast toInt16.reverts when downcasting 2^15 (32768)",
+  "historyId" : "e2466ff9d9785fdf5baf6582fc0073c0",
+  "time" : {
+    "start" : 1639394988196,
+    "stop" : 1639394992275,
+    "duration" : 4079
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toInt16"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toInt16"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^15 (32768)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toInt16"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f5150c0c6b812c82",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/f5150c0c6b812c82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639388249160,
+          "stop" : 1639388255043,
+          "duration" : 5883
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ed778efa789f1150.json",
+  "parameterValues" : [ ]
+}

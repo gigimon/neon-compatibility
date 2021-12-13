@@ -1,0 +1,87 @@
+{
+  "uid" : "2b4318446c158002",
+  "name" : "run",
+  "fullName" : "Contract: GovernorComp voting with comp token.run",
+  "historyId" : "fd5068a035482327dd8c995aa23ca723",
+  "time" : {
+    "start" : 1639391137332,
+    "stop" : 1639391282318,
+    "duration" : 144986
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/governance/extensions/GovernorComp.test.js:30:22)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b88c7247cbb5bf8b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/b88c7247cbb5bf8b",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386660386,
+          "stop" : 1639386879699,
+          "duration" : 219313
+        }
+      }, {
+        "uid" : "812b99c2ee2f1cd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/812b99c2ee2f1cd",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639099733996,
+          "stop" : 1639099789415,
+          "duration" : 55419
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2b4318446c158002.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "59300733288c83d0",
+  "name" : "token has correct name",
+  "fullName" : "Contract: ERC721PresetMinterPauserAutoId.token has correct name",
+  "historyId" : "8c0de360eae492fc289869bbe6a3a2c8",
+  "time" : {
+    "start" : 1639393440118,
+    "stop" : 1639393483695,
+    "duration" : 43577
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId"
+  }, {
+    "name" : "testMethod",
+    "value" : "token has correct name"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721PresetMinterPauserAutoId"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a35f144b80c52fb4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/a35f144b80c52fb4",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393260286,
+          "stop" : 1639393360325,
+          "duration" : 100039
+        }
+      }, {
+        "uid" : "8f67cce91d00d0d3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/8f67cce91d00d0d3",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639390159821,
+          "stop" : 1639390259910,
+          "duration" : 100089
+        }
+      }, {
+        "uid" : "af9f90eb6e683278",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/af9f90eb6e683278",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386408200,
+          "stop" : 1639386467219,
+          "duration" : 59019
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "59300733288c83d0.json",
+  "parameterValues" : [ ]
+}

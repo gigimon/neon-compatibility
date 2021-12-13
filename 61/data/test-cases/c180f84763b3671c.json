@@ -1,0 +1,76 @@
+{
+  "uid" : "c180f84763b3671c",
+  "name" : "returns true when interface implementation is queried",
+  "fullName" : "Contract: ERC1820Implementer with registered interfaces.returns true when interface implementation is queried",
+  "historyId" : "be8dad330127850e00d0cd607b48de29",
+  "time" : {
+    "start" : 1639394339506,
+    "stop" : 1639394439548,
+    "duration" : 100042
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/introspection/ERC1820Implementer.test.js:14:56)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns true when interface implementation is queried"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fa989a1393aa92f6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/fa989a1393aa92f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387598402,
+          "stop" : 1639387614289,
+          "duration" : 15887
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c180f84763b3671c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "fe19f4b77fb4f3c",
+  "name" : "set several consecutive keys",
+  "fullName" : "Contract: BitMap setTo.set several consecutive keys",
+  "historyId" : "2ea6dd862716ecfb221940d45575a5e2",
+  "time" : {
+    "start" : 1639394183351,
+    "stop" : 1639394283360,
+    "duration" : 100009
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/structs/BitMap.test.js:12:35)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "testMethod",
+    "value" : "set several consecutive keys"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fe19f4b77fb4f3c.json",
+  "parameterValues" : [ ]
+}

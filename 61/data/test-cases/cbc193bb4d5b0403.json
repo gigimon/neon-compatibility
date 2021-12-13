@@ -1,0 +1,88 @@
+{
+  "uid" : "cbc193bb4d5b0403",
+  "name" : "emits a withdrawn event",
+  "fullName" : "Contract: Escrow as an escrow withdrawals.emits a withdrawn event",
+  "historyId" : "1a57f07d042bdd1dd63ffa1ad60608ee",
+  "time" : {
+    "start" : 1639394774891,
+    "stop" : 1639394779881,
+    "duration" : 4990
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '5f7819890813145df79ad10aefa801973fdbae0b', '77683ebe30589a4bd903a3ddc1977b01959525ad', 'f340fa01000000000000000000000000eb1b02fa8bd5c01b525de95a74b946cf2ba4f740', '0x246ddf97976680000']' returned non-zero exit status 1.",
+  "statusTrace" : "Error: Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '5f7819890813145df79ad10aefa801973fdbae0b', '77683ebe30589a4bd903a3ddc1977b01959525ad', 'f340fa01000000000000000000000000eb1b02fa8bd5c01b525de95a74b946cf2ba4f740', '0x246ddf97976680000']' returned non-zero exit status 1.\n                    at Context.<anonymous> (test/utils/escrow/Escrow.behavior.js:81:27)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "testMethod",
+    "value" : "emits a withdrawn event"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Escrow as an escrow withdrawals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "neon-cli error",
+      "messageRegex" : ".*'neon-cli'.* returned non-zero exit status 1.",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e009fed47eaac936",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/e009fed47eaac936",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', '17a29e920c72fe6b6dbe585e3c8de75a445f78b1', 'c37164d18122c6340ca2d006e3032bef39cc5e34', 'f340fa0100000000000000000000000009a71d98f3a584c0ccd50dad2ab796c82193a9ed', '0x246ddf97976680000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639394392444,
+          "stop" : 1639394399287,
+          "duration" : 6843
+        }
+      }, {
+        "uid" : "fd45e25f41051a43",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/fd45e25f41051a43",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Command '['neon-cli', '--commitment=recent', '--url', 'http://test3-solana:8899', '--evm_loader=53DfF883gyixYNXnM7s5xhdeyV8mVk9T4i2hGV9vG9io', 'emulate', 'c1184042afb9301783cfb32cbe636bb982598130', 'a748de492e355fa14aa834d1a83bfeb501375ae7', 'f340fa01000000000000000000000000c7abc33a4863c6cd333b5ca4877bfce3d19a17c5', '0x246ddf97976680000']' returned non-zero exit status 1.",
+        "time" : {
+          "start" : 1639387323238,
+          "stop" : 1639387351381,
+          "duration" : 28143
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cbc193bb4d5b0403.json",
+  "parameterValues" : [ ]
+}

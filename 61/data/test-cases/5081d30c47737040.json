@@ -1,0 +1,97 @@
+{
+  "uid" : "5081d30c47737040",
+  "name" : "reverts",
+  "fullName" : "Contract: Clones cloneDeterministic initialization without parameters non payable when sending some balance.reverts",
+  "historyId" : "4f35eebc49e8290570f34ad9a7070bda",
+  "time" : {
+    "start" : 1639392214945,
+    "stop" : 1639392223407,
+    "duration" : 8462
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected an exception but none was received",
+  "statusTrace" : "AssertionError: Expected an exception but none was received\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:25:10)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:45:11)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Clones cloneDeterministic initialization without parameters non payable when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones cloneDeterministic initialization without parameters non payable when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones cloneDeterministic initialization without parameters non payable when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ef2fb292ce09dbb1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/ef2fb292ce09dbb1",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'revert'",
+        "time" : {
+          "start" : 1639388730928,
+          "stop" : 1639388940359,
+          "duration" : 209431
+        }
+      }, {
+        "uid" : "2ec7b18897497771",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/2ec7b18897497771",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639385391898,
+          "stop" : 1639385399887,
+          "duration" : 7989
+        }
+      }, {
+        "uid" : "682b3a1f36bee9ed",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/682b3a1f36bee9ed",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639102483020,
+          "stop" : 1639102491355,
+          "duration" : 8335
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5081d30c47737040.json",
+  "parameterValues" : [ ]
+}

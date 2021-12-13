@@ -1,0 +1,87 @@
+{
+  "uid" : "76af3b60c726ac6c",
+  "name" : "has expected balance",
+  "fullName" : "Contract: Clones clone initialization with parameters payable when not sending balance.has expected balance",
+  "historyId" : "febab3947649c3cef6f943e7073f5053",
+  "time" : {
+    "start" : 1639392051878,
+    "stop" : 1639392153894,
+    "duration" : 102016
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at /home/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/proxy/Clones.test.js:10:43\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:124:19)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "24f3ff0dcc934bd0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/24f3ff0dcc934bd0",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639385317666,
+          "stop" : 1639385330928,
+          "duration" : 13262
+        }
+      }, {
+        "uid" : "4f636f02f08370c7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/4f636f02f08370c7",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639102411293,
+          "stop" : 1639102420039,
+          "duration" : 8746
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "76af3b60c726ac6c.json",
+  "parameterValues" : [ ]
+}

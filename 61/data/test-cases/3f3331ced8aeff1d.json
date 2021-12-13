@@ -1,0 +1,107 @@
+{
+  "uid" : "3f3331ced8aeff1d",
+  "name" : "rejects zero address for beneficiary",
+  "fullName" : "Contract: VestingWallet.rejects zero address for beneficiary",
+  "historyId" : "bef7a5330168f359aa261f5b27a742ca",
+  "time" : {
+    "start" : 1639390790282,
+    "stop" : 1639390798216,
+    "duration" : 7934
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/finance/VestingWallet.test.js:24:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: VestingWallet"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: VestingWallet"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects zero address for beneficiary"
+  }, {
+    "name" : "package",
+    "value" : "Contract: VestingWallet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "aecc742c854a884d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/aecc742c854a884d",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639389585362,
+          "stop" : 1639389592590,
+          "duration" : 7228
+        }
+      }, {
+        "uid" : "da3963f0accb6973",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/da3963f0accb6973",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639385817352,
+          "stop" : 1639385824754,
+          "duration" : 7402
+        }
+      }, {
+        "uid" : "301e034d4fc64d62",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/301e034d4fc64d62",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639384150969,
+          "stop" : 1639384159188,
+          "duration" : 8219
+        }
+      }, {
+        "uid" : "9128c37a7dd5f0e4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/9128c37a7dd5f0e4",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639099535045,
+          "stop" : 1639099542768,
+          "duration" : 7723
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3f3331ced8aeff1d.json",
+  "parameterValues" : [ ]
+}

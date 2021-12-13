@@ -1,0 +1,95 @@
+{
+  "uid" : "d663eb2a33d451ae",
+  "name" : "batches function calls",
+  "fullName" : "Contract: MulticallToken.batches function calls",
+  "historyId" : "6c98da7981df0b1e9891e7c04076e848",
+  "time" : {
+    "start" : 1639393937538,
+    "stop" : 1639394065099,
+    "duration" : 127561
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/utils/Multicall.test.js:21:38)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "testMethod",
+    "value" : "batches function calls"
+  }, {
+    "name" : "package",
+    "value" : "Contract: MulticallToken"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f53af01318aab2df",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/f53af01318aab2df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393592489,
+          "stop" : 1639393605929,
+          "duration" : 13440
+        }
+      }, {
+        "uid" : "5f165b73d54e4058",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/5f165b73d54e4058",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639391084644,
+          "stop" : 1639391213630,
+          "duration" : 128986
+        }
+      }, {
+        "uid" : "90c877013c492ef5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/90c877013c492ef5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387139569,
+          "stop" : 1639387193139,
+          "duration" : 53570
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d663eb2a33d451ae.json",
+  "parameterValues" : [ ]
+}

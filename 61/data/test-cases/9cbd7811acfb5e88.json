@@ -1,0 +1,80 @@
+{
+  "uid" : "9cbd7811acfb5e88",
+  "name" : "reverts with a not-yet-created snapshot id",
+  "fullName" : "Contract: ERC20Snapshot totalSupplyAt.reverts with a not-yet-created snapshot id",
+  "historyId" : "2e027999383da41f15dd83559a0b0f8e",
+  "time" : {
+    "start" : 1639393229638,
+    "stop" : 1639393234251,
+    "duration" : 4613
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts with a not-yet-created snapshot id"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "71f47e373c704d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/71f47e373c704d6",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386200529,
+          "stop" : 1639386300538,
+          "duration" : 100009
+        }
+      }, {
+        "uid" : "8fc3b9e0ca6c08fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/8fc3b9e0ca6c08fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107321361,
+          "stop" : 1639107327705,
+          "duration" : 6344
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9cbd7811acfb5e88.json",
+  "parameterValues" : [ ]
+}

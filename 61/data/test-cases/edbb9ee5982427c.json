@@ -1,0 +1,107 @@
+{
+  "uid" : "edbb9ee5982427c",
+  "name" : "rejects an empty set of payees",
+  "fullName" : "Contract: PaymentSplitter.rejects an empty set of payees",
+  "historyId" : "642cac3bff2a34213571e4f3bf161ef6",
+  "time" : {
+    "start" : 1639390790365,
+    "stop" : 1639390793778,
+    "duration" : 3413
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: no payees'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: no payees'\n                    at expectException (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/finance/PaymentSplitter.test.js:15:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects an empty set of payees"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "5cc4e258710568c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/5cc4e258710568c2",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: no payees'",
+        "time" : {
+          "start" : 1639389585365,
+          "stop" : 1639389588435,
+          "duration" : 3070
+        }
+      }, {
+        "uid" : "b4730c053be04b87",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/b4730c053be04b87",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: no payees'",
+        "time" : {
+          "start" : 1639385817492,
+          "stop" : 1639385820608,
+          "duration" : 3116
+        }
+      }, {
+        "uid" : "2579be02c827d465",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/2579be02c827d465",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: no payees'",
+        "time" : {
+          "start" : 1639384150747,
+          "stop" : 1639384154200,
+          "duration" : 3453
+        }
+      }, {
+        "uid" : "72649bd93cbe9919",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/72649bd93cbe9919",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: no payees'",
+        "time" : {
+          "start" : 1639099339716,
+          "stop" : 1639099342672,
+          "duration" : 2956
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "edbb9ee5982427c.json",
+  "parameterValues" : [ ]
+}

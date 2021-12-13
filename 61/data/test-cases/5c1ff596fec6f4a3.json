@@ -1,0 +1,86 @@
+{
+  "uid" : "5c1ff596fec6f4a3",
+  "name" : "has underlying",
+  "fullName" : "Contract: ERC20.has underlying",
+  "historyId" : "2f5c9aee894629d7d1a1ac6c4740be9e",
+  "time" : {
+    "start" : 1639393231170,
+    "stop" : 1639393435667,
+    "duration" : 204497
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Wrapper.test.js:24:34)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "testMethod",
+    "value" : "has underlying"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "74a3be5e98e060ce",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/74a3be5e98e060ce",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393047831,
+          "stop" : 1639393325088,
+          "duration" : 277257
+        }
+      }, {
+        "uid" : "3e6458b0801d8c37",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/3e6458b0801d8c37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107585940,
+          "stop" : 1639107599898,
+          "duration" : 13958
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5c1ff596fec6f4a3.json",
+  "parameterValues" : [ ]
+}

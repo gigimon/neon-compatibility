@@ -1,0 +1,107 @@
+{
+  "uid" : "1af1b7e818bbf518",
+  "name" : "can record an async payment correctly",
+  "fullName" : "Contract: PullPayment payments.can record an async payment correctly",
+  "historyId" : "c6f26364c2f6b9e8547aced6b599b689",
+  "time" : {
+    "start" : 1639392757015,
+    "stop" : 1639392766690,
+    "duration" : 9675
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '0' to equal '100'",
+  "statusTrace" : "AssertionError: expected '0' to equal '100'\n                    at Context.<anonymous> (test/security/PullPayment.test.js:19:68)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "can record an async payment correctly"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "f76f23caab025f72",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/f76f23caab025f72",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639392672113,
+          "stop" : 1639392680403,
+          "duration" : 8290
+        }
+      }, {
+        "uid" : "cb629e428d7dacab",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/cb629e428d7dacab",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639389264309,
+          "stop" : 1639389272520,
+          "duration" : 8211
+        }
+      }, {
+        "uid" : "e5b14a7a57256be7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e5b14a7a57256be7",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639385514657,
+          "stop" : 1639385524046,
+          "duration" : 9389
+        }
+      }, {
+        "uid" : "5aec124d7e8c78c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/5aec124d7e8c78c2",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639103966140,
+          "stop" : 1639103975254,
+          "duration" : 9114
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1af1b7e818bbf518.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "63ccf181e9014673",
+  "name" : "requires a non-zero cap",
+  "fullName" : "Contract: ERC20Capped.requires a non-zero cap",
+  "historyId" : "c564acaf81a3aaccfe32753b55fdf2e6",
+  "time" : {
+    "start" : 1639393234751,
+    "stop" : 1639393334843,
+    "duration" : 100092
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                Please check your internet connection and networks config\n                    at HttpProvider._fetchJsonRpcResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:184:15)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at HttpProvider.request (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:55:29)\n                    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC20Capped"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Capped"
+  }, {
+    "name" : "testMethod",
+    "value" : "requires a non-zero cap"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Capped"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9340ec3cd03d3ade",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/9340ec3cd03d3ade",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC20Capped: cap is 0'",
+        "time" : {
+          "start" : 1639393009375,
+          "stop" : 1639393012565,
+          "duration" : 3190
+        }
+      }, {
+        "uid" : "453271a63db7e1e7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/453271a63db7e1e7",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC20Capped: cap is 0'",
+        "time" : {
+          "start" : 1639386058313,
+          "stop" : 1639386062054,
+          "duration" : 3741
+        }
+      }, {
+        "uid" : "5d77f3354cf402a3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/5d77f3354cf402a3",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC20Capped: cap is 0'",
+        "time" : {
+          "start" : 1639107002398,
+          "stop" : 1639107005319,
+          "duration" : 2921
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "63ccf181e9014673.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "f889221035c0ef16",
+  "name" : "cannot be initialized with a non-contract address",
+  "fullName" : "Contract: TransparentUpgradeableProxy.cannot be initialized with a non-contract address",
+  "historyId" : "16e5bc670de88f3958fec5c0199e82c6",
+  "time" : {
+    "start" : 1639391601448,
+    "stop" : 1639391608517,
+    "duration" : 7069
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy"
+  }, {
+    "name" : "testMethod",
+    "value" : "cannot be initialized with a non-contract address"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "794aed452c65513b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/794aed452c65513b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391817517,
+          "stop" : 1639391824168,
+          "duration" : 6651
+        }
+      }, {
+        "uid" : "a4da2d55a35d1bdc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/a4da2d55a35d1bdc",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'revert'",
+        "time" : {
+          "start" : 1639384880562,
+          "stop" : 1639385008108,
+          "duration" : 127546
+        }
+      }, {
+        "uid" : "a8d01c4091b43670",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/a8d01c4091b43670",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102865505,
+          "stop" : 1639102872924,
+          "duration" : 7419
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f889221035c0ef16.json",
+  "parameterValues" : [ ]
+}

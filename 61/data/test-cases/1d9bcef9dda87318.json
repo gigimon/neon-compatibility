@@ -1,0 +1,97 @@
+{
+  "uid" : "1d9bcef9dda87318",
+  "name" : "has expected balance",
+  "fullName" : "Contract: ERC1967Proxy initialization with parameters payable when sending some balance.has expected balance",
+  "historyId" : "a7bfe443c58d0e68f361dcd00b9ed27a",
+  "time" : {
+    "start" : 1639392066464,
+    "stop" : 1639392166468,
+    "duration" : 100004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+  "statusTrace" : "HardhatError: HH109: Network connection timed out.\n                    at createProxy (test/proxy/ERC1967/ERC1967Proxy.test.js:9:28)\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:204:19)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e90482cba9b8ce1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/e90482cba9b8ce1",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639392123891,
+          "stop" : 1639392128459,
+          "duration" : 4568
+        }
+      }, {
+        "uid" : "b98a3a9d3cf6173e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/b98a3a9d3cf6173e",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639385362839,
+          "stop" : 1639385367676,
+          "duration" : 4837
+        }
+      }, {
+        "uid" : "ebbeb1cbca7a4375",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/ebbeb1cbca7a4375",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639102694159,
+          "stop" : 1639102699090,
+          "duration" : 4931
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1d9bcef9dda87318.json",
+  "parameterValues" : [ ]
+}
