@@ -1,0 +1,251 @@
+{
+  "uid" : "7cafb15b9b3759fe",
+  "name" : "test_approval_event_fires",
+  "fullName" : "tests.brownie.token.tests.test_approve#test_approval_event_fires",
+  "historyId" : "5df85ed43d4eaa83ff87d3ee54c0ba22",
+  "time" : {
+    "start" : 1639400190237,
+    "stop" : 1639400192227,
+    "duration" : 1990
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1639400150275,
+      "stop" : 1639400150275,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "brownie_project",
+    "time" : {
+      "start" : 1639400151808,
+      "stop" : 1639400165677,
+      "duration" : 13869
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_env",
+    "time" : {
+      "start" : 1639400169454,
+      "stop" : 1639400169454,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "accounts",
+    "time" : {
+      "start" : 1639400169454,
+      "stop" : 1639400169722,
+      "duration" : 268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1639400169722,
+      "stop" : 1639400173172,
+      "duration" : 3450
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3d0b44504339716b",
+      "name" : "stdout",
+      "source" : "3d0b44504339716b.txt",
+      "type" : "text/plain",
+      "size" : 309
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "accounts::0",
+    "time" : {
+      "start" : 1639400545346,
+      "stop" : 1639400545346,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Brownie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie.token.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_approve"
+  }, {
+    "name" : "host",
+    "value" : "fv-az124-296"
+  }, {
+    "name" : "thread",
+    "value" : "4678-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.token.tests.test_approve"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "3c19543a55d71283",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/65//#testresult/3c19543a55d71283",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639399217801,
+          "stop" : 1639399219896,
+          "duration" : 2095
+        }
+      }, {
+        "uid" : "4455b8a74d8a9dec",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/4455b8a74d8a9dec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639392752887,
+          "stop" : 1639392755473,
+          "duration" : 2586
+        }
+      }, {
+        "uid" : "1a17ae09074714d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1a17ae09074714d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639390898970,
+          "stop" : 1639390900951,
+          "duration" : 1981
+        }
+      }, {
+        "uid" : "1872bd29b4d03c54",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/1872bd29b4d03c54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389198031,
+          "stop" : 1639389200071,
+          "duration" : 2040
+        }
+      }, {
+        "uid" : "e1430072eaf0c077",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/e1430072eaf0c077",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639385604508,
+          "stop" : 1639385606130,
+          "duration" : 1622
+        }
+      }, {
+        "uid" : "d4feca1601e84a70",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/d4feca1601e84a70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639384182648,
+          "stop" : 1639384184610,
+          "duration" : 1962
+        }
+      }, {
+        "uid" : "b0b827652f4fb862",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/59//#testresult/b0b827652f4fb862",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='proxy.teststand2.neontest.xyz', port=443): Read timed out. (read timeout=30)",
+        "time" : {
+          "start" : 1639137463322,
+          "stop" : 1639137463322,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c24e7b056477dcb9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/49//#testresult/c24e7b056477dcb9",
+        "status" : "broken",
+        "statusDetails" : "ValueError: Verifying nonce before send transaction: Error processing Instruction 1: invalid program argument",
+        "time" : {
+          "start" : 1639051618224,
+          "stop" : 1639051618224,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7cafb15b9b3759fe.json",
+  "parameterValues" : [ ]
+}
