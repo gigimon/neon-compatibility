@@ -1,0 +1,227 @@
+{
+  "uid" : "da280efcbeddd48f",
+  "name" : "Should return the new greeting once it's changed",
+  "fullName" : "Should return the new greeting once it's changed",
+  "historyId" : "2c311adb6e26ea339140e68e04c1139e",
+  "time" : {
+    "start" : 1639472489829,
+    "stop" : 1639472490894,
+    "duration" : 1065
+  },
+  "status" : "broken",
+  "statusMessage" : "'EthereumModel' object has no attribute 'eth_accounts'",
+  "statusTrace" : "ProviderError: 'EthereumModel' object has no attribute 'eth_accounts'\n    at HttpProvider.request (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\n    at GanacheGasMultiplierProvider.request (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/gas-providers.ts:310:34)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at EthersProviderWrapper.send (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-ethers/src/internal/ethers-provider-wrapper.ts:13:20)\n    at Object.getSigners (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-ethers/src/internal/helpers.ts:23:20)\n    at getContractFactoryByAbiAndBytecode (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-ethers/src/internal/helpers.ts:250:21)\n    at Context.<anonymous> (test/sample-test.js:6:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Hardhat advanced: Greeter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Not supported",
+      "messageRegex" : ".*'EthereumModel' object has no attribute .*",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 18,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "8a3b2bf1441c07ca",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/72//#testresult/8a3b2bf1441c07ca",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639471964359,
+          "stop" : 1639471965304,
+          "duration" : 945
+        }
+      }, {
+        "uid" : "f9f95cddc3f5bb79",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/f9f95cddc3f5bb79",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639467170960,
+          "stop" : 1639467171618,
+          "duration" : 658
+        }
+      }, {
+        "uid" : "4f7bc728f1e1c94a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/70//#testresult/4f7bc728f1e1c94a",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639466054530,
+          "stop" : 1639466055477,
+          "duration" : 947
+        }
+      }, {
+        "uid" : "b6a2d36aacafc5f6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/69//#testresult/b6a2d36aacafc5f6",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639463512004,
+          "stop" : 1639463512665,
+          "duration" : 661
+        }
+      }, {
+        "uid" : "69d66d00ba9398c8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/69d66d00ba9398c8",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639404339107,
+          "stop" : 1639404339782,
+          "duration" : 675
+        }
+      }, {
+        "uid" : "e10b807092a89450",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/e10b807092a89450",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639400928936,
+          "stop" : 1639400929889,
+          "duration" : 953
+        }
+      }, {
+        "uid" : "27a0744dcadf3cf0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/66//#testresult/27a0744dcadf3cf0",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639400037620,
+          "stop" : 1639400038563,
+          "duration" : 943
+        }
+      }, {
+        "uid" : "905ced1118867227",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/65//#testresult/905ced1118867227",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639399101202,
+          "stop" : 1639399102156,
+          "duration" : 954
+        }
+      }, {
+        "uid" : "ce25ab0b51ceafda",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/ce25ab0b51ceafda",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639392705452,
+          "stop" : 1639392706527,
+          "duration" : 1075
+        }
+      }, {
+        "uid" : "d9471206db7fc5fc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/d9471206db7fc5fc",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639390764100,
+          "stop" : 1639390765146,
+          "duration" : 1046
+        }
+      }, {
+        "uid" : "934f649c72a2ccc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/934f649c72a2ccc",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639389077674,
+          "stop" : 1639389078748,
+          "duration" : 1074
+        }
+      }, {
+        "uid" : "d9e42a6f924faffc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/d9e42a6f924faffc",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639385502040,
+          "stop" : 1639385502969,
+          "duration" : 929
+        }
+      }, {
+        "uid" : "ccdb7088426fc326",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/ccdb7088426fc326",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639384023038,
+          "stop" : 1639384024097,
+          "duration" : 1059
+        }
+      }, {
+        "uid" : "737403567821a387",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/59//#testresult/737403567821a387",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639137090299,
+          "stop" : 1639137091331,
+          "duration" : 1032
+        }
+      }, {
+        "uid" : "ac6a163402051fd6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/58//#testresult/ac6a163402051fd6",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639136431429,
+          "stop" : 1639136432374,
+          "duration" : 945
+        }
+      }, {
+        "uid" : "5ce0c39a300bcbd8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/5ce0c39a300bcbd8",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639098470612,
+          "stop" : 1639098471266,
+          "duration" : 654
+        }
+      }, {
+        "uid" : "3790aa1d38c7a13",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/49//#testresult/3790aa1d38c7a13",
+        "status" : "broken",
+        "statusDetails" : "'EthereumModel' object has no attribute 'eth_accounts'",
+        "time" : {
+          "start" : 1639051386099,
+          "stop" : 1639051387176,
+          "duration" : 1077
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da280efcbeddd48f.json",
+  "parameterValues" : [ ]
+}
