@@ -1,0 +1,77 @@
+{
+  "uid" : "64173a38bd310ec5",
+  "name" : "proposer can cancel",
+  "fullName" : "proposer can cancel",
+  "historyId" : "af5ed74260eb265d3f5b65e79aaf9027",
+  "time" : {
+    "start" : 1639566975001,
+    "stop" : 1639566975001,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: TimelockController"
+  }, {
+    "name" : "suite",
+    "value" : "methods"
+  }, {
+    "name" : "subSuite",
+    "value" : "cancel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "88c21a9885bc4519",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/88c21a9885bc4519",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639556466943,
+          "stop" : 1639556466943,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "64173a38bd310ec5.json",
+  "parameterValues" : [ ]
+}

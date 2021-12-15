@@ -1,0 +1,74 @@
+{
+  "uid" : "1aba3502e4c7e96e",
+  "name" : "reverts if block number >= current block",
+  "fullName" : "reverts if block number >= current block",
+  "historyId" : "665d00b673b5679c3929d250d6f59ed3",
+  "time" : {
+    "start" : 1639565304213,
+    "stop" : 1639565304213,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20Votes"
+  }, {
+    "name" : "suite",
+    "value" : "getPastTotalSupply"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d935af362aa3a67f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/d935af362aa3a67f",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639554824242,
+          "stop" : 1639554824242,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1aba3502e4c7e96e.json",
+  "parameterValues" : [ ]
+}

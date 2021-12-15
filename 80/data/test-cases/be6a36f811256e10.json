@@ -1,0 +1,82 @@
+{
+  "uid" : "be6a36f811256e10",
+  "name" : "with invalid signer",
+  "fullName" : "with invalid signer",
+  "historyId" : "bb2e8e8342631579ad6b9342734a8f44",
+  "time" : {
+    "start" : 1639563957606,
+    "stop" : 1639563962299,
+    "duration" : 4693
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: SignatureChecker (ERC1271)"
+  }, {
+    "name" : "suite",
+    "value" : "ERC1271 wallet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8e7d20cd2866f9d0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/8e7d20cd2866f9d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639553642311,
+          "stop" : 1639553643814,
+          "duration" : 1503
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be6a36f811256e10.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "d927f8eb89d39267",
+  "name" : "with long signature",
+  "fullName" : "with long signature",
+  "historyId" : "1f52bbc3e8a62032cd9cbb576b7031bd",
+  "time" : {
+    "start" : 1639563707142,
+    "stop" : 1639563862070,
+    "duration" : 154928
+  },
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n    at Context.<anonymous> (test/utils/cryptography/ECDSA.test.js:58:37)\n    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ECDSA"
+  }, {
+    "name" : "suite",
+    "value" : "recover with invalid signature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "de99d1f57524df0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/de99d1f57524df0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639552932189,
+          "stop" : 1639552938085,
+          "duration" : 5896
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d927f8eb89d39267.json",
+  "parameterValues" : [ ]
+}

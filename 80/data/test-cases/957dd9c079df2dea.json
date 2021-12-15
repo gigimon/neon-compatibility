@@ -1,0 +1,82 @@
+{
+  "uid" : "957dd9c079df2dea",
+  "name" : "starts empty",
+  "fullName" : "starts empty",
+  "historyId" : "6bf74e3ff9d493018ad7e097f9eaa6a5",
+  "time" : {
+    "start" : 1639569838566,
+    "stop" : 1639569844619,
+    "duration" : 6053
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: EnumerableSet"
+  }, {
+    "name" : "suite",
+    "value" : "EnumerableBytes32Set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "75e81b80c707d6bd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/75e81b80c707d6bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639560358745,
+          "stop" : 1639560367732,
+          "duration" : 8987
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "957dd9c079df2dea.json",
+  "parameterValues" : [ ]
+}

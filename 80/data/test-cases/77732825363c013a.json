@@ -1,0 +1,89 @@
+{
+  "uid" : "77732825363c013a",
+  "name" : "holder can burn their tokens",
+  "fullName" : "holder can burn their tokens",
+  "historyId" : "87ca856b8af3fb0d96277e02b1d597cf",
+  "time" : {
+    "start" : 1639563270734,
+    "stop" : 1639563401780,
+    "duration" : 131046
+  },
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n    at Context.<anonymous> (test/token/ERC1155/extensions/ERC1155Burnable.test.js:16:47)\n    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC1155Burnable"
+  }, {
+    "name" : "suite",
+    "value" : "burn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a026caea2ebfaae5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/a026caea2ebfaae5",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639552767436,
+          "stop" : 1639552916970,
+          "duration" : 149534
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77732825363c013a.json",
+  "parameterValues" : [ ]
+}

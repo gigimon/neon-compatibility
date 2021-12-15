@@ -1,0 +1,82 @@
+{
+  "uid" : "ad5527c5236e6c69",
+  "name" : "with matching signer and signature",
+  "fullName" : "with matching signer and signature",
+  "historyId" : "e31f764804f93d1739be090f973d2712",
+  "time" : {
+    "start" : 1639563907799,
+    "stop" : 1639563949733,
+    "duration" : 41934
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: SignatureChecker (ERC1271)"
+  }, {
+    "name" : "suite",
+    "value" : "EOA account"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ef51d94d04e7c8fc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/ef51d94d04e7c8fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639553636102,
+          "stop" : 1639553637606,
+          "duration" : 1504
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ad5527c5236e6c69.json",
+  "parameterValues" : [ ]
+}

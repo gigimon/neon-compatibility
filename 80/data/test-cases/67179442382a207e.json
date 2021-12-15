@@ -1,0 +1,95 @@
+{
+  "uid" : "67179442382a207e",
+  "name" : "returns the owner of the given token ID",
+  "fullName" : "returns the owner of the given token ID",
+  "historyId" : "a196377ff411a39c75e850365624ef8a",
+  "time" : {
+    "start" : 1639565262318,
+    "stop" : 1639565275563,
+    "duration" : 13245
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC721"
+  }, {
+    "name" : "suite",
+    "value" : "with minted tokens"
+  }, {
+    "name" : "subSuite",
+    "value" : "ownerOf > when the given token ID was tracked by this token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6f39563d1c96d3fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/6f39563d1c96d3fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639554100334,
+          "stop" : 1639554112430,
+          "duration" : 12096
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "67179442382a207e.json",
+  "parameterValues" : [ ]
+}
