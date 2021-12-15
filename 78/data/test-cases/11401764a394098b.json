@@ -1,0 +1,94 @@
+{
+  "uid" : "11401764a394098b",
+  "name" : "rejects a release time in the past",
+  "fullName" : "Contract: TokenTimelock with token.rejects a release time in the past",
+  "historyId" : "f97ca6cea1ad3d6c2c6f7dfaa695979",
+  "time" : {
+    "start" : 1639541922702,
+    "stop" : 1639541928793,
+    "duration" : 6091
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: TokenTimelock with token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TokenTimelock with token"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects a release time in the past"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TokenTimelock with token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "74831124d9c87c84",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/74831124d9c87c84",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'TokenTimelock: release time is before current time'",
+        "time" : {
+          "start" : 1639405731336,
+          "stop" : 1639405738934,
+          "duration" : 7598
+        }
+      }, {
+        "uid" : "326296b4db616bf5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/326296b4db616bf5",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'TokenTimelock: release time is before current time'",
+        "time" : {
+          "start" : 1639403381209,
+          "stop" : 1639403458945,
+          "duration" : 77736
+        }
+      }, {
+        "uid" : "84377238ad9b8136",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/84377238ad9b8136",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'TokenTimelock: release time is before current time'",
+        "time" : {
+          "start" : 1639108937401,
+          "stop" : 1639108945260,
+          "duration" : 7859
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "11401764a394098b.json",
+  "parameterValues" : [ ]
+}

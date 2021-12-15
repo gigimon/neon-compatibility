@@ -1,0 +1,127 @@
+{
+  "uid" : "b1fea11362c930cb",
+  "name" : "roles that are not had can be renounced",
+  "fullName" : "Contract: AccessControl renouncing.roles that are not had can be renounced",
+  "historyId" : "d802d811b47c617db5169ac500490d25",
+  "time" : {
+    "start" : 1639537903592,
+    "stop" : 1639537910804,
+    "duration" : 7212
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: AccessControl renouncing"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: AccessControl renouncing"
+  }, {
+    "name" : "testMethod",
+    "value" : "roles that are not had can be renounced"
+  }, {
+    "name" : "package",
+    "value" : "Contract: AccessControl renouncing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "852f5f719ad147ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639537903530,
+        "stop" : 1639537910767,
+        "duration" : 7237
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "308b79ac78392499",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/308b79ac78392499",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639527845410,
+          "stop" : 1639527852461,
+          "duration" : 7051
+        }
+      }, {
+        "uid" : "3e7b8273b7ea0b0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/3e7b8273b7ea0b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639405049993,
+          "stop" : 1639405057081,
+          "duration" : 7088
+        }
+      }, {
+        "uid" : "5634beee41e3c6a6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/5634beee41e3c6a6",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639401403888,
+          "stop" : 1639401534955,
+          "duration" : 131067
+        }
+      }, {
+        "uid" : "9faae79fb74cd990",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/9faae79fb74cd990",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393052280,
+          "stop" : 1639393059828,
+          "duration" : 7548
+        }
+      }, {
+        "uid" : "9f57578aec4e6e1d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/9f57578aec4e6e1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389302594,
+          "stop" : 1639389309282,
+          "duration" : 6688
+        }
+      }, {
+        "uid" : "5ce27f1906f19aab",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/5ce27f1906f19aab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639099092256,
+          "stop" : 1639099099969,
+          "duration" : 7713
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b1fea11362c930cb.json",
+  "parameterValues" : [ ]
+}

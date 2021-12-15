@@ -1,0 +1,120 @@
+{
+  "uid" : "f71975749eaef21d",
+  "name" : "fails deploying a contract if factory contract does not have sufficient balance",
+  "fullName" : "Contract: Create2 deploy.fails deploying a contract if factory contract does not have sufficient balance",
+  "historyId" : "e9734245c845579d6c7b1e64ff8c775e",
+  "time" : {
+    "start" : 1639546108736,
+    "stop" : 1639546116685,
+    "duration" : 7949
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected an exception but none was received",
+  "statusTrace" : "AssertionError: Expected an exception but none was received\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:25:10)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/utils/Create2.test.js:86:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "testMethod",
+    "value" : "fails deploying a contract if factory contract does not have sufficient balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Create2 deploy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "1fa132c8e096ea72",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/1fa132c8e096ea72",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639537017788,
+          "stop" : 1639537026655,
+          "duration" : 8867
+        }
+      }, {
+        "uid" : "6a2659fbd9e55bca",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/6a2659fbd9e55bca",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639422752784,
+          "stop" : 1639422761908,
+          "duration" : 9124
+        }
+      }, {
+        "uid" : "9d9b635f99b75b79",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/9d9b635f99b75b79",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639403737445,
+          "stop" : 1639403746135,
+          "duration" : 8690
+        }
+      }, {
+        "uid" : "7cf6c1186433babc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/7cf6c1186433babc",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639396096753,
+          "stop" : 1639396106909,
+          "duration" : 10156
+        }
+      }, {
+        "uid" : "67aa58cda17d3c67",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/67aa58cda17d3c67",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639387334688,
+          "stop" : 1639387360666,
+          "duration" : 25978
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f71975749eaef21d.json",
+  "parameterValues" : [ ]
+}

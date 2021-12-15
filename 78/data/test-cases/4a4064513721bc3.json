@@ -1,0 +1,153 @@
+{
+  "uid" : "4a4064513721bc3",
+  "name" : "rejects more shares than payees",
+  "fullName" : "Contract: PaymentSplitter.rejects more shares than payees",
+  "historyId" : "e81f839eb15c14f7b1b900a7a5a52fa",
+  "time" : {
+    "start" : 1639538124430,
+    "stop" : 1639538127317,
+    "duration" : 2887
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects more shares than payees"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "5f34567a070a19c6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/5f34567a070a19c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639528004366,
+          "stop" : 1639528007216,
+          "duration" : 2850
+        }
+      }, {
+        "uid" : "930ea9caebf7585d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/930ea9caebf7585d",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639405214598,
+          "stop" : 1639405217461,
+          "duration" : 2863
+        }
+      }, {
+        "uid" : "15491cd963d9bd2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/15491cd963d9bd2",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639401871913,
+          "stop" : 1639401874486,
+          "duration" : 2573
+        }
+      }, {
+        "uid" : "ed24077def36453a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/ed24077def36453a",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639393277267,
+          "stop" : 1639393280147,
+          "duration" : 2880
+        }
+      }, {
+        "uid" : "1a1e1deb22301e01",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1a1e1deb22301e01",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639390796711,
+          "stop" : 1639390799628,
+          "duration" : 2917
+        }
+      }, {
+        "uid" : "eafaa99e68929078",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/eafaa99e68929078",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639389591129,
+          "stop" : 1639389593764,
+          "duration" : 2635
+        }
+      }, {
+        "uid" : "5ebd0a00dfa2518f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/5ebd0a00dfa2518f",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639385823248,
+          "stop" : 1639385825859,
+          "duration" : 2611
+        }
+      }, {
+        "uid" : "cdfe1aa9fab3bd57",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/cdfe1aa9fab3bd57",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639384157128,
+          "stop" : 1639384160013,
+          "duration" : 2885
+        }
+      }, {
+        "uid" : "3ee8a6c40de920f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/3ee8a6c40de920f",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: payees and shares length mismatch'",
+        "time" : {
+          "start" : 1639099345629,
+          "stop" : 1639099348585,
+          "duration" : 2956
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4a4064513721bc3.json",
+  "parameterValues" : [ ]
+}

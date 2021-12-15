@@ -1,0 +1,101 @@
+{
+  "uid" : "24ff070d1eb627bf",
+  "name" : "reverts when more than the full allowance is removed",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender has enough balance when the spender had an approved amount.reverts when more than the full allowance is removed",
+  "historyId" : "12732d88c1ce24541c5f229921012bb1",
+  "time" : {
+    "start" : 1639542194811,
+    "stop" : 1639542202433,
+    "duration" : 7622
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when more than the full allowance is removed"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "7bd1b58248b9c733",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/7bd1b58248b9c733",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531706755,
+          "stop" : 1639531716966,
+          "duration" : 10211
+        }
+      }, {
+        "uid" : "135f008d58c0592b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/135f008d58c0592b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404809160,
+          "stop" : 1639404853342,
+          "duration" : 44182
+        }
+      }, {
+        "uid" : "abeff5daa2dff158",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/abeff5daa2dff158",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20: decreased allowance below zero'",
+        "time" : {
+          "start" : 1639402054001,
+          "stop" : 1639402191319,
+          "duration" : 137318
+        }
+      }, {
+        "uid" : "d1e5fd527b42a2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d1e5fd527b42a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106434753,
+          "stop" : 1639106445215,
+          "duration" : 10462
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "24ff070d1eb627bf.json",
+  "parameterValues" : [ ]
+}

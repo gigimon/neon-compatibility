@@ -1,0 +1,150 @@
+{
+  "uid" : "5573bd751488bfd3",
+  "name" : "non-payable initialization",
+  "fullName" : "Contract: BeaconProxy initialization.non-payable initialization",
+  "historyId" : "b939243ada3bf723bc9881f4c83a03b5",
+  "time" : {
+    "start" : 1639540479098,
+    "stop" : 1639540490900,
+    "duration" : 11802
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '1000000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '1000000000000000000000' to equal '0'\n                    at Context.assertInitialized (test/proxy/beacon/BeaconProxy.test.js:62:76)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/proxy/beacon/BeaconProxy.test.js:83:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "testMethod",
+    "value" : "non-payable initialization"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy initialization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "d0af08a616690dbf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/d0af08a616690dbf",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639530295652,
+          "stop" : 1639530306770,
+          "duration" : 11118
+        }
+      }, {
+        "uid" : "74ebbe3864449ff7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/74ebbe3864449ff7",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639408556974,
+          "stop" : 1639408567892,
+          "duration" : 10918
+        }
+      }, {
+        "uid" : "393fba186686887d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/393fba186686887d",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639402338429,
+          "stop" : 1639402472299,
+          "duration" : 133870
+        }
+      }, {
+        "uid" : "ceb4b0b72e80e786",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/ceb4b0b72e80e786",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639392006458,
+          "stop" : 1639392039707,
+          "duration" : 33249
+        }
+      }, {
+        "uid" : "54ee0bae4b510d45",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/54ee0bae4b510d45",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639392013500,
+          "stop" : 1639392025015,
+          "duration" : 11515
+        }
+      }, {
+        "uid" : "32e84e6cd8058e35",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/32e84e6cd8058e35",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639388842732,
+          "stop" : 1639388942736,
+          "duration" : 100004
+        }
+      }, {
+        "uid" : "b552a12d6317a2f3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/b552a12d6317a2f3",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639385272142,
+          "stop" : 1639385284089,
+          "duration" : 11947
+        }
+      }, {
+        "uid" : "445504efdb0a7a60",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/445504efdb0a7a60",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639102218243,
+          "stop" : 1639102229228,
+          "duration" : 10985
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5573bd751488bfd3.json",
+  "parameterValues" : [ ]
+}

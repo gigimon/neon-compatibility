@@ -1,0 +1,120 @@
+{
+  "uid" : "fcdee5e04a7ad673",
+  "name" : "initializer does not run again",
+  "fullName" : "Contract: Initializable basic testing without inheritance after initialize.initializer does not run again",
+  "historyId" : "6029ee3d74b1e3024ff14885fdcc9c36",
+  "time" : {
+    "start" : 1639540406373,
+    "stop" : 1639540416641,
+    "duration" : 10268
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Initializable basic testing without inheritance after initialize"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Initializable basic testing without inheritance after initialize"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializer does not run again"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Initializable basic testing without inheritance after initialize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "3d6f91a854076db4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/3d6f91a854076db4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639409418515,
+          "stop" : 1639409428295,
+          "duration" : 9780
+        }
+      }, {
+        "uid" : "bfcf97992efbc266",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/bfcf97992efbc266",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639403009601,
+          "stop" : 1639403035529,
+          "duration" : 25928
+        }
+      }, {
+        "uid" : "d58d4cd98dea8827",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/d58d4cd98dea8827",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'Initializable: contract is already initialized'",
+        "time" : {
+          "start" : 1639391818810,
+          "stop" : 1639391947399,
+          "duration" : 128589
+        }
+      }, {
+        "uid" : "a8c8c47775632d11",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/a8c8c47775632d11",
+        "status" : "broken",
+        "statusDetails" : "done() called multiple times in test <Contract: Initializable basic testing without inheritance after initialize initializer has run> of file /home/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/proxy/utils/Initializable.test.js; in addition, done() received error: HardhatError: HH109: Network connection timed out.\n                    at Context.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/proxy/utils/Initializable.test.js:26:43)\n                    at callFn (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runnable.js:374:21)\n                    at Test.Runnable.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runnable.js:361:7)\n                    at Runner.runTest (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runner.js:619:10)\n                    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runner.js:745:12\n                    at next (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runner.js:536:14)\n                    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runner.js:546:7\n                    at next (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runner.js:448:14)\n                    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runner.js:509:7\n                    at done (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runnable.js:314:5)\n                    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runnable.js:379:11\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                \n                    Caused by: FetchError: network timeout at: https://proxy.teststand2.neontest.xyz/solana\n                        at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/node-fetch/lib/index.js:1476:13)\n                        at listOnTimeout (node:internal/timers:557:17)\n                        at processTimers (node:internal/timers:500:7)",
+        "time" : {
+          "start" : 1639388219466,
+          "stop" : 1639388405728,
+          "duration" : 186262
+        }
+      }, {
+        "uid" : "b0cb698f62c53271",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/b0cb698f62c53271",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639384880720,
+          "stop" : 1639385037373,
+          "duration" : 156653
+        }
+      }, {
+        "uid" : "7eb50f2fd3124af",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7eb50f2fd3124af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639103675250,
+          "stop" : 1639103685272,
+          "duration" : 10022
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fcdee5e04a7ad673.json",
+  "parameterValues" : [ ]
+}

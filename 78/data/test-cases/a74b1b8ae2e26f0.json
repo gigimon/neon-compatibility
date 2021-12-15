@@ -1,0 +1,144 @@
+{
+  "uid" : "a74b1b8ae2e26f0",
+  "name" : "rejects zero address for beneficiary",
+  "fullName" : "Contract: VestingWallet.rejects zero address for beneficiary",
+  "historyId" : "bef7a5330168f359aa261f5b27a742ca",
+  "time" : {
+    "start" : 1639538117665,
+    "stop" : 1639538126297,
+    "duration" : 8632
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: VestingWallet"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: VestingWallet"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects zero address for beneficiary"
+  }, {
+    "name" : "package",
+    "value" : "Contract: VestingWallet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "d9651fec5691a824",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/d9651fec5691a824",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639405402042,
+          "stop" : 1639405409442,
+          "duration" : 7400
+        }
+      }, {
+        "uid" : "45a0c29da3031d99",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/45a0c29da3031d99",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639402498560,
+          "stop" : 1639402642639,
+          "duration" : 144079
+        }
+      }, {
+        "uid" : "ed563991419ed4d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/ed563991419ed4d6",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639393270661,
+          "stop" : 1639393278743,
+          "duration" : 8082
+        }
+      }, {
+        "uid" : "3f3331ced8aeff1d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3f3331ced8aeff1d",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639390790282,
+          "stop" : 1639390798216,
+          "duration" : 7934
+        }
+      }, {
+        "uid" : "aecc742c854a884d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/aecc742c854a884d",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639389585362,
+          "stop" : 1639389592590,
+          "duration" : 7228
+        }
+      }, {
+        "uid" : "da3963f0accb6973",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/da3963f0accb6973",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639385817352,
+          "stop" : 1639385824754,
+          "duration" : 7402
+        }
+      }, {
+        "uid" : "301e034d4fc64d62",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/301e034d4fc64d62",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639384150969,
+          "stop" : 1639384159188,
+          "duration" : 8219
+        }
+      }, {
+        "uid" : "9128c37a7dd5f0e4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/9128c37a7dd5f0e4",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'VestingWallet: beneficiary is zero address'",
+        "time" : {
+          "start" : 1639099535045,
+          "stop" : 1639099542768,
+          "duration" : 7723
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a74b1b8ae2e26f0.json",
+  "parameterValues" : [ ]
+}

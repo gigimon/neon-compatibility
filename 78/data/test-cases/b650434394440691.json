@@ -1,0 +1,100 @@
+{
+  "uid" : "b650434394440691",
+  "name" : "cannot be released twice",
+  "fullName" : "Contract: TokenTimelock with token once deployed.cannot be released twice",
+  "historyId" : "29f10e95dc366b21e78e15db4bad4735",
+  "time" : {
+    "start" : 1639541993936,
+    "stop" : 1639542006700,
+    "duration" : 12764
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: execution reverted: TokenTimelock: current time is before release time",
+  "statusTrace" : "Error: Returned error: execution reverted: TokenTimelock: current time is before release time\n                    at Context.<anonymous> (test/token/ERC20/utils/TokenTimelock.test.js:65:29)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: TokenTimelock with token once deployed"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TokenTimelock with token once deployed"
+  }, {
+    "name" : "testMethod",
+    "value" : "cannot be released twice"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TokenTimelock with token once deployed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ea62fb616759f9fe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/ea62fb616759f9fe",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted: TokenTimelock: current time is before release time",
+        "time" : {
+          "start" : 1639405821076,
+          "stop" : 1639405837647,
+          "duration" : 16571
+        }
+      }, {
+        "uid" : "b80190fa7531fa1f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/b80190fa7531fa1f",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted: TokenTimelock: current time is before release time",
+        "time" : {
+          "start" : 1639403782394,
+          "stop" : 1639403881245,
+          "duration" : 98851
+        }
+      }, {
+        "uid" : "656ad8c78664c331",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/656ad8c78664c331",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted: TokenTimelock: current time is before release time",
+        "time" : {
+          "start" : 1639109028395,
+          "stop" : 1639109044967,
+          "duration" : 16572
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b650434394440691.json",
+  "parameterValues" : [ ]
+}
