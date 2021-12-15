@@ -1,0 +1,82 @@
+{
+  "uid" : "fc9d5bcc1ecc737f",
+  "name" : "approves the requested amount and replaces the previous one",
+  "fullName" : "Contract: ERC20 _approve when the spender is not the zero address when the sender has enough balance when the spender had an approved amount.approves the requested amount and replaces the previous one",
+  "historyId" : "ebb3c57e74b0481e0f20d9edac91247b",
+  "time" : {
+    "start" : 1639532022174,
+    "stop" : 1639532034013,
+    "duration" : 11839
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20 _approve when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 _approve when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "approves the requested amount and replaces the previous one"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 _approve when the spender is not the zero address when the sender has enough balance when the spender had an approved amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "480717f9d6ecb1aa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/480717f9d6ecb1aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639405157340,
+          "stop" : 1639405169126,
+          "duration" : 11786
+        }
+      }, {
+        "uid" : "e52ebf2099e9b704",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/e52ebf2099e9b704",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106752081,
+          "stop" : 1639106764868,
+          "duration" : 12787
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fc9d5bcc1ecc737f.json",
+  "parameterValues" : [ ]
+}

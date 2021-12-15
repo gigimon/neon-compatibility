@@ -1,0 +1,336 @@
+{
+  "uid" : "56bbae0e6a47e79",
+  "name" : "test_issue_364_self_destruct_contract",
+  "fullName" : "tests.truffle.test_truffle#test_issue_364_self_destruct_contract",
+  "historyId" : "9b9a0ac6c1438da1dd6a59ac61d1506c",
+  "time" : {
+    "start" : 1639527946713,
+    "stop" : 1639527975349,
+    "duration" : 28636
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "prepare_truffle_config",
+    "time" : {
+      "start" : 1639527946701,
+      "stop" : 1639527946712,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Preset variables",
+      "time" : {
+        "start" : 1639527946701,
+        "stop" : 1639527946712,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clean up folder \"'/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts'\"",
+      "time" : {
+        "start" : 1639527946712,
+        "stop" : 1639527946712,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folder",
+        "value" : "'/home/runner/work/neon-compatibility/neon-compatibility/Metacoin/build/contracts'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Run command: \"'cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3'\"",
+      "time" : {
+        "start" : 1639527946713,
+        "stop" : 1639527975348,
+        "duration" : 28635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "command",
+        "value" : "'cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "85e91f7524b14a8d",
+      "name" : "stdout",
+      "source" : "85e91f7524b14a8d.txt",
+      "type" : "text/plain",
+      "size" : 3203
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "prepare_truffle_config::0",
+    "time" : {
+      "start" : 1639527975350,
+      "stop" : 1639527975350,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Truffle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.truffle"
+  }, {
+    "name" : "suite",
+    "value" : "test_truffle"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-587"
+  }, {
+    "name" : "thread",
+    "value" : "4488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.truffle.test_truffle"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "35f89324c05a34f2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/76//#testresult/35f89324c05a34f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639487161458,
+          "stop" : 1639487212668,
+          "duration" : 51210
+        }
+      }, {
+        "uid" : "efe6cc53dac342cc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/75//#testresult/efe6cc53dac342cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639483321211,
+          "stop" : 1639483358626,
+          "duration" : 37415
+        }
+      }, {
+        "uid" : "1019cc46884949f7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/74//#testresult/1019cc46884949f7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n     > transaction hash:    0x8317d4bdb15ef7cb06747b36d357a9ef7aa73ce8eb476ddc93279c4eb7328895\n     > Blocks: 0            Seconds: 0\n     > contract address:    0xaF55070EBEC18adf810032BA9edcd0cfd100c2cA\n     > block number:        1228803\n     > block timestamp:     1639478396\n     > account:             0x8E1504a15c5f88108752899467FBb8342924b4FE\n     > balance:             99.999871115\n     > gas used:            128885 (0x1f775)\n     > gas price:           1 gwei\n     > value sent:          0 ETH\n     > total cost:          0.000128885 ETH\n  \n  Sending ether to contract\n  99999871115000000000 --- 99999871115000000000 --- 100000000000000000000\n  Hello0\n  - Blocks: 0            Seconds: 0\n  \n  /home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848\n            var e = new Error('ETIMEDOUT')\n                    ^\n  Error: PollingBlockTracker - encountered an error while attempting to update latest block:\n  Error: ETIMEDOUT\n      at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848:19)\n      at listOnTimeout (node:internal/timers:557:17)\n      at processTimers (node:internal/timers:500:7)\n      at PollingBlockTracker._performSync (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/eth-block-tracker/src/polling.js:51:24)\n      at processTicksAndRejections (node:internal/process/task_queues:96:5)\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc.../eth-block-tracker/src/polling.js:51:24)\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\n\").returncode",
+        "time" : {
+          "start" : 1639478378053,
+          "stop" : 1639478439935,
+          "duration" : 61882
+        }
+      }, {
+        "uid" : "993220815344e46",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/73//#testresult/993220815344e46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639472880824,
+          "stop" : 1639472919244,
+          "duration" : 38420
+        }
+      }, {
+        "uid" : "19e0585551d849e0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/72//#testresult/19e0585551d849e0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  Error: There was a timeout while attempting to connect to the network at undefined.\n         Check to see that your provider is valid.\n         If you have a slow internet connection, try configuring a longer timeout in your Truffle config. Use the networks[networkName].networkCheckTimeout property to do this.\n      at Timeout._onTimeout (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/provider/index.js:57:1)\n      at listOnTimeout (node:internal/timers:557:17)\n      at processTimers (node:internal/timers:500:7)\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...dex.js:57:1)\\n    at listOnTimeout (node:internal/timers:557:17)\\n    at processTimers (node:internal/timers:500:7)\\n').returncode",
+        "time" : {
+          "start" : 1639472329482,
+          "stop" : 1639472345580,
+          "duration" : 16098
+        }
+      }, {
+        "uid" : "8ac58a2c3808aa8d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/8ac58a2c3808aa8d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n     > transaction hash:    0x1075ca447eb0a92764ddc6b29e7abb4e9cf08d8768dec01588eb7560a4812f20\n  - Blocks: 0            Seconds: 0\n  \n  /home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848\n            var e = new Error('ETIMEDOUT')\n                    ^\n  Error: PollingBlockTracker - encountered an error while attempting to update latest block:\n  Error: ETIMEDOUT\n      at Timeout.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/request/request.js:848:19)\n      at listOnTimeout (node:internal/timers:557:17)\n      at processTimers (node:internal/timers:500:7)\n      at PollingBlockTracker._performSync (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/eth-block-tracker/src/polling.js:51:24)\n      at processTicksAndRejections (node:internal/process/task_queues:96:5)\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc.../eth-block-tracker/src/polling.js:51:24)\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\n\").returncode",
+        "time" : {
+          "start" : 1639467602322,
+          "stop" : 1639467642734,
+          "duration" : 40412
+        }
+      }, {
+        "uid" : "3d59ff49dc752353",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/70//#testresult/3d59ff49dc752353",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639466506386,
+          "stop" : 1639466541911,
+          "duration" : 35525
+        }
+      }, {
+        "uid" : "61fcb2039b9fc04d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/69//#testresult/61fcb2039b9fc04d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639463928841,
+          "stop" : 1639463968615,
+          "duration" : 39774
+        }
+      }, {
+        "uid" : "889295092946b3f4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/889295092946b3f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404839196,
+          "stop" : 1639404874117,
+          "duration" : 34921
+        }
+      }, {
+        "uid" : "67a7f656c634f31f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/67a7f656c634f31f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639401409789,
+          "stop" : 1639401444181,
+          "duration" : 34392
+        }
+      }, {
+        "uid" : "a7149246264b03fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/66//#testresult/a7149246264b03fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639400504338,
+          "stop" : 1639400545342,
+          "duration" : 41004
+        }
+      }, {
+        "uid" : "866f6e9e0d79ef49",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/65//#testresult/866f6e9e0d79ef49",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  Error: There was a timeout while attempting to connect to the network at undefined.\n         Check to see that your provider is valid.\n         If you have a slow internet connection, try configuring a longer timeout in your Truffle config. Use the networks[networkName].networkCheckTimeout property to do this.\n      at Timeout._onTimeout (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/provider/index.js:57:1)\n      at listOnTimeout (node:internal/timers:557:17)\n      at processTimers (node:internal/timers:500:7)\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...dex.js:57:1)\\n    at listOnTimeout (node:internal/timers:557:17)\\n    at processTimers (node:internal/timers:500:7)\\n').returncode",
+        "time" : {
+          "start" : 1639399493786,
+          "stop" : 1639399509911,
+          "duration" : 16125
+        }
+      }, {
+        "uid" : "6953ba054f70bb77",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/6953ba054f70bb77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393100569,
+          "stop" : 1639393129980,
+          "duration" : 29411
+        }
+      }, {
+        "uid" : "af0954a2db39ff61",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/af0954a2db39ff61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391233016,
+          "stop" : 1639391267598,
+          "duration" : 34582
+        }
+      }, {
+        "uid" : "74ea41e600219b55",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/74ea41e600219b55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389568219,
+          "stop" : 1639389600682,
+          "duration" : 32463
+        }
+      }, {
+        "uid" : "9a55cb634f9649af",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/9a55cb634f9649af",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  Error: There was a timeout while attempting to connect to the network at undefined.\n         Check to see that your provider is valid.\n         If you have a slow internet connection, try configuring a longer timeout in your Truffle config. Use the networks[networkName].networkCheckTimeout property to do this.\n      at Timeout._onTimeout (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/provider/index.js:57:1)\n      at listOnTimeout (node:internal/timers:557:17)\n      at processTimers (node:internal/timers:500:7)\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...dex.js:57:1)\\n    at listOnTimeout (node:internal/timers:557:17)\\n    at processTimers (node:internal/timers:500:7)\\n').returncode",
+        "time" : {
+          "start" : 1639385871825,
+          "stop" : 1639385887902,
+          "duration" : 16077
+        }
+      }, {
+        "uid" : "5a53fcefecf98fdc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/5a53fcefecf98fdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639384552739,
+          "stop" : 1639384585381,
+          "duration" : 32642
+        }
+      }, {
+        "uid" : "ca028f609e508e2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/49//#testresult/ca028f609e508e2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \n  Compiling your contracts...\n  ===========================\n  > Compiling ./contracts/ERC20Test.sol\n  > Compiling ./contracts/Migrations.sol\n  > Compiling ./contracts/SelfDestructTest.sol\n  > Compiling @openzeppelin/contracts/access/Ownable.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol\n  > Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol\n  > Compiling @openzeppelin/contracts/utils/Context.sol\n  > Compilation warnings encountered:\n  \n      Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n  --> project:/contracts/SelfDestructTest.sol\n  \n  ,Warning: This contract has a payable fallback function, but no receive ether function. Consider adding a receive ether function.\n   --> project:/contracts/SelfDestructTest.sol:5:1:\n    |\n  5 | contract SelfDestructTest is Ownable{\n    | ^ (Relevant source part starts here and spans across multiple lines).\n  Note: The payable fallback function is defined here.\n    --> project:/contracts/SelfDestructTest.sol:20:5:\n     |\n  20 |     fallback() external payable {}\n     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  \n  ,Warning: Function state mutability can be restricted to pure\n    --> project:/contracts/SelfDestructTest.sol:12:5:\n     |\n  12 |     function staticData() public view returns(string memory) {\n     |     ^ (Relevant source part starts here and spans across multiple lines).\n  \n  \n  > Artifacts written to /home/runner/work/neon-compatibility/neon-compatibility/issues/364/build/contracts\n  > Compiled successfully using:\n     - solc: 0.8.4+commit.c7e474f2.Emscripten.clang\n  \n  \n  \n  Starting migrations...\n  ======================\n  > Network name:    'neonlabs'\n  > Network id:      111\n  > Block gas limit: 6721975 (0x6691b7)\n  \n  \n  3_selfDestructTest.js\n  =====================\n  \n     Deploying 'SelfDestructTest'\n     ----------------------------\n     > transaction hash:    0x9e1fff474adcf9452f9f2713fba9842e02ecdf58d90b8ec27cd8ab07ae45012c\n     > Blocks: 0            Seconds: 0\n     > contract address:    0x1761199Cb147fe5E1D771e36E1be865035Ee67b5\n     > block number:        208376\n     > block timestamp:     1639052221\n     > account:             0x86ce0944df848Ba7276a816df6896D0369724FCE\n     > balance:             99.999871115\n     > gas used:            128885 (0x1f775)\n     > gas price:           1 gwei\n     > value sent:          0 ETH\n     > total cost:          0.000128885 ETH\n  \n  Sending ether to contract\n  99999871115000000000 --- 99999871115000000000 --- 100000000000000000000\n  Hello0\n  \n  Error: ESOCKETTIMEDOUT\n      at module.exports (/home/runner/work/neon-compatibility/neon-compatibility/issues/364/migrations/3_selfDestructTest.js:24:24)\n      at runMicrotasks (<anonymous>)\n      at processTicksAndRejections (node:internal/process/task_queues:96:5)\n      at Migration._deploy (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:75:1)\n      at Migration._load (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:56:1)\n      at Migration.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/Migration.js:217:1)\n      at Object.runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:150:1)\n      at Object.runFrom (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/migrate/index.js:110:1)\n      at runMigrations (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:253:1)\n      at Object.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate.js:223:1)\n      at Command.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/truffle/build/webpack:/packages/core/lib/command.js:183:1)\n  Truffle v5.4.14 (core: 5.4.14)\n  Node v16.13.0\n  - Blocks: 0            Seconds: 0\n  \nassert 1 == 0\n +  where 1 = CompletedProcess(args='cd issues/364; ../../node_modules/.bin/truffle --network neonlabs migrate -f 3 --to 3', returnc...lib/command.js:183:1)\\nTruffle v5.4.14 (core: 5.4.14)\\nNode v16.13.0\\n', stderr=b'- Blocks: 0            Seconds: 0\\n').returncode",
+        "time" : {
+          "start" : 1639052203791,
+          "stop" : 1639052250415,
+          "duration" : 46624
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "56bbae0e6a47e79.json",
+  "parameterValues" : [ ]
+}

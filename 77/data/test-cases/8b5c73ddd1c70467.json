@@ -1,0 +1,92 @@
+{
+  "uid" : "8b5c73ddd1c70467",
+  "name" : "base URI is added as a prefix to the token URI",
+  "fullName" : "Contract: ERC721 metadata token URI base URI.base URI is added as a prefix to the token URI",
+  "historyId" : "c7ca640b215a7bf1d8e2e74eb2c5ea95",
+  "time" : {
+    "start" : 1639536348114,
+    "stop" : 1639536355786,
+    "duration" : 7672
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721 metadata token URI base URI"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721 metadata token URI base URI"
+  }, {
+    "name" : "testMethod",
+    "value" : "base URI is added as a prefix to the token URI"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721 metadata token URI base URI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ee2211db28043457",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/ee2211db28043457",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1639419957884,
+          "stop" : 1639419965498,
+          "duration" : 7614
+        }
+      }, {
+        "uid" : "4826a732168d1c11",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/4826a732168d1c11",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639390962699,
+          "stop" : 1639391063122,
+          "duration" : 100423
+        }
+      }, {
+        "uid" : "da035424885a4613",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/da035424885a4613",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1639114070327,
+          "stop" : 1639114078040,
+          "duration" : 7713
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8b5c73ddd1c70467.json",
+  "parameterValues" : [ ]
+}

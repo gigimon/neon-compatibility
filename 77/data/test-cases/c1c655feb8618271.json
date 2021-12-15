@@ -1,0 +1,92 @@
+{
+  "uid" : "c1c655feb8618271",
+  "name" : "deployer can batch mint tokens",
+  "fullName" : "Contract: ERC1155PresetMinterPauser batched minting.deployer can batch mint tokens",
+  "historyId" : "561c19413f6692733ff59d95c237dd4",
+  "time" : {
+    "start" : 1639531831139,
+    "stop" : 1639531841097,
+    "duration" : 9958
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155PresetMinterPauser batched minting"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155PresetMinterPauser batched minting"
+  }, {
+    "name" : "testMethod",
+    "value" : "deployer can batch mint tokens"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155PresetMinterPauser batched minting"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c9dafd544063c88f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/c9dafd544063c88f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408778494,
+          "stop" : 1639408788249,
+          "duration" : 9755
+        }
+      }, {
+        "uid" : "6bd71b7eacfe720e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/6bd71b7eacfe720e",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639408196257,
+          "stop" : 1639408327124,
+          "duration" : 130867
+        }
+      }, {
+        "uid" : "cee8fa7bffa7b87d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/cee8fa7bffa7b87d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639105897788,
+          "stop" : 1639105908210,
+          "duration" : 10422
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c1c655feb8618271.json",
+  "parameterValues" : [ ]
+}

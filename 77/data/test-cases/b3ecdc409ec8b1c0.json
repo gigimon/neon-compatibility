@@ -1,0 +1,101 @@
+{
+  "uid" : "b3ecdc409ec8b1c0",
+  "name" : "returns true when interface implementation is queried",
+  "fullName" : "Contract: ERC1820Implementer with registered interfaces.returns true when interface implementation is queried",
+  "historyId" : "be8dad330127850e00d0cd607b48de29",
+  "time" : {
+    "start" : 1639536741106,
+    "stop" : 1639536751900,
+    "duration" : 10794
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns true when interface implementation is queried"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "a49bdfb95c608654",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/a49bdfb95c608654",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639423053763,
+          "stop" : 1639423064435,
+          "duration" : 10672
+        }
+      }, {
+        "uid" : "3814499fd1ebad55",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/3814499fd1ebad55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404010673,
+          "stop" : 1639404020386,
+          "duration" : 9713
+        }
+      }, {
+        "uid" : "c180f84763b3671c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/c180f84763b3671c",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639394339506,
+          "stop" : 1639394439548,
+          "duration" : 100042
+        }
+      }, {
+        "uid" : "fa989a1393aa92f6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/fa989a1393aa92f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387598402,
+          "stop" : 1639387614289,
+          "duration" : 15887
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b3ecdc409ec8b1c0.json",
+  "parameterValues" : [ ]
+}

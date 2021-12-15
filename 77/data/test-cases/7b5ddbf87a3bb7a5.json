@@ -1,0 +1,82 @@
+{
+  "uid" : "7b5ddbf87a3bb7a5",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is the zero address.reverts",
+  "historyId" : "a78b6fb1b04fb092abe1dc67f7f91385",
+  "time" : {
+    "start" : 1639531771760,
+    "stop" : 1639531779120,
+    "duration" : 7360
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is the zero address"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is the zero address"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is the zero address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "aa36053182a5b58",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/aa36053182a5b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404905017,
+          "stop" : 1639404912287,
+          "duration" : 7270
+        }
+      }, {
+        "uid" : "9fddbd4654e9363a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/9fddbd4654e9363a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106498896,
+          "stop" : 1639106506613,
+          "duration" : 7717
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7b5ddbf87a3bb7a5.json",
+  "parameterValues" : [ ]
+}

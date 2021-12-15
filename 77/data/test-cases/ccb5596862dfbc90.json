@@ -1,0 +1,110 @@
+{
+  "uid" : "ccb5596862dfbc90",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario send ethers.run",
+  "historyId" : "9603b3ecab9b3d9574ed148ad2fe211b",
+  "time" : {
+    "start" : 1639528948935,
+    "stop" : 1639528981389,
+    "duration" : 32454
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'propose')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'propose')\n                    at Context.<anonymous> (test/governance/Governor.test.js:262:25)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario send ethers"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario send ethers"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario send ethers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "9da1f75666f5c065",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/9da1f75666f5c065",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'propose')",
+        "time" : {
+          "start" : 1639468239994,
+          "stop" : 1639468269218,
+          "duration" : 29224
+        }
+      }, {
+        "uid" : "d6d3ec566120eb76",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/d6d3ec566120eb76",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'propose')",
+        "time" : {
+          "start" : 1639406547108,
+          "stop" : 1639406579034,
+          "duration" : 31926
+        }
+      }, {
+        "uid" : "756d8572d160bcf2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/756d8572d160bcf2",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'propose')",
+        "time" : {
+          "start" : 1639390693308,
+          "stop" : 1639390721352,
+          "duration" : 28044
+        }
+      }, {
+        "uid" : "336d453ec011f646",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/336d453ec011f646",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'propose')",
+        "time" : {
+          "start" : 1639100695756,
+          "stop" : 1639100729030,
+          "duration" : 33274
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ccb5596862dfbc90.json",
+  "parameterValues" : [ ]
+}

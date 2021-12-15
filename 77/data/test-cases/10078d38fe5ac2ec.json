@@ -1,0 +1,90 @@
+{
+  "uid" : "10078d38fe5ac2ec",
+  "name" : "reverts when burning a non-existent token id",
+  "fullName" : "Contract: ERC721Enumerable _burn.reverts when burning a non-existent token id",
+  "historyId" : "d969a7d0addc2d964a37f6e9d4326e3d",
+  "time" : {
+    "start" : 1639536574913,
+    "stop" : 1639536582250,
+    "duration" : 7337
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721Enumerable _burn"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Enumerable _burn"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when burning a non-existent token id"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Enumerable _burn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "110ee392ee1e0513",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639536198974,
+        "stop" : 1639536206201,
+        "duration" : 7227
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a590963158ab611b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/a590963158ab611b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639414493880,
+          "stop" : 1639414501270,
+          "duration" : 7390
+        }
+      }, {
+        "uid" : "4a26ea66627c9a12",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/4a26ea66627c9a12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639119061835,
+          "stop" : 1639119069554,
+          "duration" : 7719
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "10078d38fe5ac2ec.json",
+  "parameterValues" : [ ]
+}

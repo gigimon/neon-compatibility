@@ -1,0 +1,131 @@
+{
+  "uid" : "8b5736b38c55e471",
+  "name" : "burns the given token ID and adjusts the balance of the owner",
+  "fullName" : "Contract: ERC721Burnable like a burnable ERC721 burn when successful.burns the given token ID and adjusts the balance of the owner",
+  "historyId" : "b3a447d72433667651fdb954dc773625",
+  "time" : {
+    "start" : 1639531415845,
+    "stop" : 1639531439106,
+    "duration" : 23261
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when successful"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when successful"
+  }, {
+    "name" : "testMethod",
+    "value" : "burns the given token ID and adjusts the balance of the owner"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when successful"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "dcaa9e8ec6ad2ac4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/dcaa9e8ec6ad2ac4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639415083538,
+          "stop" : 1639415099541,
+          "duration" : 16003
+        }
+      }, {
+        "uid" : "dae8548ed6409954",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/dae8548ed6409954",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639411470809,
+          "stop" : 1639411616211,
+          "duration" : 145402
+        }
+      }, {
+        "uid" : "89f4e1faa0dfaeb6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/89f4e1faa0dfaeb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395192262,
+          "stop" : 1639395229676,
+          "duration" : 37414
+        }
+      }, {
+        "uid" : "8c60d594e25785bd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/8c60d594e25785bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393447354,
+          "stop" : 1639393487605,
+          "duration" : 40251
+        }
+      }, {
+        "uid" : "e6286017f0c30ef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/e6286017f0c30ef",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639393360827,
+          "stop" : 1639393489355,
+          "duration" : 128528
+        }
+      }, {
+        "uid" : "56c68b35dae914f2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/56c68b35dae914f2",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x0",
+        "time" : {
+          "start" : 1639390262892,
+          "stop" : 1639390327747,
+          "duration" : 64855
+        }
+      }, {
+        "uid" : "40531df40fec1b3b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/40531df40fec1b3b",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: This transaction has already been processed",
+        "time" : {
+          "start" : 1639386439239,
+          "stop" : 1639386453498,
+          "duration" : 14259
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8b5736b38c55e471.json",
+  "parameterValues" : [ ]
+}
