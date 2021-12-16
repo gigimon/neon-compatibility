@@ -1,0 +1,87 @@
+{
+  "uid" : "26be069b56ab4b6f",
+  "name" : "prevent overwritting active operation",
+  "fullName" : "prevent overwritting active operation",
+  "historyId" : "cc9ff8dc286422e60db1a0b66551ef9f",
+  "time" : {
+    "start" : 1639644574264,
+    "stop" : 1639644574264,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: TimelockController"
+  }, {
+    "name" : "suite",
+    "value" : "methods"
+  }, {
+    "name" : "subSuite",
+    "value" : "simple > schedule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fda13c9132818f35",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/fda13c9132818f35",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639566974997,
+          "stop" : 1639566974997,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6152bd11ae13b31f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/6152bd11ae13b31f",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639556466938,
+          "stop" : 1639556466939,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "26be069b56ab4b6f.json",
+  "parameterValues" : [ ]
+}

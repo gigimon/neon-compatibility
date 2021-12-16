@@ -1,0 +1,96 @@
+{
+  "uid" : "fefd0ccf2e88b515",
+  "name" : "length of batch parameter must match #1",
+  "fullName" : "length of batch parameter must match #1",
+  "historyId" : "ce17a0102dc903a3981bcf906d888a8b",
+  "time" : {
+    "start" : 1639644574266,
+    "stop" : 1639644574266,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: TimelockController"
+  }, {
+    "name" : "suite",
+    "value" : "methods"
+  }, {
+    "name" : "subSuite",
+    "value" : "batch > schedule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57909681f493c7a6",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1639644574266,
+        "stop" : 1639644574266,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "863c294b9714550d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/863c294b9714550d",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639566974999,
+          "stop" : 1639566974999,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a0644645a8bcc64c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/a0644645a8bcc64c",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639556466940,
+          "stop" : 1639556466941,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fefd0ccf2e88b515.json",
+  "parameterValues" : [ ]
+}

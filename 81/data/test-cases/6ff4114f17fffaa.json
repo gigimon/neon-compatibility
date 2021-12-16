@@ -1,0 +1,130 @@
+{
+  "uid" : "6ff4114f17fffaa",
+  "name" : "upgrades to the requested version and emits an event",
+  "fullName" : "upgrades to the requested version and emits an event",
+  "historyId" : "45d816a94f863d08793bafc9bd2f151a",
+  "time" : {
+    "start" : 1639643693689,
+    "stop" : 1639643699997,
+    "duration" : 6308
+  },
+  "status" : "broken",
+  "statusMessage" : "Returned error: failed to get recent blockhash",
+  "statusTrace" : "Error: Returned error: failed to get recent blockhash\n    at createProxy (test/proxy/transparent/TransparentUpgradeableProxy.test.js:10:43)\n    at Context.<anonymous> (test/proxy/transparent/TransparentUpgradeableProxy.behaviour.js:36:24)\n    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: TransparentUpgradeableProxy"
+  }, {
+    "name" : "suite",
+    "value" : "upgradeToAndCall"
+  }, {
+    "name" : "subSuite",
+    "value" : "with migrations > when the sender is the admin > when upgrading to V1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b309a5556952b07",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/b309a5556952b07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639565940133,
+          "stop" : 1639565950346,
+          "duration" : 10213
+        }
+      }, {
+        "uid" : "2eeb722a1ebf00fd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/2eeb722a1ebf00fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639555155740,
+          "stop" : 1639555169746,
+          "duration" : 14006
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6ff4114f17fffaa.json",
+  "parameterValues" : [ ]
+}

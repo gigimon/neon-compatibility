@@ -1,0 +1,149 @@
+{
+  "uid" : "52338ee75a2f1215",
+  "name" : "no initialization",
+  "fullName" : "no initialization",
+  "historyId" : "fdfc05e1d5a5390ed64c4ee3b335d023",
+  "time" : {
+    "start" : 1639642883414,
+    "stop" : 1639642930197,
+    "duration" : 46783
+  },
+  "status" : "failed",
+  "statusMessage" : "expected '1000000000000000000000' to equal '10'",
+  "statusTrace" : "AssertionError: expected '1000000000000000000000' to equal '10'\n    at Context.assertInitialized (test/proxy/beacon/BeaconProxy.test.js:62:76)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at Context.<anonymous> (test/proxy/beacon/BeaconProxy.test.js:74:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "suite",
+    "value" : "initialization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "76e2e543b60866b7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/76e2e543b60866b7",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '10'",
+        "time" : {
+          "start" : 1639565228538,
+          "stop" : 1639565239430,
+          "duration" : 10892
+        }
+      }, {
+        "uid" : "b104ff7d421c12bc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/b104ff7d421c12bc",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '10'",
+        "time" : {
+          "start" : 1639554469660,
+          "stop" : 1639554488150,
+          "duration" : 18490
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "52338ee75a2f1215.json",
+  "parameterValues" : [ ]
+}

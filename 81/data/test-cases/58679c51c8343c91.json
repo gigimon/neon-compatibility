@@ -1,0 +1,107 @@
+{
+  "uid" : "58679c51c8343c91",
+  "name" : "reverts on transferFrom",
+  "fullName" : "reverts on transferFrom",
+  "historyId" : "857bd469e5d070bbcc1cbbd1ee228ee1",
+  "time" : {
+    "start" : 1639641438005,
+    "stop" : 1639641570529,
+    "duration" : 132524
+  },
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n    at Context.<anonymous> (test/token/ERC20/utils/SafeERC20.test.js:21:80)\n    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: SafeERC20"
+  }, {
+    "name" : "suite",
+    "value" : "with token that returns false on all calls"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "97396ec5a6c8d78c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/97396ec5a6c8d78c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639564060226,
+          "stop" : 1639564068310,
+          "duration" : 8084
+        }
+      }, {
+        "uid" : "59fb68f382c3f97c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/59fb68f382c3f97c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639553475206,
+          "stop" : 1639553486150,
+          "duration" : 10944
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "58679c51c8343c91.json",
+  "parameterValues" : [ ]
+}

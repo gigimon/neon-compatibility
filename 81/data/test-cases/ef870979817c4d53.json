@@ -1,0 +1,152 @@
+{
+  "uid" : "ef870979817c4d53",
+  "name" : "can add multiple deposits on a single account",
+  "fullName" : "can add multiple deposits on a single account",
+  "historyId" : "1194c83efdc6a24c873b63ad5d56e619",
+  "time" : {
+    "start" : 1639644447512,
+    "stop" : 1639644458857,
+    "duration" : 11345
+  },
+  "status" : "failed",
+  "statusMessage" : "expected '1126000000000000000000' to equal '126000000000000000000'",
+  "statusTrace" : "AssertionError: expected '1126000000000000000000' to equal '126000000000000000000'\n    at Context.<anonymous> (test/utils/escrow/Escrow.behavior.js:40:76)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: Escrow"
+  }, {
+    "name" : "suite",
+    "value" : "as an escrow"
+  }, {
+    "name" : "subSuite",
+    "value" : "deposits"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8cd49cf583b15aa3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/8cd49cf583b15aa3",
+        "status" : "failed",
+        "statusDetails" : "expected '1126000000000000000000' to equal '126000000000000000000'",
+        "time" : {
+          "start" : 1639566718813,
+          "stop" : 1639566726291,
+          "duration" : 7478
+        }
+      }, {
+        "uid" : "7d95e9760799a5ff",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/7d95e9760799a5ff",
+        "status" : "failed",
+        "statusDetails" : "expected '1126000000000000000000' to equal '126000000000000000000'",
+        "time" : {
+          "start" : 1639556276059,
+          "stop" : 1639556286622,
+          "duration" : 10563
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ef870979817c4d53.json",
+  "parameterValues" : [ ]
+}

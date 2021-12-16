@@ -1,0 +1,129 @@
+{
+  "uid" : "8821314542dc40d4",
+  "name" : "\"after each\" hook for \"run\"",
+  "fullName" : "\"after each\" hook for \"run\"",
+  "historyId" : "d3d6f84fb875fdfea3f9337e21bd8e2f",
+  "time" : {
+    "start" : 1639646897252,
+    "stop" : 1639646897252,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "expected false to equal true",
+  "statusTrace" : "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/governance/extensions/GovernorComp.test.js:61:63)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: GovernorComp"
+  }, {
+    "name" : "suite",
+    "value" : "voting with comp token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "459ffebbcc5e50c3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/459ffebbcc5e50c3",
+        "status" : "failed",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639568428467,
+          "stop" : 1639568428467,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dbd4dfb9e054d73e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/dbd4dfb9e054d73e",
+        "status" : "failed",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639558466776,
+          "stop" : 1639558466776,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8821314542dc40d4.json",
+  "parameterValues" : [ ]
+}

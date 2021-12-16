@@ -1,0 +1,96 @@
+{
+  "uid" : "95acc2aed7e6930c",
+  "name" : "has to be implemented",
+  "fullName" : "has to be implemented",
+  "historyId" : "ceb4e3c2d348bd9f5bad295195119a5d",
+  "time" : {
+    "start" : 1639641729459,
+    "stop" : 1639641798338,
+    "duration" : 68879
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC721Enumerable"
+  }, {
+    "name" : "suite",
+    "value" : "Contract interface"
+  }, {
+    "name" : "subSuite",
+    "value" : "ERC721 > setApprovalForAll(address,bool)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "26cb0ac84fe4bf33",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/26cb0ac84fe4bf33",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639563727692,
+          "stop" : 1639563876920,
+          "duration" : 149228
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "95acc2aed7e6930c.json",
+  "parameterValues" : [ ]
+}

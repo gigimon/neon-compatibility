@@ -1,0 +1,81 @@
+{
+  "uid" : "99ecdc615ef52f63",
+  "name" : "domain separator",
+  "fullName" : "domain separator",
+  "historyId" : "d39ea91ee367908b610f9dbbadb262e5",
+  "time" : {
+    "start" : 1639643713352,
+    "stop" : 1639643713352,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20VotesComp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f1a9a8f8a742cc73",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/f1a9a8f8a742cc73",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639566878041,
+          "stop" : 1639566878041,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d74bbfd2f3252680",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/d74bbfd2f3252680",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639556476237,
+          "stop" : 1639556476237,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "99ecdc615ef52f63.json",
+  "parameterValues" : [ ]
+}

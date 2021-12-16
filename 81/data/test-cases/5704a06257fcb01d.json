@@ -1,0 +1,102 @@
+{
+  "uid" : "5704a06257fcb01d",
+  "name" : "sends 0 wei",
+  "fullName" : "sends 0 wei",
+  "historyId" : "7c9ca4910843c9b4a116f5cf828de663",
+  "time" : {
+    "start" : 1639640900423,
+    "stop" : 1639641031383,
+    "duration" : 130960
+  },
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n    at Context.<anonymous> (test/utils/Address.test.js:12:38)\n    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: Address"
+  }, {
+    "name" : "suite",
+    "value" : "sendValue"
+  }, {
+    "name" : "subSuite",
+    "value" : "when sender contract has funds"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e1da5a98aec370dc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/e1da5a98aec370dc",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639563129576,
+          "stop" : 1639563270725,
+          "duration" : 141149
+        }
+      }, {
+        "uid" : "fdcd71d5369931b9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/fdcd71d5369931b9",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639552636576,
+          "stop" : 1639552787485,
+          "duration" : 150909
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5704a06257fcb01d.json",
+  "parameterValues" : [ ]
+}

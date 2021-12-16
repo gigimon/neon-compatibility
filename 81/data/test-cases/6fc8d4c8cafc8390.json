@@ -1,0 +1,84 @@
+{
+  "uid" : "6fc8d4c8cafc8390",
+  "name" : "timelock scheduled maintenance",
+  "fullName" : "timelock scheduled maintenance",
+  "historyId" : "8da2f1233a74f6af3197223edd2ac100",
+  "time" : {
+    "start" : 1639644574269,
+    "stop" : 1639644574269,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: TimelockController"
+  }, {
+    "name" : "suite",
+    "value" : "maintenance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3d53dbe8c7c0379a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/3d53dbe8c7c0379a",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639566975002,
+          "stop" : 1639566975002,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eb5cbf4b10bf7bc9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/eb5cbf4b10bf7bc9",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639556466944,
+          "stop" : 1639556466944,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6fc8d4c8cafc8390.json",
+  "parameterValues" : [ ]
+}

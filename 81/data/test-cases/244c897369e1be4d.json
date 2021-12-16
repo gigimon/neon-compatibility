@@ -1,0 +1,97 @@
+{
+  "uid" : "244c897369e1be4d",
+  "name" : "emits a snapshot event",
+  "fullName" : "emits a snapshot event",
+  "historyId" : "adc7d86ac8ebbacf67e09fc255ea5292",
+  "time" : {
+    "start" : 1639643704538,
+    "stop" : 1639643709404,
+    "duration" : 4866
+  },
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n    at Context.<anonymous> (test/token/ERC20/extensions/ERC20Snapshot.test.js:15:45)\n    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20Snapshot"
+  }, {
+    "name" : "suite",
+    "value" : "snapshot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "40225f6de91a1b99",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/40225f6de91a1b99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639566592141,
+          "stop" : 1639566598137,
+          "duration" : 5996
+        }
+      }, {
+        "uid" : "eb992aaa774a792e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/eb992aaa774a792e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639556035116,
+          "stop" : 1639556042768,
+          "duration" : 7652
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "244c897369e1be4d.json",
+  "parameterValues" : [ ]
+}

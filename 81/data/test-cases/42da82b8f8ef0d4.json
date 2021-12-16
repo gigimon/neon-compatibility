@@ -1,0 +1,81 @@
+{
+  "uid" : "42da82b8f8ef0d4",
+  "name" : "deployment check",
+  "fullName" : "deployment check",
+  "historyId" : "6fb2412c85e9f7bd90f4533077dece85",
+  "time" : {
+    "start" : 1639644574271,
+    "stop" : 1639644574271,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: Governor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "88e01a3ada3669a2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/88e01a3ada3669a2",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639566975004,
+          "stop" : 1639566975004,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e9b94756db893532",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/e9b94756db893532",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1639556466946,
+          "stop" : 1639556466946,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "42da82b8f8ef0d4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "e0080c87aeceb9c3",
+  "name" : "rejects null payees",
+  "fullName" : "rejects null payees",
+  "historyId" : "a14ea9645df18a1c27fb65370e4702c7",
+  "time" : {
+    "start" : 1639640867237,
+    "stop" : 1639640870127,
+    "duration" : 2890
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "da8ed5e2441bd511",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/da8ed5e2441bd511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639563108123,
+          "stop" : 1639563109975,
+          "duration" : 1852
+        }
+      }, {
+        "uid" : "58ae404a645d1e7e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/58ae404a645d1e7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639552605366,
+          "stop" : 1639552608294,
+          "duration" : 2928
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e0080c87aeceb9c3.json",
+  "parameterValues" : [ ]
+}

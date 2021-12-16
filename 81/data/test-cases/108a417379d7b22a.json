@@ -1,0 +1,88 @@
+{
+  "uid" : "108a417379d7b22a",
+  "name" : "has an owner",
+  "fullName" : "has an owner",
+  "historyId" : "30a6932c39ad7cf6ab22766423d13d1c",
+  "time" : {
+    "start" : 1639643877161,
+    "stop" : 1639643883224,
+    "duration" : 6063
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: Ownable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c74c1a9fb43cd043",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/c74c1a9fb43cd043",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639566533523,
+          "stop" : 1639566539020,
+          "duration" : 5497
+        }
+      }, {
+        "uid" : "501995556cec813",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/501995556cec813",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639555784743,
+          "stop" : 1639555792410,
+          "duration" : 7667
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "108a417379d7b22a.json",
+  "parameterValues" : [ ]
+}
