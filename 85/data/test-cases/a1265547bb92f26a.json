@@ -1,0 +1,121 @@
+{
+  "uid" : "a1265547bb92f26a",
+  "name" : "set several consecutive keys",
+  "fullName" : "Contract: BitMap setTo.set several consecutive keys",
+  "historyId" : "2ea6dd862716ecfb221940d45575a5e2",
+  "time" : {
+    "start" : 1639718002369,
+    "stop" : 1639718024296,
+    "duration" : 21927
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "testMethod",
+    "value" : "set several consecutive keys"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BitMap setTo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "fcff59be138ca9fc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/fcff59be138ca9fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639711121375,
+          "stop" : 1639711167464,
+          "duration" : 46089
+        }
+      }, {
+        "uid" : "d25182a6de03e195",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/d25182a6de03e195",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639536834173,
+          "stop" : 1639536867185,
+          "duration" : 33012
+        }
+      }, {
+        "uid" : "7a3b2207a269c1b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/7a3b2207a269c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639420078842,
+          "stop" : 1639420111179,
+          "duration" : 32337
+        }
+      }, {
+        "uid" : "97151ed5bb3e5ef2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/97151ed5bb3e5ef2",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639401026065,
+          "stop" : 1639401182247,
+          "duration" : 156182
+        }
+      }, {
+        "uid" : "f0bc0483cf416686",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/f0bc0483cf416686",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639395624092,
+          "stop" : 1639395724099,
+          "duration" : 100007
+        }
+      }, {
+        "uid" : "fe19f4b77fb4f3c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/fe19f4b77fb4f3c",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639394183351,
+          "stop" : 1639394283360,
+          "duration" : 100009
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a1265547bb92f26a.json",
+  "parameterValues" : [ ]
+}

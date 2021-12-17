@@ -1,0 +1,138 @@
+{
+  "uid" : "e1e1e4295b82b99d",
+  "name" : "reverts when trying to safeTransferFrom",
+  "fullName" : "Contract: ERC721Pausable when token is paused.reverts when trying to safeTransferFrom",
+  "historyId" : "a8d7830ba603584ddcd21e2ca49ee5ff",
+  "time" : {
+    "start" : 1639714138250,
+    "stop" : 1639714148267,
+    "duration" : 10017
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to safeTransferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "361672601e3c65c7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/361672601e3c65c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705370978,
+          "stop" : 1639705386725,
+          "duration" : 15747
+        }
+      }, {
+        "uid" : "ca9c7e7682e23da8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/ca9c7e7682e23da8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542028924,
+          "stop" : 1639542039443,
+          "duration" : 10519
+        }
+      }, {
+        "uid" : "e3b01747195d007a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/e3b01747195d007a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531405466,
+          "stop" : 1639531421068,
+          "duration" : 15602
+        }
+      }, {
+        "uid" : "4c17789989581066",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/4c17789989581066",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639414971164,
+          "stop" : 1639414984426,
+          "duration" : 13262
+        }
+      }, {
+        "uid" : "ec6b936a8fd79fcd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/ec6b936a8fd79fcd",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC721Pausable: token transfer while paused'",
+        "time" : {
+          "start" : 1639410965009,
+          "stop" : 1639411112884,
+          "duration" : 147875
+        }
+      }, {
+        "uid" : "a6e25953f035a493",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/a6e25953f035a493",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395235179,
+          "stop" : 1639395248371,
+          "duration" : 13192
+        }
+      }, {
+        "uid" : "edce97b7f4ac50b2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/edce97b7f4ac50b2",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393488570,
+          "stop" : 1639393745003,
+          "duration" : 256433
+        }
+      }, {
+        "uid" : "81e6c4c155949093",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/81e6c4c155949093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386638433,
+          "stop" : 1639386652062,
+          "duration" : 13629
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e1e1e4295b82b99d.json",
+  "parameterValues" : [ ]
+}

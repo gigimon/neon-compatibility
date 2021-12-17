@@ -1,0 +1,119 @@
+{
+  "uid" : "508a5140bdf8a867",
+  "name" : "reverts when downcasting 2^64 (18446744073709551616)",
+  "fullName" : "Contract: SafeCast toUint64.reverts when downcasting 2^64 (18446744073709551616)",
+  "historyId" : "36265dc89b56875561f1f4fa2a0bfe71",
+  "time" : {
+    "start" : 1639718007453,
+    "stop" : 1639718011798,
+    "duration" : 4345
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SafeCast toUint64"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SafeCast toUint64"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when downcasting 2^64 (18446744073709551616)"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SafeCast toUint64"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "6cb6e7809157e0a0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/6cb6e7809157e0a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639711085921,
+          "stop" : 1639711094749,
+          "duration" : 8828
+        }
+      }, {
+        "uid" : "de29fef14ae9a202",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/de29fef14ae9a202",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639536832102,
+          "stop" : 1639536837997,
+          "duration" : 5895
+        }
+      }, {
+        "uid" : "2fe58a096eefcc83",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/2fe58a096eefcc83",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639421847615,
+          "stop" : 1639421853383,
+          "duration" : 5768
+        }
+      }, {
+        "uid" : "c5624c59f7c5ad22",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/c5624c59f7c5ad22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402906027,
+          "stop" : 1639402911420,
+          "duration" : 5393
+        }
+      }, {
+        "uid" : "36f9fc465d706867",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/36f9fc465d706867",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'SafeCast: value doesn\\'t fit in 64 bits'",
+        "time" : {
+          "start" : 1639394662668,
+          "stop" : 1639394767719,
+          "duration" : 105051
+        }
+      }, {
+        "uid" : "a3df7ae49e5cec03",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/a3df7ae49e5cec03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387860004,
+          "stop" : 1639387869336,
+          "duration" : 9332
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "508a5140bdf8a867.json",
+  "parameterValues" : [ ]
+}

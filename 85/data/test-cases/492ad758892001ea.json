@@ -1,0 +1,140 @@
+{
+  "uid" : "492ad758892001ea",
+  "name" : "run",
+  "fullName" : "Contract: Governor state Defeated.run",
+  "historyId" : "1e3e442fd8292a83d5ce61d54aa959f2",
+  "time" : {
+    "start" : 1639712522392,
+    "stop" : 1639712549727,
+    "duration" : 27335
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "expected '1' to equal '3'",
+  "statusTrace" : "AssertionError: expected '1' to equal '3'\n                    at Context.<anonymous> (test/governance/Governor.test.js:586:64)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Governor state Defeated"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor state Defeated"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor state Defeated"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 8,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2636f85e8cc50f18",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/2636f85e8cc50f18",
+        "status" : "broken",
+        "statusDetails" : "expected '1' to equal '3'",
+        "time" : {
+          "start" : 1639703611028,
+          "stop" : 1639703638791,
+          "duration" : 27763
+        }
+      }, {
+        "uid" : "bad2cb2377645bf9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/bad2cb2377645bf9",
+        "status" : "broken",
+        "statusDetails" : "expected '1' to equal '3'",
+        "time" : {
+          "start" : 1639539662603,
+          "stop" : 1639539702002,
+          "duration" : 39399
+        }
+      }, {
+        "uid" : "29f25d0c68a67f45",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/29f25d0c68a67f45",
+        "status" : "broken",
+        "statusDetails" : "expected '1' to equal '3'",
+        "time" : {
+          "start" : 1639529484782,
+          "stop" : 1639529524641,
+          "duration" : 39859
+        }
+      }, {
+        "uid" : "8563699968b4b578",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/8563699968b4b578",
+        "status" : "broken",
+        "statusDetails" : "expected '1' to equal '3'",
+        "time" : {
+          "start" : 1639468724741,
+          "stop" : 1639468760433,
+          "duration" : 35692
+        }
+      }, {
+        "uid" : "81c8f3265eb97759",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/81c8f3265eb97759",
+        "status" : "broken",
+        "statusDetails" : "expected '1' to equal '3'",
+        "time" : {
+          "start" : 1639407073440,
+          "stop" : 1639407113129,
+          "duration" : 39689
+        }
+      }, {
+        "uid" : "99d5e60b1fe18412",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/99d5e60b1fe18412",
+        "status" : "broken",
+        "statusDetails" : "expected '1' to equal '3'",
+        "time" : {
+          "start" : 1639391175647,
+          "stop" : 1639391211472,
+          "duration" : 35825
+        }
+      }, {
+        "uid" : "f1f710e79d338fc7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/f1f710e79d338fc7",
+        "status" : "broken",
+        "statusDetails" : "expected '1' to equal '3'",
+        "time" : {
+          "start" : 1639101298420,
+          "stop" : 1639101339787,
+          "duration" : 41367
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "492ad758892001ea.json",
+  "parameterValues" : [ ]
+}

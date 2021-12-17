@@ -1,0 +1,170 @@
+{
+  "uid" : "5cb82a02b069fcd0",
+  "name" : "reverts if no funds to claim",
+  "fullName" : "Contract: PaymentSplitter once deployed release Ether.reverts if no funds to claim",
+  "historyId" : "1d4addb882b5f0e327c5d10da141e860",
+  "time" : {
+    "start" : 1639711228141,
+    "stop" : 1639711245496,
+    "duration" : 17355
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected an exception but none was received",
+  "statusTrace" : "AssertionError: Expected an exception but none was received\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:25:10)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at expectRevert (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:75:3)\n                    at Context.<anonymous> (test/finance/PaymentSplitter.test.js:95:11)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter once deployed release Ether"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter once deployed release Ether"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts if no funds to claim"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter once deployed release Ether"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "915a55560bebedda",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/915a55560bebedda",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639538210787,
+          "stop" : 1639538223487,
+          "duration" : 12700
+        }
+      }, {
+        "uid" : "f3812e3358b1707c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/f3812e3358b1707c",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639528085670,
+          "stop" : 1639528097676,
+          "duration" : 12006
+        }
+      }, {
+        "uid" : "58e3d56a267b8edf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/58e3d56a267b8edf",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639405296550,
+          "stop" : 1639405312182,
+          "duration" : 15632
+        }
+      }, {
+        "uid" : "8600b8419829af41",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/8600b8419829af41",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639402158414,
+          "stop" : 1639402170036,
+          "duration" : 11622
+        }
+      }, {
+        "uid" : "84a659bb99981802",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/84a659bb99981802",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639393361671,
+          "stop" : 1639393374258,
+          "duration" : 12587
+        }
+      }, {
+        "uid" : "9d01128dda8d4f6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9d01128dda8d4f6",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639390880355,
+          "stop" : 1639390975799,
+          "duration" : 95444
+        }
+      }, {
+        "uid" : "467bdb9167077103",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/467bdb9167077103",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639389666194,
+          "stop" : 1639389677848,
+          "duration" : 11654
+        }
+      }, {
+        "uid" : "92f50eb395fa5a2d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/92f50eb395fa5a2d",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639386122806,
+          "stop" : 1639386137723,
+          "duration" : 14917
+        }
+      }, {
+        "uid" : "e3c41e59182e6331",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e3c41e59182e6331",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639384357760,
+          "stop" : 1639384378079,
+          "duration" : 20319
+        }
+      }, {
+        "uid" : "562303dfff06c58d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/562303dfff06c58d",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639099432315,
+          "stop" : 1639099445195,
+          "duration" : 12880
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5cb82a02b069fcd0.json",
+  "parameterValues" : [ ]
+}

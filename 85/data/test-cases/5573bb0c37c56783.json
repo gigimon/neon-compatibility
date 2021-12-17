@@ -1,0 +1,137 @@
+{
+  "uid" : "5573bb0c37c56783",
+  "name" : "deployer has the pauser role",
+  "fullName" : "Contract: ERC1155PresetMinterPauser.deployer has the pauser role",
+  "historyId" : "cd38fcca52954bacc33754119f1489ed",
+  "time" : {
+    "start" : 1639714309986,
+    "stop" : 1639714316143,
+    "duration" : 6157
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155PresetMinterPauser"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155PresetMinterPauser"
+  }, {
+    "name" : "testMethod",
+    "value" : "deployer has the pauser role"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155PresetMinterPauser"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "d85568ff82c9b8af",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/d85568ff82c9b8af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705632756,
+          "stop" : 1639705643021,
+          "duration" : 10265
+        }
+      }, {
+        "uid" : "cd4ec85dc0a7e3c5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/cd4ec85dc0a7e3c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542272095,
+          "stop" : 1639542279282,
+          "duration" : 7187
+        }
+      }, {
+        "uid" : "dca5ca8f4acd819f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/dca5ca8f4acd819f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531681428,
+          "stop" : 1639531690549,
+          "duration" : 9121
+        }
+      }, {
+        "uid" : "bb6f9b6b7410963c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/bb6f9b6b7410963c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408639135,
+          "stop" : 1639408647157,
+          "duration" : 8022
+        }
+      }, {
+        "uid" : "d1a07831488af898",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/d1a07831488af898",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639407815220,
+          "stop" : 1639407849037,
+          "duration" : 33817
+        }
+      }, {
+        "uid" : "57d739bb825d268e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/57d739bb825d268e",
+        "status" : "broken",
+        "statusDetails" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+        "time" : {
+          "start" : 1639394980422,
+          "stop" : 1639395219650,
+          "duration" : 239228
+        }
+      }, {
+        "uid" : "e203e1a9509b9e02",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e203e1a9509b9e02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393476095,
+          "stop" : 1639393482492,
+          "duration" : 6397
+        }
+      }, {
+        "uid" : "f3c4ccab979a4a9b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/f3c4ccab979a4a9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639105749464,
+          "stop" : 1639105757784,
+          "duration" : 8320
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5573bb0c37c56783.json",
+  "parameterValues" : [ ]
+}

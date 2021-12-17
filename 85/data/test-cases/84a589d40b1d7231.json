@@ -1,0 +1,140 @@
+{
+  "uid" : "84a589d40b1d7231",
+  "name" : "run",
+  "fullName" : "Contract: Governor scenario nominal.run",
+  "historyId" : "e2e200d4e9bed80396ddbad8562e128a",
+  "time" : {
+    "start" : 1639712044718,
+    "stop" : 1639712071450,
+    "duration" : 26732
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read properties of undefined (reading 'length')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'length')\n                    at Context.<anonymous> (test/governance/Governor.test.js:85:32)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Governor scenario nominal"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Governor scenario nominal"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Governor scenario nominal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 8,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "637bf722055905a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/637bf722055905a",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'length')",
+        "time" : {
+          "start" : 1639703041173,
+          "stop" : 1639703069467,
+          "duration" : 28294
+        }
+      }, {
+        "uid" : "a578d72958e6fb63",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/a578d72958e6fb63",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'length')",
+        "time" : {
+          "start" : 1639539038510,
+          "stop" : 1639539073031,
+          "duration" : 34521
+        }
+      }, {
+        "uid" : "98ac09d41acabb98",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/98ac09d41acabb98",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'length')",
+        "time" : {
+          "start" : 1639528864158,
+          "stop" : 1639528897156,
+          "duration" : 32998
+        }
+      }, {
+        "uid" : "9a1b1ebb480163e8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/9a1b1ebb480163e8",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'length')",
+        "time" : {
+          "start" : 1639468161382,
+          "stop" : 1639468193524,
+          "duration" : 32142
+        }
+      }, {
+        "uid" : "5689604a3eaf2005",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/5689604a3eaf2005",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'length')",
+        "time" : {
+          "start" : 1639406465490,
+          "stop" : 1639406497846,
+          "duration" : 32356
+        }
+      }, {
+        "uid" : "8de93e287076e8b5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/8de93e287076e8b5",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'length')",
+        "time" : {
+          "start" : 1639390618484,
+          "stop" : 1639390648008,
+          "duration" : 29524
+        }
+      }, {
+        "uid" : "85694f99107ca105",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/85694f99107ca105",
+        "status" : "broken",
+        "statusDetails" : "Cannot read properties of undefined (reading 'length')",
+        "time" : {
+          "start" : 1639100609495,
+          "stop" : 1639100644184,
+          "duration" : 34689
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "84a589d40b1d7231.json",
+  "parameterValues" : [ ]
+}

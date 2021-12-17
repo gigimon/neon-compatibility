@@ -1,0 +1,155 @@
+{
+  "uid" : "5362b01066cdfbfa",
+  "name" : "returns zero for given addresses",
+  "fullName" : "Contract: ERC1155 like an ERC1155 balanceOf when accounts don't own tokens.returns zero for given addresses",
+  "historyId" : "5d7439621798c57ad024414652539055",
+  "time" : {
+    "start" : 1639714253612,
+    "stop" : 1639714259837,
+    "duration" : 6225
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOf when accounts don't own tokens"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOf when accounts don't own tokens"
+  }, {
+    "name" : "testMethod",
+    "value" : "returns zero for given addresses"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOf when accounts don't own tokens"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "13b5182872377883",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/13b5182872377883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705566583,
+          "stop" : 1639705576193,
+          "duration" : 9610
+        }
+      }, {
+        "uid" : "90ed32cf6db606f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/90ed32cf6db606f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542256679,
+          "stop" : 1639542263705,
+          "duration" : 7026
+        }
+      }, {
+        "uid" : "4291b23236fdc31c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/4291b23236fdc31c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639407414423,
+          "stop" : 1639407423647,
+          "duration" : 9224
+        }
+      }, {
+        "uid" : "f11e7546cb035cbc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/f11e7546cb035cbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639407633438,
+          "stop" : 1639407642201,
+          "duration" : 8763
+        }
+      }, {
+        "uid" : "4b2c43eae0c9385c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/4b2c43eae0c9385c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394960802,
+          "stop" : 1639394970778,
+          "duration" : 9976
+        }
+      }, {
+        "uid" : "649dbfc235aeb6b3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/649dbfc235aeb6b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393220516,
+          "stop" : 1639393227068,
+          "duration" : 6552
+        }
+      }, {
+        "uid" : "21847a78739b050b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/21847a78739b050b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393036152,
+          "stop" : 1639393044858,
+          "duration" : 8706
+        }
+      }, {
+        "uid" : "e0b4777f318d25",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/e0b4777f318d25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389813845,
+          "stop" : 1639390095523,
+          "duration" : 281678
+        }
+      }, {
+        "uid" : "53b92285e99dfd76",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/53b92285e99dfd76",
+        "status" : "broken",
+        "statusDetails" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+        "time" : {
+          "start" : 1639386094384,
+          "stop" : 1639386403476,
+          "duration" : 309092
+        }
+      }, {
+        "uid" : "42199fe6b1a46292",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/42199fe6b1a46292",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104074142,
+          "stop" : 1639104083542,
+          "duration" : 9400
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5362b01066cdfbfa.json",
+  "parameterValues" : [ ]
+}
