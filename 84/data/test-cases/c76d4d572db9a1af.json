@@ -1,0 +1,152 @@
+{
+  "uid" : "c76d4d572db9a1af",
+  "name" : "non-contract implementation",
+  "fullName" : "Contract: BeaconProxy bad beacon is not accepted.non-contract implementation",
+  "historyId" : "3b8dd1a76e32ea6cb0b19b550d87e8d2",
+  "time" : {
+    "start" : 1639704165449,
+    "stop" : 1639704170230,
+    "duration" : 4781
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy bad beacon is not accepted"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy bad beacon is not accepted"
+  }, {
+    "name" : "testMethod",
+    "value" : "non-contract implementation"
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy bad beacon is not accepted"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "b783e06ac603ae80",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/b783e06ac603ae80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639540460754,
+          "stop" : 1639540467763,
+          "duration" : 7009
+        }
+      }, {
+        "uid" : "12b173d939b2b5c4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/12b173d939b2b5c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639530276725,
+          "stop" : 1639530283502,
+          "duration" : 6777
+        }
+      }, {
+        "uid" : "ee1692d659a01363",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/ee1692d659a01363",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639408539318,
+          "stop" : 1639408546001,
+          "duration" : 6683
+        }
+      }, {
+        "uid" : "d5d1f93d71895ab6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/d5d1f93d71895ab6",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639402321400,
+          "stop" : 1639402327626,
+          "duration" : 6226
+        }
+      }, {
+        "uid" : "dad16a2b35008981",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/dad16a2b35008981",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639391968257,
+          "stop" : 1639391977643,
+          "duration" : 9386
+        }
+      }, {
+        "uid" : "7c4f3bdb4d8d7e27",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/7c4f3bdb4d8d7e27",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639391959402,
+          "stop" : 1639391985644,
+          "duration" : 26242
+        }
+      }, {
+        "uid" : "63a797633bc6a8ec",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/63a797633bc6a8ec",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639388723567,
+          "stop" : 1639388730777,
+          "duration" : 7210
+        }
+      }, {
+        "uid" : "be0df270f2e8dff7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/be0df270f2e8dff7",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639385182317,
+          "stop" : 1639385260071,
+          "duration" : 77754
+        }
+      }, {
+        "uid" : "f1cf8aabcb515c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/f1cf8aabcb515c",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'ERC1967: beacon implementation is not a contract'",
+        "time" : {
+          "start" : 1639102199546,
+          "stop" : 1639102206442,
+          "duration" : 6896
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c76d4d572db9a1af.json",
+  "parameterValues" : [ ]
+}

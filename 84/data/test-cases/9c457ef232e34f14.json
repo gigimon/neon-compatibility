@@ -1,0 +1,110 @@
+{
+  "uid" : "9c457ef232e34f14",
+  "name" : "cannot mint while paused",
+  "fullName" : "Contract: ERC20PresetMinterPauser pausing.cannot mint while paused",
+  "historyId" : "68ee71e385a31fa6d65b25074ad51a49",
+  "time" : {
+    "start" : 1639705360989,
+    "stop" : 1639705372052,
+    "duration" : 11063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20PresetMinterPauser pausing"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20PresetMinterPauser pausing"
+  }, {
+    "name" : "testMethod",
+    "value" : "cannot mint while paused"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20PresetMinterPauser pausing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d80935a5be15b747",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/d80935a5be15b747",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639541986536,
+          "stop" : 1639541995523,
+          "duration" : 8987
+        }
+      }, {
+        "uid" : "5066203e69cf6fc1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/5066203e69cf6fc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531439072,
+          "stop" : 1639531452865,
+          "duration" : 13793
+        }
+      }, {
+        "uid" : "22d413260d0a6500",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/22d413260d0a6500",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639405293059,
+          "stop" : 1639405302855,
+          "duration" : 9796
+        }
+      }, {
+        "uid" : "43b01324886d33a0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/43b01324886d33a0",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639402529209,
+          "stop" : 1639402660309,
+          "duration" : 131100
+        }
+      }, {
+        "uid" : "521bb0ad4d752bd9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/521bb0ad4d752bd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108486598,
+          "stop" : 1639108497609,
+          "duration" : 11011
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9c457ef232e34f14.json",
+  "parameterValues" : [ ]
+}

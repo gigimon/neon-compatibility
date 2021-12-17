@@ -1,0 +1,120 @@
+{
+  "uid" : "d12d33998b30ecf0",
+  "name" : "has expected balance",
+  "fullName" : "Contract: Clones clone initialization with parameters non payable when not sending balance.has expected balance",
+  "historyId" : "6454c932b747750601ffd52cfdfd0259",
+  "time" : {
+    "start" : 1639704174854,
+    "stop" : 1639704181650,
+    "duration" : 6796
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '1000000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '1000000000000000000000' to equal '0'\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:19:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Clones clone initialization with parameters non payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones clone initialization with parameters non payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones clone initialization with parameters non payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "a80effd1f98f92c5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/a80effd1f98f92c5",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639408115040,
+          "stop" : 1639408123755,
+          "duration" : 8715
+        }
+      }, {
+        "uid" : "af1628225f40c8f0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/af1628225f40c8f0",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639400990523,
+          "stop" : 1639400998979,
+          "duration" : 8456
+        }
+      }, {
+        "uid" : "724a88bfbbbfe065",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/724a88bfbbbfe065",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639392011369,
+          "stop" : 1639392034240,
+          "duration" : 22871
+        }
+      }, {
+        "uid" : "7bda9d5b734ac618",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/7bda9d5b734ac618",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639385276094,
+          "stop" : 1639385284838,
+          "duration" : 8744
+        }
+      }, {
+        "uid" : "232728edc7951322",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/232728edc7951322",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639102384148,
+          "stop" : 1639102392966,
+          "duration" : 8818
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d12d33998b30ecf0.json",
+  "parameterValues" : [ ]
+}

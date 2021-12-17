@@ -1,0 +1,159 @@
+{
+  "uid" : "986cd09e860ea6a8",
+  "name" : "receives ERC1155 tokens from a single ID",
+  "fullName" : "Contract: ERC1155Holder.receives ERC1155 tokens from a single ID",
+  "historyId" : "54534705eefddad0bc3cf65e26915457",
+  "time" : {
+    "start" : 1639705460494,
+    "stop" : 1639705482978,
+    "duration" : 22484
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155Holder"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155Holder"
+  }, {
+    "name" : "testMethod",
+    "value" : "receives ERC1155 tokens from a single ID"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155Holder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "602273171d3e9141",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/602273171d3e9141",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542133413,
+          "stop" : 1639542149038,
+          "duration" : 15625
+        }
+      }, {
+        "uid" : "374910b22bde9641",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/374910b22bde9641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531504197,
+          "stop" : 1639531526867,
+          "duration" : 22670
+        }
+      }, {
+        "uid" : "898108af4f49451e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/898108af4f49451e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408860793,
+          "stop" : 1639408880966,
+          "duration" : 20173
+        }
+      }, {
+        "uid" : "1dc11d68a93114ca",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/1dc11d68a93114ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408327127,
+          "stop" : 1639408345856,
+          "duration" : 18729
+        }
+      }, {
+        "uid" : "242ecba49fe77d34",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/242ecba49fe77d34",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639394969140,
+          "stop" : 1639395083787,
+          "duration" : 114647
+        }
+      }, {
+        "uid" : "c2865cdb3343818d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/c2865cdb3343818d",
+        "status" : "broken",
+        "statusDetails" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+        "time" : {
+          "start" : 1639393227713,
+          "stop" : 1639393447690,
+          "duration" : 219977
+        }
+      }, {
+        "uid" : "9d3c76c54036f3fd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/9d3c76c54036f3fd",
+        "status" : "broken",
+        "statusDetails" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+        "time" : {
+          "start" : 1639393044403,
+          "stop" : 1639393325919,
+          "duration" : 281516
+        }
+      }, {
+        "uid" : "179821f50a4b563d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/179821f50a4b563d",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639390029020,
+          "stop" : 1639390156860,
+          "duration" : 127840
+        }
+      }, {
+        "uid" : "8bc4292aa1292f30",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/8bc4292aa1292f30",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386082001,
+          "stop" : 1639386300716,
+          "duration" : 218715
+        }
+      }, {
+        "uid" : "78a2b978b1243f6c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/78a2b978b1243f6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639105981885,
+          "stop" : 1639106002425,
+          "duration" : 20540
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "986cd09e860ea6a8.json",
+  "parameterValues" : [ ]
+}

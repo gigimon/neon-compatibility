@@ -1,0 +1,142 @@
+{
+  "uid" : "e9ca642c6479c62d",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC1967Proxy initialization with parameters reverting initialization.reverts",
+  "historyId" : "25c6d5145d1ae0e6bffe17385722c805",
+  "time" : {
+    "start" : 1639704199789,
+    "stop" : 1639704201397,
+    "duration" : 1608
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1967Proxy initialization with parameters reverting initialization"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1967Proxy initialization with parameters reverting initialization"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1967Proxy initialization with parameters reverting initialization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "eb9f5be0565b371",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/eb9f5be0565b371",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639540502894,
+          "stop" : 1639540505781,
+          "duration" : 2887
+        }
+      }, {
+        "uid" : "a099bfe9f5efcd7c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/a099bfe9f5efcd7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639530323191,
+          "stop" : 1639530325806,
+          "duration" : 2615
+        }
+      }, {
+        "uid" : "f631a26b02c7d0e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/f631a26b02c7d0e",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+        "time" : {
+          "start" : 1639408422391,
+          "stop" : 1639408424972,
+          "duration" : 2581
+        }
+      }, {
+        "uid" : "8f9f349f32c496c3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/8f9f349f32c496c3",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+        "time" : {
+          "start" : 1639402058289,
+          "stop" : 1639402060598,
+          "duration" : 2309
+        }
+      }, {
+        "uid" : "6537fd07c0e0298c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6537fd07c0e0298c",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+        "time" : {
+          "start" : 1639392166471,
+          "stop" : 1639392169016,
+          "duration" : 2545
+        }
+      }, {
+        "uid" : "b3ce6e8d1bf341f2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/b3ce6e8d1bf341f2",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+        "time" : {
+          "start" : 1639392128462,
+          "stop" : 1639392130754,
+          "duration" : 2292
+        }
+      }, {
+        "uid" : "7f261efc39e4cd86",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/7f261efc39e4cd86",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+        "time" : {
+          "start" : 1639385367679,
+          "stop" : 1639385370263,
+          "duration" : 2584
+        }
+      }, {
+        "uid" : "3ab39132961d53f3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/3ab39132961d53f3",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'DummyImplementation reverted'",
+        "time" : {
+          "start" : 1639102699093,
+          "stop" : 1639102701716,
+          "duration" : 2623
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e9ca642c6479c62d.json",
+  "parameterValues" : [ ]
+}

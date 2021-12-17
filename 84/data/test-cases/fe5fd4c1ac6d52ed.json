@@ -1,0 +1,110 @@
+{
+  "uid" : "fe5fd4c1ac6d52ed",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before.reverts",
+  "historyId" : "29eb49283728cdb583a574028afae0e6",
+  "time" : {
+    "start" : 1639705627779,
+    "stop" : 1639705635397,
+    "duration" : 7618
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when there was no approved amount before"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "88477ff66a539199",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/88477ff66a539199",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542202437,
+          "stop" : 1639542208635,
+          "duration" : 6198
+        }
+      }, {
+        "uid" : "49f6d53e88c09f7e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/49f6d53e88c09f7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531716970,
+          "stop" : 1639531724337,
+          "duration" : 7367
+        }
+      }, {
+        "uid" : "11a8067702b940b2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/11a8067702b940b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404853345,
+          "stop" : 1639404860687,
+          "duration" : 7342
+        }
+      }, {
+        "uid" : "fdb2845a48b810b1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/fdb2845a48b810b1",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639402191322,
+          "stop" : 1639402324439,
+          "duration" : 133117
+        }
+      }, {
+        "uid" : "d9db228bee9abcc9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/d9db228bee9abcc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106445219,
+          "stop" : 1639106452565,
+          "duration" : 7346
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fe5fd4c1ac6d52ed.json",
+  "parameterValues" : [ ]
+}

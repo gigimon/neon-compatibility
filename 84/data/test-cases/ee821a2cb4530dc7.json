@@ -1,0 +1,100 @@
+{
+  "uid" : "ee821a2cb4530dc7",
+  "name" : "reverts when more than the full allowance is removed",
+  "fullName" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount.reverts when more than the full allowance is removed",
+  "historyId" : "339704df5027d697afba2eff628a4c83",
+  "time" : {
+    "start" : 1639705672102,
+    "stop" : 1639705682197,
+    "duration" : 10095
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when more than the full allowance is removed"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20 decrease allowance when the spender is not the zero address when the sender does not have enough balance when the spender had an approved amount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "172f00c60329ca2d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/172f00c60329ca2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542236567,
+          "stop" : 1639542245714,
+          "duration" : 9147
+        }
+      }, {
+        "uid" : "fb59602ac9e38899",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/fb59602ac9e38899",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531761192,
+          "stop" : 1639531771754,
+          "duration" : 10562
+        }
+      }, {
+        "uid" : "3ebacaa00f9086a1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/3ebacaa00f9086a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404894584,
+          "stop" : 1639404905014,
+          "duration" : 10430
+        }
+      }, {
+        "uid" : "7d68dc468dc503ba",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7d68dc468dc503ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106488335,
+          "stop" : 1639106498891,
+          "duration" : 10556
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ee821a2cb4530dc7.json",
+  "parameterValues" : [ ]
+}

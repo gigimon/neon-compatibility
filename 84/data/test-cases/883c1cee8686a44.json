@@ -1,0 +1,110 @@
+{
+  "uid" : "883c1cee8686a44",
+  "name" : "can be set as an implementer for supported interfaces in the registry",
+  "fullName" : "Contract: ERC1820Implementer with registered interfaces.can be set as an implementer for supported interfaces in the registry",
+  "historyId" : "d28318dd60f7ddf2da4182ba66e51ef",
+  "time" : {
+    "start" : 1639710967788,
+    "stop" : 1639710987916,
+    "duration" : 20128
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced.",
+  "statusTrace" : "Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced.\n                    at Context.<anonymous> (test/utils/introspection/ERC1820Implementer.test.js:62:34)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "testMethod",
+    "value" : "can be set as an implementer for supported interfaces in the registry"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1820Implementer with registered interfaces"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "7a444023d6cede45",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/7a444023d6cede45",
+        "status" : "broken",
+        "statusDetails" : "Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced.",
+        "time" : {
+          "start" : 1639536773438,
+          "stop" : 1639536789490,
+          "duration" : 16052
+        }
+      }, {
+        "uid" : "d6136a6bc05b5fec",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/d6136a6bc05b5fec",
+        "status" : "broken",
+        "statusDetails" : "Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced.",
+        "time" : {
+          "start" : 1639423086301,
+          "stop" : 1639423100596,
+          "duration" : 14295
+        }
+      }, {
+        "uid" : "c5c7ab9b08f7de3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/c5c7ab9b08f7de3",
+        "status" : "broken",
+        "statusDetails" : "Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced.",
+        "time" : {
+          "start" : 1639404040037,
+          "stop" : 1639404052738,
+          "duration" : 12701
+        }
+      }, {
+        "uid" : "566263b52a3f52b1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/566263b52a3f52b1",
+        "status" : "broken",
+        "statusDetails" : "Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced.",
+        "time" : {
+          "start" : 1639387709918,
+          "stop" : 1639387748660,
+          "duration" : 38742
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "883c1cee8686a44.json",
+  "parameterValues" : [ ]
+}

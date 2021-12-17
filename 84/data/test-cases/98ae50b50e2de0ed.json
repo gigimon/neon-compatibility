@@ -1,0 +1,110 @@
+{
+  "uid" : "98ae50b50e2de0ed",
+  "name" : "initializes the proxy",
+  "fullName" : "Contract: Clones clone initialization with parameters payable when not sending balance.initializes the proxy",
+  "historyId" : "282f96a70fe50f74582dec9676090ca3",
+  "time" : {
+    "start" : 1639704187876,
+    "stop" : 1639704195826,
+    "duration" : 7950
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializes the proxy"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "416bd6e332ad687a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/416bd6e332ad687a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408132060,
+          "stop" : 1639408141958,
+          "duration" : 9898
+        }
+      }, {
+        "uid" : "4df3a08796644ec8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/4df3a08796644ec8",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639401006538,
+          "stop" : 1639401217375,
+          "duration" : 210837
+        }
+      }, {
+        "uid" : "96e9c65fe6411eec",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/96e9c65fe6411eec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639392042149,
+          "stop" : 1639392051878,
+          "duration" : 9729
+        }
+      }, {
+        "uid" : "e49c9dac15bebc19",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e49c9dac15bebc19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639385293476,
+          "stop" : 1639385317665,
+          "duration" : 24189
+        }
+      }, {
+        "uid" : "25ed14464f901d31",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/25ed14464f901d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102401293,
+          "stop" : 1639102411292,
+          "duration" : 9999
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "98ae50b50e2de0ed.json",
+  "parameterValues" : [ ]
+}
