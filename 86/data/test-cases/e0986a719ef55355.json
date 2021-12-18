@@ -1,0 +1,129 @@
+{
+  "uid" : "e0986a719ef55355",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved.reverts",
+  "historyId" : "fd50e22aa0d7e8b03d1f38a4fcd175ce",
+  "time" : {
+    "start" : 1639792942683,
+    "stop" : 1639792961301,
+    "duration" : 18618
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Burnable like a burnable ERC721 burn when there is a previous approval burned getApproved"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "88bc2c21ab7d1439",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/88bc2c21ab7d1439",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639714170556,
+          "stop" : 1639714183849,
+          "duration" : 13293
+        }
+      }, {
+        "uid" : "c17b1678523293da",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/c17b1678523293da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705425245,
+          "stop" : 1639705444234,
+          "duration" : 18989
+        }
+      }, {
+        "uid" : "967812b48377d2ab",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/967812b48377d2ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542052291,
+          "stop" : 1639542066914,
+          "duration" : 14623
+        }
+      }, {
+        "uid" : "a3042d5c4414825a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/a3042d5c4414825a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531456334,
+          "stop" : 1639531476190,
+          "duration" : 19856
+        }
+      }, {
+        "uid" : "864e2844ada2a690",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/864e2844ada2a690",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639415113316,
+          "stop" : 1639415131148,
+          "duration" : 17832
+        }
+      }, {
+        "uid" : "a2d51d2818dc1464",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/a2d51d2818dc1464",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639411632515,
+          "stop" : 1639411782101,
+          "duration" : 149586
+        }
+      }, {
+        "uid" : "2cb97a5b7db6d3b3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/2cb97a5b7db6d3b3",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639395243245,
+          "stop" : 1639395369123,
+          "duration" : 125878
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e0986a719ef55355.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,180 @@
+{
+  "uid" : "86598b3c4e0948fc",
+  "name" : "can record an async payment correctly",
+  "fullName" : "Contract: PullPayment payments.can record an async payment correctly",
+  "historyId" : "c6f26364c2f6b9e8547aced6b599b689",
+  "time" : {
+    "start" : 1639792112243,
+    "stop" : 1639792118438,
+    "duration" : 6195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Transaction: 0x3aa342e9b2b98a33158e2358a7c34d1a27b11e5cd813fc49d044e6c2c3fb4d53 exited with an error (status 0). \n                     Please check that the transaction:\n                     - satisfies all conditions set by Solidity `require` statements.\n                     - does not trigger a Solidity `revert` statement.\n                ",
+  "statusTrace" : "StatusError: Transaction: 0x3aa342e9b2b98a33158e2358a7c34d1a27b11e5cd813fc49d044e6c2c3fb4d53 exited with an error (status 0). \n                    at Context.<anonymous> (test/security/PullPayment.test.js:13:46)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "testMethod",
+    "value" : "can record an async payment correctly"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PullPayment payments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "27c12284e084a1e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/27c12284e084a1e",
+        "status" : "broken",
+        "statusDetails" : "Transaction: 0x7a3e15cb0a740aeb302734dd5f391e3e220923e3836a86d1ba12ac59c82e6163 exited with an error (status 0). \n                     Please check that the transaction:\n                     - satisfies all conditions set by Solidity `require` statements.\n                     - does not trigger a Solidity `revert` statement.\n                ",
+        "time" : {
+          "start" : 1639704649489,
+          "stop" : 1639704653565,
+          "duration" : 4076
+        }
+      }, {
+        "uid" : "ee5be33e7a4bef0b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/ee5be33e7a4bef0b",
+        "status" : "broken",
+        "statusDetails" : "Transaction: 0x11629c0fc9fcf6a37d948ce1333d833991b13ce7428b14a8e47e4fb440003a75 exited with an error (status 0). \n                     Please check that the transaction:\n                     - satisfies all conditions set by Solidity `require` statements.\n                     - does not trigger a Solidity `revert` statement.\n                ",
+        "time" : {
+          "start" : 1639541119290,
+          "stop" : 1639541125123,
+          "duration" : 5833
+        }
+      }, {
+        "uid" : "19f1465994830089",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/19f1465994830089",
+        "status" : "broken",
+        "statusDetails" : "Transaction: 0x64b0b20651e8a7745cb26068906375421c95925d9eb27d1e65f39043769183c0 exited with an error (status 0). \n                     Please check that the transaction:\n                     - satisfies all conditions set by Solidity `require` statements.\n                     - does not trigger a Solidity `revert` statement.\n                ",
+        "time" : {
+          "start" : 1639530392808,
+          "stop" : 1639530398883,
+          "duration" : 6075
+        }
+      }, {
+        "uid" : "84114a1c0278daaf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/84114a1c0278daaf",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639405735800,
+          "stop" : 1639405744439,
+          "duration" : 8639
+        }
+      }, {
+        "uid" : "590d8f2370932203",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/590d8f2370932203",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639403145380,
+          "stop" : 1639403153393,
+          "duration" : 8013
+        }
+      }, {
+        "uid" : "a092315f9bd46cfd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/a092315f9bd46cfd",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639394504629,
+          "stop" : 1639394514666,
+          "duration" : 10037
+        }
+      }, {
+        "uid" : "1af1b7e818bbf518",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1af1b7e818bbf518",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639392757015,
+          "stop" : 1639392766690,
+          "duration" : 9675
+        }
+      }, {
+        "uid" : "f76f23caab025f72",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/f76f23caab025f72",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639392672113,
+          "stop" : 1639392680403,
+          "duration" : 8290
+        }
+      }, {
+        "uid" : "cb629e428d7dacab",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/cb629e428d7dacab",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639389264309,
+          "stop" : 1639389272520,
+          "duration" : 8211
+        }
+      }, {
+        "uid" : "e5b14a7a57256be7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e5b14a7a57256be7",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639385514657,
+          "stop" : 1639385524046,
+          "duration" : 9389
+        }
+      }, {
+        "uid" : "5aec124d7e8c78c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/5aec124d7e8c78c2",
+        "status" : "failed",
+        "statusDetails" : "expected '0' to equal '100'",
+        "time" : {
+          "start" : 1639103966140,
+          "stop" : 1639103975254,
+          "duration" : 9114
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "86598b3c4e0948fc.json",
+  "parameterValues" : [ ]
+}

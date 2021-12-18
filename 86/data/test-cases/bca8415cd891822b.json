@@ -1,0 +1,385 @@
+{
+  "uid" : "bca8415cd891822b",
+  "name" : "test_transfer_to_self_no_approval",
+  "fullName" : "tests.brownie.token.tests.test_transferFrom#test_transfer_to_self_no_approval",
+  "historyId" : "e64c769fe7fbe0824bd4983651fa94bc",
+  "time" : {
+    "start" : 1639788847888,
+    "stop" : 1639788850919,
+    "duration" : 3031
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Transaction did not revert",
+  "statusTrace" : "accounts = <brownie.network.account.Accounts object at 0x7f7868ee4820>\ntoken = <Token Contract '0xc57f423407C29AC0404CC71e4937f5C1942982fc'>\n\n    def test_transfer_to_self_no_approval(accounts, token):\n        amount = token.balanceOf(accounts[0])\n    \n        with brownie.reverts():\n>           token.transferFrom(accounts[0], accounts[0], amount, {'from': accounts[0]})\n\ntests/brownie/token/tests/test_transferFrom.py:154: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <brownie.test.managers.runner.RevertContextManager object at 0x7f7864d6b190>\nexc_type = None, exc_value = None, traceback = None\n\n    def __exit__(self, exc_type, exc_value, traceback):\n        CONFIG.argv[\"always_transact\"] = self.always_transact\n    \n        if exc_type is None:\n>           raise AssertionError(\"Transaction did not revert\")\nE           AssertionError: Transaction did not revert\n\n../../../.local/share/virtualenvs/neon-compatibility-g882AfFF/lib/python3.8/site-packages/brownie/test/managers/runner.py:81: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1639788696671,
+      "stop" : 1639788696671,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "brownie_project",
+    "time" : {
+      "start" : 1639788698441,
+      "stop" : 1639788715651,
+      "duration" : 17210
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "accounts",
+    "time" : {
+      "start" : 1639788720547,
+      "stop" : 1639788720814,
+      "duration" : 267
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_env",
+    "time" : {
+      "start" : 1639788720547,
+      "stop" : 1639788720547,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1639788776149,
+      "stop" : 1639788780055,
+      "duration" : 3906
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Transaction did not revert",
+    "statusTrace" : "accounts = <brownie.network.account.Accounts object at 0x7f7868ee4820>\ntoken = <Token Contract '0xc57f423407C29AC0404CC71e4937f5C1942982fc'>\n\n    def test_transfer_to_self_no_approval(accounts, token):\n        amount = token.balanceOf(accounts[0])\n    \n        with brownie.reverts():\n>           token.transferFrom(accounts[0], accounts[0], amount, {'from': accounts[0]})\n\ntests/brownie/token/tests/test_transferFrom.py:154: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <brownie.test.managers.runner.RevertContextManager object at 0x7f7864d6b190>\nexc_type = None, exc_value = None, traceback = None\n\n    def __exit__(self, exc_type, exc_value, traceback):\n        CONFIG.argv[\"always_transact\"] = self.always_transact\n    \n        if exc_type is None:\n>           raise AssertionError(\"Transaction did not revert\")\nE           AssertionError: Transaction did not revert\n\n../../../.local/share/virtualenvs/neon-compatibility-g882AfFF/lib/python3.8/site-packages/brownie/test/managers/runner.py:81: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "30b6ca564b2d0acf",
+      "name" : "stdout",
+      "source" : "30b6ca564b2d0acf.txt",
+      "type" : "text/plain",
+      "size" : 314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "accounts::0",
+    "time" : {
+      "start" : 1639789134940,
+      "stop" : 1639789134940,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Brownie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie.token.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_transferFrom"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-918"
+  }, {
+    "name" : "thread",
+    "value" : "4464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.token.tests.test_transferFrom"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 25,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 27
+      },
+      "items" : [ {
+        "uid" : "1c52e992e7597532",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/1c52e992e7597532",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639711267129,
+          "stop" : 1639711273473,
+          "duration" : 6344
+        }
+      }, {
+        "uid" : "8e84605280a64aa6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/8e84605280a64aa6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639702414935,
+          "stop" : 1639702416708,
+          "duration" : 1773
+        }
+      }, {
+        "uid" : "303d6d548d34c582",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/81//#testresult/303d6d548d34c582",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639641125936,
+          "stop" : 1639641128076,
+          "duration" : 2140
+        }
+      }, {
+        "uid" : "af4c0e118d2fa87f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/af4c0e118d2fa87f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639563318567,
+          "stop" : 1639563320268,
+          "duration" : 1701
+        }
+      }, {
+        "uid" : "a068df6d502e7081",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/a068df6d502e7081",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639552899766,
+          "stop" : 1639552901896,
+          "duration" : 2130
+        }
+      }, {
+        "uid" : "982efc58a2791233",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/982efc58a2791233",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639537603800,
+          "stop" : 1639537605195,
+          "duration" : 1395
+        }
+      }, {
+        "uid" : "a77ea5e54dbf0469",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/a77ea5e54dbf0469",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639527711180,
+          "stop" : 1639527713382,
+          "duration" : 2202
+        }
+      }, {
+        "uid" : "e0f154ac7bf19ffd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/76//#testresult/e0f154ac7bf19ffd",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639486924023,
+          "stop" : 1639486926001,
+          "duration" : 1978
+        }
+      }, {
+        "uid" : "25bd62d1fe9ee430",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/75//#testresult/25bd62d1fe9ee430",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639483095804,
+          "stop" : 1639483097141,
+          "duration" : 1337
+        }
+      }, {
+        "uid" : "17ba27e64836c1f0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/74//#testresult/17ba27e64836c1f0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639478139343,
+          "stop" : 1639478141518,
+          "duration" : 2175
+        }
+      }, {
+        "uid" : "fa03a9bc40afc0f0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/73//#testresult/fa03a9bc40afc0f0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639472651274,
+          "stop" : 1639472653303,
+          "duration" : 2029
+        }
+      }, {
+        "uid" : "bff98dad13809c0f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/72//#testresult/bff98dad13809c0f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639472138297,
+          "stop" : 1639472140503,
+          "duration" : 2206
+        }
+      }, {
+        "uid" : "2efb1f50426a01bf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/2efb1f50426a01bf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639467371080,
+          "stop" : 1639467373297,
+          "duration" : 2217
+        }
+      }, {
+        "uid" : "1a3ef95a0923748",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/70//#testresult/1a3ef95a0923748",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639466276150,
+          "stop" : 1639466278261,
+          "duration" : 2111
+        }
+      }, {
+        "uid" : "3a738d709d7727ee",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/69//#testresult/3a738d709d7727ee",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639463711260,
+          "stop" : 1639463713380,
+          "duration" : 2120
+        }
+      }, {
+        "uid" : "48f6867bd6894e6d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/48f6867bd6894e6d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639404563496,
+          "stop" : 1639404565577,
+          "duration" : 2081
+        }
+      }, {
+        "uid" : "2b9de173a03c4230",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/2b9de173a03c4230",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639401177021,
+          "stop" : 1639401179106,
+          "duration" : 2085
+        }
+      }, {
+        "uid" : "fed2e14c2e34d7a0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/66//#testresult/fed2e14c2e34d7a0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639400277896,
+          "stop" : 1639400280264,
+          "duration" : 2368
+        }
+      }, {
+        "uid" : "fc35455f556b322c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/65//#testresult/fc35455f556b322c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639399303824,
+          "stop" : 1639399305935,
+          "duration" : 2111
+        }
+      }, {
+        "uid" : "48847ed6e9e7448b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/48847ed6e9e7448b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Transaction did not revert",
+        "time" : {
+          "start" : 1639392847224,
+          "stop" : 1639392849303,
+          "duration" : 2079
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bca8415cd891822b.json",
+  "parameterValues" : [ ]
+}

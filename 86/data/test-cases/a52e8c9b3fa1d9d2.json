@@ -1,0 +1,102 @@
+{
+  "uid" : "a52e8c9b3fa1d9d2",
+  "name" : "reverts",
+  "fullName" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender.reverts",
+  "historyId" : "cf59bace7ef0995aa8c01ef9a914d035",
+  "time" : {
+    "start" : 1639792830018,
+    "stop" : 1639792837422,
+    "duration" : 7404
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Burnable burn when the given amount is greater than the balance of the sender"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "63f54b12d0283650",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/63f54b12d0283650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639405960751,
+          "stop" : 1639405968105,
+          "duration" : 7354
+        }
+      }, {
+        "uid" : "f25cb0aba6ec55c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/f25cb0aba6ec55c2",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20: burn amount exceeds balance'",
+        "time" : {
+          "start" : 1639404254947,
+          "stop" : 1639404388822,
+          "duration" : 133875
+        }
+      }, {
+        "uid" : "e05be2760b99d764",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e05be2760b99d764",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386200452,
+          "stop" : 1639386300458,
+          "duration" : 100006
+        }
+      }, {
+        "uid" : "7d28398bc6e97f44",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/7d28398bc6e97f44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639106903511,
+          "stop" : 1639106910927,
+          "duration" : 7416
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a52e8c9b3fa1d9d2.json",
+  "parameterValues" : [ ]
+}

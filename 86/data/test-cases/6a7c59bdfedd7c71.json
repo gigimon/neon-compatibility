@@ -1,0 +1,160 @@
+{
+  "uid" : "6a7c59bdfedd7c71",
+  "name" : "has expected balance",
+  "fullName" : "Contract: TransparentUpgradeableProxy without initialization when sending some balance.has expected balance",
+  "historyId" : "e4431ab6f1c984c5083d41a1c06cc2ac",
+  "time" : {
+    "start" : 1639791442146,
+    "stop" : 1639791451537,
+    "duration" : 9391
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '1000000000000000000000' to equal '1000000'",
+  "statusTrace" : "AssertionError: expected '1000000000000000000000' to equal '1000000'\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:42:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy without initialization when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy without initialization when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy without initialization when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "f453272b71a11990",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/f453272b71a11990",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639713084515,
+          "stop" : 1639713091911,
+          "duration" : 7396
+        }
+      }, {
+        "uid" : "a60aad34477dbe7c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/a60aad34477dbe7c",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639704157070,
+          "stop" : 1639704164220,
+          "duration" : 7150
+        }
+      }, {
+        "uid" : "c1dba7acb69fab81",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/c1dba7acb69fab81",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639540447130,
+          "stop" : 1639540457836,
+          "duration" : 10706
+        }
+      }, {
+        "uid" : "6c18602e99352d35",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/6c18602e99352d35",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639408780378,
+          "stop" : 1639408789791,
+          "duration" : 9413
+        }
+      }, {
+        "uid" : "b648deda0614974b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/b648deda0614974b",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639402832654,
+          "stop" : 1639402844978,
+          "duration" : 12324
+        }
+      }, {
+        "uid" : "c5eddabaef1a5955",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/c5eddabaef1a5955",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639393814812,
+          "stop" : 1639393823906,
+          "duration" : 9094
+        }
+      }, {
+        "uid" : "16850343689b1acf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/16850343689b1acf",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639391878442,
+          "stop" : 1639391887713,
+          "duration" : 9271
+        }
+      }, {
+        "uid" : "262281f7048b2ab4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/262281f7048b2ab4",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639391973830,
+          "stop" : 1639391999358,
+          "duration" : 25528
+        }
+      }, {
+        "uid" : "f1c2679028fb4445",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/f1c2679028fb4445",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '1000000'",
+        "time" : {
+          "start" : 1639102904489,
+          "stop" : 1639102914701,
+          "duration" : 10212
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6a7c59bdfedd7c71.json",
+  "parameterValues" : [ ]
+}

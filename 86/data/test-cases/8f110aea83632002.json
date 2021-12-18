@@ -1,0 +1,149 @@
+{
+  "uid" : "8f110aea83632002",
+  "name" : "reverts when input arrays don't match up",
+  "fullName" : "Contract: ERC1155 like an ERC1155 balanceOfBatch.reverts when input arrays don't match up",
+  "historyId" : "dfed8dbad6c8c32bc56e5b5b61bffd6d",
+  "time" : {
+    "start" : 1639793148204,
+    "stop" : 1639793156081,
+    "duration" : 7877
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when input arrays don't match up"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOfBatch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "5a244449f4ae9aea",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/5a244449f4ae9aea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639714272059,
+          "stop" : 1639714277534,
+          "duration" : 5475
+        }
+      }, {
+        "uid" : "9e249c45a1f5c164",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/9e249c45a1f5c164",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705591998,
+          "stop" : 1639705600237,
+          "duration" : 8239
+        }
+      }, {
+        "uid" : "51df9e08fad98b8c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/51df9e08fad98b8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542276749,
+          "stop" : 1639542283565,
+          "duration" : 6816
+        }
+      }, {
+        "uid" : "874b00802545ac76",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/874b00802545ac76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639407439262,
+          "stop" : 1639407446987,
+          "duration" : 7725
+        }
+      }, {
+        "uid" : "1aafb1d61a98114b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/1aafb1d61a98114b",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1639407656158,
+          "stop" : 1639407789105,
+          "duration" : 132947
+        }
+      }, {
+        "uid" : "3316f75d14805932",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/3316f75d14805932",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639395085564,
+          "stop" : 1639395185581,
+          "duration" : 100017
+        }
+      }, {
+        "uid" : "1355b082aeb476f3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1355b082aeb476f3",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393434282,
+          "stop" : 1639393534287,
+          "duration" : 100005
+        }
+      }, {
+        "uid" : "e55db93c0c414c06",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/e55db93c0c414c06",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'ERC1155: accounts and ids length mismatch'",
+        "time" : {
+          "start" : 1639393325684,
+          "stop" : 1639393473311,
+          "duration" : 147627
+        }
+      }, {
+        "uid" : "723559a6f2eba36f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/723559a6f2eba36f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104099194,
+          "stop" : 1639104107058,
+          "duration" : 7864
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8f110aea83632002.json",
+  "parameterValues" : [ ]
+}
