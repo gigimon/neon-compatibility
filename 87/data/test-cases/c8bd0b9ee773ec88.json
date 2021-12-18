@@ -1,0 +1,173 @@
+{
+  "uid" : "c8bd0b9ee773ec88",
+  "name" : "has a symbol",
+  "fullName" : "Contract: ERC20.has a symbol",
+  "historyId" : "7cdcefe67cf4ff4cc69048c32b2379e9",
+  "time" : {
+    "start" : 1639801686246,
+    "stop" : 1639801690923,
+    "duration" : 4677
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "testMethod",
+    "value" : "has a symbol"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "eb3dd51c9836b822",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/eb3dd51c9836b822",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639792801612,
+          "stop" : 1639792808788,
+          "duration" : 7176
+        }
+      }, {
+        "uid" : "70b598dccd3919a1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/70b598dccd3919a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705299843,
+          "stop" : 1639705306220,
+          "duration" : 6377
+        }
+      }, {
+        "uid" : "ca36baf1a65f8fc5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/ca36baf1a65f8fc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639541956976,
+          "stop" : 1639541961658,
+          "duration" : 4682
+        }
+      }, {
+        "uid" : "cc0f00b6eec88c80",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/cc0f00b6eec88c80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531376284,
+          "stop" : 1639531382719,
+          "duration" : 6435
+        }
+      }, {
+        "uid" : "9f8f8fd420abc18e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/9f8f8fd420abc18e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639406109750,
+          "stop" : 1639406123608,
+          "duration" : 13858
+        }
+      }, {
+        "uid" : "f60aad996a3398ac",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/f60aad996a3398ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639405055316,
+          "stop" : 1639405068232,
+          "duration" : 12916
+        }
+      }, {
+        "uid" : "9b786644d82399ea",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/9b786644d82399ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394958509,
+          "stop" : 1639394973631,
+          "duration" : 15122
+        }
+      }, {
+        "uid" : "14ccaefa15dc25e9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/14ccaefa15dc25e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393211469,
+          "stop" : 1639393221035,
+          "duration" : 9566
+        }
+      }, {
+        "uid" : "a8a06a1da3d15382",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/a8a06a1da3d15382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393022020,
+          "stop" : 1639393034614,
+          "duration" : 12594
+        }
+      }, {
+        "uid" : "da2d5a7df8146bea",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/da2d5a7df8146bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389811235,
+          "stop" : 1639390094106,
+          "duration" : 282871
+        }
+      }, {
+        "uid" : "bfd703ea0c7b73f3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/bfd703ea0c7b73f3",
+        "status" : "broken",
+        "statusDetails" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+        "time" : {
+          "start" : 1639386088085,
+          "stop" : 1639386455229,
+          "duration" : 367144
+        }
+      }, {
+        "uid" : "1eb3d10d266985c4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/1eb3d10d266985c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107557354,
+          "stop" : 1639107571486,
+          "duration" : 14132
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c8bd0b9ee773ec88.json",
+  "parameterValues" : [ ]
+}
