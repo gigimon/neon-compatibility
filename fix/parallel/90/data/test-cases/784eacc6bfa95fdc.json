@@ -1,0 +1,70 @@
+{
+  "uid" : "784eacc6bfa95fdc",
+  "name" : "receives an ERC721 token",
+  "fullName" : "receives an ERC721 token",
+  "historyId" : "886dd072416c12a5450e8557cc5c67f2",
+  "time" : {
+    "start" : 1640174392461,
+    "stop" : 1640174538709,
+    "duration" : 146248
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC721Holder"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "da0fbacd3d2c9ccf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/da0fbacd3d2c9ccf",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1640169809317,
+          "stop" : 1640169936815,
+          "duration" : 127498
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "784eacc6bfa95fdc.json",
+  "parameterValues" : [ ]
+}

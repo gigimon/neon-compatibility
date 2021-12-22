@@ -1,0 +1,85 @@
+{
+  "uid" : "6b249eb77cef82ce",
+  "name" : "initializer has not run",
+  "fullName" : "initializer has not run",
+  "historyId" : "f88329df9025989bca8a2133e77ad51c",
+  "time" : {
+    "start" : 1640173114422,
+    "stop" : 1640173191674,
+    "duration" : 77252
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: Initializable"
+  }, {
+    "name" : "suite",
+    "value" : "basic testing without inheritance"
+  }, {
+    "name" : "subSuite",
+    "value" : "before initialize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3632a1672e6d82d8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/3632a1672e6d82d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640168792941,
+          "stop" : 1640168821120,
+          "duration" : 28179
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6b249eb77cef82ce.json",
+  "parameterValues" : [ ]
+}

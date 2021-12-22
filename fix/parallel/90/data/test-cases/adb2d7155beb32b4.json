@@ -1,0 +1,79 @@
+{
+  "uid" : "adb2d7155beb32b4",
+  "name" : "deployer has the balance equal to initial supply",
+  "fullName" : "deployer has the balance equal to initial supply",
+  "historyId" : "4e5f6645167b0ab7983ced5e47d41d4b",
+  "time" : {
+    "start" : 1640173963453,
+    "stop" : 1640173964376,
+    "duration" : 923
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20PresetFixedSupply"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bab0a0bf3d46fc57",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/bab0a0bf3d46fc57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640169375286,
+          "stop" : 1640169377469,
+          "duration" : 2183
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "adb2d7155beb32b4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,138 @@
+{
+  "uid" : "c038d3aa474d8185",
+  "name" : "test_brownie_deploy",
+  "fullName" : "tests.brownie.test_brownie#test_brownie_deploy",
+  "historyId" : "6e83a925951bfd8b9c39b6ea82974dc9",
+  "time" : {
+    "start" : 1640172414469,
+    "stop" : 1640172418017,
+    "duration" : 3548
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1640172393587,
+      "stop" : 1640172393587,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "brownie_project",
+    "time" : {
+      "start" : 1640172394641,
+      "stop" : 1640172414468,
+      "duration" : 19827
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58c5ae6369d4425b",
+      "name" : "log",
+      "source" : "58c5ae6369d4425b.txt",
+      "type" : "text/plain",
+      "size" : 287
+    }, {
+      "uid" : "f0dee1c5cb1e464f",
+      "name" : "stdout",
+      "source" : "f0dee1c5cb1e464f.txt",
+      "type" : "text/plain",
+      "size" : 641
+    }, {
+      "uid" : "752c8110c81a448e",
+      "name" : "stderr",
+      "source" : "752c8110c81a448e.txt",
+      "type" : "text/plain",
+      "size" : 10648
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Brownie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie"
+  }, {
+    "name" : "suite",
+    "value" : "test_brownie"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-252"
+  }, {
+    "name" : "thread",
+    "value" : "3586-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.test_brownie"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6b4af46e3e1097fd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/6b4af46e3e1097fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640168392723,
+          "stop" : 1640168395852,
+          "duration" : 3129
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c038d3aa474d8185.json",
+  "parameterValues" : [ ]
+}
