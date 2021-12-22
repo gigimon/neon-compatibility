@@ -1,0 +1,112 @@
+{
+  "uid" : "3b5d26fc393f38ab",
+  "name" : "has expected balance",
+  "fullName" : "has expected balance",
+  "historyId" : "af7cf6a29298cd08c7ef396032406bbd",
+  "time" : {
+    "start" : 1640176322541,
+    "stop" : 1640176457561,
+    "duration" : 135020
+  },
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n    at /home/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/proxy/Clones.test.js:11:37\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at Context.<anonymous> (test/proxy/Clones.behaviour.js:31:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: Clones"
+  }, {
+    "name" : "suite",
+    "value" : "clone"
+  }, {
+    "name" : "subSuite",
+    "value" : "initialization without parameters > non payable > when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "dec6037ae36958a2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/dec6037ae36958a2",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1640172792846,
+          "stop" : 1640172896991,
+          "duration" : 104145
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3b5d26fc393f38ab.json",
+  "parameterValues" : [ ]
+}

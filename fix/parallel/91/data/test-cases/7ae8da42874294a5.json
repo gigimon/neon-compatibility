@@ -1,0 +1,81 @@
+{
+  "uid" : "7ae8da42874294a5",
+  "name" : "initial nonce is 0",
+  "fullName" : "initial nonce is 0",
+  "historyId" : "a92c665fab36444f618838a3f47ffc85",
+  "time" : {
+    "start" : 1640178146473,
+    "stop" : 1640178146474,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20VotesComp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "aac378743a977613",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/aac378743a977613",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1640173712923,
+          "stop" : 1640173712924,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c8824a7096e8318f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/c8824a7096e8318f",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1640169352352,
+          "stop" : 1640169352353,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7ae8da42874294a5.json",
+  "parameterValues" : [ ]
+}

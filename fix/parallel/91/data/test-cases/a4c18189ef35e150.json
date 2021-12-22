@@ -1,0 +1,92 @@
+{
+  "uid" : "a4c18189ef35e150",
+  "name" : "decrements totalSupply",
+  "fullName" : "decrements totalSupply",
+  "historyId" : "da7e4dc8b647b17587c4b2855decfbb3",
+  "time" : {
+    "start" : 1640178295207,
+    "stop" : 1640178299176,
+    "duration" : 3969
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20PresetFixedSupply"
+  }, {
+    "name" : "suite",
+    "value" : "burning"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a8868690b173ef94",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/a8868690b173ef94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640173981013,
+          "stop" : 1640173981953,
+          "duration" : 940
+        }
+      }, {
+        "uid" : "a61b2813beb43e1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/a61b2813beb43e1",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1640169540357,
+          "stop" : 1640169670525,
+          "duration" : 130168
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a4c18189ef35e150.json",
+  "parameterValues" : [ ]
+}

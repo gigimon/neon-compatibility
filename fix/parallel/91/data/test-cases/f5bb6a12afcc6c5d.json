@@ -1,0 +1,96 @@
+{
+  "uid" : "f5bb6a12afcc6c5d",
+  "name" : "test_hardhat_simple",
+  "fullName" : "tests.hardhat.test_hardhat#test_hardhat_simple",
+  "historyId" : "33177accc6f073cb500e69f145791730",
+  "time" : {
+    "start" : 1640176453408,
+    "stop" : 1640176453408,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: moved to the Node.js tests",
+  "statusTrace" : "('/home/runner/work/neon-compatibility/neon-compatibility/tests/hardhat/test_hardhat.py', 18, 'Skipped: moved to the Node.js tests')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "hardhat"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='moved to the Node.js tests')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.hardhat"
+  }, {
+    "name" : "suite",
+    "value" : "test_hardhat"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-127"
+  }, {
+    "name" : "thread",
+    "value" : "3583-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.hardhat.test_hardhat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "320030bd902a8923",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/320030bd902a8923",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: moved to the Node.js tests",
+        "time" : {
+          "start" : 1640172505697,
+          "stop" : 1640172505697,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2ccd27b1a401784c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/2ccd27b1a401784c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: moved to the Node.js tests",
+        "time" : {
+          "start" : 1640168484206,
+          "stop" : 1640168484206,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='moved to the Node.js tests')" ]
+  },
+  "source" : "f5bb6a12afcc6c5d.json",
+  "parameterValues" : [ ]
+}

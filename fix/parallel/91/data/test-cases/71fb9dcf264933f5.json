@@ -1,0 +1,86 @@
+{
+  "uid" : "71fb9dcf264933f5",
+  "name" : "\"before all\" hook: deploy implementation for \"cannot be initialized with a non-contract address\"",
+  "fullName" : "\"before all\" hook: deploy implementation for \"cannot be initialized with a non-contract address\"",
+  "historyId" : "7c70f803056ce3c110bb71b743c5ce84",
+  "time" : {
+    "start" : 1640176729928,
+    "stop" : 1640176729928,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+  "statusTrace" : "Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:26:86)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: TransparentUpgradeableProxy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a629909325d3a6fc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/a629909325d3a6fc",
+        "status" : "broken",
+        "statusDetails" : "done() called multiple times in hook <Contract: TransparentUpgradeableProxy \"before all\" hook: deploy implementation for \"cannot be initialized with a non-contract address\"> of file /home/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/proxy/transparent/TransparentUpgradeableProxy.test.js; in addition, done() received error: Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\n    at Context.<anonymous> (/home/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/proxy/Proxy.behaviour.js:26:86)\n    at callFn (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runnable.js:374:21)\n    at Hook.Runnable.run (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runnable.js:361:7)\n    at next (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runner.js:470:10)\n    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runner.js:509:7\n    at done (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runnable.js:314:5)\n    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/node_modules/mocha/lib/runnable.js:379:11 {\n  data: [Object],\n  hijackedStack: 'Error: Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443\\n' +\n    '    at Object.ErrorResponse (/home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/truffle-contract/node_modules/web3-core-requestmanager/node_modules/web3-core-helpers/lib/errors.js:28:19)\\n' +\n    '    at /home/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/truffle-contract/node_modules/web3-core-requestmanager/lib/index.js:303:36\\n' +\n    '    at processTicksAndRejections (node:internal/process/task_queues:83:21)'\n}",
+        "time" : {
+          "start" : 1640168812456,
+          "stop" : 1640168812456,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "71fb9dcf264933f5.json",
+  "parameterValues" : [ ]
+}

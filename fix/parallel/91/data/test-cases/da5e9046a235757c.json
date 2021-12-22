@@ -1,0 +1,92 @@
+{
+  "uid" : "da5e9046a235757c",
+  "name" : "rejects a release time in the past",
+  "fullName" : "rejects a release time in the past",
+  "historyId" : "60609483c882696adda2807ac6f0e918",
+  "time" : {
+    "start" : 1640178376504,
+    "stop" : 1640178389354,
+    "duration" : 12850
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: TokenTimelock"
+  }, {
+    "name" : "suite",
+    "value" : "with token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "14dc1508635a2961",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/14dc1508635a2961",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 3: custom program error: 0x0",
+        "time" : {
+          "start" : 1640173990977,
+          "stop" : 1640174009781,
+          "duration" : 18804
+        }
+      }, {
+        "uid" : "56c533e332c3a277",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/56c533e332c3a277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640169371597,
+          "stop" : 1640169474505,
+          "duration" : 102908
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da5e9046a235757c.json",
+  "parameterValues" : [ ]
+}

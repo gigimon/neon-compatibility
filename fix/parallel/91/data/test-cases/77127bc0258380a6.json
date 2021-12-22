@@ -1,0 +1,87 @@
+{
+  "uid" : "77127bc0258380a6",
+  "name" : "rejects expired permit",
+  "fullName" : "rejects expired permit",
+  "historyId" : "c270e954bb2e3853ae815ffdd2e1245b",
+  "time" : {
+    "start" : 1640178146479,
+    "stop" : 1640178146479,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20VotesComp"
+  }, {
+    "name" : "suite",
+    "value" : "set delegation"
+  }, {
+    "name" : "subSuite",
+    "value" : "with signature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "14ae6740c5e44ab9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/14ae6740c5e44ab9",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1640173712931,
+          "stop" : 1640173712931,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4e3451efe95fac90",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/4e3451efe95fac90",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1640169352358,
+          "stop" : 1640169352358,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77127bc0258380a6.json",
+  "parameterValues" : [ ]
+}

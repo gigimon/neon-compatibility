@@ -1,0 +1,85 @@
+{
+  "uid" : "4426c6b42dc9188f",
+  "name" : "reverts",
+  "fullName" : "reverts",
+  "historyId" : "55a5f48a5fa8d24011362a088e8e34b1",
+  "time" : {
+    "start" : 1640178127908,
+    "stop" : 1640178141474,
+    "duration" : 13566
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20Burnable"
+  }, {
+    "name" : "suite",
+    "value" : "burnFrom"
+  }, {
+    "name" : "subSuite",
+    "value" : "when the given amount is greater than the allowance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3d1ebbdb31d7a3d7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/3d1ebbdb31d7a3d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640174075454,
+          "stop" : 1640174082501,
+          "duration" : 7047
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4426c6b42dc9188f.json",
+  "parameterValues" : [ ]
+}

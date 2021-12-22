@@ -1,0 +1,87 @@
+{
+  "uid" : "84248a2b8b71aeb4",
+  "name" : "returns zero if < first checkpoint block",
+  "fullName" : "returns zero if < first checkpoint block",
+  "historyId" : "a8f5b07be0deb55a48876e40ae970fde",
+  "time" : {
+    "start" : 1640178146484,
+    "stop" : 1640178146484,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC20VotesComp"
+  }, {
+    "name" : "suite",
+    "value" : "Compound test suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "getPriorVotes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "802b768e6d75fe6d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/802b768e6d75fe6d",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1640173712939,
+          "stop" : 1640173712939,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bc219331d11e3e0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/bc219331d11e3e0",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored",
+        "time" : {
+          "start" : 1640169352388,
+          "stop" : 1640169352388,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "84248a2b8b71aeb4.json",
+  "parameterValues" : [ ]
+}

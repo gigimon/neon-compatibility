@@ -1,0 +1,79 @@
+{
+  "uid" : "32d22576a89ace2a",
+  "name" : "cannot be initialized with a non-contract address",
+  "fullName" : "cannot be initialized with a non-contract address",
+  "historyId" : "2b9ef7b758c645ccce7d9ce50e3b2ebe",
+  "time" : {
+    "start" : 1640176321200,
+    "stop" : 1640176323533,
+    "duration" : 2333
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: ERC1967Proxy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b2f2461f01e45303",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/b2f2461f01e45303",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640172743396,
+          "stop" : 1640172745076,
+          "duration" : 1680
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "32d22576a89ace2a.json",
+  "parameterValues" : [ ]
+}

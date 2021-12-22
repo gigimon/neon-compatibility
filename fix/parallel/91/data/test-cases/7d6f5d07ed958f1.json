@@ -1,0 +1,95 @@
+{
+  "uid" : "7d6f5d07ed958f1",
+  "name" : "always returns 0 for empty array",
+  "fullName" : "always returns 0 for empty array",
+  "historyId" : "522e26232837f7a8cebe23a71e53fa3e",
+  "time" : {
+    "start" : 1640179362971,
+    "stop" : 1640179410461,
+    "duration" : 47490
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Contract: Arrays"
+  }, {
+    "name" : "suite",
+    "value" : "findUpperBound"
+  }, {
+    "name" : "subSuite",
+    "value" : "Empty array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "377bac1cf2a3f9f8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/90//#testresult/377bac1cf2a3f9f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640174839517,
+          "stop" : 1640174847591,
+          "duration" : 8074
+        }
+      }, {
+        "uid" : "95548040c606ac69",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/fix/parallel/88//#testresult/95548040c606ac69",
+        "status" : "broken",
+        "statusDetails" : "Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443",
+        "time" : {
+          "start" : 1640170068969,
+          "stop" : 1640170217350,
+          "duration" : 148381
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7d6f5d07ed958f1.json",
+  "parameterValues" : [ ]
+}
