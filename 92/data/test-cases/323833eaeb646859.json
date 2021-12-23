@@ -1,0 +1,59 @@
+{
+  "uid" : "323833eaeb646859",
+  "name" : "\"before all\" hook: deploy implementation for \"address already used\"",
+  "fullName" : "Contract: Clones cloneDeterministic.\"before all\" hook: deploy implementation for \"address already used\"",
+  "historyId" : "bab0137bdfe46d18b1aa98c9f7539019",
+  "time" : {
+    "start" : 1640220030164,
+    "stop" : 1640220030164,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:9:86)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Clones cloneDeterministic"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones cloneDeterministic"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook: deploy implementation for \"address already used\""
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones cloneDeterministic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "323833eaeb646859.json",
+  "parameterValues" : [ ]
+}

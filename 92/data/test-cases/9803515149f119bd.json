@@ -1,0 +1,135 @@
+{
+  "uid" : "9803515149f119bd",
+  "name" : "initializes the proxy",
+  "fullName" : "Contract: Clones clone initialization without parameters payable when not sending balance.initializes the proxy",
+  "historyId" : "d718d219cf9e950005422330b6645596",
+  "time" : {
+    "start" : 1640220008855,
+    "stop" : 1640220013223,
+    "duration" : 4368
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: HTTPConnectionPool(host='10.2.0.2', port=8899): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc58276fa0>: Failed to establish a new connection: [Errno 99] Cannot assign requested address'))",
+  "statusTrace" : "Error: Returned error: HTTPConnectionPool(host='10.2.0.2', port=8899): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc58276fa0>: Failed to establish a new connection: [Errno 99] Cannot assign requested address'))\n                    at /Users/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/proxy/Clones.test.js:10:43\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:59:19)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Clones clone initialization without parameters payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones clone initialization without parameters payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializes the proxy"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones clone initialization without parameters payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "f8759f417cf17392",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/f8759f417cf17392",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639800414626,
+          "stop" : 1639800423131,
+          "duration" : 8505
+        }
+      }, {
+        "uid" : "a212e94037eadea5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/a212e94037eadea5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639704139851,
+          "stop" : 1639704147387,
+          "duration" : 7536
+        }
+      }, {
+        "uid" : "8cd390c3807fba7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/8cd390c3807fba7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408069375,
+          "stop" : 1639408078831,
+          "duration" : 9456
+        }
+      }, {
+        "uid" : "e403e4fbd740b854",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/e403e4fbd740b854",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639400945768,
+          "stop" : 1639400955250,
+          "duration" : 9482
+        }
+      }, {
+        "uid" : "520a6e7b84ffa2c7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/520a6e7b84ffa2c7",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391738474,
+          "stop" : 1639391875894,
+          "duration" : 137420
+        }
+      }, {
+        "uid" : "4e1e0f74768238f2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/4e1e0f74768238f2",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639385051685,
+          "stop" : 1639385168507,
+          "duration" : 116822
+        }
+      }, {
+        "uid" : "4906e4267ee6557e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/4906e4267ee6557e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102336932,
+          "stop" : 1639102346639,
+          "duration" : 9707
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9803515149f119bd.json",
+  "parameterValues" : [ ]
+}

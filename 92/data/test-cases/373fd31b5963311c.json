@@ -1,0 +1,165 @@
+{
+  "uid" : "373fd31b5963311c",
+  "name" : "reverts with a not-yet-created snapshot id",
+  "fullName" : "Contract: ERC20Snapshot totalSupplyAt.reverts with a not-yet-created snapshot id",
+  "historyId" : "2e027999383da41f15dd83559a0b0f8e",
+  "time" : {
+    "start" : 1640220637478,
+    "stop" : 1640220642445,
+    "duration" : 4967
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts with a not-yet-created snapshot id"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20Snapshot totalSupplyAt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "3066a9b7d5b4cc52",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/3066a9b7d5b4cc52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639801703229,
+          "stop" : 1639801708273,
+          "duration" : 5044
+        }
+      }, {
+        "uid" : "883f67086ed422ac",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/883f67086ed422ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639792818939,
+          "stop" : 1639792825666,
+          "duration" : 6727
+        }
+      }, {
+        "uid" : "2ad4b2c97a2de5bc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/2ad4b2c97a2de5bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639714128019,
+          "stop" : 1639714133323,
+          "duration" : 5304
+        }
+      }, {
+        "uid" : "a4a9fdec45105427",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/a4a9fdec45105427",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705318652,
+          "stop" : 1639705326532,
+          "duration" : 7880
+        }
+      }, {
+        "uid" : "cd116da8636fee48",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/cd116da8636fee48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639541978795,
+          "stop" : 1639541983854,
+          "duration" : 5059
+        }
+      }, {
+        "uid" : "9801da2901eb4cb5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/9801da2901eb4cb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531393421,
+          "stop" : 1639531399644,
+          "duration" : 6223
+        }
+      }, {
+        "uid" : "73cc8b8e32e2f5ed",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/73cc8b8e32e2f5ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639406954061,
+          "stop" : 1639406960498,
+          "duration" : 6437
+        }
+      }, {
+        "uid" : "cc363ec01bee5d85",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/cc363ec01bee5d85",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: request to https://proxy.teststand2.neontest.xyz/solana failed, reason: connect ETIMEDOUT 157.90.236.85:443' to equal 'ERC20Snapshot: nonexistent id'",
+        "time" : {
+          "start" : 1639406089131,
+          "stop" : 1639406244308,
+          "duration" : 155177
+        }
+      }, {
+        "uid" : "9cbd7811acfb5e88",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9cbd7811acfb5e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393229638,
+          "stop" : 1639393234251,
+          "duration" : 4613
+        }
+      }, {
+        "uid" : "71f47e373c704d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/71f47e373c704d6",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386200529,
+          "stop" : 1639386300538,
+          "duration" : 100009
+        }
+      }, {
+        "uid" : "8fc3b9e0ca6c08fa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/8fc3b9e0ca6c08fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107321361,
+          "stop" : 1639107327705,
+          "duration" : 6344
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "373fd31b5963311c.json",
+  "parameterValues" : [ ]
+}

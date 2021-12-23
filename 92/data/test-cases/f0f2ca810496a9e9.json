@@ -1,0 +1,133 @@
+{
+  "uid" : "f0f2ca810496a9e9",
+  "name" : "initializes the proxy",
+  "fullName" : "Contract: Clones clone initialization with parameters payable when sending some balance.initializes the proxy",
+  "historyId" : "c49186ac1c7319d9a9701324035d82ba",
+  "time" : {
+    "start" : 1640220025006,
+    "stop" : 1640220027591,
+    "duration" : 2585
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at /Users/runner/work/neon-compatibility/neon-compatibility/openzeppelin-contracts/test/proxy/Clones.test.js:10:43\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:139:19)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Clones clone initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones clone initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializes the proxy"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones clone initialization with parameters payable when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "b6405e8745fee91d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/b6405e8745fee91d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639800483136,
+          "stop" : 1639800490647,
+          "duration" : 7511
+        }
+      }, {
+        "uid" : "4261ddd6406f9c46",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/4261ddd6406f9c46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639704202546,
+          "stop" : 1639704209475,
+          "duration" : 6929
+        }
+      }, {
+        "uid" : "fcb493422a5c7b3b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/fcb493422a5c7b3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408150664,
+          "stop" : 1639408159949,
+          "duration" : 9285
+        }
+      }, {
+        "uid" : "277a38daefbf8dd5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/277a38daefbf8dd5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639401217378,
+          "stop" : 1639401226169,
+          "duration" : 8791
+        }
+      }, {
+        "uid" : "839397dfe51b39e4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/839397dfe51b39e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639392153897,
+          "stop" : 1639392163612,
+          "duration" : 9715
+        }
+      }, {
+        "uid" : "668691fa7fba4d7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/668691fa7fba4d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639385330931,
+          "stop" : 1639385340327,
+          "duration" : 9396
+        }
+      }, {
+        "uid" : "69a099083644b0e3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/69a099083644b0e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102420050,
+          "stop" : 1639102430061,
+          "duration" : 10011
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f0f2ca810496a9e9.json",
+  "parameterValues" : [ ]
+}

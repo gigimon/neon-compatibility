@@ -1,0 +1,160 @@
+{
+  "uid" : "b9df012b0b5a75b6",
+  "name" : "reverts on multiplication overflow, positive operands",
+  "fullName" : "Contract: SignedSafeMath mul.reverts on multiplication overflow, positive operands",
+  "historyId" : "8027b86f8f3cce570e2ba647bc95ce56",
+  "time" : {
+    "start" : 1640223981407,
+    "stop" : 1640223985583,
+    "duration" : 4176
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: {\"id\":478,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: {\"id\":478,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at testFailsCommutative (test/utils/math/SignedSafeMath.test.js:19:5)\n                    at Context.<anonymous> (test/utils/math/SignedSafeMath.test.js:104:7)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on multiplication overflow, positive operands"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SignedSafeMath mul"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "bc76e40c82ce1e2b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/bc76e40c82ce1e2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639805942681,
+          "stop" : 1639805948108,
+          "duration" : 5427
+        }
+      }, {
+        "uid" : "98e4c57fb4920118",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/98e4c57fb4920118",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639798634836,
+          "stop" : 1639798642775,
+          "duration" : 7939
+        }
+      }, {
+        "uid" : "9806e56705ff5435",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/9806e56705ff5435",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639717981543,
+          "stop" : 1639717986847,
+          "duration" : 5304
+        }
+      }, {
+        "uid" : "389b679d13640f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/389b679d13640f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639711071690,
+          "stop" : 1639711081619,
+          "duration" : 9929
+        }
+      }, {
+        "uid" : "7df09865e41dab60",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/7df09865e41dab60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639546038406,
+          "stop" : 1639546043868,
+          "duration" : 5462
+        }
+      }, {
+        "uid" : "99d6f72732f26469",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/99d6f72732f26469",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639536832711,
+          "stop" : 1639536839911,
+          "duration" : 7200
+        }
+      }, {
+        "uid" : "6d6648de926e9db",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/6d6648de926e9db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639421697967,
+          "stop" : 1639421705163,
+          "duration" : 7196
+        }
+      }, {
+        "uid" : "86b82ddf32eeee85",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/86b82ddf32eeee85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402766938,
+          "stop" : 1639402773487,
+          "duration" : 6549
+        }
+      }, {
+        "uid" : "fce6fc2598b69d88",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/fce6fc2598b69d88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639396104057,
+          "stop" : 1639396111687,
+          "duration" : 7630
+        }
+      }, {
+        "uid" : "de28cae5d6d1160d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/de28cae5d6d1160d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387746810,
+          "stop" : 1639387763694,
+          "duration" : 16884
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b9df012b0b5a75b6.json",
+  "parameterValues" : [ ]
+}

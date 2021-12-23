@@ -1,0 +1,180 @@
+{
+  "uid" : "2cd4918fe03911e8",
+  "name" : "does not emit AuthorizedOperator events for default operators",
+  "fullName" : "Contract: ERC777 with default operators.does not emit AuthorizedOperator events for default operators",
+  "historyId" : "19e2991133c8275cbbfa91dde98e0d40",
+  "time" : {
+    "start" : 1640220627084,
+    "stop" : 1640220633288,
+    "duration" : 6204
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: {\"id\":3,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:162:36)\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}",
+  "statusTrace" : "Error: Returned error: {\"id\":3,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:162:36)\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}\n                    at Context.<anonymous> (test/token/ERC777/ERC777.test.js:40:36)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC777 with default operators"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC777 with default operators"
+  }, {
+    "name" : "testMethod",
+    "value" : "does not emit AuthorizedOperator events for default operators"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC777 with default operators"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 12,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "9a5df9303ca690c9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/9a5df9303ca690c9",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639801688831,
+          "stop" : 1639801694794,
+          "duration" : 5963
+        }
+      }, {
+        "uid" : "a2d4067b2cabc3b3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/a2d4067b2cabc3b3",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639714106340,
+          "stop" : 1639714111600,
+          "duration" : 5260
+        }
+      }, {
+        "uid" : "1dc0f22569a4ea70",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/1dc0f22569a4ea70",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639705299966,
+          "stop" : 1639705308634,
+          "duration" : 8668
+        }
+      }, {
+        "uid" : "ec864792ba551d68",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/ec864792ba551d68",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639541963091,
+          "stop" : 1639541969354,
+          "duration" : 6263
+        }
+      }, {
+        "uid" : "70054d85088a3629",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/70054d85088a3629",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639531372525,
+          "stop" : 1639531381409,
+          "duration" : 8884
+        }
+      }, {
+        "uid" : "39314493854e20c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/39314493854e20c2",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639407387507,
+          "stop" : 1639407392322,
+          "duration" : 4815
+        }
+      }, {
+        "uid" : "9b2f78448f6fdcc7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/9b2f78448f6fdcc7",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639407608827,
+          "stop" : 1639407613224,
+          "duration" : 4397
+        }
+      }, {
+        "uid" : "79efbaf6ed5b1ea3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/79efbaf6ed5b1ea3",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639394952032,
+          "stop" : 1639394960431,
+          "duration" : 8399
+        }
+      }, {
+        "uid" : "47892c3e3d4e1a3f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/47892c3e3d4e1a3f",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639393214069,
+          "stop" : 1639393221423,
+          "duration" : 7354
+        }
+      }, {
+        "uid" : "3204f1bcb8fd6884",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/3204f1bcb8fd6884",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639393042136,
+          "stop" : 1639393048050,
+          "duration" : 5914
+        }
+      }, {
+        "uid" : "56168adc2059122",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/56168adc2059122",
+        "status" : "broken",
+        "statusDetails" : "Returned error: execution reverted",
+        "time" : {
+          "start" : 1639389803000,
+          "stop" : 1639389809110,
+          "duration" : 6110
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2cd4918fe03911e8.json",
+  "parameterValues" : [ ]
+}
