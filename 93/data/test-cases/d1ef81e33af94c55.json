@@ -1,0 +1,150 @@
+{
+  "uid" : "d1ef81e33af94c55",
+  "name" : "reverts",
+  "fullName" : "Contract: Clones cloneDeterministic initialization with parameters non payable when sending some balance.reverts",
+  "historyId" : "fd9b65f146b9a8018fa241dac5a62148",
+  "time" : {
+    "start" : 1640229899394,
+    "stop" : 1640229905339,
+    "duration" : 5945
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected an exception but none was received",
+  "statusTrace" : "AssertionError: Expected an exception but none was received\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:25:10)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:109:11)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Clones cloneDeterministic initialization with parameters non payable when sending some balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones cloneDeterministic initialization with parameters non payable when sending some balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones cloneDeterministic initialization with parameters non payable when sending some balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "87e38482f5ba960c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/87e38482f5ba960c",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639800584875,
+          "stop" : 1639800592144,
+          "duration" : 7269
+        }
+      }, {
+        "uid" : "67827887532eaf2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/67827887532eaf2",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639704294980,
+          "stop" : 1639704300950,
+          "duration" : 5970
+        }
+      }, {
+        "uid" : "7bc300a2cd3d19f8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/7bc300a2cd3d19f8",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639408275005,
+          "stop" : 1639408282841,
+          "duration" : 7836
+        }
+      }, {
+        "uid" : "beaa4fcc8b94e1b1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/beaa4fcc8b94e1b1",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639401525780,
+          "stop" : 1639401533306,
+          "duration" : 7526
+        }
+      }, {
+        "uid" : "c337c065db848204",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/c337c065db848204",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639392277887,
+          "stop" : 1639392286197,
+          "duration" : 8310
+        }
+      }, {
+        "uid" : "d814060f37c0da30",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/d814060f37c0da30",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639389111958,
+          "stop" : 1639389167317,
+          "duration" : 55359
+        }
+      }, {
+        "uid" : "af1b48341fffc93",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/af1b48341fffc93",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639385454751,
+          "stop" : 1639385462988,
+          "duration" : 8237
+        }
+      }, {
+        "uid" : "a95c0a509264ddd6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/a95c0a509264ddd6",
+        "status" : "failed",
+        "statusDetails" : "Expected an exception but none was received",
+        "time" : {
+          "start" : 1639102548058,
+          "stop" : 1639102556380,
+          "duration" : 8322
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d1ef81e33af94c55.json",
+  "parameterValues" : [ ]
+}

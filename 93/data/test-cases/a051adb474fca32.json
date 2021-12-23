@@ -1,0 +1,170 @@
+{
+  "uid" : "a051adb474fca32",
+  "name" : "has expected balance",
+  "fullName" : "Contract: TransparentUpgradeableProxy initialization without parameters non payable when not sending balance.has expected balance",
+  "historyId" : "3e524f8e795c16547109cae3ba9599e0",
+  "time" : {
+    "start" : 1640229784180,
+    "stop" : 1640229791279,
+    "duration" : 7099
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '1000000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '1000000000000000000000' to equal '0'\n                    at Context.<anonymous> (test/proxy/Proxy.behaviour.js:42:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: TransparentUpgradeableProxy initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: TransparentUpgradeableProxy initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: TransparentUpgradeableProxy initialization without parameters non payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "c7cba5c7e4702440",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/c7cba5c7e4702440",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639800452718,
+          "stop" : 1639800460520,
+          "duration" : 7802
+        }
+      }, {
+        "uid" : "f5714f71e4f09e08",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/f5714f71e4f09e08",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639791463270,
+          "stop" : 1639791472991,
+          "duration" : 9721
+        }
+      }, {
+        "uid" : "cd5f64ddedd9954e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/cd5f64ddedd9954e",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639713099851,
+          "stop" : 1639713108327,
+          "duration" : 8476
+        }
+      }, {
+        "uid" : "ac0930852931b67",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/ac0930852931b67",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639704171756,
+          "stop" : 1639704178914,
+          "duration" : 7158
+        }
+      }, {
+        "uid" : "764c347c82b55c0d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/764c347c82b55c0d",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639540468520,
+          "stop" : 1639540478222,
+          "duration" : 9702
+        }
+      }, {
+        "uid" : "13429ead5ede4ef1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/13429ead5ede4ef1",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639408800303,
+          "stop" : 1639408809888,
+          "duration" : 9585
+        }
+      }, {
+        "uid" : "8b59af2ee38e3851",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/8b59af2ee38e3851",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639393834620,
+          "stop" : 1639393845306,
+          "duration" : 10686
+        }
+      }, {
+        "uid" : "6dae88f601d7a6c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6dae88f601d7a6c2",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639391968265,
+          "stop" : 1639391978112,
+          "duration" : 9847
+        }
+      }, {
+        "uid" : "4537246201641b80",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/4537246201641b80",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639392022369,
+          "stop" : 1639392032234,
+          "duration" : 9865
+        }
+      }, {
+        "uid" : "da1895120eacd405",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/da1895120eacd405",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639102933697,
+          "stop" : 1639102950177,
+          "duration" : 16480
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a051adb474fca32.json",
+  "parameterValues" : [ ]
+}

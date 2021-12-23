@@ -1,0 +1,130 @@
+{
+  "uid" : "6d42e26f8d36fc18",
+  "name" : "has expected balance",
+  "fullName" : "Contract: Clones clone initialization with parameters payable when not sending balance.has expected balance",
+  "historyId" : "febab3947649c3cef6f943e7073f5053",
+  "time" : {
+    "start" : 1640229806696,
+    "stop" : 1640229812863,
+    "duration" : 6167
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '1000000000000000000000' to equal '0'",
+  "statusTrace" : "AssertionError: expected '1000000000000000000000' to equal '0'\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:19:69)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "testMethod",
+    "value" : "has expected balance"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones clone initialization with parameters payable when not sending balance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "74f557ebfc472936",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/74f557ebfc472936",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639800475960,
+          "stop" : 1639800483133,
+          "duration" : 7173
+        }
+      }, {
+        "uid" : "372f6878d2b166b7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/372f6878d2b166b7",
+        "status" : "failed",
+        "statusDetails" : "expected '1000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639704195826,
+          "stop" : 1639704202544,
+          "duration" : 6718
+        }
+      }, {
+        "uid" : "2ea6b9f4d61bd08d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/2ea6b9f4d61bd08d",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639408141958,
+          "stop" : 1639408150660,
+          "duration" : 8702
+        }
+      }, {
+        "uid" : "76af3b60c726ac6c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/76af3b60c726ac6c",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639392051878,
+          "stop" : 1639392153894,
+          "duration" : 102016
+        }
+      }, {
+        "uid" : "24f3ff0dcc934bd0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/24f3ff0dcc934bd0",
+        "status" : "failed",
+        "statusDetails" : "expected '100000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639385317666,
+          "stop" : 1639385330928,
+          "duration" : 13262
+        }
+      }, {
+        "uid" : "4f636f02f08370c7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/4f636f02f08370c7",
+        "status" : "failed",
+        "statusDetails" : "expected '10000000000000000000000' to equal '0'",
+        "time" : {
+          "start" : 1639102411293,
+          "stop" : 1639102420039,
+          "duration" : 8746
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6d42e26f8d36fc18.json",
+  "parameterValues" : [ ]
+}

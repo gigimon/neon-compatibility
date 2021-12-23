@@ -1,0 +1,142 @@
+{
+  "uid" : "7c10d3b97f3b2247",
+  "name" : "call to invalid proxy",
+  "fullName" : "Contract: ProxyAdmin #getProxyImplementation.call to invalid proxy",
+  "historyId" : "6eed83275dede7dd84ba7e7b2aeaa7f1",
+  "time" : {
+    "start" : 1640229785393,
+    "stop" : 1640229792778,
+    "duration" : 7385
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: {\"id\":733,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: {\"id\":733,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at Context.<anonymous> (test/proxy/transparent/ProxyAdmin.test.js:65:7)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ProxyAdmin #getProxyImplementation"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ProxyAdmin #getProxyImplementation"
+  }, {
+    "name" : "testMethod",
+    "value" : "call to invalid proxy"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ProxyAdmin #getProxyImplementation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "eff65fc7320a5041",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/eff65fc7320a5041",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639800451828,
+          "stop" : 1639800460395,
+          "duration" : 8567
+        }
+      }, {
+        "uid" : "543f892efb35490e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/543f892efb35490e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639791464028,
+          "stop" : 1639791474622,
+          "duration" : 10594
+        }
+      }, {
+        "uid" : "20a0fc94b3f70b1a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/20a0fc94b3f70b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639713099362,
+          "stop" : 1639713108111,
+          "duration" : 8749
+        }
+      }, {
+        "uid" : "d2029c60c8d78677",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/d2029c60c8d78677",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639704173897,
+          "stop" : 1639704181761,
+          "duration" : 7864
+        }
+      }, {
+        "uid" : "7c6d75bbe72e5b91",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/7c6d75bbe72e5b91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639540470868,
+          "stop" : 1639540481772,
+          "duration" : 10904
+        }
+      }, {
+        "uid" : "27a601b2331296d4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/27a601b2331296d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639530291383,
+          "stop" : 1639530302404,
+          "duration" : 11021
+        }
+      }, {
+        "uid" : "c44219d5ff7c6ce3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/c44219d5ff7c6ce3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408659605,
+          "stop" : 1639408669634,
+          "duration" : 10029
+        }
+      }, {
+        "uid" : "136de7e9e5f7deef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/136de7e9e5f7deef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102778468,
+          "stop" : 1639102789043,
+          "duration" : 10575
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7c10d3b97f3b2247.json",
+  "parameterValues" : [ ]
+}

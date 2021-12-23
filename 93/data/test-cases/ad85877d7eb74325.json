@@ -1,0 +1,357 @@
+{
+  "uid" : "ad85877d7eb74325",
+  "name" : "test_sender_balance_decreases",
+  "fullName" : "tests.brownie.token.tests.test_transfer#test_sender_balance_decreases",
+  "historyId" : "39fc04ca56c2456dd536d714e4310f55",
+  "time" : {
+    "start" : 1640229151416,
+    "stop" : 1640229154138,
+    "duration" : 2722
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1640229089008,
+      "stop" : 1640229089009,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "brownie_project",
+    "time" : {
+      "start" : 1640229090971,
+      "stop" : 1640229106062,
+      "duration" : 15091
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup_env",
+    "time" : {
+      "start" : 1640229113028,
+      "stop" : 1640229113028,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "accounts",
+    "time" : {
+      "start" : 1640229113028,
+      "stop" : 1640229113332,
+      "duration" : 304
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1640229146347,
+      "stop" : 1640229151415,
+      "duration" : 5068
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "443d12bd80bd8c8d",
+      "name" : "stdout",
+      "source" : "443d12bd80bd8c8d.txt",
+      "type" : "text/plain",
+      "size" : 703
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "accounts::0",
+    "time" : {
+      "start" : 1640229581296,
+      "stop" : 1640229581296,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Brownie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie.token.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_transfer"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-57"
+  }, {
+    "name" : "thread",
+    "value" : "4733-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.token.tests.test_transfer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 29,
+        "unknown" : 0,
+        "total" : 30
+      },
+      "items" : [ {
+        "uid" : "1b47d45dfbc8fc85",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/1b47d45dfbc8fc85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640219197637,
+          "stop" : 1640219199799,
+          "duration" : 2162
+        }
+      }, {
+        "uid" : "ed441b2ccab69c1f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/ed441b2ccab69c1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639797651058,
+          "stop" : 1639797656254,
+          "duration" : 5196
+        }
+      }, {
+        "uid" : "f8d7865b8696f7ac",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/f8d7865b8696f7ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639788751814,
+          "stop" : 1639788754419,
+          "duration" : 2605
+        }
+      }, {
+        "uid" : "2709be3dc4793681",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/2709be3dc4793681",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639711127036,
+          "stop" : 1639711130274,
+          "duration" : 3238
+        }
+      }, {
+        "uid" : "79d227e2cf1a3b49",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/79d227e2cf1a3b49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639702339270,
+          "stop" : 1639702341177,
+          "duration" : 1907
+        }
+      }, {
+        "uid" : "f4262cc981782c00",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/81//#testresult/f4262cc981782c00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639641035378,
+          "stop" : 1639641037943,
+          "duration" : 2565
+        }
+      }, {
+        "uid" : "d98bf476d0002248",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/d98bf476d0002248",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639563254146,
+          "stop" : 1639563255957,
+          "duration" : 1811
+        }
+      }, {
+        "uid" : "19a34e4833ea035",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/19a34e4833ea035",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639552809571,
+          "stop" : 1639552812203,
+          "duration" : 2632
+        }
+      }, {
+        "uid" : "a3e5d8b4f428a955",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/a3e5d8b4f428a955",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639537539584,
+          "stop" : 1639537541387,
+          "duration" : 1803
+        }
+      }, {
+        "uid" : "a0ec330b66893034",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/a0ec330b66893034",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639527629070,
+          "stop" : 1639527631236,
+          "duration" : 2166
+        }
+      }, {
+        "uid" : "fd730bf56182774",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/76//#testresult/fd730bf56182774",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639486842007,
+          "stop" : 1639486844205,
+          "duration" : 2198
+        }
+      }, {
+        "uid" : "b9eb68f1539e05c2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/75//#testresult/b9eb68f1539e05c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639483033935,
+          "stop" : 1639483035837,
+          "duration" : 1902
+        }
+      }, {
+        "uid" : "dc7c90a856d9597a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/74//#testresult/dc7c90a856d9597a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639478058240,
+          "stop" : 1639478060396,
+          "duration" : 2156
+        }
+      }, {
+        "uid" : "309b62e82915194d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/73//#testresult/309b62e82915194d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639472569951,
+          "stop" : 1639472572404,
+          "duration" : 2453
+        }
+      }, {
+        "uid" : "67bc296ac00374d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/72//#testresult/67bc296ac00374d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639472055036,
+          "stop" : 1639472057286,
+          "duration" : 2250
+        }
+      }, {
+        "uid" : "a58a36d62edef331",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/a58a36d62edef331",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639467289402,
+          "stop" : 1639467291565,
+          "duration" : 2163
+        }
+      }, {
+        "uid" : "423ec948f5c4e836",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/70//#testresult/423ec948f5c4e836",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639466193637,
+          "stop" : 1639466195791,
+          "duration" : 2154
+        }
+      }, {
+        "uid" : "e87feba1c0eb1d8b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/69//#testresult/e87feba1c0eb1d8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639463648613,
+          "stop" : 1639463650398,
+          "duration" : 1785
+        }
+      }, {
+        "uid" : "6885fe2c7334dfa0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/6885fe2c7334dfa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404475703,
+          "stop" : 1639404477956,
+          "duration" : 2253
+        }
+      }, {
+        "uid" : "3870b3152e28602f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/3870b3152e28602f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639401094111,
+          "stop" : 1639401096660,
+          "duration" : 2549
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ad85877d7eb74325.json",
+  "parameterValues" : [ ]
+}

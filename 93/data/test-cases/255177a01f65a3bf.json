@@ -1,0 +1,171 @@
+{
+  "uid" : "255177a01f65a3bf",
+  "name" : "call to invalid proxy",
+  "fullName" : "Contract: ProxyAdmin #getProxyAdmin.call to invalid proxy",
+  "historyId" : "c715afae5fafa41153a278506cd77bdb",
+  "time" : {
+    "start" : 1640229751826,
+    "stop" : 1640229759173,
+    "duration" : 7347
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: {\"id\":250,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: {\"id\":250,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at Context.<anonymous> (test/proxy/transparent/ProxyAdmin.test.js:40:7)",
+  "flaky" : false,
+  "newFailed" : true,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ProxyAdmin #getProxyAdmin"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ProxyAdmin #getProxyAdmin"
+  }, {
+    "name" : "testMethod",
+    "value" : "call to invalid proxy"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ProxyAdmin #getProxyAdmin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "1193c204b89bf4b3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/1193c204b89bf4b3",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Verifying nonce before send transaction: Error processing Instruction 1: invalid program argument",
+        "time" : {
+          "start" : 1640220011089,
+          "stop" : 1640220013257,
+          "duration" : 2168
+        }
+      }, {
+        "uid" : "298cb2d3b7a5b902",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/298cb2d3b7a5b902",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639800413591,
+          "stop" : 1639800423000,
+          "duration" : 9409
+        }
+      }, {
+        "uid" : "c5b5b825cfaaef06",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/c5b5b825cfaaef06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639791417792,
+          "stop" : 1639791428520,
+          "duration" : 10728
+        }
+      }, {
+        "uid" : "f33e4568e8b4b4e7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/f33e4568e8b4b4e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639713064429,
+          "stop" : 1639713072543,
+          "duration" : 8114
+        }
+      }, {
+        "uid" : "cfc0dc1d1af18695",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/cfc0dc1d1af18695",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639704138897,
+          "stop" : 1639704147336,
+          "duration" : 8439
+        }
+      }, {
+        "uid" : "f1d2f74969b462d6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/f1d2f74969b462d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639540423204,
+          "stop" : 1639540434008,
+          "duration" : 10804
+        }
+      }, {
+        "uid" : "f8d9e2bd35243c27",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/f8d9e2bd35243c27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639530242669,
+          "stop" : 1639530253165,
+          "duration" : 10496
+        }
+      }, {
+        "uid" : "b17b5253527f6aa8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/b17b5253527f6aa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639408614925,
+          "stop" : 1639408625021,
+          "duration" : 10096
+        }
+      }, {
+        "uid" : "21d63e833c603635",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/21d63e833c603635",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402588875,
+          "stop" : 1639402598399,
+          "duration" : 9524
+        }
+      }, {
+        "uid" : "fe0ef7a38a9e18ed",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/fe0ef7a38a9e18ed",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391762154,
+          "stop" : 1639391890121,
+          "duration" : 127967
+        }
+      }, {
+        "uid" : "9314cc576ba849a7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/9314cc576ba849a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639102731541,
+          "stop" : 1639102742188,
+          "duration" : 10647
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "255177a01f65a3bf.json",
+  "parameterValues" : [ ]
+}

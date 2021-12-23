@@ -1,0 +1,180 @@
+{
+  "uid" : "fbb3c6d71500d3c",
+  "name" : "reverts on positive subtraction overflow",
+  "fullName" : "Contract: SignedSafeMath sub.reverts on positive subtraction overflow",
+  "historyId" : "ca0e7babe875ecc2d73edd6d90e4d59e",
+  "time" : {
+    "start" : 1640234509762,
+    "stop" : 1640234513576,
+    "duration" : 3814
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: {\"id\":231,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: {\"id\":231,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at Context.<anonymous> (test/utils/math/SignedSafeMath.test.js:74:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SignedSafeMath sub"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SignedSafeMath sub"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts on positive subtraction overflow"
+  }, {
+    "name" : "package",
+    "value" : "Contract: SignedSafeMath sub"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "f76504764882bf6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/f76504764882bf6",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: {\"id\":232,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:168:34)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'",
+        "time" : {
+          "start" : 1640223963760,
+          "stop" : 1640223967831,
+          "duration" : 4071
+        }
+      }, {
+        "uid" : "37f08e5ea492f80b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/37f08e5ea492f80b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639805922766,
+          "stop" : 1639805927029,
+          "duration" : 4263
+        }
+      }, {
+        "uid" : "2508c462b0c1ed63",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/2508c462b0c1ed63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639798604705,
+          "stop" : 1639798611064,
+          "duration" : 6359
+        }
+      }, {
+        "uid" : "1d8c8033afcf8267",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/1d8c8033afcf8267",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639717963022,
+          "stop" : 1639717966943,
+          "duration" : 3921
+        }
+      }, {
+        "uid" : "c25d9359776c6964",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/c25d9359776c6964",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639711038527,
+          "stop" : 1639711046174,
+          "duration" : 7647
+        }
+      }, {
+        "uid" : "8497f3ace86a33c1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/8497f3ace86a33c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639546018346,
+          "stop" : 1639546023250,
+          "duration" : 4904
+        }
+      }, {
+        "uid" : "8ddc75942ef5e180",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/8ddc75942ef5e180",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639536805630,
+          "stop" : 1639536811487,
+          "duration" : 5857
+        }
+      }, {
+        "uid" : "2aac3ba5e19c400c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/2aac3ba5e19c400c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639421671596,
+          "stop" : 1639421677458,
+          "duration" : 5862
+        }
+      }, {
+        "uid" : "ef5dd202270d2de1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/ef5dd202270d2de1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402742480,
+          "stop" : 1639402747758,
+          "duration" : 5278
+        }
+      }, {
+        "uid" : "f21c0bf69208ee18",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/f21c0bf69208ee18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395965566,
+          "stop" : 1639396018492,
+          "duration" : 52926
+        }
+      }, {
+        "uid" : "453e5806ac8239b8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/453e5806ac8239b8",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639394083537,
+          "stop" : 1639394183544,
+          "duration" : 100007
+        }
+      }, {
+        "uid" : "1e81ac25edbd48de",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/1e81ac25edbd48de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387615292,
+          "stop" : 1639387643727,
+          "duration" : 28435
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fbb3c6d71500d3c.json",
+  "parameterValues" : [ ]
+}

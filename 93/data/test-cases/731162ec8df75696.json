@@ -1,0 +1,59 @@
+{
+  "uid" : "731162ec8df75696",
+  "name" : "has to be implemented",
+  "fullName" : "Contract: GovernorTimelockControl Contract interface Governor name().has to be implemented",
+  "historyId" : "a2ec77bdfaf2be9e89366a5504f76c9a",
+  "time" : {
+    "start" : 1640229575329,
+    "stop" : 1640229585645,
+    "duration" : 10316
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: HTTPConnectionPool(host='10.2.0.2', port=8899): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc5a4a6430>: Failed to establish a new connection: [Errno 99] Cannot assign requested address'))",
+  "statusTrace" : "Error: Returned error: HTTPConnectionPool(host='10.2.0.2', port=8899): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc5a4a6430>: Failed to establish a new connection: [Errno 99] Cannot assign requested address'))\n                    at Context.<anonymous> (test/governance/extensions/GovernorTimelockControl.test.js:31:39)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: GovernorTimelockControl Contract interface Governor name()"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: GovernorTimelockControl Contract interface Governor name()"
+  }, {
+    "name" : "testMethod",
+    "value" : "has to be implemented"
+  }, {
+    "name" : "package",
+    "value" : "Contract: GovernorTimelockControl Contract interface Governor name()"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "731162ec8df75696.json",
+  "parameterValues" : [ ]
+}

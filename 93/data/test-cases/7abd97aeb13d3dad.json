@@ -1,0 +1,152 @@
+{
+  "uid" : "7abd97aeb13d3dad",
+  "name" : "more than maxFlashLoan",
+  "fullName" : "Contract: ERC20FlashMint flashLoan.more than maxFlashLoan",
+  "historyId" : "8c1814155905f63d49d7d243e7bdd1a8",
+  "time" : {
+    "start" : 1640230979468,
+    "stop" : 1640230988280,
+    "duration" : 8812
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Wrong kind of exception received: expected 'Returned error: {\"id\":663,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:162:36)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'",
+  "statusTrace" : "AssertionError: Wrong kind of exception received: expected 'Returned error: {\"id\":663,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:162:36)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'\n                    at expectException (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@openzeppelin/test-helpers/src/expectRevert.js:20:30)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Context.<anonymous> (test/token/ERC20/extensions/ERC20FlashMint.test.js:87:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20FlashMint flashLoan"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20FlashMint flashLoan"
+  }, {
+    "name" : "testMethod",
+    "value" : "more than maxFlashLoan"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20FlashMint flashLoan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "c8eb30d0fbfd632e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/c8eb30d0fbfd632e",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: {\"id\":663,\"jsonrpc\":\"2.0\",\"error\":{\"code\":3,\"message\":\"\",\"data\":{\"stack\":\"ProviderError: \\\\n    at HttpProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/http.ts:49:19)\\\\n    at LocalAccountsProvider.request (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/hardhat/src/internal/core/providers/accounts.ts:162:36)\\\\n    at runMicrotasks (<anonymous>)\\\\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\\\\n    at Web3HTTPProviderAdapter._sendJsonRpcRequest (/Users/runner/work/neon-compatibility/neon-compatibility/node_modules/@nomiclabs/hardhat-web3/src/web3-provider-adapter.ts:80:22)\",\"name\":\"ProviderError\"}}}' to equal 'revert'",
+        "time" : {
+          "start" : 1640220671841,
+          "stop" : 1640220680405,
+          "duration" : 8564
+        }
+      }, {
+        "uid" : "d3c0c8619a054082",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/d3c0c8619a054082",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639801731188,
+          "stop" : 1639801740088,
+          "duration" : 8900
+        }
+      }, {
+        "uid" : "19d930889929a26b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/19d930889929a26b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639792907016,
+          "stop" : 1639792919139,
+          "duration" : 12123
+        }
+      }, {
+        "uid" : "314a20152227772a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/314a20152227772a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639714151051,
+          "stop" : 1639714159689,
+          "duration" : 8638
+        }
+      }, {
+        "uid" : "33503c644fdf7a69",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/33503c644fdf7a69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705365443,
+          "stop" : 1639705383223,
+          "duration" : 17780
+        }
+      }, {
+        "uid" : "5eab8724ef338797",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/5eab8724ef338797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531447950,
+          "stop" : 1639531459829,
+          "duration" : 11879
+        }
+      }, {
+        "uid" : "efe46e8c83d7339a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/efe46e8c83d7339a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639405916727,
+          "stop" : 1639405928138,
+          "duration" : 11411
+        }
+      }, {
+        "uid" : "1479aabd0b1dfe47",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/1479aabd0b1dfe47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404135068,
+          "stop" : 1639404225333,
+          "duration" : 90265
+        }
+      }, {
+        "uid" : "b4814eb0f57dc3e5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/b4814eb0f57dc3e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639107120493,
+          "stop" : 1639107132302,
+          "duration" : 11809
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7abd97aeb13d3dad.json",
+  "parameterValues" : [ ]
+}
