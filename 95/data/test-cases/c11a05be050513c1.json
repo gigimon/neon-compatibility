@@ -1,0 +1,190 @@
+{
+  "uid" : "c11a05be050513c1",
+  "name" : "run",
+  "fullName" : "Contract: GovernorComp voting with comp token.run",
+  "historyId" : "fd5068a035482327dd8c995aa23ca723",
+  "time" : {
+    "start" : 1640315701984,
+    "stop" : 1640315708671,
+    "duration" : 6687
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/governance/extensions/GovernorComp.test.js:23:33)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "testMethod",
+    "value" : "run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: GovernorComp voting with comp token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 13,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "1a84731bb4dde6f1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/1a84731bb4dde6f1",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640305744010,
+          "stop" : 1640305751976,
+          "duration" : 7966
+        }
+      }, {
+        "uid" : "e1c721f03818be97",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/e1c721f03818be97",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639798675851,
+          "stop" : 1639798736272,
+          "duration" : 60421
+        }
+      }, {
+        "uid" : "db6fb916efd5fe62",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/db6fb916efd5fe62",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639789351617,
+          "stop" : 1639789408011,
+          "duration" : 56394
+        }
+      }, {
+        "uid" : "33c18c3a1e8f1da0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/33c18c3a1e8f1da0",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639538344418,
+          "stop" : 1639538400651,
+          "duration" : 56233
+        }
+      }, {
+        "uid" : "12019f944b8ce0bc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/12019f944b8ce0bc",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639469339252,
+          "stop" : 1639469388003,
+          "duration" : 48751
+        }
+      }, {
+        "uid" : "5bbe5b6b48fa8132",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/70//#testresult/5bbe5b6b48fa8132",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639466481840,
+          "stop" : 1639466578306,
+          "duration" : 96466
+        }
+      }, {
+        "uid" : "e525f9e3f6a900a8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/69//#testresult/e525f9e3f6a900a8",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639463854341,
+          "stop" : 1639463966236,
+          "duration" : 111895
+        }
+      }, {
+        "uid" : "2262a499eafe4c0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/2262a499eafe4c0",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639407739371,
+          "stop" : 1639407791222,
+          "duration" : 51851
+        }
+      }, {
+        "uid" : "54a9f18c171aea11",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/54a9f18c171aea11",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639403850636,
+          "stop" : 1639404200051,
+          "duration" : 349415
+        }
+      }, {
+        "uid" : "2b4318446c158002",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/2b4318446c158002",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391137332,
+          "stop" : 1639391282318,
+          "duration" : 144986
+        }
+      }, {
+        "uid" : "b88c7247cbb5bf8b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/b88c7247cbb5bf8b",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386660386,
+          "stop" : 1639386879699,
+          "duration" : 219313
+        }
+      }, {
+        "uid" : "812b99c2ee2f1cd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/812b99c2ee2f1cd",
+        "status" : "broken",
+        "statusDetails" : "expected false to equal true",
+        "time" : {
+          "start" : 1639099733996,
+          "stop" : 1639099789415,
+          "duration" : 55419
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c11a05be050513c1.json",
+  "parameterValues" : [ ]
+}

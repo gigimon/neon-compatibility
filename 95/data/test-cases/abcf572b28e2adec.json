@@ -1,0 +1,179 @@
+{
+  "uid" : "abcf572b28e2adec",
+  "name" : "initializer has not run",
+  "fullName" : "Contract: Initializable basic testing without inheritance before initialize.initializer has not run",
+  "historyId" : "1dbd4eaa2115d497d260109248d20ae",
+  "time" : {
+    "start" : 1640315770211,
+    "stop" : 1640315774753,
+    "duration" : 4542
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/proxy/utils/Initializable.test.js:11:50)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Initializable basic testing without inheritance before initialize"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Initializable basic testing without inheritance before initialize"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializer has not run"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Initializable basic testing without inheritance before initialize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "4248eaef6481e51a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/4248eaef6481e51a",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640305806818,
+          "stop" : 1640305809770,
+          "duration" : 2952
+        }
+      }, {
+        "uid" : "3831aa6c41700f6e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/93//#testresult/3831aa6c41700f6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640229729336,
+          "stop" : 1640229733704,
+          "duration" : 4368
+        }
+      }, {
+        "uid" : "747935d1f4674eac",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/747935d1f4674eac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640219979237,
+          "stop" : 1640219985602,
+          "duration" : 6365
+        }
+      }, {
+        "uid" : "3eb4ed3d52fd79e3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/3eb4ed3d52fd79e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639791386021,
+          "stop" : 1639791392854,
+          "duration" : 6833
+        }
+      }, {
+        "uid" : "f22c592d5e016132",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/f22c592d5e016132",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639713041355,
+          "stop" : 1639713045902,
+          "duration" : 4547
+        }
+      }, {
+        "uid" : "99e5ff7d2cdd8834",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/99e5ff7d2cdd8834",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639540390940,
+          "stop" : 1639540397624,
+          "duration" : 6684
+        }
+      }, {
+        "uid" : "ff60c50f52de5cfe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/ff60c50f52de5cfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639409403765,
+          "stop" : 1639409409739,
+          "duration" : 5974
+        }
+      }, {
+        "uid" : "6d1d066967cddcfb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/6d1d066967cddcfb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402976113,
+          "stop" : 1639403000752,
+          "duration" : 24639
+        }
+      }, {
+        "uid" : "7130af3bae713674",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/7130af3bae713674",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391804337,
+          "stop" : 1639391810903,
+          "duration" : 6566
+        }
+      }, {
+        "uid" : "1ac964c9f4b07bad",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/1ac964c9f4b07bad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639388095581,
+          "stop" : 1639388110586,
+          "duration" : 15005
+        }
+      }, {
+        "uid" : "3bf9e27a5d58dde8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/3bf9e27a5d58dde8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639384864996,
+          "stop" : 1639384871981,
+          "duration" : 6985
+        }
+      }, {
+        "uid" : "2e63336fac2c46d0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/2e63336fac2c46d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639103660382,
+          "stop" : 1639103666428,
+          "duration" : 6046
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "abcf572b28e2adec.json",
+  "parameterValues" : [ ]
+}
