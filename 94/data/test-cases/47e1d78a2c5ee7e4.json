@@ -1,0 +1,187 @@
+{
+  "uid" : "47e1d78a2c5ee7e4",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: AccessControl Contract interface AccessControl ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "7f5fbed0cfb1de16703d307d9ae93830",
+  "time" : {
+    "start" : 1640305691524,
+    "stop" : 1640305694446,
+    "duration" : 2922
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/access/AccessControl.test.js:9:53)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: AccessControl Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: AccessControl Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: AccessControl Contract interface AccessControl ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e52d2122645d30c7",
+      "status" : "broken",
+      "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+      "time" : {
+        "start" : 1640305691524,
+        "stop" : 1640305694471,
+        "duration" : 2947
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "4fd71830bf42f27c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/4fd71830bf42f27c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640219282911,
+          "stop" : 1640219287946,
+          "duration" : 5035
+        }
+      }, {
+        "uid" : "c94c345ed2cc333c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/c94c345ed2cc333c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639798237090,
+          "stop" : 1639798242708,
+          "duration" : 5618
+        }
+      }, {
+        "uid" : "9872b6702650b3fd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/9872b6702650b3fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639788971957,
+          "stop" : 1639788978662,
+          "duration" : 6705
+        }
+      }, {
+        "uid" : "149928da86c71ee0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/149928da86c71ee0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639537783953,
+          "stop" : 1639537791307,
+          "duration" : 7354
+        }
+      }, {
+        "uid" : "14d422edfe2ec6ae",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/14d422edfe2ec6ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639527727510,
+          "stop" : 1639527733892,
+          "duration" : 6382
+        }
+      }, {
+        "uid" : "6322f4953248a5a4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/6322f4953248a5a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404929889,
+          "stop" : 1639404935858,
+          "duration" : 5969
+        }
+      }, {
+        "uid" : "a4943fc29855b9c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/a4943fc29855b9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639401534961,
+          "stop" : 1639401540612,
+          "duration" : 5651
+        }
+      }, {
+        "uid" : "3258462379e5388c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/65//#testresult/3258462379e5388c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639399092426,
+          "stop" : 1639399098522,
+          "duration" : 6096
+        }
+      }, {
+        "uid" : "2f8982a6123240a9",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/2f8982a6123240a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639392769414,
+          "stop" : 1639392775699,
+          "duration" : 6285
+        }
+      }, {
+        "uid" : "9a45e1256420b130",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/9a45e1256420b130",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389048649,
+          "stop" : 1639389054458,
+          "duration" : 5809
+        }
+      }, {
+        "uid" : "879855d94f3a2c30",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/879855d94f3a2c30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639385540530,
+          "stop" : 1639385546246,
+          "duration" : 5716
+        }
+      }, {
+        "uid" : "571878b36e7bbf0f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/571878b36e7bbf0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639098969050,
+          "stop" : 1639098975325,
+          "duration" : 6275
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "47e1d78a2c5ee7e4.json",
+  "parameterValues" : [ ]
+}

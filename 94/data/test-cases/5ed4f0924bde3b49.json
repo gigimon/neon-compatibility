@@ -1,0 +1,180 @@
+{
+  "uid" : "5ed4f0924bde3b49",
+  "name" : "uses less than 30k gas [skip-on-coverage]",
+  "fullName" : "Contract: ERC165 Contract interface ERC165 ERC165's supportsInterface(bytes4).uses less than 30k gas [skip-on-coverage]",
+  "historyId" : "16911df528bc077b20f951cf81c0e2d2",
+  "time" : {
+    "start" : 1640308313951,
+    "stop" : 1640308317049,
+    "duration" : 3098
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/utils/introspection/ERC165.test.js:7:37)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : true,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC165 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC165 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "testMethod",
+    "value" : "uses less than 30k gas [skip-on-coverage]"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC165 Contract interface ERC165 ERC165's supportsInterface(bytes4)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "5e29161efd13b014",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/5e29161efd13b014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640223913249,
+          "stop" : 1640223917381,
+          "duration" : 4132
+        }
+      }, {
+        "uid" : "998850d645c966f5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/998850d645c966f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639805856893,
+          "stop" : 1639805861683,
+          "duration" : 4790
+        }
+      }, {
+        "uid" : "f1314e6baa30e3b4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/f1314e6baa30e3b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639798514877,
+          "stop" : 1639798521309,
+          "duration" : 6432
+        }
+      }, {
+        "uid" : "10a0c4fa34cc85b7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/10a0c4fa34cc85b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639717905179,
+          "stop" : 1639717910230,
+          "duration" : 5051
+        }
+      }, {
+        "uid" : "361dd941b407f2c5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/361dd941b407f2c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639710924233,
+          "stop" : 1639710932346,
+          "duration" : 8113
+        }
+      }, {
+        "uid" : "2ae1687ea1ebc2ef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/2ae1687ea1ebc2ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639536720649,
+          "stop" : 1639536727555,
+          "duration" : 6906
+        }
+      }, {
+        "uid" : "58b8f106160ad318",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/58b8f106160ad318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639423100599,
+          "stop" : 1639423106473,
+          "duration" : 5874
+        }
+      }, {
+        "uid" : "eec8749ffcacbcbf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/eec8749ffcacbcbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639404052741,
+          "stop" : 1639404058140,
+          "duration" : 5399
+        }
+      }, {
+        "uid" : "6bd45a3a6564406e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/6bd45a3a6564406e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395932176,
+          "stop" : 1639395978521,
+          "duration" : 46345
+        }
+      }, {
+        "uid" : "4fe5fd7a7bac6d47",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/4fe5fd7a7bac6d47",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639393922960,
+          "stop" : 1639394023426,
+          "duration" : 100466
+        }
+      }, {
+        "uid" : "3f625b4bf8a8795a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/3f625b4bf8a8795a",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391571520,
+          "stop" : 1639391671566,
+          "duration" : 100046
+        }
+      }, {
+        "uid" : "52f8a2845fbe30ef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/52f8a2845fbe30ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639387752196,
+          "stop" : 1639387769550,
+          "duration" : 17354
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5ed4f0924bde3b49.json",
+  "parameterValues" : [ ]
+}
