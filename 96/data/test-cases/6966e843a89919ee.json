@@ -1,0 +1,207 @@
+{
+  "uid" : "6966e843a89919ee",
+  "name" : "rejects repeated payees",
+  "fullName" : "Contract: PaymentSplitter.rejects repeated payees",
+  "historyId" : "1b8d3a5e426750f906b43bfaf2b1e3ad",
+  "time" : {
+    "start" : 1640392001239,
+    "stop" : 1640392002910,
+    "duration" : 1671
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "testMethod",
+    "value" : "rejects repeated payees"
+  }, {
+    "name" : "package",
+    "value" : "Contract: PaymentSplitter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "22071f2f21d1e2a2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/22071f2f21d1e2a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640315667851,
+          "stop" : 1640315671175,
+          "duration" : 3324
+        }
+      }, {
+        "uid" : "fcd6a706bac53df4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/fcd6a706bac53df4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640305714706,
+          "stop" : 1640305716471,
+          "duration" : 1765
+        }
+      }, {
+        "uid" : "1fae024d924c54d2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/93//#testresult/1fae024d924c54d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640229159839,
+          "stop" : 1640229162284,
+          "duration" : 2445
+        }
+      }, {
+        "uid" : "f167bd33d369fecd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/f167bd33d369fecd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640219579638,
+          "stop" : 1640219581970,
+          "duration" : 2332
+        }
+      }, {
+        "uid" : "8143481463ef46df",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/8143481463ef46df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639711116856,
+          "stop" : 1639711119575,
+          "duration" : 2719
+        }
+      }, {
+        "uid" : "4bfe11a53d8143b6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/4bfe11a53d8143b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639538133062,
+          "stop" : 1639538136026,
+          "duration" : 2964
+        }
+      }, {
+        "uid" : "85833ff82e43a3da",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/85833ff82e43a3da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639528012897,
+          "stop" : 1639528015749,
+          "duration" : 2852
+        }
+      }, {
+        "uid" : "30e82915f96a572a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/30e82915f96a572a",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: account already has shares'",
+        "time" : {
+          "start" : 1639405223178,
+          "stop" : 1639405226040,
+          "duration" : 2862
+        }
+      }, {
+        "uid" : "763a0a1627400a8e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/763a0a1627400a8e",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: account already has shares'",
+        "time" : {
+          "start" : 1639401879687,
+          "stop" : 1639401882320,
+          "duration" : 2633
+        }
+      }, {
+        "uid" : "a0b9890fb8542fdf",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/a0b9890fb8542fdf",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: account already has shares'",
+        "time" : {
+          "start" : 1639393285936,
+          "stop" : 1639393288833,
+          "duration" : 2897
+        }
+      }, {
+        "uid" : "e3a630dd59367d40",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/e3a630dd59367d40",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: account already has shares'",
+        "time" : {
+          "start" : 1639390805441,
+          "stop" : 1639390808364,
+          "duration" : 2923
+        }
+      }, {
+        "uid" : "a87de0bc1c48dbd6",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/a87de0bc1c48dbd6",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: account already has shares'",
+        "time" : {
+          "start" : 1639389599029,
+          "stop" : 1639389601661,
+          "duration" : 2632
+        }
+      }, {
+        "uid" : "4727940808d00e98",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/4727940808d00e98",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: account already has shares'",
+        "time" : {
+          "start" : 1639385831002,
+          "stop" : 1639385833604,
+          "duration" : 2602
+        }
+      }, {
+        "uid" : "7821e4685f04f696",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/7821e4685f04f696",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: account already has shares'",
+        "time" : {
+          "start" : 1639384165783,
+          "stop" : 1639384168686,
+          "duration" : 2903
+        }
+      }, {
+        "uid" : "65976ac2177cc461",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/65976ac2177cc461",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'PaymentSplitter: account already has shares'",
+        "time" : {
+          "start" : 1639099354603,
+          "stop" : 1639099357587,
+          "duration" : 2984
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6966e843a89919ee.json",
+  "parameterValues" : [ ]
+}

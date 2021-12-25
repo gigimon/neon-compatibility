@@ -1,0 +1,90 @@
+{
+  "uid" : "f44033e24f5add8a",
+  "name" : "\"before all\" hook: deploy implementation for \"upgrade a proxy by upgrading its beacon\"",
+  "fullName" : "Contract: BeaconProxy.\"before all\" hook: deploy implementation for \"upgrade a proxy by upgrading its beacon\"",
+  "historyId" : "ce8e990931270c9056c1c718816c98d0",
+  "time" : {
+    "start" : 1640392101525,
+    "stop" : 1640392101525,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/proxy/beacon/BeaconProxy.test.js:49:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook: deploy implementation for \"upgrade a proxy by upgrading its beacon\""
+  }, {
+    "name" : "package",
+    "value" : "Contract: BeaconProxy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5ca20e92346eb1c1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/5ca20e92346eb1c1",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640315787099,
+          "stop" : 1640315787099,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ea7379d3f7550487",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/ea7379d3f7550487",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1640306820010,
+          "stop" : 1640306820010,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f44033e24f5add8a.json",
+  "parameterValues" : [ ]
+}

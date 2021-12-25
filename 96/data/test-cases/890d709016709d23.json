@@ -1,0 +1,309 @@
+{
+  "uid" : "890d709016709d23",
+  "name" : "test_brownie_deploy",
+  "fullName" : "tests.brownie.test_brownie#test_brownie_deploy",
+  "historyId" : "6e83a925951bfd8b9c39b6ea82974dc9",
+  "time" : {
+    "start" : 1640391896575,
+    "stop" : 1640391900258,
+    "duration" : 3683
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "configure_neon_network",
+    "time" : {
+      "start" : 1640391881063,
+      "stop" : 1640391881063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "brownie_project",
+    "time" : {
+      "start" : 1640391882634,
+      "stop" : 1640391896574,
+      "duration" : 13940
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9cd7a8c26d5da18f",
+      "name" : "log",
+      "source" : "9cd7a8c26d5da18f.txt",
+      "type" : "text/plain",
+      "size" : 287
+    }, {
+      "uid" : "34ccd2dd7248b196",
+      "name" : "stdout",
+      "source" : "34ccd2dd7248b196.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "70380573b343f8c1",
+      "name" : "stderr",
+      "source" : "70380573b343f8c1.txt",
+      "type" : "text/plain",
+      "size" : 8224
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Brownie"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.brownie"
+  }, {
+    "name" : "suite",
+    "value" : "test_brownie"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-192"
+  }, {
+    "name" : "thread",
+    "value" : "4467-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.brownie.test_brownie"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 32,
+        "unknown" : 0,
+        "total" : 33
+      },
+      "items" : [ {
+        "uid" : "3434e51ed5b1fb2c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/3434e51ed5b1fb2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640315385013,
+          "stop" : 1640315389429,
+          "duration" : 4416
+        }
+      }, {
+        "uid" : "84048f85dac4cf4e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/84048f85dac4cf4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640305564774,
+          "stop" : 1640305569194,
+          "duration" : 4420
+        }
+      }, {
+        "uid" : "b82cf7691df663fd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/93//#testresult/b82cf7691df663fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640229106064,
+          "stop" : 1640229113025,
+          "duration" : 6961
+        }
+      }, {
+        "uid" : "c201583ab6204c75",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/c201583ab6204c75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640219165185,
+          "stop" : 1640219170068,
+          "duration" : 4883
+        }
+      }, {
+        "uid" : "49545e859f89c80b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/49545e859f89c80b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639797603594,
+          "stop" : 1639797610624,
+          "duration" : 7030
+        }
+      }, {
+        "uid" : "86315801fba715b4",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/86315801fba715b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639788715652,
+          "stop" : 1639788720544,
+          "duration" : 4892
+        }
+      }, {
+        "uid" : "636df02da135dc3d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/636df02da135dc3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639711071414,
+          "stop" : 1639711078592,
+          "duration" : 7178
+        }
+      }, {
+        "uid" : "6b9bd50e1defe379",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/6b9bd50e1defe379",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639702313806,
+          "stop" : 1639702317231,
+          "duration" : 3425
+        }
+      }, {
+        "uid" : "923067ff3d692b61",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/81//#testresult/923067ff3d692b61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639641002517,
+          "stop" : 1639641006811,
+          "duration" : 4294
+        }
+      }, {
+        "uid" : "83fb1304621bacbd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/80//#testresult/83fb1304621bacbd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639563229740,
+          "stop" : 1639563233043,
+          "duration" : 3303
+        }
+      }, {
+        "uid" : "38c780234558e895",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/79//#testresult/38c780234558e895",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639552776998,
+          "stop" : 1639552781503,
+          "duration" : 4505
+        }
+      }, {
+        "uid" : "dc4e2bf3ef6f868f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/dc4e2bf3ef6f868f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639537514528,
+          "stop" : 1639537517974,
+          "duration" : 3446
+        }
+      }, {
+        "uid" : "36509d9065c71849",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/36509d9065c71849",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639527599634,
+          "stop" : 1639527603389,
+          "duration" : 3755
+        }
+      }, {
+        "uid" : "649d04895666bc46",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/76//#testresult/649d04895666bc46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639486812727,
+          "stop" : 1639486816368,
+          "duration" : 3641
+        }
+      }, {
+        "uid" : "4c03e77552a3e90e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/75//#testresult/4c03e77552a3e90e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639483009581,
+          "stop" : 1639483012837,
+          "duration" : 3256
+        }
+      }, {
+        "uid" : "e0a7a7c1c0f55b2c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/74//#testresult/e0a7a7c1c0f55b2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639478028061,
+          "stop" : 1639478031789,
+          "duration" : 3728
+        }
+      }, {
+        "uid" : "d604035ed4733035",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/73//#testresult/d604035ed4733035",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639472539188,
+          "stop" : 1639472543062,
+          "duration" : 3874
+        }
+      }, {
+        "uid" : "ad07c457c3148c50",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/72//#testresult/ad07c457c3148c50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639472024873,
+          "stop" : 1639472028690,
+          "duration" : 3817
+        }
+      }, {
+        "uid" : "f37a2eb8159c1319",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/71//#testresult/f37a2eb8159c1319",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639467259357,
+          "stop" : 1639467263278,
+          "duration" : 3921
+        }
+      }, {
+        "uid" : "7490c3c118c086e1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/70//#testresult/7490c3c118c086e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639466162158,
+          "stop" : 1639466165875,
+          "duration" : 3717
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "890d709016709d23.json",
+  "parameterValues" : [ ]
+}
