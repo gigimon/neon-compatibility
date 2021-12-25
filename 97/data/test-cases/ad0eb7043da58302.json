@@ -1,0 +1,189 @@
+{
+  "uid" : "ad0eb7043da58302",
+  "name" : "deployer has the default admin role",
+  "fullName" : "Contract: ERC20PresetMinterPauser.deployer has the default admin role",
+  "historyId" : "956ac89c93ae71794800db2ab4c8fd09",
+  "time" : {
+    "start" : 1640402914713,
+    "stop" : 1640402918916,
+    "duration" : 4203
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/token/ERC20/presets/ERC20PresetMinterPauser.test.js:21:51)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC20PresetMinterPauser"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC20PresetMinterPauser"
+  }, {
+    "name" : "testMethod",
+    "value" : "deployer has the default admin role"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC20PresetMinterPauser"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "a82ec89ea5f1d249",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/96//#testresult/a82ec89ea5f1d249",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640392735562,
+          "stop" : 1640392740778,
+          "duration" : 5216
+        }
+      }, {
+        "uid" : "b4804266de4e8a65",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/b4804266de4e8a65",
+        "status" : "broken",
+        "statusDetails" : "HH110: Invalid JSON-RPC response received: <html>\n                <head><title>504 Gateway Time-out</title></head>\n                <body>\n                <center><h1>504 Gateway Time-out</h1></center>\n                <hr><center>nginx/1.18.0 (Ubuntu)</center>\n                </body>\n                </html>\n                ",
+        "time" : {
+          "start" : 1640307606850,
+          "stop" : 1640308209152,
+          "duration" : 602302
+        }
+      }, {
+        "uid" : "8fc8c306d84df2aa",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/93//#testresult/8fc8c306d84df2aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640230935054,
+          "stop" : 1640230940643,
+          "duration" : 5589
+        }
+      }, {
+        "uid" : "d23c96c4e2b7b16",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/d23c96c4e2b7b16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640220613643,
+          "stop" : 1640220619533,
+          "duration" : 5890
+        }
+      }, {
+        "uid" : "d9768182f5cb7328",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/d9768182f5cb7328",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639801678583,
+          "stop" : 1639801685432,
+          "duration" : 6849
+        }
+      }, {
+        "uid" : "82e142a629ab0e11",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/82e142a629ab0e11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639792784706,
+          "stop" : 1639792793380,
+          "duration" : 8674
+        }
+      }, {
+        "uid" : "f953938762d92e7c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/f953938762d92e7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639714104267,
+          "stop" : 1639714110381,
+          "duration" : 6114
+        }
+      }, {
+        "uid" : "548c1ddc3a5ce319",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/548c1ddc3a5ce319",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705282948,
+          "stop" : 1639705292358,
+          "duration" : 9410
+        }
+      }, {
+        "uid" : "c704727a5f3d0be5",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/c704727a5f3d0be5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639541932111,
+          "stop" : 1639541938546,
+          "duration" : 6435
+        }
+      }, {
+        "uid" : "ce01c10a3b54fa30",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/ce01c10a3b54fa30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531358233,
+          "stop" : 1639531367613,
+          "duration" : 9380
+        }
+      }, {
+        "uid" : "983442003f6f2adb",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/983442003f6f2adb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639405224709,
+          "stop" : 1639405232363,
+          "duration" : 7654
+        }
+      }, {
+        "uid" : "de742391f9b5ebef",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/de742391f9b5ebef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639402336832,
+          "stop" : 1639402343870,
+          "duration" : 7038
+        }
+      }, {
+        "uid" : "505e6605517832a3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/505e6605517832a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639108414412,
+          "stop" : 1639108422782,
+          "duration" : 8370
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ad0eb7043da58302.json",
+  "parameterValues" : [ ]
+}

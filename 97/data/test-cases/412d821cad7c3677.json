@@ -1,0 +1,200 @@
+{
+  "uid" : "412d821cad7c3677",
+  "name" : "initializes human",
+  "fullName" : "Contract: Initializable complex testing with inheritance.initializes human",
+  "historyId" : "40e40e93d403193e2601a01478705a7",
+  "time" : {
+    "start" : 1640402161905,
+    "stop" : 1640402165676,
+    "duration" : 3771
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/proxy/utils/Initializable.test.js:52:44)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Initializable complex testing with inheritance"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Initializable complex testing with inheritance"
+  }, {
+    "name" : "testMethod",
+    "value" : "initializes human"
+  }, {
+    "name" : "package",
+    "value" : "Contract: Initializable complex testing with inheritance"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "22fffedca89fa192",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/96//#testresult/22fffedca89fa192",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640392088567,
+          "stop" : 1640392090687,
+          "duration" : 2120
+        }
+      }, {
+        "uid" : "8da9587e4a8c852",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/8da9587e4a8c852",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640315774763,
+          "stop" : 1640315778231,
+          "duration" : 3468
+        }
+      }, {
+        "uid" : "6c4cd2033aefcc2b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/6c4cd2033aefcc2b",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1640305809783,
+          "stop" : 1640306810964,
+          "duration" : 1001181
+        }
+      }, {
+        "uid" : "7418dc4c97a7d962",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/93//#testresult/7418dc4c97a7d962",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640229751805,
+          "stop" : 1640229758149,
+          "duration" : 6344
+        }
+      }, {
+        "uid" : "fe513bf4c806f932",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/fe513bf4c806f932",
+        "status" : "broken",
+        "statusDetails" : "Returned error: HTTPConnectionPool(host='10.2.0.2', port=8899): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fcc5a3b7b50>: Failed to establish a new connection: [Errno 99] Cannot assign requested address'))",
+        "time" : {
+          "start" : 1640220009139,
+          "stop" : 1640220013127,
+          "duration" : 3988
+        }
+      }, {
+        "uid" : "9399bb421c5a4837",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/9399bb421c5a4837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639791420800,
+          "stop" : 1639791429788,
+          "duration" : 8988
+        }
+      }, {
+        "uid" : "f84cedfbe95eb1ce",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/f84cedfbe95eb1ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639713067495,
+          "stop" : 1639713074769,
+          "duration" : 7274
+        }
+      }, {
+        "uid" : "cf466ff9c574bf07",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/cf466ff9c574bf07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639540425992,
+          "stop" : 1639540435691,
+          "duration" : 9699
+        }
+      }, {
+        "uid" : "65834f78ecdd301a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/65834f78ecdd301a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639409436936,
+          "stop" : 1639409446200,
+          "duration" : 9264
+        }
+      }, {
+        "uid" : "c2572c36f94f9fa8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/c2572c36f94f9fa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639403043148,
+          "stop" : 1639403051632,
+          "duration" : 8484
+        }
+      }, {
+        "uid" : "4b8d684747e32267",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/4b8d684747e32267",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639391959246,
+          "stop" : 1639391984316,
+          "duration" : 25070
+        }
+      }, {
+        "uid" : "b163ad38800f5abc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/b163ad38800f5abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639388479302,
+          "stop" : 1639388490836,
+          "duration" : 11534
+        }
+      }, {
+        "uid" : "44714cf000246b74",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/44714cf000246b74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639385101086,
+          "stop" : 1639385158421,
+          "duration" : 57335
+        }
+      }, {
+        "uid" : "3f32470d9094e31f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/3f32470d9094e31f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639103693889,
+          "stop" : 1639103703325,
+          "duration" : 9436
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "412d821cad7c3677.json",
+  "parameterValues" : [ ]
+}

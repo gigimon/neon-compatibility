@@ -1,0 +1,110 @@
+{
+  "uid" : "fb7099f2d1ccfd73",
+  "name" : "\"before all\" hook: deploy implementation in \"clone\"",
+  "fullName" : "Contract: Clones clone.\"before all\" hook: deploy implementation in \"clone\"",
+  "historyId" : "d4da88e2fd1eef0a496793e28cefb1d1",
+  "time" : {
+    "start" : 1640402162025,
+    "stop" : 1640402162025,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/proxy/Clones.behaviour.js:9:86)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: Clones clone"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: Clones clone"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook: deploy implementation in \"clone\""
+  }, {
+    "name" : "package",
+    "value" : "Contract: Clones clone"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "e294a406c7ebfe59",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/96//#testresult/e294a406c7ebfe59",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640392088026,
+          "stop" : 1640392088027,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "80a899059c62f139",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/80a899059c62f139",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640315774752,
+          "stop" : 1640315774753,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "bdedafaccb1c15d0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/bdedafaccb1c15d0",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640305956015,
+          "stop" : 1640305956015,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dd3815034f78000a",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/dd3815034f78000a",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639388219439,
+          "stop" : 1639388219439,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fb7099f2d1ccfd73.json",
+  "parameterValues" : [ ]
+}

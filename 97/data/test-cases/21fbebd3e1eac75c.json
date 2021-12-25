@@ -1,0 +1,238 @@
+{
+  "uid" : "21fbebd3e1eac75c",
+  "name" : "reverts when trying to transferFrom",
+  "fullName" : "Contract: ERC721Pausable when token is paused.reverts when trying to transferFrom",
+  "historyId" : "f7988b9086dea19e74d2f8b1239f2b1b",
+  "time" : {
+    "start" : 1640402935931,
+    "stop" : 1640402939555,
+    "duration" : 3624
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/token/ERC721/extensions/ERC721Pausable.test.js:15:46)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when trying to transferFrom"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC721Pausable when token is paused"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "94da054003568d95",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/96//#testresult/94da054003568d95",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640392739555,
+          "stop" : 1640392744859,
+          "duration" : 5304
+        }
+      }, {
+        "uid" : "7904e423bf6e54f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/7904e423bf6e54f",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640316531223,
+          "stop" : 1640316535474,
+          "duration" : 4251
+        }
+      }, {
+        "uid" : "22b973b909d0fe93",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/22b973b909d0fe93",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640307627014,
+          "stop" : 1640307652095,
+          "duration" : 25081
+        }
+      }, {
+        "uid" : "f64c9b1f4f9e493b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/93//#testresult/f64c9b1f4f9e493b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640230990840,
+          "stop" : 1640231000600,
+          "duration" : 9760
+        }
+      }, {
+        "uid" : "9999091ca3e8aea0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/9999091ca3e8aea0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640220654340,
+          "stop" : 1640220664071,
+          "duration" : 9731
+        }
+      }, {
+        "uid" : "21376b02bf933d81",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/87//#testresult/21376b02bf933d81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639801714796,
+          "stop" : 1639801726599,
+          "duration" : 11803
+        }
+      }, {
+        "uid" : "c917488824d9c707",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/c917488824d9c707",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639792825789,
+          "stop" : 1639792839826,
+          "duration" : 14037
+        }
+      }, {
+        "uid" : "c5f28915a80d4512",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/c5f28915a80d4512",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639714129054,
+          "stop" : 1639714138249,
+          "duration" : 9195
+        }
+      }, {
+        "uid" : "809649a8d2ee4511",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/809649a8d2ee4511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705356298,
+          "stop" : 1639705370976,
+          "duration" : 14678
+        }
+      }, {
+        "uid" : "9329646e65245bbe",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/9329646e65245bbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542018305,
+          "stop" : 1639542028923,
+          "duration" : 10618
+        }
+      }, {
+        "uid" : "2246a045bca5004b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/2246a045bca5004b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639531391068,
+          "stop" : 1639531405464,
+          "duration" : 14396
+        }
+      }, {
+        "uid" : "9049f64e88298672",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/9049f64e88298672",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639414958326,
+          "stop" : 1639414971164,
+          "duration" : 12838
+        }
+      }, {
+        "uid" : "fb9f8cf7de8cb169",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/fb9f8cf7de8cb169",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639410940376,
+          "stop" : 1639410965009,
+          "duration" : 24633
+        }
+      }, {
+        "uid" : "feaf27ff825624f0",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/feaf27ff825624f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639395190088,
+          "stop" : 1639395235178,
+          "duration" : 45090
+        }
+      }, {
+        "uid" : "4f7d83c975175c7b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/4f7d83c975175c7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393445038,
+          "stop" : 1639393488570,
+          "duration" : 43532
+        }
+      }, {
+        "uid" : "ce498618ff79a438",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/ce498618ff79a438",
+        "status" : "broken",
+        "statusDetails" : "Invalid JSON RPC response: \"\"",
+        "time" : {
+          "start" : 1639393331611,
+          "stop" : 1639393460679,
+          "duration" : 129068
+        }
+      }, {
+        "uid" : "1f5df481f25e225d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/1f5df481f25e225d",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639390236909,
+          "stop" : 1639390336986,
+          "duration" : 100077
+        }
+      }, {
+        "uid" : "6dee9bdbbe8b7f91",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/6dee9bdbbe8b7f91",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639386437154,
+          "stop" : 1639386638431,
+          "duration" : 201277
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "21fbebd3e1eac75c.json",
+  "parameterValues" : [ ]
+}

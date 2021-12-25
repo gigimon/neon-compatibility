@@ -1,0 +1,100 @@
+{
+  "uid" : "5c5420eb0f5e2d6c",
+  "name" : "\"before all\" hook: set implementations for \"has an owner\"",
+  "fullName" : "Contract: ProxyAdmin.\"before all\" hook: set implementations for \"has an owner\"",
+  "historyId" : "a114cd4570e2bc344e3e89fa7a1edd22",
+  "time" : {
+    "start" : 1640402162137,
+    "stop" : 1640402162137,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/proxy/transparent/ProxyAdmin.test.js:14:45)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ProxyAdmin"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ProxyAdmin"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook: set implementations for \"has an owner\""
+  }, {
+    "name" : "package",
+    "value" : "Contract: ProxyAdmin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "23c4bae6e09f0d48",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/96//#testresult/23c4bae6e09f0d48",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640392089029,
+          "stop" : 1640392089029,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "368d15cade7b6eb2",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/368d15cade7b6eb2",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640315775584,
+          "stop" : 1640315775584,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1858460d9e41ff99",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/1858460d9e41ff99",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640305810532,
+          "stop" : 1640305810532,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5c5420eb0f5e2d6c.json",
+  "parameterValues" : [ ]
+}

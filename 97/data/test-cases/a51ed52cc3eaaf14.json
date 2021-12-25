@@ -1,0 +1,215 @@
+{
+  "uid" : "a51ed52cc3eaaf14",
+  "name" : "requires a non-null beneficiary",
+  "fullName" : "Contract: RefundEscrow.requires a non-null beneficiary",
+  "historyId" : "439919e6556edccd55d384843e614e42",
+  "time" : {
+    "start" : 1640403147652,
+    "stop" : 1640403150211,
+    "duration" : 2559
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: RefundEscrow"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: RefundEscrow"
+  }, {
+    "name" : "testMethod",
+    "value" : "requires a non-null beneficiary"
+  }, {
+    "name" : "package",
+    "value" : "Contract: RefundEscrow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "c875df229888553d",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/96//#testresult/c875df229888553d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640392873538,
+          "stop" : 1640392877308,
+          "duration" : 3770
+        }
+      }, {
+        "uid" : "d3b3581e29dd960c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/d3b3581e29dd960c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640316627406,
+          "stop" : 1640316631328,
+          "duration" : 3922
+        }
+      }, {
+        "uid" : "38f8b8bb51af1602",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/38f8b8bb51af1602",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640308372693,
+          "stop" : 1640308375068,
+          "duration" : 2375
+        }
+      }, {
+        "uid" : "bff37a0641161544",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/93//#testresult/bff37a0641161544",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640234535578,
+          "stop" : 1640234537519,
+          "duration" : 1941
+        }
+      }, {
+        "uid" : "8190b2f38bacbe1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/8190b2f38bacbe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639798788261,
+          "stop" : 1639798791482,
+          "duration" : 3221
+        }
+      }, {
+        "uid" : "80489a3dbaf23fe8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/80489a3dbaf23fe8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639718093942,
+          "stop" : 1639718095846,
+          "duration" : 1904
+        }
+      }, {
+        "uid" : "bb35d0eadff1c188",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/bb35d0eadff1c188",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639711274362,
+          "stop" : 1639711278212,
+          "duration" : 3850
+        }
+      }, {
+        "uid" : "bbd6317d71ec270",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/bbd6317d71ec270",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639546076856,
+          "stop" : 1639546079201,
+          "duration" : 2345
+        }
+      }, {
+        "uid" : "e492758c75700cb3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/77//#testresult/e492758c75700cb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639536989079,
+          "stop" : 1639536992186,
+          "duration" : 3107
+        }
+      }, {
+        "uid" : "610a47ced52999cc",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/610a47ced52999cc",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639423449194,
+          "stop" : 1639423451763,
+          "duration" : 2569
+        }
+      }, {
+        "uid" : "36452f1209b6fb5f",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/36452f1209b6fb5f",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639404372356,
+          "stop" : 1639404374666,
+          "duration" : 2310
+        }
+      }, {
+        "uid" : "bf129142d32edd7c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/bf129142d32edd7c",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'HH109: Network connection timed out.\\nPlease check your internet connection and networks config' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639396124368,
+          "stop" : 1639396224883,
+          "duration" : 100515
+        }
+      }, {
+        "uid" : "10c5bb4286796395",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/10c5bb4286796395",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639394610636,
+          "stop" : 1639394641590,
+          "duration" : 30954
+        }
+      }, {
+        "uid" : "ccca2c458ceb2005",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/ccca2c458ceb2005",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639394050776,
+          "stop" : 1639394109047,
+          "duration" : 58271
+        }
+      }, {
+        "uid" : "1f551aeb55a136c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/1f551aeb55a136c",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639391675902,
+          "stop" : 1639391717684,
+          "duration" : 41782
+        }
+      }, {
+        "uid" : "32ab128b95902734",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/32ab128b95902734",
+        "status" : "failed",
+        "statusDetails" : "Wrong kind of exception received: expected 'Returned error: execution reverted' to equal 'RefundEscrow: beneficiary is the zero address'",
+        "time" : {
+          "start" : 1639386960903,
+          "stop" : 1639386964304,
+          "duration" : 3401
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a51ed52cc3eaaf14.json",
+  "parameterValues" : [ ]
+}

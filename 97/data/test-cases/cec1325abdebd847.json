@@ -1,0 +1,226 @@
+{
+  "uid" : "cec1325abdebd847",
+  "name" : "reverts when queried about the zero address",
+  "fullName" : "Contract: ERC1155 like an ERC1155 balanceOf.reverts when queried about the zero address",
+  "historyId" : "fd35fbacc9377a65abae8d6f5766d40",
+  "time" : {
+    "start" : 1640402980304,
+    "stop" : 1640402984374,
+    "duration" : 4070
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/token/ERC1155/ERC1155.test.js:15:39)\n                    at processImmediate (node:internal/timers:464:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOf"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOf"
+  }, {
+    "name" : "testMethod",
+    "value" : "reverts when queried about the zero address"
+  }, {
+    "name" : "package",
+    "value" : "Contract: ERC1155 like an ERC1155 balanceOf"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "25307ca805ab208",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/96//#testresult/25307ca805ab208",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640392780776,
+          "stop" : 1640392789941,
+          "duration" : 9165
+        }
+      }, {
+        "uid" : "e5d1c01ac9104058",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/e5d1c01ac9104058",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640316520807,
+          "stop" : 1640316525504,
+          "duration" : 4697
+        }
+      }, {
+        "uid" : "6ba1404d8f06f0e8",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/6ba1404d8f06f0e8",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640307663180,
+          "stop" : 1640307712930,
+          "duration" : 49750
+        }
+      }, {
+        "uid" : "4dd3746fc1160f1b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/93//#testresult/4dd3746fc1160f1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640231118070,
+          "stop" : 1640231123786,
+          "duration" : 5716
+        }
+      }, {
+        "uid" : "b1fcab764cf5e88",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/92//#testresult/b1fcab764cf5e88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640220751585,
+          "stop" : 1640220756782,
+          "duration" : 5197
+        }
+      }, {
+        "uid" : "3689d08465e23e31",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/86//#testresult/3689d08465e23e31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639793113451,
+          "stop" : 1639793120551,
+          "duration" : 7100
+        }
+      }, {
+        "uid" : "5b41cffdf32066a1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/85//#testresult/5b41cffdf32066a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639714247907,
+          "stop" : 1639714253611,
+          "duration" : 5704
+        }
+      }, {
+        "uid" : "924c9e192bdc28cd",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/84//#testresult/924c9e192bdc28cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639705559144,
+          "stop" : 1639705566582,
+          "duration" : 7438
+        }
+      }, {
+        "uid" : "fdccadb624671ac1",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/78//#testresult/fdccadb624671ac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639542250804,
+          "stop" : 1639542256676,
+          "duration" : 5872
+        }
+      }, {
+        "uid" : "f63274e815bd8567",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/68//#testresult/f63274e815bd8567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639407407936,
+          "stop" : 1639407414422,
+          "duration" : 6486
+        }
+      }, {
+        "uid" : "46c9db639ebf7aac",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/67//#testresult/46c9db639ebf7aac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639407627743,
+          "stop" : 1639407633438,
+          "duration" : 5695
+        }
+      }, {
+        "uid" : "1481d76e32083fe7",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/64//#testresult/1481d76e32083fe7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639394953609,
+          "stop" : 1639394960801,
+          "duration" : 7192
+        }
+      }, {
+        "uid" : "9e17e532436534f3",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/9e17e532436534f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393215347,
+          "stop" : 1639393220516,
+          "duration" : 5169
+        }
+      }, {
+        "uid" : "f3f010a7dddf0d7e",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/f3f010a7dddf0d7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639393029944,
+          "stop" : 1639393036151,
+          "duration" : 6207
+        }
+      }, {
+        "uid" : "6279085a9072381c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/6279085a9072381c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639389807340,
+          "stop" : 1639389813845,
+          "duration" : 6505
+        }
+      }, {
+        "uid" : "ab9fe18a7f1f6910",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/61//#testresult/ab9fe18a7f1f6910",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639386084862,
+          "stop" : 1639386094383,
+          "duration" : 9521
+        }
+      }, {
+        "uid" : "b4151cc56e99e148",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/53//#testresult/b4151cc56e99e148",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639104067802,
+          "stop" : 1639104074141,
+          "duration" : 6339
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cec1325abdebd847.json",
+  "parameterValues" : [ ]
+}

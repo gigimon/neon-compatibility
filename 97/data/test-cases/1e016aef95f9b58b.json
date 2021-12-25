@@ -1,0 +1,120 @@
+{
+  "uid" : "1e016aef95f9b58b",
+  "name" : "\"before all\" hook: deploying in \"Contract: SignatureChecker (ERC1271)\"",
+  "fullName" : "Contract: SignatureChecker (ERC1271).\"before all\" hook: deploying in \"Contract: SignatureChecker (ERC1271)\"",
+  "historyId" : "9345d2ba4a0262c36bcff858dc60a4fe",
+  "time" : {
+    "start" : 1640403091147,
+    "stop" : 1640403091147,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+  "statusTrace" : "Error: Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4\n                    at Context.<anonymous> (test/utils/cryptography/SignatureChecker.test.js:15:59)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "OpenZeppelin contracts"
+  }, {
+    "name" : "suite",
+    "value" : "Contract: SignatureChecker (ERC1271)"
+  }, {
+    "name" : "testClass",
+    "value" : "Contract: SignatureChecker (ERC1271)"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook: deploying in \"Contract: SignatureChecker (ERC1271)\""
+  }, {
+    "name" : "package",
+    "value" : "Contract: SignatureChecker (ERC1271)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "87c1390f3ecc5d1c",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/96//#testresult/87c1390f3ecc5d1c",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640392827789,
+          "stop" : 1640392827789,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "79534f1243894b46",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/95//#testresult/79534f1243894b46",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640316568542,
+          "stop" : 1640316568542,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "63eac9954546fb49",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/94//#testresult/63eac9954546fb49",
+        "status" : "broken",
+        "statusDetails" : "Returned error: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+        "time" : {
+          "start" : 1640308300060,
+          "stop" : 1640308300060,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "da1e9ac42f66c160",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/63//#testresult/da1e9ac42f66c160",
+        "status" : "broken",
+        "statusDetails" : "Failed to check for transaction receipt:\n                {\n                  \"parent\": {\n                    \"message\": \"network timeout at: https://proxy.teststand2.neontest.xyz/solana\",\n                    \"type\": \"request-timeout\"\n                  },\n                  \"name\": \"HardhatError\",\n                  \"errorDescriptor\": {\n                    \"number\": 109,\n                    \"message\": \"Network connection timed out.\\nPlease check your internet connection and networks config\",\n                    \"title\": \"Network timeout\",\n                    \"description\": \"One of your JSON-RPC requests timed out.\\n\\nPlease make sure your node is running, and check your internet connection and networks config.\",\n                    \"shouldBeReported\": false\n                  },\n                  \"number\": 109,\n                  \"messageArguments\": {},\n                  \"_isHardhatError\": true\n                }",
+        "time" : {
+          "start" : 1639393817522,
+          "stop" : 1639393817522,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cb793e491a1e0a9b",
+        "reportUrl" : "https://gigimon.github.io/neon-compatibility/62//#testresult/cb793e491a1e0a9b",
+        "status" : "broken",
+        "statusDetails" : "HH109: Network connection timed out.\n                Please check your internet connection and networks config",
+        "time" : {
+          "start" : 1639391410491,
+          "stop" : 1639391410491,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1e016aef95f9b58b.json",
+  "parameterValues" : [ ]
+}
